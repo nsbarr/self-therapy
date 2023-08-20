@@ -79,26 +79,24 @@ To assist people following the practices in *Self-Therapy*, Bonnie Weiss publish
   alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
 >}}
 
-I tried to use it, but ran into familiar grievances with exercises and worksheets. Back in 2018, our research and development group at Khan Academy had investigated how we might help students build critical thinking skills by practicing with interactive exercises.{{< sidenote >}}Nick Barr, Scott Farrar, Brian Johnsrud, May-Li Khoe, Andy Matuschak, [Building complex reasoning skills online through open-ended activities](https://early.khanacademy.org/open-ended) (2018). {{< /sidenote >}} . One of the design principles we returned to over and over again was that doing this work should not feel like being at the DMV. Now that feeling of bleak, linear data-entry had returned, only in the context of my inner world. The juxtaposition between the compassionate healing I was doing in my head and the depersonalizing, “Papers Please” form completion wasn’t working for me.{{< marginnote >}}![Papers Please](/papers-please.png) [Papers, Please](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government.{{< /marginnote >}}
+I tried to use it, but ran into familiar grievances with exercises and worksheets. In 2018, our research and development group at Khan Academy had investigated how we might help students build critical thinking skills by practicing with interactive exercises.{{< sidenote >}}Nick Barr, Scott Farrar, Brian Johnsrud, May-Li Khoe, Andy Matuschak, [Building complex reasoning skills online through open-ended activities](https://early.khanacademy.org/open-ended) (2018). {{< /sidenote >}} . One of the design principles we returned to over and over again was that doing this work should not feel like being at the DMV. Now that feeling of bleak, linear data-entry had returned, only in the context of my inner world. The juxtaposition between the compassionate healing I was doing in my head and the depersonalizing, “Papers Please” form completion wasn’t working for me.{{< marginnote >}}![Papers Please](/papers-please.png) [Papers, Please](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government.{{< /marginnote >}}
 
+Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don't have a way to express this.
 
-
-TODO: More here beyond my own quibbles. What's structurally bad about worksheets; they're static, relationships are dynamic. They're standalone, parts are linked. There are 32 of them... not nimble...
-
-I decided to take a break from formal IFS sessions, even as parts work continued to play out spontaneously in my meditation practice.
+Lacking a viable container for doing such complex work, I decided to take a break from formal IFS sessions, even as parts work continued to play out spontaneously in my meditation practice.
 
 ### Your AI therapist will see you now
 Meanwhile, the arrival of breakthrough AI technologies has impacted every field, including mental health. In an ebullient essay the venture capitalist Marc Andreessen writes that soon,{{< sidenote >}}Marc Andreessen, [Why AI Will Save the World](/https://a16z.com/2023/06/06/ai-will-save-the-world/) (2023).{{< /sidenote >}}
 
 >Every person will have an AI assistant/coach/mentor/trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.
 
-Some of this optimism has already borne out. In a New Yorker profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:
+Some of this optimism has already borne out. In a New Yorker profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:{{< sidenote >}}Dhruv Khullar, [Can AI Treat Mental Illness?](/https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness) for the New Yorker (2023).{{< /sidenote >}}
 
 > Ahead of another patient visit, Maria recalled, “I just felt that something really bad was going to happen.” She texted Woebot, which explained the concept of catastrophic thinking. It can be useful to prepare for the worst, Woebot said—but that preparation can go too far. “It helped me name this thing that I do all the time,” Maria said.
 
 Koko, an automated mental health support platform, ran a trial in which messages were composed by GPT-3 (and supervised by humans). Those messages were rated significantly higher than those written by humans on their own, and response times went down 50%.
 
-Even so, Koko CEO Rob Morris pulled the feature. “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”
+Even so, Koko CEO Rob Morris pulled the feature. “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”{{< sidenote >}}Rob Morris's [Twitter](https://twitter.com/RobertRMorris/status/1611450210915434499) account (2023).{{< /sidenote >}}
 
 Artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris,{{< sidenote >}}[Esther Perel on Artificial Intimacy](/your-undivided-attention-esther-perel-transcript.pdf), from the Your Undivided Attention podcast (2023).{{< /sidenote >}} Esther Perel compares these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."
 
@@ -132,11 +130,13 @@ To shed some light on how structured IFS is, let’s turn to the “6 Fs,” a p
 
 Using the ChatGPT API, I prototyped a system that would help me follow this protocol without needing to think about it. The system uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. I added constraints to the system to prevent it from acting with agency, forbidding unsolicited feedback and empathy, while promoting terse, information-dense responses that reflected what it was hearing me say. Finally, I had it convert my meandering, unstructured musings into structured data that persisted across sessions, helping me deepen my relationship to my parts over time.
 
+{TODO PUT IN SCREENSHOT OF INTERFACE}
+
 ### Enter the superprompt
 
 Incredibly, all these behaviors are defined not through code but through natural language instructions called a system prompt. System prompts are special messages used to direct the behavior of ChatGPT. 
 
-This is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to copy and paste this into the publicly available ChatGPT interface to try augmented self-therapy out for themselves. I am using ChatGPT 4, which is a paid offering. The only piece of the prompt that will not work is the structured data, labeled *parts_json* below. The system prompt is lightly edited for readability.
+This is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to copy and paste this into the publicly available ChatGPT interface to try augmented self-therapy out for themselves. I am using GPT-4, which is a paid offering. The only piece of the prompt that will not work is the structured data, labeled *parts_json* below. The system prompt is lightly edited for readability.
 
 > You are a self-therapy co-pilot AI. You prioritize efficiency and speed. The user is a capable therapist who is doing self-therapy following the Internal Family Systems protocol. Your task is to provide precise, concise, and rapid responses. Focus on data relay and reflecting back critical information. Do not try to imitate humane speech or empathy. Do not recommend ending the session or seeing a therapist.
 
@@ -148,7 +148,7 @@ This is the system prompt that I am currently using, after several rounds of ite
 
 > Phase 3: Ending. When the user says they want to end the session, return structured JSON for all of the parts, including parts from previous sessions, building on the original data provided. When you return this JSON, put it between three quotes: ''' so that it is clearly delineated.
 
-To be clear, though these read like instructions, they work nothing like that. LLMs like ChatGPT have no ability to make sense of text like this; rather, {TODO: FIND A SIMPLE EXPLANATION THAT HIGHLIGHTS THE ‘WEIRDNESS’ OF HOW THIS ALL WORKS... NEXT TOKEN PREDICTION, AUTOCORRECT, ETC., WITHOUT DUMBING IT DOWN}.
+To be clear, though these read like instructions, they work nothing like that. For any given sequence of words – either a system prompt or input from the user – LLMs like ChatGPT "simply" predict the next word. I put simply in quotes because this prediction involves many thousands of operations in a many-thousand dimensional vector space. Nobody programmed these operations; instead, they emerged from training the LLMs on billions of words of training data. In this way, LLMs appear simultaneously simple and inscrutable, dumb and eerily smart. The implications of all this are the subject of intense debate and research.{{< sidenote >}}Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /sidenote >}}
 
 To see how the system works in action, we will look at three self-therapy sessions I conducted. My comments are in italics.  
 
@@ -225,7 +225,7 @@ To see how the system works in action, we will look at three self-therapy sessio
 *Nick decides to end the session. The system generates structured data that summarizes the essential qualities of the part. This data is saved across sessions, so in a future session Nick can do further work on this part, or learn how it relates to other parts.*
 
 ### Session 2: Deepening a relationship with an Exile
-
+{TODO: NEED TO FIND SOMETHING LESS VULNERABLE / LESS OF A BUMMER IF MY PARENTS READ THIS}
 *In this session, I was picking up where I had left off previously with an Exile. It’s typical to return to the same part across multiple sessions.* 
 
 **Nick**: So I'd like to check in with the soccer player and see how he's doing today. So I'm just settling in. Finding him in my lower abdomen, the left side. I feel some energy there, but I am not quite yet in contact with him.
@@ -351,8 +351,7 @@ To see how the system works in action, we will look at three self-therapy sessio
 ### Generating a parts map with Midjourney
 <!--{{< marginnote ind="⊕" >}}<span id="activation">![Activation](/activation.png) Activating a Part in Order to Access It, from *Self-Therapy*</span>{{< /marginnote >}}-->
 
-*Self-Therapy* makes wonderful use of illustrations, credited to Karen Donnelly.{{< marginnote ind="⊕" >}}<span id="sandy">![Sandy](/sandy.png)Sandy's Pyche, from *Self-Therapy*</span>{{< /marginnote >}} They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.
-
+*Self-Therapy* makes wonderful use of illustrations, drawn by Karen Donnelly.{{< marginnote ind="⊕" >}}<span id="sandy">![Sandy](/sandy.png)Sandy's Pyche, from *Self-Therapy*</span>{{< /marginnote >}} They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.
 
 So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
 
@@ -366,15 +365,9 @@ Constructing a parts map is a common practice in IFS. In the *Self-Therapy Workb
 >Mapping can be done when you are just beginning to get to know your system. You can check in periodically with the original map to see how things have changed as you keep working. You can also use parts mapping as an ongoing tool for visually tracking your internal work and deciding where to focus your attention.
 >There are many ways to map your system. One way is to use a large sheet of paper and write down the names or images of the parts as you know them. You can draw lines or arrows to illustrate the relationships. 
 
-Here, the benefit of structured data over static worksheets becomes clear. By making use of the data in the system, a mature product would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts on the map. 
+Here, the benefit of structured data over static worksheets becomes apparent. With a little work, the system would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts. A more opinionated system could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet. 
 
-A more opinionated parts map could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet. 
-
-The video below hints at some possible directions for a parts map:
-
-{TODO: RECORD VIDEO OF CLICKABLE PROTOTYPE}
-
-![Frame 9.png](Augmented%20Self-Therapy%20How%20I%E2%80%99m%20Using%20ChatGPT,%20Whis%2095715103f4dc41bc9858665c5fa852f1/Frame_9.png)
+For now, {TODO FINISH}
 
 ## Challenges, limitations, next steps
 
@@ -401,10 +394,5 @@ Midjourney and the parts map are all done manually right now; as of writing Midj
 
 Midjourney feels like a weak link, for reasons beyond its technical limitations. I just don’t know if it contributes to my wellbeing. To be sure, it’s *fun –* it makes the whole system more vivid, more memorable, more gamelike. Squint at the parts map and maybe you can see the “Harvest Moon for therapy” idea. But I do wonder if I’m missing something by not drawing parts myself – the  field of art therapy is not one I’m familiar with. (Of course, it’s not either/or: a mature product could populate parts with default illustrations and encourage the individual to add their own.)
 
-# Conclusion
-
-{TODO}
-
-# References
-
+## Conclusion
 {TODO}
