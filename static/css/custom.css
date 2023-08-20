@@ -1,0 +1,24 @@
+h3 {
+    font-style: normal!important;
+    font-weight: 800!important;
+ }
+
+ ol {
+    -webkit-padding-start: 5%!important;
+    -webkit-padding-end: 0%!important;
+ }
+
+
+ figure.fullwidth figcaption {
+    margin-right: 0%!important;
+ }
+
+ body {
+    background: white!important;
+ }
+ /*
+ .sidenote, .marginnote {
+    margin-right: 12%;
+    width: 28%;
+}
+*/

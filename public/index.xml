@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Aug 2023 15:23:24 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Augmented Self-Therapy</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Sat, 19 Aug 2023 15:23:24 +0200</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>For the past three months, I&amp;rsquo;ve been using a self-therapy system I built based on the Internal Family Systems (IFS) model. It&amp;rsquo;s been very helpful for me, and I think it might be helpful to others, too.
+This system uses ChatGPT, a popular large language model (LLM), in a novel way. Most AI-assisted mental health applications use LLMs to provide users with an AI therapist, or at minimum a compassionate listener.</description>
+    </item>
+    
+  </channel>
+</rss>
