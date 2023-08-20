@@ -344,17 +344,19 @@ To see how the system works in action, we will look at three self-therapy sessio
 
 ### Generating a parts map with Midjourney
 <!--{{< marginnote ind="⊕" >}}<span id="activation">![Activation](/activation.png) Activating a Part in Order to Access It, from *Self-Therapy*</span>{{< /marginnote >}}-->
-{{< marginnote ind="⊕" >}}<span id="sandy">![Sandy](/sandy.png)Sandy's Pyche, from *Self-Therapy*</span>{{< /marginnote >}}
-*Self-Therapy* makes wonderful use of illustrations, credited to Karen Donnelly. They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.
+
+*Self-Therapy* makes wonderful use of illustrations, credited to Karen Donnelly.{{< marginnote ind="⊕" >}}<span id="sandy">![Sandy](/sandy.png)Sandy's Pyche, from *Self-Therapy*</span>{{< /marginnote >}} They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.
 
 
-So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style similar to the book, I landed on this prompt:
+So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
 
 > black and white pencil sketch of {part description}, dreamlike illustration, harsh realism, storybook illustration, emphasizes emotion over realism, nightmare, detailed sketches
 
 That produced helpful illustrations for parts like Worried Boy, Furry Friend, Dark Blanket, and Clenched Fist, seen below:
 
-Here, the benefit of structured data over static worksheets becomes clear. By making use of the  data in the system, a mature product would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts on the map. 
+Constructing a parts map is a common practice in IFS. In the 
+
+Here, the benefit of structured data over static worksheets becomes clear. By making use of the data in the system, a mature product would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts on the map. 
 
 A more opinionated parts map could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet. 
 
