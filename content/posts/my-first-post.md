@@ -42,7 +42,7 @@ Central to IFS is the "Self,” or “Self-energy,” which is viewed as the ind
 To practice IFS is to build a relationship between your Self and your parts. More specifically: as the Self gets to know Protectors, they begin to reveal their beliefs, fears, and how they function on behalf of the individual. In turn, the Self acknowledges the roles these protective parts have been playing, and gives them hope that there’s a better way forward. 
 
 Having earned the trust of Protectors, the Self can do deep work with an Exile – a part, usually stuck in the individual’s past, with a powerful memory and a story to tell. When the Exile is able to tell their story, and feels fully witnessed by the Self, they may be prepared to let go of their burdens and limiting beliefs, and re-connect with the positive qualities that had been lost. After the Exile is healed, Protectors discover that they can drop their old roles and take on new responsibilities as well.
-{{< marginnote >}}![Stardew Valley](/stardew-valley.jpg) Games like Harvest Moon, and Stardew Valley, pictured, belong to the "cozy sim" genre. They aim to create a bucolic atmosphere in which the player can fish, garden, and tend to animals. {{< /marginnote >}}
+{{< marginnote >}}![Stardew Valley](/stardew-valley.jpg) Games like Harvest Moon, and [Stardew Valley](https://www.stardewvalley.net/), pictured, belong to the "cozy sim" genre. They provide a bucolic environment in which the player can fish, garden, and tend to animals. {{< /marginnote >}}
 This is the “internal family system”; a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon; more on that later.)
 
 ### IFS empowers us to heal ourselves
@@ -55,9 +55,11 @@ Over time I got bogged down in a kind of power struggle with my therapist, and I
 
 Psychoanalysis traces its routes directly back to exorcism, and my experience felt like a partial, semi-voluntary exorcism, dragged out over four years. I was grateful for the healing that had taken place, and I was also convinced that better methods were out there for me.  
 
-It was Michael Taft, my meditation teacher, who turned me on to IFS. We had been working with it in the context of the nondual meditation practice Michael called "Reversing the Stack." IFS dovetailed wonderfully with this practice. Nondual meditation, sustained over time, points to an always-available resource, which Michael names "awake awareness." This is what IFS calls the Self, or Self-energy. As Robert Falconer, an IFS practitioner, teacher, and writer describes it, “No one, no matter how terrible their life experiences or earlier behaviors, is fundamentally damaged goods. No one. We are all this radiant Self, and this fundamental health can never be taken from us.” Nondual meditation instructs practitioners not to oppose anything in experience; as Ajahn Cha puts it:
+It was Michael Taft, my meditation teacher, who turned me on to IFS. We had been working with it in the context of the nondual meditation practice Michael called "Reversing the Stack."{{< sidenote >}}Michael explains his model in this [podcast episode](https://deconstructingyourself.com/reversing-the-stack-nondual-practice-map-with-michael-taft.html).{{< /sidenote >}} IFS dovetailed wonderfully with this practice. Nondual meditation, sustained over time, points to an always-available resource, which Michael names "awake awareness." This is what IFS calls the Self, or Self-energy. As Robert Falconer, an IFS practitioner, teacher, and writer describes it, “No one, no matter how terrible their life experiences or earlier behaviors, is fundamentally damaged goods. No one. We are all this radiant Self, and this fundamental health can never be taken from us.” Nondual meditation instructs practitioners not to oppose anything in experience; as Ajahn Chah puts it,{{< sidenote >}}Jack Kornfield, [Take the One Seat](https://tricycle.org/magazine/take-one-seat/) for Tricycle Magazine (1993).{{< /sidenote >}}
 
 > Just go into the room, sit in the center of the room, open the doors and windows, and see who comes to visit. You will witness all kinds of scenes and actors, all kinds of temptations and stories, everything imaginable. Your only job is to stay in your seat. You will see it all arise and pass, and out of this, wisdom and understanding will come.
+
+
 
 Likewise, IFS sets the stage for all sorts of parts to show up, and per the title of Richard Schwartz's 2021 book, there are *No Bad Parts*; we invite them all to visit and bear witness to them.
 
@@ -67,7 +69,7 @@ In this way, meditation itself could be seen as self-therapy. So when Michael re
 
 Self-therapy quickly presented its own challenges when it came to forming a deep, consistent practice. I discovered that doing inner work solo meant attempting to do at least four jobs simultaneously: (i) follow IFS-specific protocols; (ii) stay in relationship with the target part; (iii) stay in Self; and (iv) record any insights gleaned from the session.
 
-To assist people following the practices in *Self-Therapy*, Earley’s wife Bonnie Weiss published a companion workbook. I tried to use it, but ran into familiar grievances with exercises and worksheets. Back in 2018, our research and development group at Khan Academy had investigated how we might help students build critical thinking skills by practicing with interactive exercises. One of the design principles we returned to over and over again was that doing this work should not feel like being at the DMV. Now that feeling of bleak, linear data-entry had returned, only in the context of my inner world. The juxtaposition between the compassionate healing I was doing in my head and the depersonalizing, “Papers Please” form completion wasn’t working for me.
+To assist people following the practices in *Self-Therapy*, Bonnie Weiss published a companion workbook{{< sidenote >}}Bonnie Weiss, [Self-Therapy Workbook: An Exercise Book For The IFS Process](https://amzn.to/45z34IK) (2013).{{< /sidenote >}}, replete with 32 exercises.
 
 {{< figure
   src="/exercises.png"
@@ -76,6 +78,10 @@ To assist people following the practices in *Self-Therapy*, Earley’s wife Bonn
   caption="Two exercises from the *Self-Therapy Workbook* by Bonnie J. Weiss."
   alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
 >}}
+
+I tried to use it, but ran into familiar grievances with exercises and worksheets. Back in 2018, our research and development group at Khan Academy had investigated how we might help students build critical thinking skills by practicing with interactive exercises.{{< sidenote >}}Nick Barr, Scott Farrar, Brian Johnsrud, May-Li Khoe, Andy Matuschak, [Building complex reasoning skills online through open-ended activities](https://early.khanacademy.org/open-ended) (2018). {{< /sidenote >}} . One of the design principles we returned to over and over again was that doing this work should not feel like being at the DMV. Now that feeling of bleak, linear data-entry had returned, only in the context of my inner world. The juxtaposition between the compassionate healing I was doing in my head and the depersonalizing, “Papers Please” form completion wasn’t working for me.{{< marginnote >}}![Papers Please](/papers-please.png) [Papers, Please](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government.{{< /marginnote >}}
+
+
 
 TODO: More here beyond my own quibbles. What's structurally bad about worksheets; they're static, relationships are dynamic. They're standalone, parts are linked. There are 32 of them... not nimble...
 
@@ -94,7 +100,7 @@ Koko, an automated mental health support platform, ran a trial in which messages
 
 Even so, Koko CEO Rob Morris pulled the feature. “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”
 
-Artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris, Esther Perel compares these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."
+Artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris, Esther Perel compares these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."{{< sidenote >}}[Esther Perel on Artificial Intimacy](/your-undivided-attention-esther-perel-transcript.pdf), from the Your Undivided Attention podcast.{{< /sidenote >}}
 
 At best, these interactions with therapy chatbots afford "a temporary developmental container" that lets us rehearse for relationships with real people. At worst, they can erode our capacity to deal with the messiness of reality, and confuse us into making technology responsible for our own wellbeing.
 
@@ -354,7 +360,11 @@ So I turned to Midjourney, an AI-powered image generation tool, to illustrate my
 
 That produced helpful illustrations for parts like Worried Boy, Furry Friend, Dark Blanket, and Clenched Fist, seen below:
 
-Constructing a parts map is a common practice in IFS. In the 
+Constructing a parts map is a common practice in IFS. In the *Self-Therapy Workbook*, Bonnie Weiss writes:
+
+>Many people find it very helpful to map their parts. Mapping can clarify relationships between parts, flesh out the number of parts at a trailhead, illuminate the protective system, illustrate which parts are central to the system and which are peripheral, show where parts stand in terms of their relationship to the Self, and much more.
+>Mapping can be done when you are just beginning to get to know your system. You can check in periodically with the original map to see how things have changed as you keep working. You can also use parts mapping as an ongoing tool for visually tracking your internal work and deciding where to focus your attention.
+>There are many ways to map your system. One way is to use a large sheet of paper and write down the names or images of the parts as you know them. You can draw lines or arrows to illustrate the relationships. 
 
 Here, the benefit of structured data over static worksheets becomes clear. By making use of the data in the system, a mature product would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts on the map. 
 
