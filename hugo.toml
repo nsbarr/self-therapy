@@ -1,4 +1,4 @@
-baseURL = 'https://nsbarr.github.io/'
+baseURL = 'https://nsbarr.github.io/self-therapy/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-tufte'
