@@ -10,7 +10,8 @@ h3 {
 
 
  figure.fullwidth figcaption {
-    margin-right: 0%!important;
+    float: left!important;
+    max-width: 90%!important;
  }
 
  body {

@@ -27,7 +27,7 @@ Central to IFS is the "Self,” or “Self-energy,” which is viewed as the ind
   src="/before-after.png"
   type="full"
   label="ifs-before-and-after"
-  caption="The Before and After of IFS, via *Self-Therapy*."
+  caption="The structure of the psyche before and after IFS, via *Self-Therapy*."
   alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
 >}}
 
@@ -50,9 +50,9 @@ But where meditation or prayer are relatively simple activities, IFS can be quit
 3. **Flesh out.** The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.
 4. **Feel.** The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.
 5. **Befriend.** The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.
-6. **Fears.** The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that we can show them alternative ways of understanding their system.
+6. **Fears.** The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that they can show them alternative ways of caring for their system.
 
-When I attempt to do self-therapy, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) say in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. 
+When I attempt to do self-therapy, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. 
 
 Historically, I've found this very difficult to do on my own. I seem not to be alone – Bonnie Weiss published a companion workbook to *Self-Therapy*{{< sidenote >}}Bonnie Weiss, [Self-Therapy Workbook: An Exercise Book For The IFS Process](https://amzn.to/45z34IK) (2013).{{< /sidenote >}}, containing 32 exercises to scaffold solo sessions. Additionally, there are Facebook groups like "Parts Work Practice" and "IFS Self-Healers Community (Internal Family Systems)" with thousands of members who meet online to practice together. 
 
@@ -64,7 +64,7 @@ Historically, I've found this very difficult to do on my own. I seem not to be a
   alt=""
 >}}
 
-But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them fully solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. Following a worksheet presents its own limitations. {{< marginnote >}}![Papers Please](/papers-please.png) [*Papers, Please*](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.{{< /marginnote >}}Personally, I find that worksheets are contraindicated with emotional depth. Filling out a form about a part brings to mind interrogation, not intimacy. Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don't have a way to express this.
+But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them fully solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. Following a worksheet presents its own limitations. {{< marginnote >}}![Papers Please](/papers-please.png) [*Papers, Please*](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.{{< /marginnote >}}Personally, I find that worksheets are contraindicated with emotional depth. Filling out a form about a part brings to mind interrogation, not intimacy. Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don't have a way to formalize connections.
 
 The ability to do inner work on one's own is an essential part of the IFS model. In the foreword to *Self-Therapy*, Richard Schwartz writes:
 
@@ -75,7 +75,7 @@ Yet, as we've seen, there are significant barriers to conducting an effective se
 ### Your AI therapist will see you now
 Meanwhile, the arrival of breakthrough AI technologies has impacted every field, including mental health. In an ebullient essay the venture capitalist Marc Andreessen writes that soon,{{< sidenote >}}Marc Andreessen, [Why AI Will Save the World](/https://a16z.com/2023/06/06/ai-will-save-the-world/) (2023).{{< /sidenote >}}
 
->Every person will have an AI assistant/coach/mentor/trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.
+>Every person will have an AI assistant/coach/mentor/ trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.
 
 Some of this optimism has already borne out. In a *New Yorker* profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:{{< sidenote >}}Dhruv Khullar, [Can AI Treat Mental Illness?](/https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness) for *The New Yorker* (2023).{{< /sidenote >}}
 
@@ -93,7 +93,7 @@ Thankfully, IFS is unambiguously opposed to transitional objects. Even when work
 
 ### Enter the superprompt
 
-Earlier, I described four simultaneous jobs one must do in IFS-informed self-therapy: (i) access the Self-energy to hold a therapeutic field; (ii) say in relationship with the target part; (iii) adhere to the 6 Fs; and (iv) note any insights gleaned from the session. Because IFS is so well-structured, it seemed possible that an AI-assisted practice environment could take over (iii) and (iv) entirely, while supporting me with (i) and (ii).
+Earlier, I described four simultaneous jobs one must do in IFS-informed self-therapy: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the 6 Fs; and (iv) note any insights gleaned from the session. Because IFS is so well-structured, it seemed possible that an AI-assisted practice environment could take over (iii) and (iv) entirely, while supporting individuals with (i) and (ii).
 
 Using the ChatGPT API, I prototyped a system that helps me follow this protocol without needing to think about it. The system uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. I added constraints to the system to prevent it from acting with agency, forbidding unsolicited feedback and empathy, while promoting terse, information-dense responses that reflected what it was hearing me say. This helps me safeguard my agency, and remember that I am the only Self in the session. Finally, I created a relational database that codifies my meandering, unstructured musings into well-structured data that persisted across sessions, helping me deepen my relationship to my parts over time.
 
@@ -107,13 +107,13 @@ This is the system prompt that I am currently using, after several rounds of ite
   src="/superprompt.png"
   type="full"
   label="mn-napoleonic-wars"
-  caption="The system prompt that powers the practice environment. <span>Copy to clipboard</span>, or refer to the GitHub repository."
+  caption="The system prompt that powers the practice environment. To copy and refine the system prompt for your own purposes, refer to the [GitHub repository](https://github.com/nsbarr/self-therapy)."
   alt=""
 >}}
 
 To be clear, though the system prompt reads like a set of instructions, the system itself doesn't have concepts like rulesets or symbolic logic. For any given sequence of words – whether it's a system prompt or input from the user – LLMs like ChatGPT "simply" predict the next word. I put "simply" in quotes because this prediction involves many thousands of operations in a many-thousand dimensional vector space. Nobody programmed these operations; instead, they emerged from training neural networks on billions of words of training data. In this way, LLMs appear simultaneously simple and inscrutable, dumb and eerily smart. The implications of all this are the subject of intense debate and research.{{< sidenote >}}Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /sidenote >}}
 
-Putting aside philosophical and existential concerns for the moment, I am astonished at how well the system adheres to these instructions, and how wonderfully it enhances my inner work. To see it in action, we will look at three self-therapy sessions I conducted. My comments are in italics.  
+Putting aside philosophical and existential concerns for the moment, I am astonished at how well the system adheres to these instructions, and how wonderfully it enhances my inner work. To see it in action, we will look at the transcripts of three self-therapy sessions I conducted. My comments are in italics.  
 
 ### Session 1: Getting to know a Protector
 
