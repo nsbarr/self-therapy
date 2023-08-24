@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://nsbarr.github.io/</link>
+    <link>https://nsbarr.github.io/self-therapy/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Aug 2023 15:23:24 +0200</lastBuildDate><atom:link href="https://nsbarr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 15:23:24 +0200</lastBuildDate><atom:link href="https://nsbarr.github.io/self-therapy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Augmenting Self-Therapy</title>
-      <link>https://nsbarr.github.io/posts/my-first-post/</link>
+      <link>https://nsbarr.github.io/self-therapy/posts/my-first-post/</link>
       <pubDate>Sat, 19 Aug 2023 15:23:24 +0200</pubDate>
       
-      <guid>https://nsbarr.github.io/posts/my-first-post/</guid>
+      <guid>https://nsbarr.github.io/self-therapy/posts/my-first-post/</guid>
       <description>For several months, I&amp;rsquo;ve been building and using a self-therapy practice environment based on the Internal Family Systems (IFS) model. I&amp;rsquo;ve found it very useful, and after some early positive feedback, I think others might find it useful, too.
 IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have a Self; a vast, powerful resource for healing and transformation.</description>
     </item>
