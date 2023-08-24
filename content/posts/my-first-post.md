@@ -316,13 +316,21 @@ Putting aside philosophical and existential concerns for the moment, I am astoni
 
 *Self-Therapy* makes wonderful use of illustrations, drawn by Karen Donnelly.{{< marginnote ind="⊕" >}}<span id="sandy">![Sandy](/sandy.png)Sandy's Pyche, from *Self-Therapy*</span>{{< /marginnote >}} They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.
 
-So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
+I myself have a very limited visual imagination - it’s hard for me to picture anything in my mind's eye. I’m also not a particularly enthusiastic drawer. So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
 
 > black and white pencil sketch of {part description}, dreamlike illustration, harsh realism, storybook illustration, emphasizes emotion over realism, nightmare, detailed sketches
 
-That produced helpful illustrations for parts like Worried Boy, Furry Friend, Dark Blanket, and Clenched Fist, seen below:
+That produced helpful illustrations for parts like Young Dreamer, Furry Friend, Dark Blanket, and Clenched Fist, seen here:
 
-Constructing a parts map is a common practice in IFS. In the *Self-Therapy Workbook*, Bonnie Weiss writes:
+{{< figure
+  src="/midjourney-illustrations.png"
+  type="full"
+  label="ifs-before-and-after"
+  caption=""
+  alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
+>}}
+
+From here, I arranged my parts into a relational map. The parts map is a popular tool among IFS practitioners. In the *Self-Therapy Workbook*, Bonnie Weiss writes:
 
 >Many people find it very helpful to map their parts. Mapping can clarify relationships between parts, flesh out the number of parts at a trailhead, illuminate the protective system, illustrate which parts are central to the system and which are peripheral, show where parts stand in terms of their relationship to the Self, and much more.
 
@@ -330,11 +338,58 @@ Constructing a parts map is a common practice in IFS. In the *Self-Therapy Workb
 
 >There are many ways to map your system. One way is to use a large sheet of paper and write down the names or images of the parts as you know them. You can draw lines or arrows to illustrate the relationships. 
 
-Here, the benefit of structured data over static worksheets becomes apparent. With a little work, the system would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts. A more opinionated system could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet.
+Here, the benefit of structured data over static worksheets becomes apparent. With a little engineering effort, the practice environment could automatically generate a parts map from the data, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts. 
 
-For now, {TODO FINISH}
+{{< figure
+  src="/parts-card.jpg"
+  type="full"
+  label="ifs-before-and-after"
+  caption=""
+  alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
+>}}
 
-## Discussion
+{{< figure
+  src="/parts-map.jpg"
+  type="full"
+  label="ifs-before-and-after"
+  caption=""
+  alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain."
+>}}
+
+As shown above, the parts map itself could nudge the individual to revisit Exiles that haven't been worked on for some time, or to explore the relationship between Protectors that might not know about each other yet. 
+
+For now, I maintain my parts map in the design tool Figma, separate from the practice environment.  
+
+### Benefits of the practice environment
+
+Enables a deep, consistent practice 
+- talking out loud actually helps (rubber ducking)
+- active listening helps
+- 20m multiple times a week
+
+Intelligence across sessions
+- advantage over the GPT interface
+- rewards longer-term practice
+
+Shared representations of data
+- multiple representations, like parts map
+- cite paper
+
+Structured but fluid
+- switching parts
+- completing things out of order
+- going on tangents
+- renaming parts
+
+### Limitations of the practice environment
+
+Not for beginners
+
+### Future directions
+
+
+
+
 
 ### The IKEA effect and other caveats
 I built this system for myself. I've tuned it to my own preferences over the course of several sessions, such that it now suits me quite well. 

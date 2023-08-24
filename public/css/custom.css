@@ -12,6 +12,10 @@ h3 {
  figure.fullwidth figcaption {
     margin-right: 0%!important;
  }
+
+ body {
+    background: white!important;
+ }
  /*
  .sidenote, .marginnote {
     margin-right: 12%;

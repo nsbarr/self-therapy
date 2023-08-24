@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
-<title>Augmented Self-Therapy - My New Hugo Site</title>
+<title>Augmenting Self-Therapy - My New Hugo Site</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description"
-    content="For the past three months, I&rsquo;ve been using a self-therapy system I built based on the Internal Family Systems (IFS) model. It&rsquo;s been very helpful for me, and I think it might be helpful to others, too.
-This system uses ChatGPT, a popular large language model (LLM), in a novel way. Most AI-assisted mental health applications use LLMs to provide users with an AI therapist, or at minimum a compassionate listener. ">
-<link rel="canonical" href="http://example.org/posts/my-first-post/" />
+    content="For several months, I&rsquo;ve been building and using a self-therapy practice environment based on the Internal Family Systems (IFS) model. I&rsquo;ve found it very useful, and after some early positive feedback, I think others might find it useful, too.
+IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have a Self; a vast, powerful resource for healing and transformation. ">
+<link rel="canonical" href="https://nsbarr.github.io/posts/my-first-post/" />
 
 
 
@@ -37,16 +37,16 @@ This system uses ChatGPT, a popular large language model (LLM), in a novel way. 
 
 
 
-<link rel="stylesheet" href="/css/hugo-tufte.min.css">
+<link rel="stylesheet" href="https://nsbarr.github.io/css/hugo-tufte.min.css">
 
 
 
-<link rel="stylesheet" href="/css/hugo-tufte-options.min.css">
+<link rel="stylesheet" href="https://nsbarr.github.io/css/hugo-tufte-options.min.css">
 
-<link rel="stylesheet" href="/css/hugo-tufte-override.css">
+<link rel="stylesheet" href="https://nsbarr.github.io/css/hugo-tufte-override.css">
 
-<link rel="stylesheet" href="/css/custom.css">
-<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="https://nsbarr.github.io/css/custom.css">
+<link rel="stylesheet" href="https://nsbarr.github.io/css/custom.css">
 
 
 </head>
@@ -55,30 +55,28 @@ This system uses ChatGPT, a popular large language model (LLM), in a novel way. 
 
 <article id="main">
   <section>
-<h1 class="content-title">Augmented Self-Therapy</h1><p class=subtitle>How I’m Using ChatGPT, Whisper, and Midjourney to Support my Inner Work</p></section>
+<h1 class="content-title">Augmenting Self-Therapy</h1></section>
 
   
 
-  <section><p>For the past three months, I&rsquo;ve been using a self-therapy system I built based on the Internal Family Systems (IFS) model. It&rsquo;s been very helpful for me, and I think it might be helpful to others, too.</p>
-<p>This system uses ChatGPT, a popular large language model (LLM), in a novel way. Most AI-assisted mental health applications use LLMs to provide users with an AI therapist, or at minimum a compassionate listener. Instead, this system uses ChatGPT to create a kind of co-pilot that complements and expands one’s capacity for inner work. In this way, the system is an example of intelligence augmentation (IA), which seeks to enhance human behavior, rather than artificial intelligence (AI), which seeks to automate human behavior.</p>
-<p>IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapeutic modality, in that it asserts we all have within us everything we need to heal and live richer, more meaningful lives. A professional therapist can be a helpful guide, but is not a prerequisite. My entry into IFS was the book <em>Self-Therapy</em><label for="sidenote-1" class="margin-toggle sidenote-number">1</label>
+  <section><p>For several months, I&rsquo;ve been building and using a self-therapy practice environment based on the Internal Family Systems (IFS) model. I&rsquo;ve found it very useful, and after some early positive feedback, I think others might find it useful, too.</p>
+<p>IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have a Self; a vast, powerful resource for healing and transformation. IFS is unusual for its highly structured protocol - while there is tremendous freedom to explore, there are also well-defined procedures and a clear roadmap. As a result, a therapist can be a helpful guide, but is not required. Many people practice IFS with a partner, or by themselves. My own entry into IFS was the book <em>Self-Therapy</em><label for="sidenote-1" class="margin-toggle sidenote-number">1</label>
 <input type="checkbox" id="sidenote-1" class="margin-toggle"/>
 <span class="sidenote">
-<span class="sidenote-number">1.</span>Jay Earley, <a href="https://amzn.to/44bUY7G">Self-Therapy</a>, 2009.
+<span class="sidenote-number">1.</span>Jay Earley, <a href="https://amzn.to/44bUY7G">Self-Therapy</a> (2009).
 </span>
- which equips readers with a user manual for beginning to heal themselves safely and effectively.</p>
-<p>As we’ll see, unassisted self-therapy is not easy to do. One must internalize and follow IFS protocols, stay in relationship to one’s inner experiences, and write down any insights – all more or less at the same time. This heavy cognitive load was an obstacle to going deeper with my inner work. This is where the augmented self-therapy system offers a promising alternative. It enables the individual to focus on the most important task – staying in relationship – and takes on support, scaffolding, and note-taking where needed. For me, the result has been some of the most illuminating and enriching self-discovery of my life.</p>
-<p>The system I’ve built is indebted to <em>Self-Therapy</em> and to the IFS model. It aspires merely to repackage the existing practice material into a powerful new environment. My wish for this work is that it helps more people learn about IFS, do self-therapy, and discover their innate capacity for healing.</p>
-<p>In the Background, I’ll give a quick overview of the IFS model, how it differs from other therapeutic modalities, and how those differences enable self-therapy. From there, I’ll explain why self-therapy is so hard to do, and survey some other entries in the AI-assisted mental health space.</p>
-<p>In the System section, I’ll dive into the design and implementation of the system I&rsquo;m using. First I’ll cover some of the essential IFS protocols, and how they are codified in the system architecture. Then I’ll illustrate how the system works through three videos and accompanying transcripts of real sessions. Finally I’ll hint at fun lenses to apply to the data, like a Midjourney-powered parts map.</p>
-<p>In the Conclusion, I’ll offer as much guidance as I can to anyone who wants to remix this work for their own purposes, and talk about where I’m hoping to take this work next. I won’t bury the lede: I would be thrilled to partner with technologists and mental health professionals who want to help carry this vision further.</p>
-<h2 id="background">
-Background
-<a href="#background" class="heading-anchor">#</a>
-</h2>
-<h3 id="ifs-graphing-the-internal-social-network">
-IFS: Graphing the internal social network
-<a href="#ifs-graphing-the-internal-social-network" class="heading-anchor">#</a>
+ which gives readers a user manual for beginning to heal themselves safely and effectively.</p>
+<p>As we’ll see, self-therapy is not easy to do. When you&rsquo;re trying to feel your feelings, you don&rsquo;t want to have to worry about staying on track or writing down insights. This is where the practice environment comes in.<label for="marginnote-1" class="margin-toggle marginnote-ind"></label>
+<input type="checkbox" id="marginnote-1" class="margin-toggle"/>
+<span class="marginnote">
+<img src="https://nsbarr.github.io/abacus.png" alt="Abacus">Some technologies help us think, like the abacus. They afford new abilities that we eventually internalize. David Krakauer <a href="https://nsbarr.github.io/krakauer.pdf">calls these</a> complementary cognitive artifacts. Others do the thinking for us, like a calculator. They free us up, but cannibalize our abilities. Krakauer calls these competitive cognitive artifacts.
+</span>
+  It enables the individual to focus on the most important work – exploring their inner world – and takes over the supporting tasks.</p>
+<p>The system makes use of various AI technologies, including ChatGPT. But the way it uses these technologies is novel. Most AI-assisted mental health applications connect individuals to a chatbot, which performs the role of therapist, or compassionate friend. Instead, this system uses ChatGPT to unobtrusively augment and expand one’s inner work. Following the principles of IFS, the practice environment is in service of the individual&rsquo;s ability to access their Self-energy, and careful not to proffer a crutch without which they cannot stand on their own.</p>
+<p>The practice environment relies entirely on the protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. My wish for this work is that it helps more people learn about IFS, develop a self-therapy practice, and build their capacity for healing and transformation.</p>
+<h3 id="graphing-the-internal-social-network">
+Graphing the internal social network
+<a href="#graphing-the-internal-social-network" class="heading-anchor">#</a>
 </h3>
 <p>Developed in the 1980s by Richard Schwartz, IFS is grounded in the observation that the mind is naturally multiple, housing a variety of subpersonalities, or &ldquo;parts.” We experience this multiplicity when we feel torn between conflicting desires; maybe part of us wants to pursue a challenging opportunity, but another part fears the risk, while a third part feels exhausted by the inner debate.</p>
 <p>These parts are distinct entities within us, each with their unique characteristics, desires, and roles. In the IFS model, parts are categorized into “Exiles” and “Protectors.” Exiles are wounded parts that carry burdens, often rooted in past trauma, and Protectors shield Exiles to keep the individual in a state of equilibrium.</p>
@@ -88,7 +86,7 @@ IFS: Graphing the internal social network
     <figure class="fullwidth">
   
   
-  <img src="/before-after.png" alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain.">
+  <img src="https://nsbarr.github.io/before-after.png" alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain.">
   
   <figcaption>
 
@@ -109,39 +107,42 @@ The Before and After of IFS, via <em>Self-Therapy</em>.
 
 
 <p>To practice IFS is to build a relationship between your Self and your parts. More specifically: as the Self gets to know Protectors, they begin to reveal their beliefs, fears, and how they function on behalf of the individual. In turn, the Self acknowledges the roles these protective parts have been playing, and gives them hope that there’s a better way forward.</p>
-<p>Having earned the trust of Protectors, the Self can do deep work with an Exile – a part, usually stuck in the individual’s past, with a powerful memory and a story to tell. When the Exile is able to tell their story, and feels fully witnessed by the Self, they may be prepared to let go of their burdens and limiting beliefs, and re-connect with the positive qualities that had been lost. After the Exile is healed, Protectors discover that they can drop their old roles and take on new responsibilities as well.</p>
-<p>This is the “internal family system”; a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon<label for="sidenote-2" class="margin-toggle sidenote-number">2</label>
+<p>Having earned the trust of Protectors, the Self can do deep work with an Exile – a part, usually stuck in the individual’s past, with a powerful memory and a story to tell. When the Exile is able to tell their story, and feels fully witnessed by the Self, they may be prepared to let go of their burdens and limiting beliefs, and re-connect with the positive qualities that had been lost. After the Exile is healed, Protectors discover that they can drop their old roles and take on new responsibilities as well.
+<label for="marginnote-2" class="margin-toggle marginnote-ind"></label>
+<input type="checkbox" id="marginnote-2" class="margin-toggle"/>
+<span class="marginnote">
+<img src="https://nsbarr.github.io/stardew-valley.jpg" alt="Stardew Valley"> Games like Harvest Moon, and <a href="https://www.stardewvalley.net/">Stardew Valley</a>, pictured, belong to the &ldquo;cozy sim&rdquo; genre. They provide a bucolic environment in which the player can fish, garden, and tend to animals.
+</span>
+
+This is the “internal family system”; a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon; more on that later.)</p>
+<h3 id="the-path-to-self-leadership">
+The Path to Self-Leadership
+<a href="#the-path-to-self-leadership" class="heading-anchor">#</a>
+</h3>
+<p>From this brief overview, the shape of the practice emerges. Session to session, the work is for the individual&rsquo;s Self to form or deepen a relationship with a part. That&rsquo;s the method. Over time, the individual befriends their Protectors, heals their Exiles, and becomes Self-led; that is, they always dwell in and act from Self-energy. That&rsquo;s the purpose.</p>
+<p>In many ways, IFS is shaped more like a spiritual practice than a therapy modality. I have experience with both. When I did psychodynamic therapy, my therapist&rsquo;s office was the container for our work. Sessions were unstructured by design, and were impossible to conduct alone – they required the two of us. In contrast, my nondual meditation practice harmonizes very well with IFS. Like IFS, meditation points to a vast, powerful resource, sometimes called natural awareness. Like IFS, a guide is very helpful in meditation, but can&rsquo;t do the meditating for you. And like IFS, a daily practice is the best way to progress with meditation.</p>
+<p>But where meditation or prayer are relatively simple activities, IFS can be quite tricky. For example, consider the “6 Fs,” a protocol for building a relationship between Self and a part. The 6 Fs are:</p>
+<ol>
+<li><strong>Find.</strong> The individual turns their attention inwards and finds what’s happening inside by locating an emotion, thought, or body sensation they want to work with.</li>
+<li><strong>Focus.</strong> The individual gathers their attention around this internal part.</li>
+<li><strong>Flesh out.</strong> The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.</li>
+<li><strong>Feel.</strong> The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.</li>
+<li><strong>Befriend.</strong> The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.</li>
+<li><strong>Fears.</strong> The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that we can show them alternative ways of understanding their system.</li>
+</ol>
+<p>When I attempt to do self-therapy, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) say in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session.</p>
+<p>Historically, I&rsquo;ve found this very difficult to do on my own. I seem not to be alone – Bonnie Weiss published a companion workbook to <em>Self-Therapy</em><label for="sidenote-2" class="margin-toggle sidenote-number">2</label>
 <input type="checkbox" id="sidenote-2" class="margin-toggle"/>
 <span class="sidenote">
-<span class="sidenote-number">2.</span><img src="stardew-valley.jpg" alt="Stardew Valley"> Games like Harvest Moon, and Stardew Valley, pictured, belong to the &ldquo;cozy sim&rdquo; genre. They aim to create a bucolic atmosphere in which the player can fish, garden, and tend to animals.
+<span class="sidenote-number">2.</span>Bonnie Weiss, <a href="https://amzn.to/45z34IK">Self-Therapy Workbook: An Exercise Book For The IFS Process</a> (2013).
 </span>
-; more on that later.)</p>
-<h3 id="ifs-empowers-us-to-heal-ourselves">
-IFS empowers us to heal ourselves
-<a href="#ifs-empowers-us-to-heal-ourselves" class="heading-anchor">#</a>
-</h3>
-<p>From 2016-2020, I was a patient of psychodynamic therapy. What this means to me is that I went to a therapist’s office, sometimes twice a week, and just started talking about whatever was on my mind.</p>
-<p>Some sessions would feel like a complete waste of time, and others would be deeply meaningful. I never understood what our process was, and I don’t think my therapist did either, although he was less put off about this than me.</p>
-<p>Over time I got bogged down in a kind of power struggle with my therapist, and I didn&rsquo;t know how to extricate myself. Our relationship became the subject of many of our sesssions. This was, my therapist explained, a feature of the method, not a bug, but I disagreed and ultimately discontinued the work.</p>
-<p>Psychoanalysis traces its routes directly back to exorcism, and my experience felt like a partial, semi-voluntary exorcism, dragged out over four years. I was grateful for the healing that had taken place, and I was also convinced that better methods were out there for me.</p>
-<p>It was Michael Taft, my meditation teacher, who turned me on to IFS. We had been working with it in the context of the nondual meditation practice Michael called &ldquo;Reversing the Stack.&rdquo; IFS dovetailed wonderfully with this practice. Nondual meditation, sustained over time, points to an always-available resource, which Michael names &ldquo;awake awareness.&rdquo; This is what IFS calls the Self, or Self-energy. As Robert Falconer, an IFS practitioner, teacher, and writer describes it, “No one, no matter how terrible their life experiences or earlier behaviors, is fundamentally damaged goods. No one. We are all this radiant Self, and this fundamental health can never be taken from us.” Nondual meditation instructs practitioners not to oppose anything in experience; as Ajahn Cha puts it:</p>
-<blockquote>
-<p>Just go into the room, sit in the center of the room, open the doors and windows, and see who comes to visit. You will witness all kinds of scenes and actors, all kinds of temptations and stories, everything imaginable. Your only job is to stay in your seat. You will see it all arise and pass, and out of this, wisdom and understanding will come.</p>
-</blockquote>
-<p>Likewise, IFS sets the stage for all sorts of parts to show up, and per the title of Richard Schwartz&rsquo;s 2021 book, there are <em>No Bad Parts</em>; we invite them all to visit and bear witness to them.</p>
-<p>In this way, meditation itself could be seen as self-therapy. So when Michael recommended <em>Self-Therapy</em> to our group, I eagerly absorbed it into my regular practice. The empowering, non-pathologizing message of the book was a welcome change from my previous experiences.</p>
-<h3 id="self-therapy-is-a-daunting-juggling-act">
-Self-therapy is a daunting juggling act
-<a href="#self-therapy-is-a-daunting-juggling-act" class="heading-anchor">#</a>
-</h3>
-<p>Self-therapy quickly presented its own challenges when it came to forming a deep, consistent practice. I discovered that doing inner work solo meant attempting to do at least four jobs simultaneously: (i) follow IFS-specific protocols; (ii) stay in relationship with the target part; (iii) stay in Self; and (iv) record any insights gleaned from the session.</p>
-<p>To assist people following the practices in <em>Self-Therapy</em>, Earley’s wife Bonnie Weiss published a companion workbook. I tried to use it, but ran into familiar grievances with exercises and worksheets. Back in 2018, our research and development group at Khan Academy had investigated how we might help students build critical thinking skills by practicing with interactive exercises. One of the design principles we returned to over and over again was that doing this work should not feel like being at the DMV. Now that feeling of bleak, linear data-entry had returned, only in the context of my inner world. The juxtaposition between the compassionate healing I was doing in my head and the depersonalizing, “Papers Please” form completion wasn’t working for me.</p>
+, containing 32 exercises to scaffold solo sessions. Additionally, there are Facebook groups like &ldquo;Parts Work Practice&rdquo; and &ldquo;IFS Self-Healers Community (Internal Family Systems)&rdquo; with thousands of members who meet online to practice together.</p>
 
 
     <figure class="fullwidth">
   
   
-  <img src="/exercises.png" alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain.">
+  <img src="https://nsbarr.github.io/exercises.png" alt="Image">
   
   <figcaption>
 
@@ -161,46 +162,74 @@ Two exercises from the <em>Self-Therapy Workbook</em> by Bonnie J. Weiss.
 </figure>
 
 
-<p>TODO: More here beyond my own quibbles. What&rsquo;s structurally bad about worksheets; they&rsquo;re static, relationships are dynamic. They&rsquo;re standalone, parts are linked. There are 32 of them&hellip; not nimble&hellip;</p>
-<p>I decided to take a break from formal IFS sessions, even as parts work continued to play out spontaneously in my meditation practice.</p>
+<p>But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them fully solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who&rsquo;s available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you&rsquo;ll need to go back and listen to the recording if you want to take notes. Following a worksheet presents its own limitations. <label for="marginnote-3" class="margin-toggle marginnote-ind"></label>
+<input type="checkbox" id="marginnote-3" class="margin-toggle"/>
+<span class="marginnote">
+<img src="https://nsbarr.github.io/papers-please.png" alt="Papers Please"> <a href="https://store.steampowered.com/app/239030/Papers_Please/"><em>Papers, Please</em></a> is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.
+</span>
+Personally, I find that worksheets are contraindicated with emotional depth. Filling out a form about a part brings to mind interrogation, not intimacy. Beyond my personal qualms, static worksheets simply aren&rsquo;t up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don&rsquo;t want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don&rsquo;t have a way to express this.</p>
+<p>The ability to do inner work on one&rsquo;s own is an essential part of the IFS model. In the foreword to <em>Self-Therapy</em>, Richard Schwartz writes:</p>
+<blockquote>
+<p>My twenty-seven years of experience using this model&hellip; tell me that many people can do a great deal of work on themselves without a therapist. They may not be able to unburden all their exiles, but they can reverse the atmosphere of their inner worlds from one of self-loathing to self-love and Self-leadership. Also, people who are in therapy will find the book a useful guide for their between-session work on themselves. Therapy is too expensive in both time and money for many people. I’m grateful that this book allows IFS to extend its reach to those who would not otherwise have access to it.</p>
+</blockquote>
+<p>Yet, as we&rsquo;ve seen, there are significant barriers to conducting an effective self-therapy session. This underscores the need for innovative tools that can create strong containers for individual practice.</p>
 <h3 id="your-ai-therapist-will-see-you-now">
 Your AI therapist will see you now
 <a href="#your-ai-therapist-will-see-you-now" class="heading-anchor">#</a>
 </h3>
-<p>Meanwhile, the arrival of breakthrough AI technologies has impacted every field, including mental health. In an ebullient essay the venture capitalist Marc Andreessen writes that soon,</p>
+<p>Meanwhile, the arrival of breakthrough AI technologies has impacted every field, including mental health. In an ebullient essay the venture capitalist Marc Andreessen writes that soon,<label for="sidenote-3" class="margin-toggle sidenote-number">3</label>
+<input type="checkbox" id="sidenote-3" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">3.</span>Marc Andreessen, <a href="https://nsbarr.github.io/https://a16z.com/2023/06/06/ai-will-save-the-world/">Why AI Will Save the World</a> (2023).
+</span>
+</p>
 <blockquote>
 <p>Every person will have an AI assistant/coach/mentor/trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.</p>
 </blockquote>
-<p>Some of this optimism has already borne out. In a New Yorker profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:</p>
+<p>Some of this optimism has already borne out. In a <em>New Yorker</em> profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:<label for="sidenote-4" class="margin-toggle sidenote-number">4</label>
+<input type="checkbox" id="sidenote-4" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">4.</span>Dhruv Khullar, <a href="https://nsbarr.github.io/https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness">Can AI Treat Mental Illness?</a> for <em>The New Yorker</em> (2023).
+</span>
+</p>
 <blockquote>
 <p>Ahead of another patient visit, Maria recalled, “I just felt that something really bad was going to happen.” She texted Woebot, which explained the concept of catastrophic thinking. It can be useful to prepare for the worst, Woebot said—but that preparation can go too far. “It helped me name this thing that I do all the time,” Maria said.</p>
 </blockquote>
-<p>Koko, an automated mental health support platform, ran a trial in which messages were composed by GPT-3 (and supervised by humans). Those messages were rated significantly higher than those written by humans on their own, and response times went down 50%.</p>
+<p>Koko, an automated mental health support platform, ran a trial in which messages were composed by GPT-3 (and supervised by humans). Those messages were rated significantly higher than those written by humans on their own, and response times went down 50%.<label for="sidenote-5" class="margin-toggle sidenote-number">5</label>
+<input type="checkbox" id="sidenote-5" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">5.</span>Rob Morris&rsquo;s <a href="https://twitter.com/RobertRMorris/status/1611450210915434499">Twitter</a> account (2023).
+</span>
+</p>
 <p>Even so, Koko CEO Rob Morris pulled the feature. “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”</p>
-<p>Artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris, Esther Perel compares these bots to imaginary friends, &ldquo;transitional objects that gradually allow us to learn the ins and outs of having real relationships.&rdquo;</p>
+<p>Artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris,<label for="sidenote-6" class="margin-toggle sidenote-number">6</label>
+<input type="checkbox" id="sidenote-6" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">6.</span><a href="https://nsbarr.github.io/your-undivided-attention-esther-perel-transcript.pdf">Esther Perel on Artificial Intimacy</a>, from the Your Undivided Attention podcast (2023).
+</span>
+ Esther Perel compares these bots to imaginary friends, &ldquo;transitional objects that gradually allow us to learn the ins and outs of having real relationships.&rdquo;</p>
 <p>At best, these interactions with therapy chatbots afford &ldquo;a temporary developmental container&rdquo; that lets us rehearse for relationships with real people. At worst, they can erode our capacity to deal with the messiness of reality, and confuse us into making technology responsible for our own wellbeing.</p>
-<p>In this way, the AI and mental health sectors share a common crisis around locus of control. Clients of chatbots and therapists alike are continually forgetting their own capacity and responsibility to heal themselves, and the chatbots and therapists aren&rsquo;t always reminding them.</p>
-<p>TODO: It was actually this realization that inspired me to start building a self-therapy system. If IFS could swing things back into sanity as a therapeutic modality, couldn&rsquo;t I do something similar using AI?</p>
-<h2 id="system">
-System
-<a href="#system" class="heading-anchor">#</a>
-</h2>
-<h3 id="encoding-ifs-protocols-into-chatgpt">
-Encoding IFS protocols into ChatGPT
-<a href="#encoding-ifs-protocols-into-chatgpt" class="heading-anchor">#</a>
+<p>Thankfully, IFS is unambiguously opposed to transitional objects. Even when working with a therapist, it is never the therapist&rsquo;s Self that does the healing; their work is always in service of fostering the client&rsquo;s ability to access their own Self-energy so that the client&rsquo;s Self can heal the client&rsquo;s parts. Any AI-assisted practice environment for IFS must follow suit.</p>
+<h3 id="enter-the-superprompt">
+Enter the superprompt
+<a href="#enter-the-superprompt" class="heading-anchor">#</a>
 </h3>
-<p>Earlier, I described four simultaneous jobs one must do in IFS-informed self-therapy: (i) follow IFS-specific protocols; (ii) stay in relationship with the target part; (iii) stay in Self; and (iv) record any insights gleaned from the session. Because IFS is so well-structured, it seemed possible that AI systems could take over (i) and (iv) entirely, while assisting me with (ii) and (iii).</p>
+<p>Earlier, I described four simultaneous jobs one must do in IFS-informed self-therapy: (i) access the Self-energy to hold a therapeutic field; (ii) say in relationship with the target part; (iii) adhere to the 6 Fs; and (iv) note any insights gleaned from the session. Because IFS is so well-structured, it seemed possible that an AI-assisted practice environment could take over (iii) and (iv) entirely, while supporting me with (i) and (ii).</p>
+<p>Using the ChatGPT API, I prototyped a system that helps me follow this protocol without needing to think about it. The system uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. I added constraints to the system to prevent it from acting with agency, forbidding unsolicited feedback and empathy, while promoting terse, information-dense responses that reflected what it was hearing me say. This helps me safeguard my agency, and remember that I am the only Self in the session. Finally, I created a relational database that codifies my meandering, unstructured musings into well-structured data that persisted across sessions, helping me deepen my relationship to my parts over time.</p>
+<p>{TODO PUT IN SCREENSHOT OF INTERFACE}</p>
+<p>Incredibly, all these behaviors are defined not through code but through natural language instructions called a system prompt. System prompts are special messages used to direct the behavior of ChatGPT.</p>
+<p>This is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to copy and paste this into the publicly available ChatGPT interface to try augmented self-therapy out for themselves. I am using GPT-4, which is a paid offering. The only piece of the prompt that will not work is the structured data, labeled <em>parts_json</em> below. The system prompt is lightly edited for readability.</p>
 
 
     <figure class="fullwidth">
   
   
-  <img src="/architecture.png" alt="Two images side-by-side. In the first, Self energy, represented by a heart, is covered by various Protectors, while the Exiles are hidden behind a curtain. In the second, Self energy is now uncovered, and all parts are cooperating. Exiles are no longer behind the curtain.">
+  <img src="https://nsbarr.github.io/superprompt.png" alt="Image">
   
   <figcaption>
 
 
-The Before and After of IFS, per Jay Earley in <em>Self-Therapy</em>.
+The system prompt that powers the practice environment. <!-- raw HTML omitted -->Copy to clipboard<!-- raw HTML omitted -->, or refer to the GitHub repository.
 
 
 
@@ -215,39 +244,13 @@ The Before and After of IFS, per Jay Earley in <em>Self-Therapy</em>.
 </figure>
 
 
-<p>To shed some light on how structured IFS is, let’s turn to the “6 Fs,” a protocol for building a relationship between Self and a part. The 6 Fs are:</p>
-<ol>
-<li><strong>Find.</strong> The individual turns their attention inwards and finds what’s happening inside by locating an emotion, thought, or body sensation they want to work with.</li>
-<li><strong>Focus.</strong> The individual gathers their attention around this internal part.</li>
-<li><strong>Flesh out.</strong> The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.</li>
-<li><strong>Feel.</strong> The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.</li>
-<li><strong>Befriend.</strong> The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.</li>
-<li><strong>Fears.</strong> The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that we can show them alternative ways of understanding their system.</li>
-</ol>
-<p>Using the ChatGPT API, I prototyped a system that would help me follow this protocol without needing to think about it. The system uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. I added constraints to the system to prevent it from acting with agency, forbidding unsolicited feedback and empathy, while promoting terse, information-dense responses that reflected what it was hearing me say. Finally, I had it convert my meandering, unstructured musings into structured data that persisted across sessions, helping me deepen my relationship to my parts over time.</p>
-<h3 id="enter-the-superprompt">
-Enter the superprompt
-<a href="#enter-the-superprompt" class="heading-anchor">#</a>
-</h3>
-<p>Incredibly, all these behaviors are defined not through code but through natural language instructions called a system prompt. System prompts are special messages used to direct the behavior of ChatGPT.</p>
-<p>This is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to copy and paste this into the publicly available ChatGPT interface to try augmented self-therapy out for themselves. I am using ChatGPT 4, which is a paid offering. The only piece of the prompt that will not work is the structured data, labeled <em>parts_json</em> below. The system prompt is lightly edited for readability.</p>
-<blockquote>
-<p>You are a self-therapy co-pilot AI. You prioritize efficiency and speed. The user is a capable therapist who is doing self-therapy following the Internal Family Systems protocol. Your task is to provide precise, concise, and rapid responses. Focus on data relay and reflecting back critical information. Do not try to imitate humane speech or empathy. Do not recommend ending the session or seeing a therapist.</p>
-</blockquote>
-<blockquote>
-<p>The following Phases and the Sections are for your reference only. Do not mention Phases or Sections to the user. The session consists of 3 Phases.</p>
-</blockquote>
-<blockquote>
-<p>Phase 1: Start. When the user starts describing a part, you should first get clear whether this is a new part or one that the user has already worked with. Refer to the &rsquo;name&rsquo; field of this data: {parts_json} and ask the user whether the part they are talking about is one of those parts or is a new part.</p>
-</blockquote>
-<blockquote>
-<p>Phase 2: Parts work. During Phase 2, your job is to assist the user in getting to know a part of themselves more fully by recording information about the part. The data is split into 2 sections. Section 1 consists of these items: (1) Name of part; (2) What it feels like emotionally, (3) What it looks like; (4) What it feels like in the body, and where; (5) What the part says. When you have this information, the user is ready to move onto Section 2. To move onto Section 2, you should make sure that the user is not blended with any part, and is in Self. To check this, ask the user: How do you feel toward this part right now? If the user responds in a way that indicates judgment, reflect that back the user and encourage them to either unblend, or to switch focus onto the judging part. If the user responds in a way that indicates curiosity, compassion, or general openness, then that indicates they are in Self and are ready to complete Section 2. Section 2 consists of these items: (1) What is the part’s job? (2) What is the part afraid will happen if it doesn’t do its job? (3) What does the part believe? (4) Does the part have a secret wish?</p>
-</blockquote>
-<blockquote>
-<p>Phase 3: Ending. When the user says they want to end the session, return structured JSON for all of the parts, including parts from previous sessions, building on the original data provided. When you return this JSON, put it between three quotes: &rsquo;&rsquo;&rsquo; so that it is clearly delineated.</p>
-</blockquote>
-<p>To be clear, though these read like instructions, they work nothing like that. LLMs like ChatGPT have no ability to make sense of text like this; rather, {TODO: FIND A SIMPLE EXPLANATION THAT HIGHLIGHTS THE ‘WEIRDNESS’ OF HOW THIS ALL WORKS&hellip; NEXT TOKEN PREDICTION, AUTOCORRECT, ETC., WITHOUT DUMBING IT DOWN}.</p>
-<p>To see how the system works in action, we will look at three self-therapy sessions I conducted. My comments are in italics.</p>
+<p>To be clear, though the system prompt reads like a set of instructions, the system itself doesn&rsquo;t have concepts like rulesets or symbolic logic. For any given sequence of words – whether it&rsquo;s a system prompt or input from the user – LLMs like ChatGPT &ldquo;simply&rdquo; predict the next word. I put &ldquo;simply&rdquo; in quotes because this prediction involves many thousands of operations in a many-thousand dimensional vector space. Nobody programmed these operations; instead, they emerged from training neural networks on billions of words of training data. In this way, LLMs appear simultaneously simple and inscrutable, dumb and eerily smart. The implications of all this are the subject of intense debate and research.<label for="sidenote-7" class="margin-toggle sidenote-number">7</label>
+<input type="checkbox" id="sidenote-7" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">7.</span>Timothy B Lee and Sean Trott have the <a href="https://www.understandingai.org/p/large-language-models-explained-with">best accessible primer</a> I&rsquo;ve seen on LLMs.
+</span>
+</p>
+<p>Putting aside philosophical and existential concerns for the moment, I am astonished at how well the system adheres to these instructions, and how wonderfully it enhances my inner work. To see it in action, we will look at three self-therapy sessions I conducted. My comments are in italics.</p>
 <h3 id="session-1-getting-to-know-a-protector">
 Session 1: Getting to know a Protector
 <a href="#session-1-getting-to-know-a-protector" class="heading-anchor">#</a>
@@ -296,7 +299,8 @@ Session 1: Getting to know a Protector
 Session 2: Deepening a relationship with an Exile
 <a href="#session-2-deepening-a-relationship-with-an-exile" class="heading-anchor">#</a>
 </h3>
-<p><em>In this session, I was picking up where I had left off previously with an Exile. It’s typical to return to the same part across multiple sessions.</em></p>
+<p>{TODO: NEED TO FIND SOMETHING LESS VULNERABLE / LESS OF A BUMMER IF MY PARENTS READ THIS}
+<em>In this session, I was picking up where I had left off previously with an Exile. It’s typical to return to the same part across multiple sessions.</em></p>
 <p><strong>Nick</strong>: So I&rsquo;d like to check in with the soccer player and see how he&rsquo;s doing today. So I&rsquo;m just settling in. Finding him in my lower abdomen, the left side. I feel some energy there, but I am not quite yet in contact with him.</p>
 <p><strong>System:</strong> This appears consistent with the &ldquo;Lonely Soccer Player&rdquo; part in the data. Please proceed with the next steps to establish contact.</p>
 <p><em>The system recognizes the part Nick is describing.</em></p>
@@ -388,30 +392,44 @@ Generating a parts map with Midjourney
 <a href="#generating-a-parts-map-with-midjourney" class="heading-anchor">#</a>
 </h3>
 <!-- raw HTML omitted -->
-<p><label for="marginnote-1" class="margin-toggle marginnote-ind">⊕</label>
-<input type="checkbox" id="marginnote-1" class="margin-toggle"/>
+<p><em>Self-Therapy</em> makes wonderful use of illustrations, drawn by Karen Donnelly.<label for="marginnote-4" class="margin-toggle marginnote-ind">⊕</label>
+<input type="checkbox" id="marginnote-4" class="margin-toggle"/>
 <span class="marginnote">
-<!-- raw HTML omitted --><img src="/sandy.png" alt="Sandy">Sandy&rsquo;s Pyche, from <em>Self-Therapy</em><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><img src="https://nsbarr.github.io/sandy.png" alt="Sandy">Sandy&rsquo;s Pyche, from <em>Self-Therapy</em><!-- raw HTML omitted -->
 </span>
-
-<em>Self-Therapy</em> makes wonderful use of illustrations, credited to Karen Donnelly. They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.</p>
-<p>So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style similar to the book, I landed on this prompt:</p>
+ They helped me understand some of the key concepts of the IFS model. They also pointed out the imaginal nature of parts work – we come to understand our parts not intellectually so much as by actually seeing them and taking them in.</p>
+<p>So I turned to Midjourney, an AI-powered image generation tool, to illustrate my inner world. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:</p>
 <blockquote>
 <p>black and white pencil sketch of {part description}, dreamlike illustration, harsh realism, storybook illustration, emphasizes emotion over realism, nightmare, detailed sketches</p>
 </blockquote>
 <p>That produced helpful illustrations for parts like Worried Boy, Furry Friend, Dark Blanket, and Clenched Fist, seen below:</p>
-<p>Here, the benefit of structured data over static worksheets becomes clear. By making use of the  data in the system, a mature product would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts on the map.</p>
-<p>A more opinionated parts map could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet.</p>
-<p>The video below hints at some possible directions for a parts map:</p>
-<p>{TODO: RECORD VIDEO OF CLICKABLE PROTOTYPE}</p>
-<p><img src="Augmented%20Self-Therapy%20How%20I%E2%80%99m%20Using%20ChatGPT,%20Whis%2095715103f4dc41bc9858665c5fa852f1/Frame_9.png" alt="Frame 9.png"></p>
-<h2 id="challenges-limitations-next-steps">
-Challenges, limitations, next steps
-<a href="#challenges-limitations-next-steps" class="heading-anchor">#</a>
+<p>Constructing a parts map is a common practice in IFS. In the <em>Self-Therapy Workbook</em>, Bonnie Weiss writes:</p>
+<blockquote>
+<p>Many people find it very helpful to map their parts. Mapping can clarify relationships between parts, flesh out the number of parts at a trailhead, illuminate the protective system, illustrate which parts are central to the system and which are peripheral, show where parts stand in terms of their relationship to the Self, and much more.</p>
+</blockquote>
+<blockquote>
+<p>Mapping can be done when you are just beginning to get to know your system. You can check in periodically with the original map to see how things have changed as you keep working. You can also use parts mapping as an ongoing tool for visually tracking your internal work and deciding where to focus your attention.</p>
+</blockquote>
+<blockquote>
+<p>There are many ways to map your system. One way is to use a large sheet of paper and write down the names or images of the parts as you know them. You can draw lines or arrows to illustrate the relationships.</p>
+</blockquote>
+<p>Here, the benefit of structured data over static worksheets becomes apparent. With a little work, the system would be able to automatically generate a parts map, illustrating parts and their relationships on a canvas. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts. A more opinionated system could go further, nudging the individual to revisit parts that haven’t been worked on for some time, or pointing out opportunities to build relationships between parts that don’t know each other yet.</p>
+<p>For now, {TODO FINISH}</p>
+<h2 id="discussion">
+Discussion
+<a href="#discussion" class="heading-anchor">#</a>
 </h2>
-<p>{TODO: WHY AM I WRITING THIS SECTION?}</p>
-<p>I built this prototype for myself. It caters to my own preferences. But I’ve had enough success using it that I do wonder if it would be helpful to others practicing self-therapy in the IFS model.</p>
+<h3 id="the-ikea-effect-and-other-caveats">
+The IKEA effect and other caveats
+<a href="#the-ikea-effect-and-other-caveats" class="heading-anchor">#</a>
+</h3>
+<p>I built this system for myself. I&rsquo;ve tuned it to my own preferences over the course of several sessions, such that it now suits me quite well.</p>
+<p>But I’ve had enough success using it that I do wonder if it would be helpful to others practicing self-therapy in the IFS model.</p>
 <p>Many thousands of people do this: the “IFS Self-Healers Community” Facebook Group has more than 5,000 members; “IFS Parts Art” has more than 7,000. Perhaps many more people would practice self-therapy if they had tools that supported their practice and made it more feasible.</p>
+<h3 id="questing-for-coziness">
+Questing for coziness
+<a href="#questing-for-coziness" class="heading-anchor">#</a>
+</h3>
 <p>I have the following hesitations about pursuing the idea any further by building a shareable prototype: caring for the security of highly sensitive information; finding a price point that covers the costs of maintaining the service; needing to explain to others how AI is used and how it isn’t; appearing to be an AI advocate.</p>
 <p>Most notably, a sufficiently motivated individual can do almost everything I’ve accomplished here in a few hours work, especially if they use the system prompts I’ve provided as a starting point.</p>
 <p>For that reason, I’ve chosen to document the entire process as thoroughly as I can, with the hopes that this work may inform those interested in practicing or building in the AI-supported mental health space.</p>
@@ -423,15 +441,10 @@ Challenges, limitations, next steps
 <p>The conversational paradigm is a very powerful one, but by no means the only option that would have worked here. One could imagine, for example, a “smart worksheet” filling out itself as the individual speaks, with no conversational interface at all.</p>
 <p>Midjourney and the parts map are all done manually right now; as of writing Midjourney doesn’t offer an API, so an automatically generated parts map would need to use another image-generating service.</p>
 <p>Midjourney feels like a weak link, for reasons beyond its technical limitations. I just don’t know if it contributes to my wellbeing. To be sure, it’s <em>fun –</em> it makes the whole system more vivid, more memorable, more gamelike. Squint at the parts map and maybe you can see the “Harvest Moon for therapy” idea. But I do wonder if I’m missing something by not drawing parts myself – the  field of art therapy is not one I’m familiar with. (Of course, it’s not either/or: a mature product could populate parts with default illustrations and encourage the individual to add their own.)</p>
-<h1 id="conclusion">
+<h2 id="conclusion">
 Conclusion
 <a href="#conclusion" class="heading-anchor">#</a>
-</h1>
-<p>{TODO}</p>
-<h1 id="references">
-References
-<a href="#references" class="heading-anchor">#</a>
-</h1>
+</h2>
 <p>{TODO}</p>
 </section>
   <section><footer class="page-footer">
