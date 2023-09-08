@@ -64,7 +64,7 @@ Historically, I've found this very difficult to do on my own. I seem not to be a
   alt=""
 >}}
 
-But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them fully solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. Following a worksheet presents its own limitations. {{< marginnote >}}![Papers Please](/papers-please.png) [*Papers, Please*](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.{{< /marginnote >}}Personally, I find that worksheets are contraindicated with emotional depth. Filling out a form about a part brings to mind interrogation, not intimacy. Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don't have a way to formalize connections.
+But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them adequately solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. Following a worksheet presents its own limitations. {{< marginnote >}}![Papers Please](/papers-please.png) [*Papers, Please*](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.{{< /marginnote >}}Personally, I find that worksheets are contraindicated with emotional depth. Filling out a form about a part brings to mind interrogation, not intimacy. Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the connections between parts – who protects who, who is polarized with who, who fears who – worksheets don't have a way to formalize connections.
 
 The ability to do inner work on one's own is an essential part of the IFS model. In the foreword to *Self-Therapy*, Richard Schwartz writes:
 
@@ -89,7 +89,7 @@ Artificial empathy is worthy of research. Millions of people have no one they ca
 
 At best, these interactions with therapy chatbots afford "a temporary developmental container" that lets us rehearse for relationships with real people. At worst, they can erode our capacity to deal with the messiness of reality, and confuse us into making technology responsible for our own wellbeing.
 
-Thankfully, IFS is unambiguously opposed to transitional objects. Even when working with a therapist, it is never the therapist's Self that does the healing; their work is always in service of fostering the client's ability to access their own Self-energy so that the client's Self can heal the client's parts. Any AI-assisted practice environment for IFS must follow suit.
+Thankfully, IFS is unambiguously opposed to transitional objects. Even when working with a therapist, it is not the therapist's job to offer healing, insight, or even sympathy; their work is always in service of fostering the client's ability to access their own Self-energy so that the client's Self can heal the client's parts. Any AI-assisted practice environment for IFS must follow suit.
 
 ### Enter the superprompt
 
@@ -111,7 +111,7 @@ This is the system prompt that I am currently using, after several rounds of ite
   alt=""
 >}}
 
-To be clear, though the system prompt reads like a set of instructions, the system itself doesn't have concepts like rulesets or symbolic logic. For any given sequence of words – whether it's a system prompt or input from the user – LLMs like ChatGPT "simply" predict the next word. I put "simply" in quotes because this prediction involves many thousands of operations in a many-thousand dimensional vector space. Nobody programmed these operations; instead, they emerged from training neural networks on billions of words of training data. In this way, LLMs appear simultaneously simple and inscrutable, dumb and eerily smart. The implications of all this are the subject of intense debate and research.{{< sidenote >}}Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /sidenote >}}
+To be clear, though the system prompt reads like a set of instructions, the system itself doesn't have concepts like rulesets or symbolic logic. For any given sequence of words – whether it's a system prompt or input from the user – LLMs like ChatGPT "simply" predict the next word. I put "simply" in quotes because this prediction involves many thousands of operations in a many-thousand dimensional vector space. Nobody programmed these operations; instead, they emerged from training neural networks on billions of web pages. In this way, LLMs appear simultaneously simple and inscrutable, dumb and eerily smart. The implications of all this are the subject of intense debate and research.{{< sidenote >}}Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /sidenote >}}
 
 Putting aside philosophical and existential concerns for the moment, I am astonished at how well the system adheres to these instructions, and how wonderfully it enhances my inner work. To see it in action, we will look at the transcripts of three self-therapy sessions I conducted. My comments are in italics.  
 
@@ -188,128 +188,8 @@ Putting aside philosophical and existential concerns for the moment, I am astoni
 *Nick decides to end the session. The system generates structured data that summarizes the essential qualities of the part. This data is saved across sessions, so in a future session Nick can do further work on this part, or learn how it relates to other parts.*
 
 ### Session 2: Deepening a relationship with an Exile
-{TODO: NEED TO FIND SOMETHING LESS VULNERABLE / LESS OF A BUMMER IF MY PARENTS READ THIS}
-*In this session, I was picking up where I had left off previously with an Exile. It’s typical to return to the same part across multiple sessions.* 
+{TODO: NEED TO FIND SOMETHING LESS VULNERABLE / MAYBE USE SOMEONE ELSE}
 
-**Nick**: So I'd like to check in with the soccer player and see how he's doing today. So I'm just settling in. Finding him in my lower abdomen, the left side. I feel some energy there, but I am not quite yet in contact with him.
-
-**System:** This appears consistent with the "Lonely Soccer Player" part in the data. Please proceed with the next steps to establish contact.
-
-*The system recognizes the part Nick is describing.*
-
-**N:** I guess just first I want to ask if there's any concerned parts that would object to me checking in. I can feel the clenched fist in my chest. Just wants me to know that it's there, it doesn't have a problem. It's happy that I'm checking in with a soccer player. Just some pressure in the temples. All that's fine. I'm going to go back in. I think the soccer player is aware of me, but he doesn't really want to look at me yet. He's very discouraged.
-
-**S:** Your data indicates contact with the "Lonely Soccer Player". The emotional feeling is discouragement. The "Clenched Fist" part is also present but not inhibiting the process. Proceed with inquiry or comfort as you find suitable.
-
-**N:** I could use some help just with inquiry, what are some of the questions that might help me deepen my contact with the soccer player?
-
-*Nick is having trouble establishing contact with the Exile, and requests more guidance from the system.*
-
-**S:** Here are some questions to help deepen contact with the "Lonely Soccer Player" part: 1. Who are you? 2. What do you do? 3. What would you like to be called? 4. How old are you? 5. What are you feeling? 6. What makes you feel that way? 7. What would you like me to witness?
-
-*The system accurately retrieves the relevant steps for deepening the relationship with the Exile.*
-
-**N:** Well, he's like, I play soccer. He wants me to know the strangeness of his experience of being really, really good at soccer and yet, you know, his dad is like not, there's this talent that nobody's really nurturing or celebrating, so the game ends and he's just sitting there by himself. He really wants someone to just put his arm around him and say, like, great game. That pass you made was amazing. As he's saying that, I feel, I noticed just a kind of flash of questioning, like, wait, did really nobody say that? And so I'm just noticing that, but I mean, it's clear that the soccer player really didn't feel it and didn't hear it, and he's a little bit bashful now, but he's like, maybe we could call me the soccer star, because he really is, I mean, he's a soccer star. He's like a prodigious young talent, really gifted and a very generous player, too, sees the whole field, involves everybody, kind of like a real artist on the field. I'm just telling him now that I see all that and I really think it's special. Getting a little bit lost now and just like, should I be playing soccer now and like all that stuff, so I'm kind of losing contact a little bit.
-
-**S:** Current data: 1. The "Lonely Soccer Player" part identifies as a soccer player who excels in the game but feels his talent is unnoticed. 2. He would appreciate acknowledgment and celebration of his skills, indicating a need for validation and recognition. 3. He suggests the name "Soccer Star", reflecting his self-perception and aspirations. 4. The part feels bashful about his desires. 5. Loss of contact indicates potential blending with the part. To unblend, you might step back, observe the part from a distance, and reconnect with your compassionate self.
-
-**N:** Yeah, it's not just validation and recognition, but it's also like this part really wants like a champion. Someone who like believes in him so much. And I mean, I want to be that champion now. I'm gonna speak up for the soccer star and say like, you have a really incredible gift for like, orchestration and kind of creative genius. And that kind of athletic artistry. I guess I'm curious, like, what do you what do you want to do with it? Like, do you want to keep playing soccer? Where do you want to take this? But as I ask that, I don't feel like the soccer star has yet really turned to face me.
-
-**S:** Your data indicates that the "Soccer Star" desires a champion, someone who immensely believes in him. You are expressing willingness to be that champion. The part's desire goes beyond recognition and validation, it includes advocacy and support. You have initiated dialogue about his future intentions regarding soccer, but there seems to be some hesitation or reluctance from the part to fully engage. Continue with gentle curiosity and openness.
-
-**N:** Yeah, so I'm just going to sit with him. And as soon as I do it, he puts his head on my shoulder. I feel like really what he needs right now is just someone to share this loneliness with. I can definitely do that because I'm lonely too. So we can be lonely together for a little bit. He's showing me a little bit something about my dad slamming a car door. He's also showing me going to get slushies at 7-Eleven after games, a feeling of taking shin guards off, going to McDonald's, going to Pizza Hut, all the trophies on my wardrobe. He's showing me an earlier memory of winning that soccer game and Klaus, my other soccer coach giving me a big hug, shouting like, Nick! That just felt so good to be recognized and, yeah, there's poignancy in it because it wasn't my dad, it was another coach. There's embarrassment and shame because of this interaction where the assistant coach asked me to throw in the ball, and I said, I don't do throw-ins. My parents just like ripped into me for that. My dad and my mom were so embarrassed that I said that and all of this stuff. And it's like, I don't do throw-ins. Somehow, that has really become almost like a turning point. All the amazing things I did and all the effort and all the beautiful soccer, but the thing that really prevails in terms of my parents giving me feedback is how embarrassed they were that I said that. I don't do throw-ins. And now that I'm saying it back, it's like, is it really that bad? An 11-year-old kid, I don't do throw-ins. I don't know. What I would say to him is like, hey, you know, I know that your position isn't throwing but like when you get to college level soccer, which I really, you know, if you want to, I think you really could do. Everyone does everything and you don't know what position you're going to play. So I think it's really good to start practicing throw-ins and just make sure that you show up like a team player. I know you are. And also, like, tell me what what was happening there. And I think, you know, I think there's a part of him that feels like that assistant coach is incompetent. And frankly, like he kind of learned it from his dad. I think my dad would in private sort of say that this assistant coach wasn't any good. Maybe that's why they were so embarrassed, because they knew that my kind of condescension toward him came from them.
-
-*Nick begins to bear witness to the stories and memories that the Exile has been holding onto.*
-
-**S:** Your data reveals: 1. The "Soccer Star" opens up more when you share his loneliness, suggesting a deep need for connection and shared understanding. 2. He shares various memories related to his soccer experience: some positive (winning games, recognition from another coach), others negative or complex (parental embarrassment over a specific incident). 3. The part has strong feelings relating to parental feedback and approval. 4. The comment "I don't do throw-ins" seems significant, carrying a weight of meaning and judgment. 5. You offer understanding, reframe the incident, and express belief in his potential. 6. There's some unprocessed feeling towards the assistant coach and parents' attitudes. Continue with exploration and validation as you see fit.
-
-**N:** Yeah, I can still feel just the, his head on my shoulder and just asking him now what else he'd like me to hear, what else he'd like me to witness. He kind of lit up at some point when I was talking about college soccer and I guess I'm a little bit confused now in this work because of course I'm, we're not in college anymore. We're 38 almost. And so I wonder if this part knows how old I am. Yeah, maybe that's just a good thing to check on and see if, yeah. Let's see if the soccer star is 11, then I'd be a perfectly reasonable father, which is a little silly for both of us to think about. To have an 11 year old. Yeah. But if he were my son, I would, yeah, we would be going out and having a really good time and I would just love to give him pep talks and encouragement and positive feedback, positive validation, because I know that he wants it and he deserves it. And this fear of the sense of inflation, I think is that my parents had is misguided. The inflation came because nobody was giving me positive feedback, so I had to sort of make up my own. So, yeah, I'm sorry. I want the soccer star to know that I'm sorry that he didn't get that love and that reflection back. And I want to give it. And I, I want his midfielder energy to continue to flourish now. I can see maybe how my work right now is a bit lonely. It's hard for a midfielder to work alone. So I want to end the session now, but I just want to note that I'm going to try to find some more ways for midfielder energy to come into my life. And I'm going to see if that's okay with the soccer star to in there, if he wants to kind of come with me, where he wants to hang out in my body. I'm feeling more presence in my chest. So yeah, maybe he's going to hang out in my heart area for, for now. Okay. This feels like a good place to stop.
-
-**S:** 
-
-```json
-[...]
-{
-    "name": "Lonely Soccer Player",
-    "type": "Exile",
-    "emotional_feeling": "Sadness, loneliness",
-    "appearance": "An 11-year-old boy, sitting alone in a parking lot by a soccer field at dusk",
-    "bodily_sensation": {
-        "feeling": "Sadness, loneliness",
-        "location": "Lower left abdomen"
-    },
-    "speech": "Non-verbal, expresses a need to be seen, acknowledged, and appreciated for his gentleness, sensitivity, and soccer skills.",
-    "behavior_influence": "This part influences feelings of under-appreciation and a desire for recognition and love."
-},
-{
-    "name": "Soccer Star",
-    "type": "Exile",
-    "emotional_feeling": "Loneliness, sadness",
-    "appearance": "An 11-year-old boy, exceptional at soccer, but feels unnoticed",
-    "bodily_sensation": {
-        "feeling": "Relaxation, comfort",
-        "location": "Heart"
-    },
-    "speech": "Shares soccer memories, both highs and lows. Wants a champion, someone who believes in him.",
-    "behavior_influence": "Influences feelings regarding past achievements, regrets, and aspirations."
-}
-```
-
-**N:** I'd like to just make one edit to the data for the soccer star, he, you know, when there's healing, there's relaxation in the heart, opening in the heart, softening in the heart, that's all true, but he also kind of like lives when he's alone, he lives in the lower abdomen. Can you please just update the data to reflect that?
-
-*Nick initially just notices the Soccer Star in the data, and requests a change in how that data is captured.*
-
-**S:** 
-
-```json
-{
-    "name": "Lonely Soccer Player",
-    "type": "Exile",
-    "emotional_feeling": "Sadness, loneliness",
-    "appearance": "An 11-year-old boy, sitting alone in a parking lot by a soccer field at dusk",
-    "bodily_sensation": {
-        "feeling": "Sadness, loneliness",
-        "location": "Lower left abdomen"
-    },
-    "speech": "Non-verbal, expresses a need to be seen, acknowledged, and appreciated for his gentleness, sensitivity, and soccer skills.",
-    "behavior_influence": "This part influences feelings of under-appreciation and a desire for recognition and love."
-},
-{
-    "name": "Soccer Star",
-    "type": "Exile",
-    "emotional_feeling": "Loneliness, sadness",
-    "appearance": "An 11-year-old boy, exceptional at soccer, but feels unnoticed",
-    "bodily_sensation": {
-        "feeling": "Relaxation, comfort",
-        "location": "Lower left abdomen"
-    },
-    "speech": "Shares soccer memories, both highs and lows. Wants a champion, someone who believes in him.",
-    "behavior_influence": "Influences feelings regarding past achievements, regrets, and aspirations."
-}
-```
-
-**N:** Sorry, my mistake. I'm realizing what the problem is now is that there's two, there's two exiles in the data, the lonely soccer player and the soccer star. Those need to be merged into just one exile. That exile should be called soccer star. So just, just merge those two, please. And, um, just wherever possible add, add context. So, um, just take your best shot at, at merging those two.
-
-*After the update, Nick realizes that there are two entries for a single part, and asks for them to be merged.*
-
-**S:**
-
-```json
-{
-    "name": "Soccer Star",
-    "type": "Exile",
-    "emotional_feeling": "Sadness, loneliness, discouragement",
-    "appearance": "An 11-year-old boy, sitting alone in a parking lot by a soccer field at dusk, but feels a strong sense of talent and passion for soccer",
-    "bodily_sensation": {
-        "feeling": "Sadness, loneliness, relaxation, comfort",
-        "location": "Lower left abdomen"
-    },
-    "speech": "Non-verbal and verbal, expresses a need to be seen, acknowledged, and appreciated for his gentleness, sensitivity, and soccer skills. Shares soccer memories, both highs and lows. Wants a champion, someone who believes in him.",
-    "behavior_influence": "This part influences feelings of under-appreciation, a desire for recognition and love, and memories of past achievements and regrets."
-}
-```
-
-*The system adequately merges the two parts. This interaction shows the importance of giving the user visibility into the structured data, so that they can catch any misinterpretations the system makes.*
 
 ### Generating a parts map with Midjourney
 <!--{{< marginnote ind="⊕" >}}<span id="activation">![Activation](/activation.png) Activating a Part in Order to Access It, from *Self-Therapy*</span>{{< /marginnote >}}-->
@@ -383,12 +263,76 @@ Structured but fluid
 
 ### Limitations of the practice environment
 
+From the start, I set out to create an AI system that would not attempt to perform the trademark "8 Cs" of Self-energy: compassion, creativity, curiosity, confidence, courage, calm, connectedness, and clarity. As a result, the practice environment fails in situations that require more Self-energy than the individual currently has available.
+
+These situations fall into two categories, on opposite sides of a spectrum of depth. On the shallow side, the practice environment is not suited for beginners to IFS specifically, and to the concept of parts generally. It takes training and potentially a guide to take the first step of noticing that our mind consists of subpersonalities, and that these subpersonalities have beliefs, hopes, and fears that are important for us to receive. On the deep side, the practice environment is not suited for the deepest healing of exiles, in which another person's healing energy can be indispensable. Consider this snippet of work that Dick Schwartz did with a long-time client, a Vietnam war veteran who had sever anger issues. At this moment, the client is approaching a group of shadowy spirits surrounding the body of his deceased brother: 
+
+Schwartz: Tell them it’s you appreciate them carrying all that stuff and we really want to help them with it. 
+Client: They’re saying it’s about time, we’re tired. 
+S: Yeah, it is. Are they still bouncing around? 
+C: Almost seems like they stopped to take notice. 
+S: Can you count how many of them there are? more than 10? 
+C: Absolutely.
+S: Reassure them we’re here to help them. We may not be able to help them all today, but we do what to help
+them all. How are they reacting? 
+C: Very interested
+S: Probably best to go one at a time or all of them who are connected to a certain scene in the past. Is that ok?
+They can talk about it and decide who can go first. One or a group. 
+C: There's a group centered around my brother
+S: How are you feeling toward them? 
+C: I just want to talk to them. 
+S: Good. Is it okay if just that group comes out of the room and comes closer to you? 
+C: Yes. 
+S: Lets bring out that group connected to your brother. 
+C: It’s like there’s one senior and numerous younger, smaller
+ones.
+S: Are you feeling some caring for these guys? 
+C: Yeah. 
+S: Let them know you really care about them and keep doing that til they start to trust us.
+(silence) How’s it going? Do they trust? 
+C: Yeah. 
+S: So would you be up for looking at what they need you to see about your
+brother? 
+C: Yes. 
+S: Ask them to not totally overwhelm you with feelings, so you can be with them.
+C: When they brought my brother back I was at Pendleton. They flew me back to Illinois for 3 days I stood at the head of
+his casket in my dress blues and I didn’t move. For years I was a marine and not a brother or son. I wasn’t much
+help to my parents. I'm sorry for that. Now it’s too late. At the cemetery when they played taps, I cried so hard
+inside that no tears came out. Going back to the house. My grandmother said. I wonder if he felt any pain. I remember
+my mother screaming. All I wanted to do was rip my uniform off and run.
+S: I'd like you to enter that scene with that young man and be there for him. What ever he heeds, just be there
+with him. Can you do that? 
+C: Yeah. He needs to cry. 
+S: Can you help him see it’s safe to cry? 
+C: I have to take him out of the uniform. 
+S: Great. Do that. 
+C: (sobs) Yeah. It’s almost like there’s a light. 
+S: Yeah, that’s right. 
+C: Even though the pain is tremendous, there’s a brighter point later. 
+S: That’s right. You’re doing great. 
+C: Down on his knees, doubled up. 
+S: That’s great. You be with him. 
+C: I’m holding him telling him it’s okay. 
+
+Schwartz's quality of compassion, of being there, would be difficult to effectively formalize into a system prompt. 
+
+Between these bookends of depth, the practice environment works better. Initial user testing with 4 volunteers suggest a kind of bell curve of utility: 
+
+
+
+
 Not for beginners
+
+Not for the deepest work
+
+Tailored
+
+
 
 ### Future directions
 
 
-
+### Results of user testing
 
 
 ### The IKEA effect and other caveats
@@ -416,5 +360,4 @@ Midjourney and the parts map are all done manually right now; as of writing Midj
 
 Midjourney feels like a weak link, for reasons beyond its technical limitations. I just don’t know if it contributes to my wellbeing. To be sure, it’s *fun –* it makes the whole system more vivid, more memorable, more gamelike. Squint at the parts map and maybe you can see the “Harvest Moon for therapy” idea. But I do wonder if I’m missing something by not drawing parts myself – the  field of art therapy is not one I’m familiar with. (Of course, it’s not either/or: a mature product could populate parts with default illustrations and encourage the individual to add their own.)
 
-## Conclusion
-{TODO}
+### Conclusion
