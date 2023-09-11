@@ -261,11 +261,13 @@ Structured but fluid
 - going on tangents
 - renaming parts
 
-### Limitations of the practice environment
+### Limitations to a digital practice partner
 
-From the start, I set out to create an AI system that would not attempt to perform the trademark "8 Cs" of Self-energy: compassion, creativity, curiosity, confidence, courage, calm, connectedness, and clarity. As a result, the practice environment fails in situations that require more Self-energy than the individual currently has available.
+From the start, I set out to create an AI system that would not attempt to perform the trademark "8 Cs" of Self-energy: compassion, creativity, curiosity, confidence, courage, calm, connectedness, and clarity. In fact, as the system prompt shows, I explicitly instructed it not to perform empathetic speech, and instead focus on efficiency and accurate synthesis.  As a result, the practice environment breaks down in situations that require more Self-energy than the individual currently has available.
 
-These situations fall into two categories, on opposite sides of a spectrum of depth. On the shallow side, the practice environment is not suited for beginners to IFS specifically, and to the concept of parts generally. It takes training and potentially a guide to take the first step of noticing that our mind consists of subpersonalities, and that these subpersonalities have beliefs, hopes, and fears that are important for us to receive. On the deep side, the practice environment is not suited for the deepest healing of exiles, in which another person's healing energy can be indispensable. Consider this snippet of work that Dick Schwartz did with a long-time client, a Vietnam war veteran who had sever anger issues. At this moment, the client is approaching a group of shadowy spirits surrounding the body of his deceased brother: 
+These situations fall into two categories, on opposite sides of a spectrum of depth. On the shallow side, the practice environment is not suited for beginners to IFS specifically, and to the concept of parts generally. It takes training and potentially a guide to take the first step of noticing that our mind consists of subpersonalities, and that these subpersonalities have beliefs, hopes, and fears that are important for us to receive. On the deep side, the practice environment is not suited for the deepest healing of exiles, in which another person's healing energy can be indispensable.
+
+Consider this snippet of work that Dick Schwartz did with a long-time client, a Vietnam war veteran who had severe anger issues. At this moment, the client is approaching a group of shadowy spirits surrounding the body of his deceased brother: 
 
 Schwartz: Tell them it’s you appreciate them carrying all that stuff and we really want to help them with it. 
 Client: They’re saying it’s about time, we’re tired. 
@@ -284,8 +286,7 @@ C: I just want to talk to them.
 S: Good. Is it okay if just that group comes out of the room and comes closer to you? 
 C: Yes. 
 S: Lets bring out that group connected to your brother. 
-C: It’s like there’s one senior and numerous younger, smaller
-ones.
+C: It’s like there’s one senior and numerous younger, smaller ones.
 S: Are you feeling some caring for these guys? 
 C: Yeah. 
 S: Let them know you really care about them and keep doing that til they start to trust us.
@@ -327,7 +328,17 @@ Not for the deepest work
 
 Tailored
 
+### Limitations to the conversational medium 
 
+Why did ChatGPT explode in popularity? One reason was the launch of GPT 3.5, which was a significant improvement over GPT 3. But another reason was that OpenAI made a massive design change. Previous versions of GPT were built around the paradigm of autocomplete; a user could write any text, and the interface would “complete” the text – continue some dialog, finish writing an essay, or carry out the rest of a task. With ChatGPT, OpenAI rolled out a simple chat interface. Under the hood, things were the same. But the experience users had was now one of a conversation; a back-and-forth with someone, or something, on the other side.
+
+We humans are irresistibly drawn to conversation. As IFS reveals, we don’t merely engage in external dialog with friends, family, and colleagues. Our interior worlds are also profoundly conversational, with subpersonalities engaging in relentless and often combative internal dialog. So, part of ChatGPT’s popularity derived from its ability to tap into our innate predisposition for conversation. For systems using the OpenAI API, the temptation to build a chat interface is twofold: first, because of the familiarity and affinity users have for chatting, and second, because it is the easiest and most natural way to work with the technology. 
+
+But when it comes to inner work, the conversational medium has several drawbacks that have emerged in user testing:
+
+* Interruptive. The system only supports voice input. I made this design choice because I process my feelings verbally, and I knew that I would be able to stay connected with the work better if I was speaking rather than writing. Even so, the system involves several interruptive elements. First, unlike a natural conversation, the user must decide when to click Record, and when to click Send. As one tester said, “I’m noticing some friction with the Record button.” When the user does click Send, it can take up to a minute for the system to transcribe their speech and generate a response. Because I’m familiar with the system, I use that time to continue the inner work. But for testers, it was more intuitive to just look at the screen and patiently wait. To improve this process, we would want more of a streaming experience, in which the whole session is recorded, and the system just knows when to chime in with reflection or guidance. Currently, such an experience would be technically difficult to accomplish, because of cost and speed restrictions. But “streaming intelligence” is likely around the corner. 
+* Directive. When someone asks you a question, you answer it. In this way, questions are actually a kind of implicit command. As a result, any question that the system acts, no matter how helpful it’s intended, constitutes a request of the user. Consider this exchange that a tester – we’ll call him Jason – had with the interface during his initial session:Jason: Okay, here we go. Start talking to begin my session. Yes, I guess I would treat this as a normal session. I suppose I had actually just finished one of my Gestalt therapy sessions and I feel a desire to process some stuff around my partner and I feel quite conflicted in whether I am clinging on to a relationship that perhaps is not actually there. Yeah, so let’s see where that gets me.System: To begin, please describe a part related to your feelings about your relationship. Include the part’s appearance, emotional feeling, how it feels in your body and where, what it says and its desire or goal.Jason immediately recognized this as a poor response. “My therapist lens already comes on. It's like, wow, this is a lot to go into very fast.” To be sure, tactical changes to the system prompt can help here; for example, the system could be instructed to “Only ask one or two questions at a time,” or “Give one or two next steps, in the form of ‘Possible places to explore are the x, or y.”But these are just band-aids on a deeper drawback to the conversational medium, which is that it is a “single-thread” interface; it doesn’t afford unobtrusive interventions like hints, recommendations, ideas, or guesses. Jeffrey Heer calls such nudges “a ‘search frontier’ sensitive to a user’s current focus and goals, with automated support parameterized by observations of user behavior.“
+* Deceptive.
 
 ### Future directions
 
