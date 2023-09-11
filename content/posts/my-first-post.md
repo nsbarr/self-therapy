@@ -187,10 +187,6 @@ Putting aside philosophical and existential concerns for the moment, I am astoni
 
 *Nick decides to end the session. The system generates structured data that summarizes the essential qualities of the part. This data is saved across sessions, so in a future session Nick can do further work on this part, or learn how it relates to other parts.*
 
-### Session 2: Deepening a relationship with an Exile
-{TODO: NEED TO FIND SOMETHING LESS VULNERABLE / MAYBE USE SOMEONE ELSE}
-
-
 ### Generating a parts map with Midjourney
 <!--{{< marginnote ind="⊕" >}}<span id="activation">![Activation](/activation.png) Activating a Part in Order to Access It, from *Self-Therapy*</span>{{< /marginnote >}}-->
 
@@ -242,6 +238,29 @@ For now, I maintain my parts map in the design tool Figma, separate from the pra
 
 ### Benefits of the practice environment
 
+I built this system for myself. I've tuned it to my own preferences over the course of several sessions, such that it now suits me quite well. 
+
+Always available
+
+Brings structure to unstructured thought. One of the most remarkable properties of the system is its ability to bring structure to unstructured speech. As one
+
+Flexibility 
+
+Interactive representations of data
+
+Makes connections across sessions
+
+
+**Structures unstructured thought.**
+
+LLMs are remarkably good at converting unstructured data into structured data. In the context of this system, that means taking unfiltered emotional content and reflecting back the essential points. As one tester said after the system succintly summarized his monologue, "Wow, what the hell? My God, it filtered out my fluff!" This is an area where the system shines, allowing it to quickly build trust with the individual: "I feel more comfortable knowing how this works now, knowing that I can just kind of "blah" out all of my junk and it'll just pick up the relevant pieces."
+
+**Fluid structures**
+
+In my parts work 
+
+
+
 Enables a deep, consistent practice 
 - talking out loud actually helps (rubber ducking)
 - active listening helps
@@ -261,18 +280,35 @@ Structured but fluid
 - going on tangents
 - renaming parts
 
+### Limitations to the conversational medium 
+
+Why did ChatGPT explode in popularity? One reason was the launch of GPT 3.5, which was a significant improvement over GPT 3. But another reason was that OpenAI made a massive design change. Previous versions of GPT were built around the paradigm of autocomplete; a user could write any text, and the interface would “complete” the text – continue some dialog, finish writing an essay, or carry out the rest of a task. With ChatGPT, OpenAI rolled out a simple chat interface. Under the hood, things were the same. But the experience users had was now one of a conversation; a back-and-forth with someone, or something, on the other side.
+
+We humans are irresistibly drawn to conversation. As IFS reveals, we don’t merely engage in external dialog with friends, family, and colleagues. Our interior worlds are also profoundly conversational, with subpersonalities engaging in relentless and often combative internal dialog. So, part of ChatGPT’s popularity derived from its ability to tap into our innate predisposition for conversation. For systems using the OpenAI API, the temptation to build a chat interface is twofold: first, because of the familiarity and affinity users have for chatting, and second, because it is the easiest and most natural way to work with the technology. 
+
+But when it comes to inner work, the conversational medium has several drawbacks that have emerged in user testing:
+
+* Interruptive. The system only supports voice input. I made this design choice because I process my feelings verbally, and I knew that I would be able to stay connected with the work better if I was speaking rather than writing. Even so, the system involves several interruptive elements. First, unlike a natural conversation, the user must decide when to click Record, and when to click Send. As one tester said, “I’m noticing some friction with the Record button.” When the user does click Send, it can take up to a minute for the system to transcribe their speech and generate a response. Because I’m familiar with the system, I use that time to continue the inner work. But for testers, it was more intuitive to just look at the screen and patiently wait. To improve this process, we would want more of a streaming experience, in which the whole session is recorded, and the system just knows when to chime in with reflection or guidance. Currently, such an experience would be technically difficult to accomplish, because of cost and speed restrictions. But “streaming intelligence” is likely around the corner. 
+
+* Directive. When someone asks you a question, you answer it. In this way, questions are actually a kind of implicit command. As a result, any question that the system acts, no matter how helpful it’s intended, constitutes a request of the user. Consider this exchange that a tester – we’ll call him Jason – had with the interface during his initial session:Jason: Okay, here we go. Start talking to begin my session. Yes, I guess I would treat this as a normal session. I suppose I had actually just finished one of my Gestalt therapy sessions and I feel a desire to process some stuff around my partner and I feel quite conflicted in whether I am clinging on to a relationship that perhaps is not actually there. Yeah, so let’s see where that gets me. System: To begin, please describe a part related to your feelings about your relationship. Include the part’s appearance, emotional feeling, how it feels in your body and where, what it says and its desire or goal.Jason immediately recognized this as a poor response. “My therapist lens already comes on. It's like, wow, this is a lot to go into very fast.” To be sure, tactical changes to the system prompt can help here; for example, the system could be instructed to “Only ask one or two questions at a time,” or “Give one or two next steps, in the form of ‘Possible places to explore are the x, or y.”But these are just band-aids on a deeper drawback to the conversational medium, which is that it is a “single-thread” interface; it doesn’t afford unobtrusive interventions like hints, recommendations, ideas, or guesses. Jeffrey Heer calls such nudges “a ‘search frontier’ sensitive to a user’s current focus and goals, with automated support parameterized by observations of user behavior.“
+
+* Deceptive.
+
 ### Limitations to a digital practice partner
 
 From the start, I set out to create an AI system that would not attempt to perform the trademark "8 Cs" of Self-energy: compassion, creativity, curiosity, confidence, courage, calm, connectedness, and clarity. In fact, as the system prompt shows, I explicitly instructed it not to perform empathetic speech, and instead focus on efficiency and accurate synthesis.  As a result, the practice environment breaks down in situations that require more Self-energy than the individual currently has available.
 
-These situations fall into two categories, on opposite sides of a spectrum of depth. On the shallow side, the practice environment is not suited for beginners to IFS specifically, and to the concept of parts generally. It takes training and potentially a guide to take the first step of noticing that our mind consists of subpersonalities, and that these subpersonalities have beliefs, hopes, and fears that are important for us to receive. On the deep side, the practice environment is not suited for the deepest healing of exiles, in which another person's healing energy can be indispensable.
+These situations fall into two categories, on opposite sides of a spectrum of depth. On the shallow side, the practice environment is not suited for beginners to IFS specifically, and to the concept of parts generally. It takes training and potentially a guide to take the first step of noticing that our mind consists of subpersonalities, and that these subpersonalities have beliefs, hopes, and fears that are important for us to receive. As one therapist who tested the system said, "I would say 75% of my clients who I've worked with for over a year, the first year is still a lot of direct access," meaning that the client's parts require the therapist's Self to move through a session. 
 
-Consider this snippet of work that Dick Schwartz did with a long-time client, a Vietnam war veteran who had severe anger issues. At this moment, the client is approaching a group of shadowy spirits surrounding the body of his deceased brother: 
+On the deep side, the practice environment is not suited for the unburdening of exiles, in which another person's healing energy can be indispensable. To see why, consider this snippet from a session between Dick Schwartz and Tom, a long-time client and Vietnam war veteran who had come to therapy to address severe anger issues. At this moment, the client is approaching a group of shadowy spirits surrounding the body of his deceased brother: https://ifs-institute.com/store/253
 
-Schwartz: Tell them it’s you appreciate them carrying all that stuff and we really want to help them with it. 
-Client: They’re saying it’s about time, we’re tired. 
-S: Yeah, it is. Are they still bouncing around? 
-C: Almost seems like they stopped to take notice. 
+**Dick**: Tell them that you appreciate them carrying all that stuff and we really want to help them with it. 
+
+**Tom**: They’re saying it’s about time, we’re tired. 
+
+**D:**: Yeah, it is. Are they still bouncing around? 
+
+**T**: Almost seems like they stopped to take notice. 
 S: Can you count how many of them there are? more than 10? 
 C: Absolutely.
 S: Reassure them we’re here to help them. We may not be able to help them all today, but we do what to help
@@ -317,58 +353,7 @@ C: I’m holding him telling him it’s okay.
 
 Schwartz's quality of compassion, of being there, would be difficult to effectively formalize into a system prompt. 
 
-Between these bookends of depth, the practice environment works better. Initial user testing with 4 volunteers suggest a kind of bell curve of utility: 
-
-
-
-
-Not for beginners
-
-Not for the deepest work
-
-Tailored
-
-### Limitations to the conversational medium 
-
-Why did ChatGPT explode in popularity? One reason was the launch of GPT 3.5, which was a significant improvement over GPT 3. But another reason was that OpenAI made a massive design change. Previous versions of GPT were built around the paradigm of autocomplete; a user could write any text, and the interface would “complete” the text – continue some dialog, finish writing an essay, or carry out the rest of a task. With ChatGPT, OpenAI rolled out a simple chat interface. Under the hood, things were the same. But the experience users had was now one of a conversation; a back-and-forth with someone, or something, on the other side.
-
-We humans are irresistibly drawn to conversation. As IFS reveals, we don’t merely engage in external dialog with friends, family, and colleagues. Our interior worlds are also profoundly conversational, with subpersonalities engaging in relentless and often combative internal dialog. So, part of ChatGPT’s popularity derived from its ability to tap into our innate predisposition for conversation. For systems using the OpenAI API, the temptation to build a chat interface is twofold: first, because of the familiarity and affinity users have for chatting, and second, because it is the easiest and most natural way to work with the technology. 
-
-But when it comes to inner work, the conversational medium has several drawbacks that have emerged in user testing:
-
-* Interruptive. The system only supports voice input. I made this design choice because I process my feelings verbally, and I knew that I would be able to stay connected with the work better if I was speaking rather than writing. Even so, the system involves several interruptive elements. First, unlike a natural conversation, the user must decide when to click Record, and when to click Send. As one tester said, “I’m noticing some friction with the Record button.” When the user does click Send, it can take up to a minute for the system to transcribe their speech and generate a response. Because I’m familiar with the system, I use that time to continue the inner work. But for testers, it was more intuitive to just look at the screen and patiently wait. To improve this process, we would want more of a streaming experience, in which the whole session is recorded, and the system just knows when to chime in with reflection or guidance. Currently, such an experience would be technically difficult to accomplish, because of cost and speed restrictions. But “streaming intelligence” is likely around the corner. 
-* Directive. When someone asks you a question, you answer it. In this way, questions are actually a kind of implicit command. As a result, any question that the system acts, no matter how helpful it’s intended, constitutes a request of the user. Consider this exchange that a tester – we’ll call him Jason – had with the interface during his initial session:Jason: Okay, here we go. Start talking to begin my session. Yes, I guess I would treat this as a normal session. I suppose I had actually just finished one of my Gestalt therapy sessions and I feel a desire to process some stuff around my partner and I feel quite conflicted in whether I am clinging on to a relationship that perhaps is not actually there. Yeah, so let’s see where that gets me.System: To begin, please describe a part related to your feelings about your relationship. Include the part’s appearance, emotional feeling, how it feels in your body and where, what it says and its desire or goal.Jason immediately recognized this as a poor response. “My therapist lens already comes on. It's like, wow, this is a lot to go into very fast.” To be sure, tactical changes to the system prompt can help here; for example, the system could be instructed to “Only ask one or two questions at a time,” or “Give one or two next steps, in the form of ‘Possible places to explore are the x, or y.”But these are just band-aids on a deeper drawback to the conversational medium, which is that it is a “single-thread” interface; it doesn’t afford unobtrusive interventions like hints, recommendations, ideas, or guesses. Jeffrey Heer calls such nudges “a ‘search frontier’ sensitive to a user’s current focus and goals, with automated support parameterized by observations of user behavior.“
-* Deceptive.
+Between these bookends of depth, the system performs better. One tester, an experienced IFS therapist with a daily practice of her own, clicked Record and proceeded to have a productive twenty-minute session without engaging with the system once. For this tester, the system's role is simply to be a note-taker; to summarize the key points of the session and perhaps suggest a few areas for further exploration.  
 
 ### Future directions
 
-
-### Results of user testing
-
-
-### The IKEA effect and other caveats
-I built this system for myself. I've tuned it to my own preferences over the course of several sessions, such that it now suits me quite well. 
-
-But I’ve had enough success using it that I do wonder if it would be helpful to others practicing self-therapy in the IFS model.
-
-Many thousands of people do this: the “IFS Self-Healers Community” Facebook Group has more than 5,000 members; “IFS Parts Art” has more than 7,000. Perhaps many more people would practice self-therapy if they had tools that supported their practice and made it more feasible.
-
-### Questing for coziness
-I have the following hesitations about pursuing the idea any further by building a shareable prototype: caring for the security of highly sensitive information; finding a price point that covers the costs of maintaining the service; needing to explain to others how AI is used and how it isn’t; appearing to be an AI advocate.
-
-Most notably, a sufficiently motivated individual can do almost everything I’ve accomplished here in a few hours work, especially if they use the system prompts I’ve provided as a starting point. 
-
-For that reason, I’ve chosen to document the entire process as thoroughly as I can, with the hopes that this work may inform those interested in practicing or building in the AI-supported mental health space.
-
-Should anyone try this out themselves, they may find two significant challenges using ChatGPT:
-
-- **Data storage**. Data storage is managed entirely by ChatGPT, meaning that the integrity of the data rests precariously on the correct interpretation of the system prompt. I imagine a mature product would have some data validation built in to ensure that ChatGPT follows the intended format.
-- **Removing agency**. OpenAI has given ChatGPT a generic personality: chipper, eager to help, cautious around sensitive subjects. I had limited success overwriting these out-of-the-box traits to create a terse, almost robotic copilot. Occasionally, default ChatGPT will chime in with something like “I'm really sorry that you're feeling this way, but I'm unable to assist. It's really important to talk things over with someone who can, though, such as a mental health professional.” This is always unwelcome and disruptive to the work.
-
-The conversational paradigm is a very powerful one, but by no means the only option that would have worked here. One could imagine, for example, a “smart worksheet” filling out itself as the individual speaks, with no conversational interface at all.
-
-Midjourney and the parts map are all done manually right now; as of writing Midjourney doesn’t offer an API, so an automatically generated parts map would need to use another image-generating service.
-
-Midjourney feels like a weak link, for reasons beyond its technical limitations. I just don’t know if it contributes to my wellbeing. To be sure, it’s *fun –* it makes the whole system more vivid, more memorable, more gamelike. Squint at the parts map and maybe you can see the “Harvest Moon for therapy” idea. But I do wonder if I’m missing something by not drawing parts myself – the  field of art therapy is not one I’m familiar with. (Of course, it’s not either/or: a mature product could populate parts with default illustrations and encourage the individual to add their own.)
-
-### Conclusion
