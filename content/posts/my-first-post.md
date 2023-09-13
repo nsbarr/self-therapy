@@ -309,47 +309,79 @@ On the deep side, the practice environment is not suited for the unburdening of 
 **D:**: Yeah, it is. Are they still bouncing around? 
 
 **T**: Almost seems like they stopped to take notice. 
-S: Can you count how many of them there are? more than 10? 
-C: Absolutely.
-S: Reassure them we’re here to help them. We may not be able to help them all today, but we do what to help
+
+**D**: Can you count how many of them there are? more than 10? 
+
+**T**: Absolutely.
+
+**D**: Reassure them we’re here to help them. We may not be able to help them all today, but we do what to help
 them all. How are they reacting? 
-C: Very interested
-S: Probably best to go one at a time or all of them who are connected to a certain scene in the past. Is that ok?
+
+**T**: Very interested.
+
+**D**: Probably best to go one at a time or all of them who are connected to a certain scene in the past. Is that ok?
 They can talk about it and decide who can go first. One or a group. 
-C: There's a group centered around my brother
-S: How are you feeling toward them? 
-C: I just want to talk to them. 
-S: Good. Is it okay if just that group comes out of the room and comes closer to you? 
-C: Yes. 
-S: Lets bring out that group connected to your brother. 
-C: It’s like there’s one senior and numerous younger, smaller ones.
-S: Are you feeling some caring for these guys? 
-C: Yeah. 
-S: Let them know you really care about them and keep doing that til they start to trust us.
+
+**T**: There's a group centered around my brother.
+
+**D**: How are you feeling toward them? 
+
+**T**: I just want to talk to them. 
+
+**D**: Good. Is it okay if just that group comes out of the room and comes closer to you? 
+
+**T**: Yes. 
+
+**D**: Lets bring out that group connected to your brother. 
+
+**T**: It’s like there’s one senior and numerous younger, smaller ones.
+
+**D**: Are you feeling some caring for these guys? 
+
+**T**: Yeah. 
+
+**D**: Let them know you really care about them and keep doing that til they start to trust us.
 (silence) How’s it going? Do they trust? 
-C: Yeah. 
-S: So would you be up for looking at what they need you to see about your
+
+**T**: Yeah. 
+
+**D**: So would you be up for looking at what they need you to see about your
 brother? 
-C: Yes. 
-S: Ask them to not totally overwhelm you with feelings, so you can be with them.
-C: When they brought my brother back I was at Pendleton. They flew me back to Illinois for 3 days I stood at the head of
+
+**T**: Yes. 
+
+**D**: Ask them to not totally overwhelm you with feelings, so you can be with them.
+
+**T**: When they brought my brother back I was at Pendleton. They flew me back to Illinois for 3 days I stood at the head of
 his casket in my dress blues and I didn’t move. For years I was a marine and not a brother or son. I wasn’t much
 help to my parents. I'm sorry for that. Now it’s too late. At the cemetery when they played taps, I cried so hard
 inside that no tears came out. Going back to the house. My grandmother said. I wonder if he felt any pain. I remember
 my mother screaming. All I wanted to do was rip my uniform off and run.
-S: I'd like you to enter that scene with that young man and be there for him. What ever he heeds, just be there
+
+**D**: I'd like you to enter that scene with that young man and be there for him. What ever he heeds, just be there
 with him. Can you do that? 
-C: Yeah. He needs to cry. 
-S: Can you help him see it’s safe to cry? 
-C: I have to take him out of the uniform. 
-S: Great. Do that. 
-C: (sobs) Yeah. It’s almost like there’s a light. 
-S: Yeah, that’s right. 
-C: Even though the pain is tremendous, there’s a brighter point later. 
-S: That’s right. You’re doing great. 
-C: Down on his knees, doubled up. 
-S: That’s great. You be with him. 
-C: I’m holding him telling him it’s okay. 
+
+**T**: Yeah. He needs to cry. 
+
+**D**: Can you help him see it’s safe to cry? 
+
+**T**: I have to take him out of the uniform. 
+
+**D**: Great. Do that. 
+
+**T**: (sobs) Yeah. It’s almost like there’s a light. 
+
+**D**: Yeah, that’s right. 
+
+**T**: Even though the pain is tremendous, there’s a brighter point later. 
+
+**D**: That’s right. You’re doing great. 
+
+**T**: Down on his knees, doubled up. 
+
+**D**: That’s great. You be with him. 
+
+**T**: I’m holding him telling him it’s okay. 
 
 Schwartz's quality of compassion, of being there, would be difficult to effectively formalize into a system prompt. 
 
