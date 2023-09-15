@@ -3,9 +3,13 @@ h3 {
     font-weight: 800!important;
  }
 
- ol {
+ ol,ul {
     -webkit-padding-start: 5%!important;
     -webkit-padding-end: 0%!important;
+ }
+
+ ul{
+   width:90%;
  }
 
 
