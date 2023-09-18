@@ -4,3 +4,7 @@ title = 'My New Hugo Site'
 theme = 'hugo-tufte'
 custom_css = ["css/custom.css"]
 canonifyURLs = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -21,6 +21,14 @@ h3 {
  body {
     background: white!important;
  }
+
+ #blueprompt {
+   background-color: blueviolet;
+ }
+
+ figure.fullwidth figcaption{
+   padding-bottom: 20px;
+ }
  /*
  .sidenote, .marginnote {
     margin-right: 12%;
