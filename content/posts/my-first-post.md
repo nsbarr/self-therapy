@@ -278,7 +278,7 @@ That produced visualizations for parts like Young Dreamer, Furry Friend, Dark Bl
 
 For now, I maintain my parts map in the design tool Figma, separate from the practice partner. But a more fully realized system could complement the live, assisted inner work that the prototype currently supports with an interactive visualization. This would create what Jeffrey Heer calls a "shared representation" of the data; a canvas on which both the system and the individual can work in tandem. 
 
-Here is a reimagination of the transcribed session that we covered earlier: 
+Here is a wireframe that reimagines the transcribed session that we covered earlier: 
 
 {{< figure
   src="/vi1.png"
@@ -323,5 +323,7 @@ In this vision, the practice partner and the conversational medium recede from t
 It's not clear. AI systems are quickly entering all aspects of our lives, and we currently lack toolkits and design patterns that ensure these systems are implemented effectively and safely. When it comes to mental health, we can ask questions such as: is the system designed to heal us, or to help us heal ourselves? Will it prepare us for the messiness of being human, or will it shield us from that messiness? Will we become more resilient thanks to this system, or more reliant on it? 
 
 IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Its clearly written protocols enable the creation of "practice partners," AI-powered systems that facilitate self-therapy. At the same time, the concept of Self-energy defines the scope of what AI can't automate, by emphasizing the individual's agency in their own healing. The principles of IFS itself point the way to an augmented self-therapy that helps more people establish a regular practice on their own, between or instead of sessions with a therapist. Such a practice will help more people experience the self-discovery, healing, and transformation that they are looking for.
+
+IFS practitioners interested in trying out the prototype can [request access here](https://docs.google.com/forms/d/1MwryIOsIj448zC49c163O2SdpK0UoT_jpdXfBpf-veE/viewform?edit_requested=true). Those interested in supporting this work or exploring a collaboration can reach me directly at nsbarr \[at\] gmail \[dot\] com.
 
 ### Acknowledgements
