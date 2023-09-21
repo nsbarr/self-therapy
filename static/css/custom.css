@@ -29,6 +29,16 @@ h3 {
  figure.fullwidth figcaption{
    padding-bottom: 20px;
  }
+
+ .subtitle{
+   font-size: 2rem;
+   font-style:normal;
+ }
+
+ pre {
+   width:1000%;
+   background-color:#272822;
+ }
  /*
  .sidenote, .marginnote {
     margin-right: 12%;

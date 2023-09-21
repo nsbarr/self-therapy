@@ -1,21 +1,30 @@
 ---
-title: "Augmenting Self-Therapy"
+title: "Augmented Self-Therapy"
+subtitle: "How I'm doing IFS with an AI Practice Partner"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
 ---
 
-For several months, I've been building and using a self-therapy practice environment based on the Internal Family Systems (IFS) model. I've found it very useful, and after some early positive feedback, I think others might find it useful, too.
+For several months, I've been building and using an AI-powered therapy tool based on the Internal Family Systems (IFS) model. I've found it very useful, and after receiving some early positive feedback, I think others might find it useful, too.
 
-IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have a Self; a vast, powerful resource for healing and transformation. IFS is unusual for its highly structured protocol - while there is tremendous freedom to explore, there are also well-defined procedures and a clear roadmap. As a result, a therapist can be helpful, but is not required. Many people practice IFS with a partner, or by themselves. My own entry into IFS was the book *Self-Therapy*{{< sidenote >}}Jay Earley, [Self-Therapy](https://amzn.to/44bUY7G) (2009).{{< /sidenote >}} which gives readers a user manual for beginning to heal themselves safely and effectively.
+IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all the innate capacity to heal ourselves. In the words of the IFS Institute:
 
-As we’ll see, self-therapy is not easy to do. When you're trying to feel your feelings, you don't want to have to worry about staying on track or writing down insights. This is where the practice partner comes in.{{< marginnote >}}![Abacus](/abacus.png)Some technologies help us think, like the abacus. They afford new abilities that we eventually internalize. David Krakauer [calls these](/krakauer.pdf) complementary cognitive artifacts. Others do the thinking for us, like a calculator. They free us up, but cannibalize our abilities. Krakauer calls these competitive cognitive artifacts.{{< /marginnote >}}  It enables the individual to focus on the most important work – exploring their inner world – and takes over the supporting tasks. 
+>IFS is a transformative tool that conceives every human being as a system of protective and wounded inner parts led by a core Self. We believe the mind is naturally multiple and that is a good thing. Just like members of a family, inner parts are forced from their valuable states into extreme roles within us. Self is in everyone. It can’t be damaged. It knows how to heal. 
 
-The system makes use of various AI technologies, including ChatGPT. But the way it uses these technologies is novel. Most AI-assisted mental health applications connect individuals to a chatbot, which performs the role of therapist, or compassionate friend. Instead, this system uses ChatGPT to unobtrusively augment and expand one’s inner work. Following the principles of IFS, the practice partner is in service of the individual's ability to access their Self-energy, and is designed not to become a crutch.
+In IFS, the therapist acts primarily as a guide, helping the client access Self-energy, and providing support along the way. While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book *Self-Therapy*{{< sidenote >}}Jay Earley, [Self-Therapy](https://amzn.to/44bUY7G) (2009).{{< /sidenote >}} which gives readers a user manual for beginning to heal themselves safely and effectively.
 
-The system relies on the existing protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. My wish for this work is that it helps more people learn about IFS, develop a self-therapy practice, and build their capacity for healing and transformation. 
+But as we’ll see, self-therapy is not easy to do. When you're trying to feel your feelings, you don't want to have to worry about staying on track or capturing insights. It can feel like trying to drive the car, hold the map, and drink your coffee at the same time. 
 
-### Graphing the internal social network
+This is where the AI Practice Partner comes in.{{< marginnote >}}![Abacus](/abacus.png)Some technologies help us think, like the abacus. They afford new abilities that we eventually internalize. David Krakauer [calls these](/krakauer.pdf) complementary cognitive artifacts. Others do the thinking for us, like a calculator. They free us up, but cannibalize our abilities. Krakauer calls these competitive cognitive artifacts.{{< /marginnote >}}  It empowers the individual to focus on the most important work – connecting to their inner parts from Self – and takes over the supporting tasks. 
+
+Most AI-assisted mental health applications connect individuals to a chatbot, which performs the role of therapist, companion, or compassionate friend. The Practice Partner is different – it's more like a co-pilot that unobtrusively augments and expands one’s inner work. Following the principles of IFS, the Practice Partner acts in service of the individual's ability to access their Self-energy, and is designed not to become a crutch.
+
+The prototype I've built depends on the existing protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. My wish for this work is that it helps more people learn about IFS, develop a fruitful self-therapy practice, and build their capacity for healing and transformation.
+
+Because some readers will not be familiar with IFS and other readers will not be familiar with AI mental health chatbots, I  will give brief overviews of both before introducing the AI Practice Partner. From there, I'll describe benefits and limitations of the tool that have emerged from initial user testing, and close with some hints at future directions. 
+
+### IFS: graphing the internal social network
 
 Developed in the 1980s by Richard Schwartz, IFS is grounded in the observation that the mind is naturally multiple, housing a variety of subpersonalities, or "parts.” We experience this multiplicity when we feel torn between conflicting desires; maybe part of us wants to pursue a challenging opportunity, but another part fears the risk, while a third part feels exhausted by the inner debate. 
 
@@ -38,32 +47,24 @@ Having earned the trust of Protectors, the Self can do deep work with an Exile �
 
 This is the internal family system: a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon; more on that later.)
 
-### The Path to Self-Leadership
-
-From this brief overview, the shape of the practice emerges. Session to session, the work is for the individual's Self to form or deepen a relationship with a part. That's the method. Over time, the individual befriends their Protectors, heals their Exiles, and becomes Self-led; that is, they always dwell in and act from Self-energy. That's the purpose.
-
-The ability to do inner work on one's own is an essential part of the IFS model. In the foreword to *Self-Therapy*, Richard Schwartz writes:
+The ability to practice on one's own is an essential characteristic of the IFS model. In the foreword to *Self-Therapy*, Richard Schwartz writes:
 
 >My twenty-seven years of experience using this model... tell me that many people can do a great deal of work on themselves without a therapist. They may not be able to unburden all their exiles, but they can reverse the atmosphere of their inner worlds from one of self-loathing to self-love and Self-leadership. Also, people who are in therapy will find the book a useful guide for their between-session work on themselves. Therapy is too expensive in both time and money for many people. I’m grateful that this book allows IFS to extend its reach to those who would not otherwise have access to it.
 
-In many ways, IFS is shaped more like spiritual practice than traditional Western therapy. I find that my meditation practice harmonizes very well with IFS. Like IFS, meditation points to a vast, powerful resource, sometimes called natural awareness. Like IFS, a guide is very helpful in meditation, but can't do the meditating for you. And like IFS, a daily practice is the best way to progress with meditation.
+While this sounds wonderful on paper, the reality is that self-therapy can be quite hard to do. IFS protocols can be quite complex. For example, consider the “6 Fs,” a protocol for building a relationship between Self and a part: 
 
-But where meditation or prayer are often simple practices, IFS can be quite complex. For example, consider the “6 Fs,” a protocol for building a relationship between Self and a part. The 6 Fs are:
-
-1. **Find.** The individual turns their attention inwards and finds what’s happening inside by locating an emotion, thought, or body sensation they want to work with.
-2. **Focus.** The individual gathers their attention around this internal part.
-3. **Flesh out.** The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.
-4. **Feel.** The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.
-5. **Befriend.** The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.
+1. **Find.** The individual turns their attention inwards and finds what’s happening inside by locating an emotion, thought, or body sensation they want to work with.<br/>
+2. **Focus.** The individual gathers their attention around this internal part.<br/>
+3. **Flesh out.** The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.<br/>
+4. **Feel.** The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.<br/>
+5. **Befriend.** The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.<br/>
 6. **Fears.** The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that they can show them alternative ways of caring for their system.
 
-When I work with an IFS-trained therapist or coach, I don't need to worry about this protocol. I can just feel into what's going on, and trust that someone is there to guide me if I get lost.  
+When I attempt to do self-therapy, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. 
 
-When I attempt to do self-therapy, it's a different story. I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. 
+Historically, I've simply found it too hard to do this. Other aspiring practitioners report similar challenges. IFS seems to suffer from a basic design flaw: it is structured to make self-therapy possible, but that structure is so complex that self-therapy is very difficult. 
 
-Historically, I've simply found it too hard to maintain a self-therapy practice. Other aspiring practitioners report similar challenges. IFS seems to suffer from a basic design flaw: it is structured to make self-therapy possible, but that structure is so complex that self-therapy is very difficult. 
-
-People have attempted to fix this – Bonnie Weiss published a companion workbook to *Self-Therapy*{{< sidenote >}}Bonnie Weiss, [Self-Therapy Workbook: An Exercise Book For The IFS Process](https://amzn.to/45z34IK) (2013).{{< /sidenote >}}, containing 32 exercises to scaffold solo sessions. Additionally, there are Facebook groups like "Parts Work Practice" and "IFS Self-Healers Community (Internal Family Systems)" with thousands of members who meet online to practice together. 
+People have attempted to fix this. Bonnie Weiss published a companion workbook to *Self-Therapy*{{< sidenote >}}Bonnie Weiss, [Self-Therapy Workbook: An Exercise Book For The IFS Process](https://amzn.to/45z34IK) (2013).{{< /sidenote >}}, containing 32 exercises to scaffold solo sessions. Additionally, there are Facebook groups like "Parts Work Practice" and "IFS Self-Healers Community (Internal Family Systems)" with thousands of members who meet online to practice together. 
 
 {{< figure
   src="/exercises.png"
@@ -80,29 +81,27 @@ Following a worksheet presents its own limitations. {{< marginnote >}}![Papers P
 As we've seen, there are significant barriers to conducting fruitful self-therapy sessions. Existing aids, like finding a practice partner or filling out a worksheet, fail to adequately lower these barriers. As a result, many people who would benefit from IFS don't, because they are unable to establish a regular practice. This underscores the need for innovative tools that help build the foundations of individual practice.
 
 ### Your AI therapist will see you now
-Meanwhile, the arrival of breakthrough AI technologies has impacted every field, including mental health. The prevailing conversation within mental health is how AI systems might perform the role of a therapist, coach, or compassionate friend.  In an ebullient essay the venture capitalist Marc Andreessen writes that soon,{{< sidenote >}}Marc Andreessen, [Why AI Will Save the World](/https://a16z.com/2023/06/06/ai-will-save-the-world/) (2023).{{< /sidenote >}}
+Meanwhile, breakthrough AI technologies have impacted every field, including mental health. In an [ebullient essay](https://a16z.com/2023/06/06/ai-will-save-the-world/) the venture capitalist Marc Andreessen writes that soon,
 
 >Every person will have an AI assistant/coach/mentor/ trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.
 
-Some of this optimism has already borne out. In a *New Yorker* profile, a hospice nurse named Maria describes how she benefited from chatting with Woebot, a mental health support chatbot:{{< sidenote >}}Dhruv Khullar, [Can AI Treat Mental Illness?](/https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness) for *The New Yorker* (2023).{{< /sidenote >}}
+Most AI-powered mental health applications provide customers with chatbots that perform the role of a therapist, companion, or friend. There's Replika, "the AI companion who cares." Or Woebot, whose "engaging AI quickly develops a deep bond with people." In a [*New Yorker* profile](https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness), a hospice nurse named Maria describes how she benefited from chatting with Woebot:
 
 > Ahead of another patient visit, Maria recalled, “I just felt that something really bad was going to happen.” She texted Woebot, which explained the concept of catastrophic thinking. It can be useful to prepare for the worst, Woebot said—but that preparation can go too far. “It helped me name this thing that I do all the time,” Maria said.
 
-Koko, an automated mental health support platform, ran a trial in which messages were composed by GPT-3 (and supervised by humans). Those messages were rated significantly higher than those written by humans on their own, and response times went down 50%.{{< sidenote >}}Rob Morris's [Twitter](https://twitter.com/RobertRMorris/status/1611450210915434499) account (2023).{{< /sidenote >}}
+While this approach works for some people some of the time, it can be unnerving, and potentially harmful in the long run. Koko, an automated mental health support platform, ran a trial in which messages were composed by GPT-3 (and supervised by humans). At first, messages were rated significantly higher than those written by humans on their own, and response times went down 50%. Even so, Koko CEO Rob Morris [pulled the feature](/koko.pdf). “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”
 
-Even so, Koko CEO Rob Morris pulled the feature. “Once people learned the messages were co-created by a machine, it didn’t work. Simulated empathy feels weird, empty.”
-
-To be sure, artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI assistant that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris,{{< sidenote >}}[Esther Perel on Artificial Intimacy](/your-undivided-attention-esther-perel-transcript.pdf), from the Your Undivided Attention podcast (2023).{{< /sidenote >}} Esther Perel compares these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."
+To be sure, artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people have never received compassion from another human being. For these people, having access to an AI chatbot that can perform care for them may be an important contributor to their mental wellbeing. In a conversation with Tristan Harris, Esther Perel [compares](/your-undivided-attention-esther-perel-transcript.pdf) these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."
 
 At best, these interactions with therapy chatbots afford "a temporary developmental container" that lets us rehearse for relationships with real people. At worst, they can erode our capacity to deal with the messiness of reality, and confuse us into making technology responsible for our own wellbeing.
 
-My work points in an entirely different direction. In IFS terms, I don't want a tool that has or tries to have Self-energy. Instead, I want a tool that helps me access and maintain my own Self-energy.
+David Krakauer, the President of the Santa Fe Institute, has a useful framework for describing the tension between assistance and agency that underpins both AI and mental health. Some technologies help us think, like the abacus, or a map. They afford new abilities that we eventually internalize. Krakauer calls these complementary cognitive artifacts. Others do the thinking for us, like a calculator or GPS. They free us up, but they cannibalize our abilities. Krakauer calls these competitive cognitive artifacts. 
+
+What kind of cognitive artifact is a caring, compassionate chatbot with whom you establish a deep bond? The answer is not entirely clear yet. But for my own work, I wanted something that was unambiguously complementary. Putting it back in IFS terms, I didn't want a buddy that had or tried to have Self-energy. Instead, I wanted a tool that would help me access and develop my own Self-energy.
 
 ### Enter the superprompt
 
-Let's return to the four simultaneous jobs one must do in IFS-informed self-therapy: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. Because IFS is so well-structured, I reasoned that an AI-assisted practice partner could take over (iii) and (iv) entirely, while supporting me with (i) and (ii).
-
-The system uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the practice partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. The practice partner sticks to terse, information-dense responses that reflect what it's hearing me say, and is forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
+The AI practice partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the practice partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and is forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
 
 {{< figure
   src="/interface.png"
