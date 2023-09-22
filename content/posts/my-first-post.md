@@ -299,7 +299,8 @@ The visualization updates in realtime as the individual uncovers more informatio
   alt=""
 >}}
 
-The parts map itself could nudge the individual to revisit Exiles that haven't been worked on for some time, or to explore the relationship between Protectors that might not know about each other yet. 
+In this vision, the conversational interface recedes from the user experience, creating more of a "single-player" feel. One can imagine introducing gamelike elements from cozy sims like Harvest Moon. The parts map itself could nudge the individual to revisit Exiles that haven't been worked on for some time, or to explore the relationship between Protectors that might not know about each other yet. 
+
 
 {{< figure
   src="/vi4.png"
@@ -309,7 +310,8 @@ The parts map itself could nudge the individual to revisit Exiles that haven't b
   alt=""
 >}}
 
-In this vision, the conversational interface recedes from the user experience, creating more of a "single-player" feel. The AI Practice Partner itself may not even require an LLM like ChatGPT, and may instead make use of a model designed specifically for IFS. Of course, this is just one direction. Given the wide variety of approaches people take when it comes to their inner work, there are many other directions that the design could take. Would the best solution accommodate as much customization as possible?
+
+The AI Practice Partner itself may not even require an LLM like ChatGPT, and may instead make use of a model designed specifically for IFS. Of course, this is just one direction. Given the wide variety of approaches people take when it comes to their inner work, there are many other directions that the design could take. Would the best solution accommodate as much customization as possible?
 
 It's not clear. AI systems are quickly entering all aspects of our lives, and we currently lack toolkits and design patterns that ensure these systems are implemented effectively and safely. When it comes to mental health, we might ask questions such as: is the system designed to heal us, or to help us heal ourselves? Will it prepare us for the messiness of being human, or will it shield us from that messiness? Will we become more resilient thanks to this system, or more reliant on it? 
 
