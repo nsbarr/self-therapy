@@ -1,6 +1,6 @@
 ---
 title: "Augmented Self-Therapy"
-subtitle: "How I'm doing IFS with an AI Practice Partner"
+subtitle: "How an AI Practice Partner has unlocked IFS for me"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
@@ -109,7 +109,7 @@ The AI Practice Partner uses Whisper, an open-source audio transcription tool, w
   src="/interface.png"
   type="full"
   label="ifs-before-and-after"
-  caption="The Individual clicks Record and then begins talking about a target part (1). When they click Send, the practice partner transcribes their words (2), reflects back key points (3), and asks questions according to IFS protocols (4)."
+  caption="The Individual clicks Record and then begins talking about a target part (1). When they click Send, the AI Practice Partner transcribes their words (2), reflects back key points (3), and asks questions according to IFS protocols (4)."
   alt=""
 >}}
 
