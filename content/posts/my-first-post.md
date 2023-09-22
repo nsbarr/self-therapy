@@ -103,7 +103,7 @@ What kind of cognitive artifact is a caring, compassionate chatbot designed to a
 
 ### Enter the superprompt
 
-The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the practice partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
+The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the Practice Partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
 
 {{< figure
   src="/interface.png"
