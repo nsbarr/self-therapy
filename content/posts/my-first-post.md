@@ -1,6 +1,6 @@
 ---
 title: "Augmented Self-Therapy"
-subtitle: "How an AI Practice Partner has unlocked IFS for me"
+subtitle: "How I'm using an AI Practice Partner to enhance my inner work"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
