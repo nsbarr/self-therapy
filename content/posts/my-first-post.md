@@ -49,7 +49,7 @@ Having earned the trust of Protectors, the Self can do deep work with the Exile.
 
 This is the internal family system: a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon; more on that later.)
 
-The ability to practice on one's own is an essential characteristic of the IFS model. In the foreword to *Self-Therapy*, Richard Schwartz writes:
+The ability to practice on one's own is an essential characteristic of the IFS model. In the foreword to *Self-Therapy*, Schwartz writes:
 
 >My twenty-seven years of experience using this model... tell me that many people can do a great deal of work on themselves without a therapist. They may not be able to unburden all their exiles, but they can reverse the atmosphere of their inner worlds from one of self-loathing to self-love and Self-leadership. Also, people who are in therapy will find the book a useful guide for their between-session work on themselves. Therapy is too expensive in both time and money for many people. I’m grateful that this book allows IFS to extend its reach to those who would not otherwise have access to it.
 
