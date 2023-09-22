@@ -12,6 +12,9 @@ h3 {
    width:90%;
  }
 
+ ol{
+   width: 50%;
+ }
 
  figure.fullwidth figcaption {
     float: left!important;
