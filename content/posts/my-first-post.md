@@ -16,7 +16,7 @@ In IFS, the therapist acts primarily as a guide, helping the client access Self-
 
 But as we’ll see, self-therapy is not easy to do. When you're trying to feel your feelings, you don't want to have to worry about staying on track or capturing insights. It can feel like trying to drive the car, hold the map, and drink your coffee at the same time. 
 
-This is where the AI Practice Partner comes in. It empowers the individual to focus on the most important work – connecting to their inner parts – and takes over the supporting tasks. 
+This is where the AI Practice Partner comes in. It empowers me to focus on the most important work – connecting to my inner parts – and takes over supporting tasks. 
 
 Most AI-assisted mental health applications introduce individuals to a chatbot, which performs the role of therapist, companion, or compassionate friend. The Practice Partner is different – it's more like a co-pilot that unobtrusively augments and expands one’s inner work. Following the principles of IFS, the Practice Partner acts in service of the individual's ability to access their own healing energy, and is designed not to become a crutch.
 
