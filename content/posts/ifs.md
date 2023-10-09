@@ -1,7 +1,7 @@
 ---
 title: "Augmented Self-Therapy"
 url: "/ifs/"
-subtitle: "How I'm using AI to enhance my Internal Family Systems practice"
+subtitle: "How I use AI with my Internal Family Systems practice"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
@@ -326,8 +326,8 @@ IFS practitioners interested in trying out the prototype can [request access her
 
 Conversations with many people shaped this work. My thanks to William Gan, Jacob Grief, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
 
-Thank you Andy Matuschak for fruitful conversations, your wise suggestions for improving the tool, and comments on an early draft. 
+Thanks to Andy Matuschak for guidance on the work and for helpful comments on an early draft. 
 
-I would not have written this essay without Kevin Simler's encouragement and feedback throughout; thank you, Kevin!
+I would not have written this essay without Kevin Simler's encouragement and feedback throughout.
 
 The acknowledgement of these individuals is not an indication of their endorsement.
