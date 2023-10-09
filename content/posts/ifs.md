@@ -1,7 +1,6 @@
 ---
-title: "Augmented Self-Therapy"
+title: "Augmented Self-Therapy: How I'm using AI to improve my Internal Family Systems practice"
 url: "/ifs/"
-subtitle: "How I use AI with my Internal Family Systems practice"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
@@ -324,6 +323,6 @@ Conversations with many people shaped this work. My thanks to William Gan, Jacob
 
 Thanks to Andy Matuschak for guidance on the work and for helpful comments on an early draft. 
 
-I would not have written this essay without Kevin Simler's encouragement and feedback throughout.
+Thanks to Kevin Simler for encouragement and feedback throughout the process.
 
-The acknowledgement of these individuals is not an indication of their endorsement.
+Of course, the acknowledgement of these individuals is not an indication of their endorsement.
