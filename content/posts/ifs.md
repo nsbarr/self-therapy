@@ -1,5 +1,6 @@
 ---
-title: "Augmented Self-Therapy: How I'm using AI to improve my Internal Family Systems practice"
+title: "Augmented Self-Therapy"
+subtitle: "How I use AI with my Internal Family Systems practice"
 url: "/ifs/"
 date: 2023-08-19T15:23:24+02:00
 draft: false

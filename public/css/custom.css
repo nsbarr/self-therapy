@@ -3,11 +3,18 @@ h3 {
     font-weight: 800!important;
  }
 
- ol {
+ ol,ul {
     -webkit-padding-start: 5%!important;
     -webkit-padding-end: 0%!important;
  }
 
+ ul{
+   width:90%;
+ }
+
+ ol{
+   width: 50%;
+ }
 
  figure.fullwidth figcaption {
     float: left!important;
@@ -17,6 +24,25 @@ h3 {
  body {
     background: white!important;
  }
+
+ #blueprompt {
+   background-color: blueviolet;
+ }
+
+ figure.fullwidth figcaption{
+   padding-bottom: 20px;
+ }
+
+ .subtitle{
+   font-size: 2rem;
+   font-style:normal;
+ }
+
+ pre {
+   width:1000%;
+   background-color:#272822;
+ }
+
  /*
  .sidenote, .marginnote {
     margin-right: 12%;
