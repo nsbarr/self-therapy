@@ -1,28 +1,31 @@
 ---
 title: "Augmented Self-Therapy"
-subtitle: "How I'm using an AI Practice Partner to enhance my inner work"
+url: "/ifs/"
+subtitle: "How I'm using AI to enhance my Internal Family Systems practice"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
 ---
 
-For several months, I've been building and using an AI-powered therapy tool based on the Internal Family Systems (IFS) model. I've found it very useful, and after receiving some positive feedback, I think others might find it useful, too.
+For several months, I've been building and using an AI-powered therapy tool. Many people are experimenting along these lines, but this tool takes advantage of unusual structural properties in the Internal Family Systems (IFS) model. 
+
+Unlike other therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide the client through the appropriate protocol, helping them develop their capacity for self-healing over time. With a less structured modality like talk therapy, AI chatbots can only mimic therapist behavior, producing a simulacrum of empathy, insight, and advice. With IFS, an AI-powered tool can elegantly guide the client through the relevant protocol, freeing them up to go deeper inside. 
 
 IFS changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have the innate capacity to heal ourselves. In the words of the [IFS Institute](https://ifs-institute.com/):
 
 >IFS is a transformative tool that conceives every human being as a system of protective and wounded inner parts led by a core Self. We believe the mind is naturally multiple and that is a good thing. Just like members of a family, inner parts are forced from their valuable states into extreme roles within us. Self is in everyone. It can’t be damaged. It knows how to heal. 
 
-In IFS, the therapist acts primarily as a guide, helping the client access Self-energy, and providing support along the way. While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book [*Self-Therapy*]((https://amzn.to/44bUY7G)) by Jay Earley, which gives readers a user manual for beginning to heal themselves safely and effectively.
+While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book [*Self-Therapy*]((https://amzn.to/44bUY7G)) by Jay Earley, which gives readers a playbook for practicing on their own.
 
-But as we’ll see, self-therapy is not easy to do. When you're trying to feel your feelings, you don't want to have to worry about staying on track or capturing insights. It can feel like trying to drive the car, hold the map, and drink your coffee at the same time. 
+But as I discovered, self-therapy is not easy to do. When you're trying to feel your feelings, you don't want to have to worry about staying on track or capturing insights. It can feel like trying to drive the car, hold the map, and drink your coffee at the same time. 
 
-This is where the AI Practice Partner comes in. It empowers me to focus on the most important work – connecting to my inner parts – and takes over supporting tasks. 
+This is why I built an AI Practice Partner for IFS. It empowers me to focus on the most important work – connecting to my inner parts – and takes over supporting tasks. 
 
-Most AI-assisted mental health applications introduce individuals to a chatbot, which performs the role of therapist, companion, or compassionate friend. The Practice Partner is different – it's more like a co-pilot that unobtrusively augments and expands one’s inner work. Following the principles of IFS, the Practice Partner acts in service of the individual's ability to access their own healing energy, and is designed not to become a crutch.
-
-The prototype I've built depends on the existing protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. My wish for this work is that it helps more people learn about IFS, develop a fruitful self-therapy practice, and build their capacity for healing and transformation.
+The prototype I've built depends on the existing protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. 
 
 Because some readers will not be familiar with IFS and other readers will not be familiar with AI mental health chatbots, I  will give brief overviews of both before introducing the AI Practice Partner. From there, I'll describe benefits and limitations of the tool that have emerged from user testing, and conclude with some hints at future directions. 
+
+My wish for this work is that it helps more people learn about IFS, develop a fruitful self-therapy practice, and build their capacity for healing and transformation.
 
 ### IFS: graphing the internal social network
 
@@ -103,7 +106,7 @@ What kind of cognitive artifact is a caring, compassionate chatbot designed to a
 
 ### Enter the superprompt
 
-The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the Practice Partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
+The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the Practice Partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session, and the only one in the therapeutic role. Finally, the system codifies the contents of the session into well-structured data that persists across sessions, helping me deepen my relationship to my parts over time.
 
 {{< figure
   src="/interface.png"
@@ -207,9 +210,9 @@ As of writing this I have logged 20 sessions with the AI Practice Partner. I've 
 
 Based on the feedback from these volunteers, alongside my own observations, the Practice Partner has a few advantages over other self-therapy tools:
 
-**It structures unstructured thought.** The Practice Partner is designed to receive and help process raw emotional input. There is no mental state for the individual that would be too messy for it to work with. As one tester said after it succintly summarized his inner monologue, "Wow, what the hell? My God, it filtered out my fluff!" This is an area where the Practice Partner shines, allowing it to quickly build trust with the individual: "I feel more comfortable knowing how this works now, knowing that I can just kind of "blah" out all of my junk and it'll just pick up the relevant pieces." 
+**It structures unstructured thought.** The Practice Partner is designed to receive and help process raw emotional input. There is no mental state for the individual that would be too messy for it to work with. It then turns around that input as well-structured data, faithfully filling out information about parts on behalf of the client. As one tester said after it succintly summarized his inner monologue, "Wow, what the hell? My God, it filtered out my fluff!" This is an area where the Practice Partner shines, allowing it to quickly build trust with the individual: "I feel more comfortable knowing how this works now, knowing that I can just kind of "blah" out all of my junk and it'll just pick up the relevant pieces." 
 
-**It educates.** The Practice Partner assumes the individual already has a strong IFS background. So there's no educational or explanatory material. That said, whenever volunteers were stuck, it was natural for them to ask the Practice Partner for help. For example, when one tester expressed annoyance with a part, it encouraged them to unblend, as the system prompt instructed it to do. But when the tester asked for tips to unblend, the Practice Partner provided this unscripted answer: 
+**It educates.** The Practice Partner assumes the individual already has a strong IFS background. So there's no educational or explanatory material. That said, whenever volunteers were stuck, it was natural for them to ask the Practice Partner for help. For example, when one tester expressed annoyance with a part, it encouraged them to unblend, as the system prompt instructed it to do. But when the tester asked for tips to unblend, the Practice Partner provided this unscripted answer (which will be better formatted in future versions): 
 
 >Yes. Try these steps: 1. Recognize you are blended with a part. You've done this by acknowledging annoyance. 2. Ask the part to separate from you. Internal dialogue might be: 'I know you are there, and I'd like to understand you better. Can you step back just a little?' 3. Use visualization. Imagine the part moving away from you, leaving you at the center. 4. Check in with your feelings. After attempting to unblend, see how you feel towards the part now. Try this and then share how you feel towards the part. 
 
@@ -225,7 +228,7 @@ Based on the feedback from these volunteers, alongside my own observations, the 
 
 Even though I concluded these feelings were coming from another part, the question was incredibly perceptive. It was the kind of connection that only a very engaged therapist or close friend would be in a position to make. 
 
-In combination, the benefits of the Practice Partner increase the likelihood of an individual establishing and maintainting a self-therapy practice. From there, the practice itself will open doors to healing, transformation, and self-discovery. 
+These are promising early results. If these benefits hold for most new users, I expect the Practice Partner will increase the likelihood of an individual establishing and maintainting a self-therapy practice. From there, the practice itself will open doors to healing, transformation, and self-discovery. 
 
 That has been the case for me.
 
@@ -237,7 +240,7 @@ As a prototype, the Practice Partner currently has many limitations. To name a f
 
 Testers almost always attempted to respond to whatever questions the Practice Partner asked. I noticed that when it offered up multi-part questions, testers tried to answer them all in one go. While the system prompt could be refined to only ask one question at a time, that too would be directive in a different way, pointing the individual down a particular direction instead of opening up many.
 
-Another limitation of the Practice Partner is intentional: it is not trained to assist in the unburdening of exiles, in which another person's healing energy can be indispensable. 
+Another limitation of the Practice Partner is intentional: it is not trained to assist in the unburdening of exiles, in which another person's healing energy can be indispensable. As a result, the system is currently only able to deploy a subset of the IFS playbook, and can't help much with the deeper protocols.
 
 ### Future directions
 
@@ -253,7 +256,7 @@ One way to do that is with a digital parts map. The parts map is a popular tool 
 
 Here, the benefit of structured data over static worksheets becomes apparent. With a little engineering effort, the Practice Partner could automatically generate a parts map from the data, illustrating parts and their relationships on a canvas in realtime. This would provide individuals with a synoptic view of their inner system, along with the ability to dive into individual parts.
 
-Once again, AI technology may have a useful role to play here. I myself have a very limited visual imagination - it’s hard for me to picture anything in my mind's eye. I’m also not a particularly talented drawer. So I turned to Midjourney, an AI-powered image generation tool, to illustrate my parts. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
+Once again, AI technology may have a useful role to play here. I myself have a very limited visual imagination - it’s hard for me to picture anything in my mind's eye. So I turned to Midjourney, an AI-powered image generation tool, to illustrate my parts. As with ChatGPT, the prompt plays a crucial role in Midjourney; to find an evocative style inspired by the book, I landed on this:
 
 > black and white pencil sketch of {part description}, dreamlike illustration, harsh realism, storybook illustration, emphasizes emotion over realism, nightmare, detailed sketches
 
@@ -303,7 +306,7 @@ In this vision, the conversational interface recedes from the user experience, c
 
 
 {{< figure
-  src="/vi4.png"
+  src="/vi5.png"
   type="full"
   label="ifs-before-and-after"
   caption=""
@@ -311,12 +314,20 @@ In this vision, the conversational interface recedes from the user experience, c
 >}}
 
 
-The AI Practice Partner itself may not even require an LLM like ChatGPT, and may instead make use of a model designed specifically for IFS. Of course, this is just one direction. Given the wide variety of approaches people take when it comes to their inner work, there are many other directions that the design could take. Would the best solution accommodate as much customization as possible?
+Of course, this is just one direction. Given the wide variety of approaches people take when it comes to their inner work, there are many other directions that the design could take. Would the best solution accommodate as much customization as possible?
 
 It's not clear. AI systems are quickly entering all aspects of our lives, and we currently lack toolkits and design patterns that ensure these systems are implemented effectively and safely. When it comes to mental health, we might ask questions such as: is the system designed to heal us, or to help us heal ourselves? Will it prepare us for the messiness of being human, or will it shield us from that messiness? Will we become more resilient thanks to this system, or more reliant on it? 
 
-IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Because IFS has explicit protocols, an AI Practice Partner can be effectively trained to facilitate self-therapy. And because IFS has the concept of Self, the Practice Partner's role is well-defined: it should only act in ways that help the individual access their own Self-energy. A well-behaved AI Practice Partner may help more people establish a regular practice on their own, between or instead of sessions with a therapist. Such a practice will lead to the self-discovery, healing, and transformation that they are looking for.
+IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Because IFS has explicit protocols, an AI Practice Partner can be effectively trained to facilitate self-therapy. And because IFS has the concept of Self, the Practice Partner's role is well-defined: it should only act in ways that help the individual access their own Self-energy. A well-behaved AI Practice Partner may help more people establish a regular practice on their own, between or instead of sessions with a therapist.
 
 IFS practitioners interested in trying out the prototype can [request access here](https://docs.google.com/forms/d/1MwryIOsIj448zC49c163O2SdpK0UoT_jpdXfBpf-veE/viewform?edit_requested=true). Those interested in supporting this work or exploring a collaboration can reach me directly at nsbarr \[at\] gmail \[dot\] com.
 
 ### Acknowledgements
+
+Conversations with many people shaped this work. My thanks to William Gan, Jacob Grief, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
+
+Thank you Andy Matuschak for fruitful conversations, your wise suggestions for improving the tool, and comments on an early draft. 
+
+I would not have written this essay without Kevin Simler's encouragement and feedback throughout; thank you, Kevin!
+
+The acknowledgement of these individuals is not an indication of their endorsement.
