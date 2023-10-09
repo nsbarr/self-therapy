@@ -86,11 +86,7 @@ Following a worksheet presents its own limitations. {{< marginnote >}}![Papers P
 So there are significant barriers to conducting fruitful self-therapy sessions. As a result, many people who would benefit from IFS don't, because they are unable to establish a regular practice. This underscores the need for innovative tools that help build the foundations for self-therapy.
 
 ### Your AI therapist will see you now
-Meanwhile, breakthrough AI technologies have impacted every field, including mental health. In an [ebullient essay](https://a16z.com/2023/06/06/ai-will-save-the-world/) the venture capitalist Marc Andreessen writes that soon,
-
->Every person will have an AI assistant/coach/mentor/ trainer/advisor/therapist that is infinitely patient, infinitely compassionate, infinitely knowledgeable, and infinitely helpful. The AI assistant will be present through all of life’s opportunities and challenges, maximizing every person’s outcomes.
-
-The best-known AI-powered mental health applications provide customers with chatbots that perform the role of a therapist, companion, or friend. We can call this the "artificial empathy" approach. There's [Replika](https://replika.com/), "the AI companion who cares." Or [Woebot](https://woebothealth.com/), whose "engaging AI quickly develops a deep bond with people." In a [*New Yorker* profile](https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness), a hospice nurse named Maria describes how she benefited from chatting with Woebot:
+Meanwhile, breakthrough AI technologies have impacted every field, including mental health. The best-known AI-powered mental health applications provide customers with chatbots that perform the role of a therapist, companion, or friend. We can call this the "artificial empathy" approach. There's [Replika](https://replika.com/), "the AI companion who cares." Or [Woebot](https://woebothealth.com/), whose "engaging AI quickly develops a deep bond with people." In a [*New Yorker* profile](https://www.newyorker.com/magazine/2023/03/06/can-ai-treat-mental-illness), a hospice nurse named Maria describes how she benefited from chatting with Woebot:
 
 > Ahead of another patient visit, Maria recalled, “I just felt that something really bad was going to happen.” She texted Woebot, which explained the concept of catastrophic thinking. It can be useful to prepare for the worst, Woebot said—but that preparation can go too far. “It helped me name this thing that I do all the time,” Maria said.
 
