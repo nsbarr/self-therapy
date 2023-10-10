@@ -1,6 +1,6 @@
 baseURL = 'https://nsbarr.github.io/self-therapy/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = ''
 theme = 'hugo-tufte'
 custom_css = ["css/custom.css"]
 canonifyURLs = true
