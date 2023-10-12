@@ -7,7 +7,7 @@ draft: false
 toc: false
 ---
 
-For several months, I've been an AI-powered therapy tool. It's proven surprisingly useful, so I want to share it with you here.
+For several months, I've been prototyping an AI-powered therapy tool. It's proven surprisingly useful, so I want to share it with you here.
 
 Many people are experimenting with AI for therapy, but the tool I've built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model. 
 
