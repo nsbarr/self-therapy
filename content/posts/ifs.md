@@ -11,7 +11,7 @@ For several months, I've been prototyping an AI-powered therapy tool. It's prove
 
 Many people are experimenting with AI for therapy, but the tool I've built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model. 
 
-Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through the healing process. With a less structured modality like talk therapy, AI chatbots can only mimic therapist behavior, producing a simulacrum of empathy. With IFS, an AI-powered tool can elegantly guide the client through the relevant protocol, freeing them up to go deeper inside. 
+Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through protocols. With a less structured modality like talk therapy, AI chatbots can only mimic therapist behavior, producing a simulacrum of empathy. With IFS, an AI-powered tool can elegantly guide the client through the relevant protocol, freeing them up to go deeper inside. 
 
 [IFS](https://ifs-institute.com/) changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have the innate capacity to heal ourselves. While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book [*Self-Therapy*]((https://amzn.to/44bUY7G)) by Jay Earley, which gives readers a playbook for practicing on their own.
 
@@ -308,7 +308,7 @@ IFS practitioners interested in trying out the prototype can [request access her
 
 ### Acknowledgements
 
-Conversations with many people shaped this work. My thanks to William Gan, Jacob Grief, Thomas Hewell, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
+Conversations with many people shaped this work. My thanks to William Gan, Jacob Greif, Thomas Hewell, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
 
 Thanks to Andy Matuschak for guidance on the work and for helpful comments on an early draft. 
 
