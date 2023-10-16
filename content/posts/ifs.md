@@ -7,6 +7,8 @@ draft: false
 toc: false
 ---
 
+<span id=byline>Nick Barr</span>
+
 For several months, I've been prototyping an AI-powered therapy tool. It's proven surprisingly useful, so I want to share it with you here.
 
 Many people are experimenting with AI for therapy, but the tool I've built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model. 
@@ -308,7 +310,7 @@ IFS practitioners interested in trying out the prototype can [request access her
 
 ### Acknowledgements
 
-Conversations with many people shaped this work. My thanks to William Gan, Jacob Greif, Thomas Hewell, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
+Conversations with many people shaped this work. My thanks to William Gan, Jacob Greif, Thomas Howell, Ken McLeod, Natalie Rothfels, Angela Russek, Jennifer Speakman, and Tereza Sukopova.
 
 Thanks to Andy Matuschak for guidance on the work and for helpful comments on an early draft. 
 
