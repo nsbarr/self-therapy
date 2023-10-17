@@ -38,6 +38,10 @@ figure.fullwidth figcaption{
   font-style:normal;
 }
 
+.content-title{
+  max-width: 670px;
+}
+
 pre {
   width:1000%;
   background-color:#272822;
