@@ -36,7 +36,11 @@ h3 {
  .subtitle{
    font-size: 2rem;
    font-style:normal;
- }
+  }
+
+.content-title{
+  max-width: 670px;
+}
 
  pre {
    width:1000%;
@@ -49,3 +53,19 @@ h3 {
     width: 28%;
 }
 */
+
+#main {
+  position: relative; /* Ensure that the title is positioned relative to this container */
+  width: 100%; /* Set the width to 100% */
+  background-image: url('./f1.png'); /* Replace with your image path */
+  background-position: top left; /* Position the background image to the top left */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: 100% auto; /* Set the width of the background image to 100% and height to auto */
+}
+
+.blog-title {
+  position: absolute; /* Position the title above the background */
+  top: 0; /* Start from the top */
+  left: 0; /* Start from the left */
+  z-index: 1; /* Place the title above the background image */
+}

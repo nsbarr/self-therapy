@@ -1,27 +1,22 @@
 ---
-title: "Augmented Self-Therapy"
-subtitle: "How I use AI with my Internal Family Systems practice"
+title: "Enhancing Self-Therapy with Internal Family Systems and AI"
+subtitle: "Nick Barr, October 2023"
 url: "/ifs/"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
 ---
-
-<span id=byline>Nick Barr</span>
-
 For several months, I've been prototyping an AI-powered therapy tool. It's proven surprisingly useful, so I want to share it with you here.
 
 Many people are experimenting with AI for therapy, but the tool I've built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model. 
 
-Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through protocols. With a less structured modality like talk therapy, AI chatbots can only mimic therapist behavior, producing a simulacrum of empathy. With IFS, an AI-powered tool can elegantly guide the client through the relevant protocol, freeing them up to go deeper inside. 
+Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through the relevant protocols. With a less structured modality like talk therapy, AI chatbots can only mimic therapist behavior, producing a simulacrum of empathy. With IFS, an AI-powered tool can do much of the scaffolding and guidance that a therapist or a worksheet might, freeing the client up to go deeper within. 
 
-[IFS](https://ifs-institute.com/) changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we all have the innate capacity to heal ourselves. While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book [*Self-Therapy*]((https://amzn.to/44bUY7G)) by Jay Earley, which gives readers a playbook for practicing on their own.
+[IFS](https://ifs-institute.com/) changed my life when I first started working with it in 2020. It is a wonderfully empowering therapy that says we have the  capacity to heal ourselves. While a therapist can be very helpful, many people practice IFS with a partner, or even by themselves. My own entry into IFS was the book [*Self-Therapy*]((https://amzn.to/44bUY7G)) by Jay Earley, which gives readers a playbook for practicing on their own.
 
 But as I discovered, self-therapy isn't easy to do. You have to stay on track and capture insights, all while feeling your feelings. It can feel like trying to drive the car, hold the map, and drink your coffee at the same time. 
 
-This is why I built an AI Practice Partner for IFS. It empowers me to focus on the most important work – connecting to my inner parts – and takes over supporting tasks. 
-
-The prototype I've built depends on the existing protocols of the IFS model, which have been validated and refined over forty years. It aspires only to operationalize those protocols in a novel way that is more effective than worksheets and more available than human partners. 
+This is why I built an AI Practice Partner for IFS. It empowers me to focus on the most important work – connecting to my inner world – and takes over supporting tasks. It uses the existing protocols of the IFS model, which have been validated and refined over forty years. It simply operationalizes those protocols in a novel way that is more effective than worksheets and more available than human partners. 
 
 Because some readers will not be familiar with IFS and other readers will not be familiar with AI mental health chatbots, I  will give brief overviews of both before introducing the AI Practice Partner. From there, I'll describe benefits and limitations of the tool that have emerged from user testing, and conclude with some hints at future directions. 
 
@@ -47,7 +42,7 @@ The key to healing these parts is the **Self**, or **Self-energy**, which IFS vi
 
 To practice IFS is to build a relationship between your Self and your various parts. More specifically: as the Self gets to know Protectors, they begin to reveal their beliefs, fears, and how they work on behalf of the individual. In turn, the Self acknowledges the roles these protective parts have been playing, and gives them hope that there’s a better way forward. 
 
-Having earned the trust of Protectors, the Self can do deep work with the Exiles. Once an Exile is able to tell their story and feels fully witnessed by the Self, they may be prepared to let go of their burdens and limiting beliefs, and re-connect with long-forgotten positive qualities. After the Exile is healed, Protectors discover that they can drop their old roles and take on new responsibilities as well.
+Having earned the trust of Protectors, the Self can do deep work with the Exiles. Once an Exile is able to tell their story and feels fully witnessed by the Self, they may be prepared to let go of their burdens and limiting beliefs, and re-connect with long-forgotten positive qualities. Once the Exile is healed, Protectors discover that they can drop their old roles and take on new responsibilities as well.
 {{< marginnote >}}![Stardew Valley](/stardew-valley.jpg) Games like Harvest Moon, and [Stardew Valley](https://www.stardewvalley.net/), pictured, belong to the "cozy sim" genre. They provide a bucolic environment in which the player can fish, garden, and tend to animals. {{< /marginnote >}}
 
 This is the internal family system: a web of interdependent parts supported by a loving presence, the Self. You could also think of the system as an organization headed up by a benevolent CEO, or even, as I sometimes do, as animals led by a kind shepherd. (I would love for therapy to feel more like playing Harvest Moon; more on that later.)
@@ -56,16 +51,9 @@ The ability to practice on one's own is an essential characteristic of IFS. In t
 
 >My twenty-seven years of experience using this model... tell me that many people can do a great deal of work on themselves without a therapist. They may not be able to unburden all their exiles, but they can reverse the atmosphere of their inner worlds from one of self-loathing to self-love and Self-leadership. Also, people who are in therapy will find the book a useful guide for their between-session work on themselves. Therapy is too expensive in both time and money for many people. I’m grateful that this book allows IFS to extend its reach to those who would not otherwise have access to it.
 
-While this sounds wonderful on paper, the reality is that self-therapy can be quite hard to do. IFS protocols can be complex and unwieldy. For example, consider the “6 Fs,” a protocol for building a relationship between Self and a Protector. The 6 Fs entail: **finding** the part by tuning in to emotions, thoughts, or body sensations; **focusing** on the part by gathering your attention around it; **fleshing out** the details of the part, like its name, its appearance, or what it's saying; checking how you **feel** toward the part to ensure that you are feeling the openness of Self and not the judgement of another part; **befriending** the part by learning more about what it does, why it does it, and how long it's been doing it; and finally learning about its **fears** by asking what it's afraid would happen if it stopped doing its job – this usually points to the Exile that it's protecting.
+While this sounds wonderful on paper, the reality is that self-therapy can be quite hard to do. IFS protocols can be complex and unwieldy. For example, consider the “6 Fs,” a protocol for building a relationship between Self and a Protector. The 6 Fs entail: **finding** the part by tuning in to emotions, thoughts, or body sensations; **focusing** on the part by gathering your attention around it; **fleshing out** the details of the part, like its name, its appearance, or what it's saying; checking how you **feel** toward the part to check for judgment or reactivity from other parts; **befriending** the part by learning more about what it does, why it does it, and how long it's been doing it; and finally learning about its **fears** by asking what it's afraid would happen if it stopped doing its job – this usually points to the Exile that it's protecting.
 
-1. **Find.** The individual turns their attention inwards and finds what’s happening inside by locating an emotion, thought, or body sensation they want to work with.<br/>
-2. **Focus.** The individual gathers their attention around this internal part.<br/>
-3. **Flesh out.** The individual learns basic details about the part: its name, what it looks like, what it’s saying, etc.<br/>
-4. **Feel.** The individual checks how they feel toward the part before going any further. If they feel open, curious, compassionate, etc., then they continue. If they are feeling judgment, aversion, or just going blank, it means they are “blended,” or partially taken over by another part. They either reconnect with Self-energy, or switch focus to that part.<br/>
-5. **Befriend.** The individual learns more about how the part operates: what is the job it does, how long has it been doing that job, how it feels about that job, etc.<br/>
-6. **Fears.** The individual learns what fears the part has by asking what is it scared would happen if it stopped doing its job. The individual validates and negotiates those fears, giving the part hope that they can show them alternative ways of caring for their system.
-
-When I attempt to do self-therapy, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) adhere to the relevant IFS protocol, such as the 6 Fs; and (iv) note any insights gleaned from the session. 
+When I attempt to follow the 6 Fs, I count four jobs I must do simultaneously: (i) access the Self-energy to hold a therapeutic field; (ii) stay in relationship with the target part; (iii) remember and adhere to the protocol, and (iv) note any insights gleaned from the session. 
 
 Historically, I've simply found it too hard to do this. Other aspiring practitioners report similar challenges. IFS seems to suffer from a basic design flaw: while its protocols make self-therapy possible, those same protocols make self-therapy very difficult. 
 
@@ -79,7 +67,7 @@ People have attempted to address this. Bonnie Weiss published a [companion workb
   alt=""
 >}}
 
-Additionally, there are Facebook groups like "[Parts Work Practice](https://www.facebook.com/groups/partsworkpractice)" and "[IFS Self-Healers Community](https://www.facebook.com/groups/internalfamilysystems/)" with thousands of members who meet online to practice together. But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them adequately solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. 
+Additionally, there are Facebook groups like "[Parts Work Practice](https://www.facebook.com/groups/partsworkpractice)" and "[IFS Self-Healers Community](https://www.facebook.com/groups/internalfamilysystems/)" with thousands of members who meet online to practice together. But while working with a partner or a worksheet can help ease the cognitive load of an IFS session, neither of them adequately solves the problem. Working with a partner reintroduces some of the resource challenges that self-therapy seeks to alleviate. You need to find someone you trust, someone with skill, and hardest of all, someone who's available when you need them. Even if you do find this person, they are unlikely to transcribe anything on your behalf, and so you'll need to go back and listen to the recording if you want to take notes. 
 
 Following a worksheet presents its own limitations. {{< marginnote >}}![Papers Please](/papers-please.png) [*Papers, Please*](https://store.steampowered.com/app/239030/Papers_Please/) is a 2013 immigration officer simulator. The player must carefully interrogate would-be immigrants in order to satisfy increasingly complex and oppressive policies laid out by the (fictional) totalitarian government. Self-therapy should not feel like that.{{< /marginnote >}}Personally, I find that filling out a worksheet about a part brings to mind interrogation, not intimacy. It's a format that prevents me from going deep. Beyond my personal qualms, static worksheets simply aren't up for the job of capturing dynamic relationships. In IFS, we learn new information about our parts all the time; we don't want to go back and update old worksheets. We want to move quickly between parts, or work on two at once; worksheets are strictly one-at-a-time. We care deeply about the relationships between parts; worksheets don't have a way to formalize connections.
 
@@ -94,15 +82,15 @@ While this approach works for some people some of the time, it can be unnerving 
 
 To be sure, artificial empathy is worthy of research. Millions of people have no one they can talk to about their problems. Millions of people rarely receive compassion from another human being. For these people, having access to an AI chatbot that can perform care for them may be an important contributor to their mental wellbeing. Esther Perel [compares](/your-undivided-attention-esther-perel-transcript.pdf) these bots to imaginary friends, "transitional objects that gradually allow us to learn the ins and outs of having real relationships."
 
-{{< marginnote >}}![California](/california.jpeg)A GPS system will tell you whether it's faster to take the 280 or Route 1. A map like [this one](https://muir-way.com/collections/best-sellers/products/california-1944-relief-map) will show you why California's highway system is the way it is.{{< /marginnote >}}At best, these interactions create a "temporary developmental container" that lets us rehearse for relationships with real people. At worst, they can erode our capacity to deal with the messiness of real people, and confuse us into making technology responsible for our own wellbeing.
+{{< marginnote >}}![California](/california.jpeg)A GPS system will tell you whether it's faster to take the 280 or Route 1. A map like [this one](https://muir-way.com/collections/best-sellers/products/california-1944-relief-map) will show you why California's highway system is the way it is.{{< /marginnote >}}At best, these interactions create a "temporary developmental container" that lets us rehearse for real relationships. At worst, they can erode our capacity to deal with the messiness of real people, and confuse us into making technology responsible for our own wellbeing.
 
 David Krakauer, president of the Santa Fe Institute, has a [useful framework](/krakauer.pdf) for describing the tension between assistance and agency that underlies both AI and mental health. Some technologies help us think, like the abacus, or a map. They open up new ways of thinking that we develop over time. Eventually we might not need the technologies any more because we've fully internalized their power. Krakauer calls these complementary cognitive artifacts. Other technologies do the thinking for us, like a calculator or GPS. They free us up, but they cannibalize our cognitive abilities. We become dependent on them. Krakauer calls these competitive cognitive artifacts. 
 
-What kind of cognitive artifact is a caring, compassionate chatbot designed to always be there for you? The answer is not entirely clear yet. But for my own practice, I wanted something that was unambiguously complementary. Putting it back in IFS terms, I didn't want a buddy that had or tried to have Self-energy. Instead, I wanted a more neutral tool that would help me access and develop my own Self-energy.
+What kind of cognitive artifact is a caring, compassionate chatbot designed to always be there for you? The answer is not entirely clear yet. But for my own practice, I wanted something that was unambiguously complementary. Putting it back in IFS terms, I didn't want a buddy that pretended to have Self-energy. Instead, I wanted a more neutral tool that would help me access and develop my own Self-energy.
 
 ### Enter the AI Practice Partner
 
-The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using the ChatGPT API, the Practice Partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session, and the only one in the therapeutic role. Finally, the system codifies the contents of the session into structured data that persists across sessions, helping me deepen my relationship to my parts over time.
+The AI Practice Partner uses Whisper, an open-source audio transcription tool, which allows me to talk rather than type and keep my eyes closed – my preferred way of doing inner work. Using ChatGPT, the Practice Partner unobtrusively guides me through relevant IFS protocols while respecting my own meandering explorations. It sticks to terse, information-dense responses that reflect what it's hearing me say, and it's forbidden from unsolicited feedback and empathy. This helps me remember that I am the only Self in the session, and the only one in the therapeutic role. Finally, the system codifies the contents of the session into structured data that persist across sessions, helping me deepen my relationship to my parts over time.
 
 {{< figure
   src="/interface.png"
@@ -114,7 +102,7 @@ The AI Practice Partner uses Whisper, an open-source audio transcription tool, w
 
 Incredibly, all these behaviors are defined not through code but through natural language instructions called a system prompt. System prompts are special messages used to direct the behavior of ChatGPT. 
 
-Below is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to [copy and paste it](/systemprompt.txt) into the publicly available [ChatGPT interface](https://chat.openai.com/auth/login) to get a taste of augmented self-therapy for themselves. (Two caveats: the AI Practice Partner uses GPT-4, which is a paid offering, and the system prompt refers to "json_data," which will not transfer to the ChatGPT interface.) 
+Below is the system prompt that I am currently using, after several rounds of iteration. Anyone should be able to [copy and paste it](/systemprompt.txt) into the publicly available [ChatGPT sandbox](https://chat.openai.com/auth/login) to get a taste of augmented self-therapy for themselves. (Two caveats: the AI Practice Partner uses GPT-4, which is a paid offering, and the system prompt refers to "json_data," which will not transfer to the ChatGPT interface.) 
 
 {{< figure
   src="/systemprompt.png"
@@ -124,11 +112,11 @@ Below is the system prompt that I am currently using, after several rounds of it
   alt=""
 >}}
 
-To be clear, though the system prompt reads like a playbook to follow, the AI Practice Partner itself doesn't have concepts like protocols or rulesets. {{< marginnote >}}![Vector](/vec.jpg)Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /marginnote >}} LLMs like ChatGPT rely on complex predictive models trained on billions of web pages. All the same, the AI Practice Partner faithfully adheres to these instructions, and wonderfully augments my inner work. To see it in action, we will look at the transcript of a self-therapy session I conducted. My comments are in italics.  
+To be clear, though the system prompt reads like a set of rules to follow, the AI Practice Partner itself doesn't have concepts like protocols or rulesets. {{< marginnote >}}![Vector](/vec.jpg)Timothy B Lee and Sean Trott have the [best accessible primer](https://www.understandingai.org/p/large-language-models-explained-with) I've seen on LLMs.{{< /marginnote >}} LLMs like ChatGPT rely on complex predictive models trained on billions of web pages. All the same, the AI Practice Partner faithfully adheres to these instructions, and wonderfully augments my inner work. To see it in action, we will look at the transcript of a self-therapy session I conducted. My comments are in italics.  
 
-### Session 1: Getting to know a Protector
+### Session Transcript: Getting to know a Protector
 
-*In the following session, I came with the intention to work with some fear I was experiencing around a work situation. In IFS this is called a trailhead – a place to start getting to know a part.*
+*In the following session, I came with the intention to work with some fear I was experiencing around a work situation. In IFS this is called a trailhead – a place to begin getting to know a part.*
 
 **Nick:** Yeah, so I'm feeling a lot of fear actually in the moment, a lot of anxiety in my chest region, shortness of breath. And I think it's related to some work stuff that's coming up around the corner. And I'd like to get to know that fear better today. It feels kind of like animal terror. It feels very primal.
 
@@ -152,7 +140,7 @@ To be clear, though the system prompt reads like a playbook to follow, the AI Pr
 
 **P:** Acknowledged. As you are in Self and feeling calm and caring, let's proceed to Section 2 to learn more about Primal Fear. What job is it doing for you?
 
-*If Nick showed more reactivity or judgment toward the target part, the Practice Partner would have asked Nick to unblend from his part before carrying on.*
+*If Nick showed more reactivity or judgment toward the target part, the Practice Partner would have asked Nick to unblend from the reactive part before carrying on.*
 
 **N:** So first of all, it's not, I don't want to call it primal fear so much because it's more than that. It's like my furry friend, I think is its name. It's a very sweet part. It has hopes and dreams, but they're very fragile. So right now I'm just checking in if there's actually two parts here. Who has the hopes and dreams and who is scared of losing them? I think this squirrel's job or this furry friend's job is not to have the hopes and dreams but to sort of like hide them and hoard them and protect them. So its job is to sort of scurry and to protect me from disappointment by not letting my hopes and dreams be so out in the open.
 
@@ -208,11 +196,11 @@ Based on the feedback from these volunteers, alongside my own observations, the 
 
 **It educates.** The Practice Partner assumes the individual already has a strong IFS background. So there's no educational or explanatory material. That said, whenever volunteers were stuck, it was natural for them to ask the Practice Partner for help. For example, when one tester expressed annoyance with a part, it encouraged them to unblend, as the system prompt instructed it to do. But when the tester asked for tips to unblend, the Practice Partner provided this unscripted answer (which will be better formatted in future versions): 
 
->Yes. Try these steps: 1. Recognize you are blended with a part. You've done this by acknowledging annoyance. 2. Ask the part to separate from you. Internal dialogue might be: 'I know you are there, and I'd like to understand you better. Can you step back just a little?' 3. Use visualization. Imagine the part moving away from you, leaving you at the center. 4. Check in with your feelings. After attempting to unblend, see how you feel towards the part now. Try this and then share how you feel towards the part. 
+>Try these steps: 1. Recognize you are blended with a part. You've done this by acknowledging annoyance. 2. Ask the part to separate from you. Internal dialogue might be: 'I know you are there, and I'd like to understand you better. Can you step back just a little?' 3. Use visualization. Imagine the part moving away from you, leaving you at the center. 4. Check in with your feelings. After attempting to unblend, see how you feel towards the part now. Try this and then share how you feel towards the part. 
 
-**It takes feedback.** I've tuned the Practice Partner to my own preferences over the course of several sessions, such that it now suits me quite well. To some extent, that same tuning is available to individuals, even if they don't have a way to edit the system prompt directly. One tester, feeling a bit overwhelemed by the multi-part questions the Practice Partner kept posing, asked "Can we please do these one at a time?" It immediately complied, changing its approach for the duration of the session. Other corrective feedback works just as well; an individual can spontaneously switch between parts, or change the name of a previous part, and the tool adjusts seamlessly.
+**It takes feedback.** I've tuned the Practice Partner to my own preferences over the course of several sessions, such that it now suits me quite well. To some extent, that same tuning is available to individuals, even if they don't have a way to edit the system prompt directly. One tester, feeling a bit overwhelmed by the multi-part questions the Practice Partner kept posing, asked "Can we please do these one at a time?" It immediately complied, changing its approach for the duration of the session. Other corrective feedback works just as well; an individual can spontaneously switch between parts, or change the name of a previous part, and the tool adjusts seamlessly.
 
-**It draws connections.** The more one uses it, the more useful the Practice Partner becomes. This virtuous cycle has to do with the way that the system structures and represents data. To make this concrete, here is an exchange from a recent session that I had:
+**It draws connections.** The more one uses it, the more useful the Practice Partner becomes. This virtuous cycle has to do with the way that the system structures and represents data. To make this concrete, here is an exchange from a recent session:
 
 >**Nick**: Okay. Just settling in and contacting feelings in my belly. There's kind of a lot of shame circling around, and yesterday I sort of just had this throwaway day that...had me connecting with really low feelings for the first time in a while... Today I'm feeling better, but yeah almost that feeling of like wanting to be underground and eating and numbing and consuming as a way of kind of like... burial, burial under sensory experience.
 
@@ -220,7 +208,7 @@ Based on the feedback from these volunteers, alongside my own observations, the 
 
 >**N**: I think it's different because I feel the humbler in the back of the neck and this part is coming from the gut. I'm checking in to see what their connection is, if there is a connection.
 
-Even though I concluded these feelings were coming from another part, the question was incredibly perceptive. It was the kind of connection that only a very engaged therapist or close friend would be in a position to make. 
+Even though I concluded these feelings were coming from another part, the question was incredibly perceptive. It was the kind of question that only a very engaged therapist or close friend would be in a position to ask. 
 
 These are promising early results. If these benefits hold for most new users, I expect the Practice Partner will increase the likelihood of an individual establishing and maintaining a self-therapy practice. From there, the practice itself will open doors to self-discovery, healing, and transformation. 
 
@@ -228,17 +216,17 @@ That has been the case for me.
 
 ### Limitations to the Practice Partner 
 
-As a prototype, the Practice Partner I've built currently has many limitations. To name a few for the technically inclined: it has poor error handling; it sometimes "hallucinates" speech when the individual is not speaking; it is slow; it doesn't format responses; it doesn't have a way to maintain context over long sessions; it is not secure or HIPAA compliant. All of these are reasonably straightforward to address.
+As a prototype, the AI Practice Partner I've built currently has many limitations. To name a few for the technically inclined: it has poor error handling; it sometimes "hallucinates" speech when the individual is not speaking; it is slow; it doesn't format responses; it doesn't have a way to maintain context over long sessions; it is not secure or HIPAA compliant. All of these are reasonably straightforward to address.
 
 {{< marginnote ind="⊕" >}}<span id="Gloria">![Gloria](/gloria.png)[The Gloria Films](https://www.youtube.com/watch?v=G9oRc9DR4GQ), recorded in 1965 and still used in therapist trainings today, offer a glimpse into the nuance of the therapeutic container.</span>{{< /marginnote >}}But the Practice Partner also has some deeper problems. One may be the conversational medium itself. The mere presence of a conversational interface, with familiar chat bubbles and a "Send" button, may subtly direct the individual toward back-and-forth exchanges at the expense of deeper work. One tester, an experienced IFS therapist, conducted a 20 minute session without once consulting the Practice Partner for feedback. All the same she went quite deep in her session, weeping with compassion for her wounded parts. This was a wonderful reminder that fundamentally, doing IFS with a partner is not about having a conversation. It's about creating a therapeutic container.
 
-Testers almost always attempted to respond to whatever questions the Practice Partner asked. I noticed that when it offered up multi-part questions, testers tried to answer them all in one go. While the system prompt could be refined to only ask one question at a time, that too would be directive in a different way, pointing the individual down a particular direction instead of opening up many.
+Testers almost always attempted to respond to whatever questions the Practice Partner asked. I noticed that when it offered up multi-part questions, testers tried to answer them all in one go. While the system prompt could be refined to only ask one question at a time, that would be directive in a different way, pointing the individual down a particular direction instead of opening up many.
 
 Another limitation of the Practice Partner is intentional: it is not trained to assist in the unburdening of exiles, in which another person's healing energy can be indispensable. As a result, the system is currently only able to deploy a subset of the IFS playbook, and can't help much with the deeper protocols.
 
 ### Future directions
 
-Despite its limitations, the Practice Partner shows promise in helping motivated individuals establish a regular self-therapy practice. With additional support, there is an opportunity to improve the quality of that practice so that more people can go deeper and experience more healing. 
+Despite its limitations, the AI Practice Partner shows promise in helping motivated individuals establish a regular self-therapy practice. With additional investment, there is an opportunity to improve the quality of that practice so that more people can go deeper and experience more healing. 
 
 One way to do that is with a digital parts map. The parts map is a popular tool among IFS practitioners. In the *Self-Therapy Workbook*, Bonnie Weiss writes:
 
@@ -278,7 +266,7 @@ The visualization would reduce the pressure on the conversational medium to do r
   alt=""
 >}}
 
-The visualization updates in realtime as the individual uncovers more information about the part, as I do below. As I learn more about this primal fear, I add more information, like the job it has and its fears around not doing that job. I also come to know it by a new name and appearance.
+The canvas would update in realtime as the individual uncovers more information about the part, as I do below. As I learn more about this primal fear, I add more information, like the job it has and its fears around not doing that job. I also come to know it by a new name and appearance.
 
 {{< figure
   src="/vi3.png"
@@ -302,9 +290,9 @@ In this vision, the conversational interface recedes from the user experience, c
 
 Of course, this is just one direction. Given the wide variety of approaches people take when it comes to their inner work, there are many other directions that the design could take. 
 
-The design choices that we make in the emergin AI era could have enormous consequences. AI is quickly entering all aspects of our lives, and we currently lack toolkits and design patterns that ensure these systems are implemented effectively and safely. When it comes to mental health, we might ask questions such as: is the system designed to heal us, or to help us heal ourselves? Will it prepare us for the messiness of being human, or will it shield us from that messiness? Will we become more resilient thanks to this system, or more reliant on it? 
+The design choices that we make in the emerging AI era could have enormous consequences. AI is quickly entering many aspects of our lives, and we currently lack toolkits and design patterns that ensure these systems are implemented effectively and safely. When it comes to mental health, we might ask questions such as: is the system designed to heal us, or to help us heal ourselves? Will it prepare us for the messiness of being human, or will it shield us from that messiness? Will we become more resilient thanks to this system, or more reliant on it? 
 
-IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Because IFS has explicit protocols, an AI Practice Partner can be effectively trained to facilitate self-therapy. And because IFS has the concept of Self, the Practice Partner's role is well-defined: it should only act in ways that help the individual access their own Self-energy. A well-behaved AI Practice Partner may help more people establish a regular practice on their own, between or instead of sessions with a therapist.
+IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Because IFS has explicit protocols, an AI Practice Partner can be effectively trained to facilitate self-therapy. And its role is narrowly scoped: it should only act in ways that help the individual access their own Self-energy. A well-designed AI Practice Partner may help more people establish a regular practice on their own, between or instead of sessions with a therapist.
 
 IFS practitioners interested in trying out the prototype can [request access here](https://docs.google.com/forms/d/1MwryIOsIj448zC49c163O2SdpK0UoT_jpdXfBpf-veE/viewform?edit_requested=true). Those interested in supporting this work or exploring a collaboration can reach me directly at nsbarr \[at\] gmail \[dot\] com.
 
