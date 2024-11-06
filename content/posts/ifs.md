@@ -294,7 +294,7 @@ The design choices that we make in the emerging AI era could have enormous conse
 
 IFS may be uniquely well-suited for the AI age that is rapidly unfolding. Because IFS has explicit protocols, an AI Practice Partner can be effectively trained to facilitate self-therapy. And its role is narrowly scoped: it should only act in ways that help the individual access their own Self-energy. A well-designed AI Practice Partner may help more people establish a regular practice on their own, between or instead of sessions with a therapist.
 
-My hope is to partner with clinicians, technologists, and research organizations to develop these ideas further within a pilot program. Those interested in supporting this work or exploring a collaboration can email me at nsbarr \[at\] gmail \[dot\] com. IFS practitioners interested in trying out the prototype can [request access here](https://docs.google.com/forms/d/1MwryIOsIj448zC49c163O2SdpK0UoT_jpdXfBpf-veE/viewform?edit_requested=true). 
+My hope is to partner with clinicians, technologists, and research organizations to develop these ideas further within a pilot program. Those interested in supporting this work or exploring a collaboration can email me at nsbarr \[at\] gmail \[dot\] com. IFS practitioners interested in trying out the prototype can ~~request access here~~ \[NB: The prototype is no longer being maintained, please refer to the prompt text to try it on your favorite LLM.\] 
 
 ### Acknowledgements
 
