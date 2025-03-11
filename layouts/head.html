@@ -1,0 +1,10 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    
+    <!-- Add the CSS and font imports here -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap">
+    {{ $videoPlayerStyles := resources.Get "css/video-player.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ $videoPlayerStyles.RelPermalink }}">
+  </head>

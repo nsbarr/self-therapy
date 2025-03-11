@@ -10,3 +10,8 @@ canonifyURLs = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[menu]
+  [[menu.main]]
+    name = "Devotional Watching"
+    url = "/devotional-watching/"
+    weight = 5

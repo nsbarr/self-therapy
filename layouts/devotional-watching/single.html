@@ -1,0 +1,156 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    <h2>By {{ .Params.speaker }}</h2>
+    
+    <div class="content-container">
+        <div class="video-section">
+            <div class="video-container">
+                <iframe id="youtube-player" 
+                    src="https://www.youtube.com/embed/{{ .Params.youtubeId }}?enablejsapi=1" 
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div class="transcript-section" id="transcript">
+            <!-- Transcript will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        // YouTube player
+        let youtubePlayer;
+        let currentSegmentId = null;
+        let playbackInterval;
+        
+        // Access transcript data from Hugo front matter
+        const transcriptData = {{ .Params.transcript | jsonify | safeJS }};
+        const videoDuration = {{ .Params.duration }};
+        
+        // Format time (seconds) to MM:SS
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = Math.floor(seconds % 60);
+            return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+        }
+        
+        // Initialize YouTube player
+        function onYouTubeIframeAPIReady() {
+            console.log("YouTube API Ready");
+            youtubePlayer = new YT.Player('youtube-player', {
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+        
+        // When player is ready
+        function onPlayerReady(event) {
+            console.log("Player Ready");
+            renderTranscript();
+        }
+        
+        // Player state changes (play, pause, etc.)
+        function onPlayerStateChange(event) {
+            console.log("Player state changed to: " + event.data);
+            
+            // Start tracking time when video is playing
+            if (event.data === YT.PlayerState.PLAYING) {
+                startTimeTracking();
+            } else {
+                clearInterval(playbackInterval);
+            }
+        }
+        
+        // Start tracking video time
+        function startTimeTracking() {
+            clearInterval(playbackInterval);
+            playbackInterval = setInterval(() => {
+                if (youtubePlayer && youtubePlayer.getCurrentTime) {
+                    const currentTime = youtubePlayer.getCurrentTime();
+                    updateCurrentSegment(currentTime);
+                }
+            }, 250); // Check frequently for better sync
+        }
+        
+        // Update which segment is highlighted based on current time
+        function updateCurrentSegment(currentTime) {
+            const newSegment = transcriptData.find(
+                segment => currentTime >= segment.start && currentTime < segment.end
+            );
+            
+            if (newSegment && newSegment.id !== currentSegmentId) {
+                currentSegmentId = newSegment.id;
+                highlightCurrentSegment();
+            }
+        }
+        
+        // Render transcript segments
+        function renderTranscript() {
+            const transcriptContainer = document.getElementById('transcript');
+            transcriptContainer.innerHTML = '';
+            
+            transcriptData.forEach(segment => {
+                const segmentElement = document.createElement('div');
+                segmentElement.className = 'transcript-segment';
+                segmentElement.dataset.id = segment.id;
+                segmentElement.dataset.start = segment.start;
+                
+                if (segment.id === currentSegmentId) {
+                    segmentElement.classList.add('active');
+                }
+                
+                segmentElement.innerHTML = `
+                    <div class="segment-time">${formatTime(segment.start)} - ${formatTime(segment.end)}</div>
+                    <div class="segment-text">${segment.text}</div>
+                    ${segment.commentary ? `<div class="commentary">${segment.commentary}</div>` : ''}
+                `;
+                
+                segmentElement.addEventListener('click', () => {
+                    seekToSegment(segment.id);
+                });
+                
+                transcriptContainer.appendChild(segmentElement);
+            });
+        }
+        
+        // Seek to a specific segment
+        function seekToSegment(segmentId) {
+            console.log("Seeking to segment: " + segmentId);
+            const segment = transcriptData.find(seg => seg.id === segmentId);
+            
+            if (segment && youtubePlayer && youtubePlayer.seekTo) {
+                currentSegmentId = segment.id;
+                youtubePlayer.seekTo(segment.start, true);
+                highlightCurrentSegment();
+            } else {
+                console.error("Unable to seek: Player not ready or segment not found");
+            }
+        }
+        
+        // Highlight current segment
+        function highlightCurrentSegment() {
+            const segments = document.querySelectorAll('.transcript-segment');
+            segments.forEach(segment => {
+                if (parseInt(segment.dataset.id) === currentSegmentId) {
+                    segment.classList.add('active');
+                    segment.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    segment.classList.remove('active');
+                }
+            });
+        }
+        
+        // Initialize when document is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initial setup that doesn't depend on the YouTube player
+            renderTranscript();
+        });
+    </script>
+</div>
+{{ end }}
