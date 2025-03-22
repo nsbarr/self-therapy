@@ -12,7 +12,6 @@
         --color-accent-3: #c4886e;
         --color-accent-4: #686868;
         --color-accent-5: #FBFAF3;
-        --color-commentary: rgba(196, 136, 110, 0.08);
         
         /* Typography */
         --font-primary: 'Petrona', serif;
@@ -38,6 +37,17 @@
         background-color: var(--color-base);
         margin: 0;
         padding: 0;
+    }
+    
+    body.dark-mode {
+        --color-base: #1a1a1a;
+        --color-contrast: #e6d2bc;
+        --color-accent-1: #2a2520;
+        --color-accent-2: #e69b55;
+        --color-accent-3: #c4886e;
+        --color-accent-4: #a8a8a8;
+        --color-accent-5: #252525;
+        background-color: #1a1a1a;
     }
     
     .container {
@@ -67,73 +77,25 @@
         margin-bottom: var(--spacing-lg);
     }
     
-    h3 {
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-large);
-        font-weight: 600;
-        margin-top: var(--spacing-md);
-        margin-bottom: var(--spacing-sm);
-        color: var(--color-contrast);
+    /* Main layout */
+    .content-container {
+        display: flex;
+        gap: var(--spacing-xl);
     }
     
-    .main-layout {
-        display: grid;
-        grid-template-columns: minmax(240px, 1fr) minmax(0, 3fr);
-        gap: var(--spacing-lg);
-    }
-    
-    .chapter-nav {
+    .video-section {
+        flex: 0 0 40%;
         position: sticky;
         top: var(--spacing-xl);
         height: fit-content;
-        max-height: 80vh;
-        overflow-y: auto;
-        padding-right: var(--spacing-md);
     }
     
-    .chapter-nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        border-left: 2px solid var(--color-accent-1);
-    }
-    
-    .chapter-nav li {
-        margin-bottom: var(--spacing-sm);
-    }
-    
-    .chapter-nav a {
-        display: block;
-        padding: var(--spacing-sm) var(--spacing-md);
-        color: var(--color-contrast);
-        text-decoration: none;
-        border-left: 2px solid transparent;
-        margin-left: -2px;
-        transition: all 0.2s;
-        font-size: 0.95rem;
-        line-height: 1.4;
-    }
-    
-    .chapter-nav a:hover {
-        background-color: var(--color-accent-1);
-    }
-    
-    .chapter-nav a.active {
-        border-left: 2px solid var(--color-accent-2);
-        background-color: var(--color-accent-1);
-        font-weight: 500;
-    }
-    
-    .chapter-timestamp {
-        display: block;
-        font-size: var(--font-size-small);
-        color: var(--color-accent-4);
-        margin-top: 4px;
-    }
-    
-    .content-area {
-        display: flex;
-        flex-direction: column;
+    .transcript-section {
+        flex: 0 0 55%;
+        border: 1px solid var(--color-accent-1);
+        border-radius: 5px;
+        padding: var(--spacing-md);
+        background-color: var(--color-accent-5);
     }
     
     .video-container {
@@ -141,7 +103,7 @@
         width: 100%;
         padding-top: 56.25%; /* 16:9 Aspect Ratio */
         background-color: #000;
-        margin-bottom: var(--spacing-lg);
+        margin-bottom: var(--spacing-md);
         border-radius: 5px;
         overflow: hidden;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -156,203 +118,176 @@
         border: none;
     }
     
-    .controls {
+    /* Button styles */
+    .control-buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .control-button {
+        display: inline-block;
+        font-size: var(--font-size-small);
+        color: var(--color-accent-3);
+        background: none;
+        border: 1px solid var(--color-accent-3);
+        border-radius: 30px;
+        padding: 5px 12px;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    
+    .control-button:hover {
+        background-color: var(--color-accent-1);
+    }
+    
+    .control-button.active {
+        background-color: var(--color-accent-3);
+        color: white;
+    }
+    
+    /* Chapter styling */
+    .chapter {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .chapter-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: var(--spacing-lg);
-        background-color: white;
+        background-color: var(--color-accent-1);
         padding: var(--spacing-md);
         border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    }
-    
-    .chapter-title {
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-large);
-        margin: 0;
-    }
-    
-    .toggle-commentary {
-        display: flex;
-        align-items: center;
-        background-color: var(--color-accent-1);
-        border: none;
-        padding: var(--spacing-sm) var(--spacing-md);
-        border-radius: 30px;
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-small);
-        color: var(--color-contrast);
         cursor: pointer;
         transition: background-color 0.2s;
     }
     
-    .toggle-commentary:hover {
+    .chapter-header:hover {
         background-color: var(--color-accent-2);
         color: white;
     }
     
-    .toggle-commentary::before {
-        content: "";
-        display: inline-block;
-        width: 14px;
-        height: 14px;
-        background-color: var(--color-accent-3);
-        border-radius: 50%;
-        margin-right: 8px;
-        transition: background-color 0.2s;
+    .chapter-title-wrapper {
+        display: flex;
+        flex-direction: column;
     }
     
-    .toggle-commentary.active::before {
-        background-color: #4CAF50;
-    }
-    
-    .transcript {
-        background-color: white;
-        border-radius: 5px;
-        padding: var(--spacing-lg);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    }
-    
-    .chapter {
-        margin-bottom: var(--spacing-xl);
-        padding-bottom: var(--spacing-lg);
-        border-bottom: 1px solid var(--color-accent-1);
-        display: none;
-    }
-    
-    .chapter.active {
-        display: block;
-    }
-    
-    .chapter:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-    }
-    
-    .chapter-header {
-        margin-bottom: var(--spacing-md);
+    .chapter-title {
+        margin: 0;
+        font-family: var(--font-heading-2);
+        font-size: var(--font-size-large);
     }
     
     .chapter-time {
         font-size: var(--font-size-small);
         color: var(--color-accent-4);
+        margin-top: 4px;
     }
     
-    .paragraph {
-        margin-bottom: var(--spacing-lg);
+    .chapter-toggle {
+        width: 20px;
+        height: 20px;
         position: relative;
     }
     
-    .transcript-text {
-        margin-bottom: var(--spacing-md);
-        position: relative;
+    .chapter-toggle::before,
+    .chapter-toggle::after {
+        content: "";
+        position: absolute;
+        background-color: var(--color-contrast);
+        transition: transform 0.3s;
     }
     
-    .commentary-block {
+    .chapter-toggle::before {
+        width: 2px;
+        height: 12px;
+        top: 4px;
+        left: 9px;
+    }
+    
+    .chapter-toggle::after {
+        width: 12px;
+        height: 2px;
+        top: 9px;
+        left: 4px;
+    }
+    
+    .chapter-header.collapsed .chapter-toggle::before {
+        transform: rotate(90deg);
+    }
+    
+    .chapter-content {
         padding: var(--spacing-md);
-        background-color: var(--color-commentary);
-        border-left: 3px solid var(--color-accent-3);
-        margin-top: var(--spacing-sm);
-        font-style: italic;
-        color: var(--color-contrast);
-        display: none; /* Hidden by default */
-        position: relative;
-        border-radius: 0 5px 5px 0;
+        display: none;
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+        margin-top: 2px;
     }
     
-    .show-commentary .commentary-block {
+    .chapter-content.expanded {
         display: block;
     }
     
-    .transcript-paragraph {
-        position: relative;
+    /* Chapter transcript and commentary */
+    .chapter-transcript {
         margin-bottom: var(--spacing-lg);
     }
     
-    .paragraph-timestamp {
-        position: absolute;
-        left: -60px;
-        top: 0;
-        color: var(--color-accent-4);
-        font-size: var(--font-size-small);
-        opacity: 0.8;
+    .transcript-paragraph {
+        margin-bottom: var(--spacing-sm);
+        color: var(--color-contrast);
+        width: 100%;
     }
     
-    /* Marker for paragraphs with commentary */
-    .has-commentary::after {
-        content: "※";
+    .commentary {
+        font-style: italic;
+        margin-top: var(--spacing-lg);
+        padding: var(--spacing-md);
+        border-left: 3px solid var(--color-accent-3);
         color: var(--color-accent-3);
-        position: absolute;
-        right: -20px;
-        top: 0;
-        font-size: var(--font-size-large);
-        opacity: 0.7;
+        background-color: var(--color-accent-1);
+        border-radius: 0 5px 5px 0;
+        display: none; /* Hidden by default */
     }
     
-    .show-commentary .has-commentary::after {
-        display: none;
+    .show-commentary .commentary {
+        display: block;
     }
     
-    /* Mobile styles */
-    .mobile-controls {
-        display: none;
+    /* Dark mode overrides */
+    body.dark-mode .chapter-content {
+        background-color: #252525;
+        color: #e6d2bc;
     }
     
+    body.dark-mode .chapter-header {
+        background-color: #333;
+        color: #e6d2bc;
+    }
+    
+    body.dark-mode .commentary {
+        background-color: rgba(196, 136, 110, 0.15);
+    }
+    
+    /* Mobile responsive styles */
     @media (max-width: 768px) {
-        .main-layout {
-            grid-template-columns: 1fr;
+        .content-container {
+            flex-direction: column;
         }
-        
-        .chapter-nav {
-            position: relative;
+        .video-section {
+            position: sticky;
             top: 0;
-            max-height: none;
-            margin-bottom: var(--spacing-lg);
-            display: none;
-        }
-        
-        .chapter-nav.mobile-visible {
-            display: block;
-        }
-        
-        .paragraph-timestamp {
-            position: relative;
-            left: 0;
-            display: block;
-            margin-bottom: 4px;
-        }
-        
-        .transcript {
-            padding: var(--spacing-md);
-        }
-        
-        .container {
-            padding: var(--spacing-md);
-        }
-        
-        .mobile-controls {
-            display: flex;
-            justify-content: space-between;
+            width: 100%;
+            z-index: 10;
+            background-color: var(--color-base);
+            padding-bottom: var(--spacing-sm);
             margin-bottom: var(--spacing-md);
         }
-        
-        .mobile-nav-toggle {
-            background-color: var(--color-accent-1);
-            border: none;
-            padding: var(--spacing-sm) var(--spacing-md);
-            border-radius: 5px;
-            font-family: var(--font-heading-2);
-            font-size: var(--font-size-small);
-            color: var(--color-contrast);
-            cursor: pointer;
+        .transcript-section {
+            width: 100%;
         }
-        
-        .has-commentary::after {
-            position: relative;
-            right: auto;
-            display: inline-block;
-            margin-left: 5px;
+        .container {
+            padding: var(--spacing-md);
         }
     }
 </style>
@@ -361,30 +296,9 @@
     <h1>{{ .Title }}</h1>
     <h2>{{ .Params.subtitle }}</h2>
     
-    <!-- Mobile Controls -->
-    <div class="mobile-controls">
-        <button class="mobile-nav-toggle" id="mobileNavToggle">Show Chapter Navigation</button>
-    </div>
-    
-    <div class="main-layout">
-        <!-- Chapter Navigation -->
-        <div class="chapter-nav" id="chapterNav">
-            <h3>Chapters</h3>
-            <ul>
-                {{ range $index, $chapter := site.Data.transcripts.lama_zopa_nonsense_mind.chapters }}
-                    <li>
-                        <a href="#chapter-{{ $chapter.id }}" class="chapter-link{{ if eq $index 0 }} active{{ end }}" data-chapter="{{ $chapter.id }}">
-                            {{ $chapter.id }}. {{ $chapter.title }}
-                            <span class="chapter-timestamp">{{ div $chapter.start_time 60 | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }} - {{ div $chapter.end_time 60 | int }}:{{ mod $chapter.end_time 60 | printf "%02d" }}</span>
-                        </a>
-                    </li>
-                {{ end }}
-            </ul>
-        </div>
-        
-        <!-- Content Area -->
-        <div class="content-area">
-            <!-- Video Player -->
+    <div class="content-container">
+        <!-- Video Section (Left) -->
+        <div class="video-section">
             <div class="video-container">
                 <iframe id="youtube-player" 
                     src="https://www.youtube.com/embed/{{ .Params.youtube_id }}?enablejsapi=1" 
@@ -394,129 +308,120 @@
                 </iframe>
             </div>
             
-            <!-- Controls Bar -->
-            <div class="controls">
-                <h3 class="chapter-title" id="currentChapterTitle">
-                    {{ with index site.Data.transcripts.lama_zopa_nonsense_mind.chapters 0 }}
-                        {{ .id }}. {{ .title }}
-                    {{ end }}
-                </h3>
-                <button class="toggle-commentary" id="toggleCommentary">Show Commentary</button>
+            <!-- Control Buttons -->
+            <div class="control-buttons">
+                <button class="control-button" id="toggleCommentary">Show Commentary</button>
+                <button class="control-button" id="toggleAutoScroll">Enable Auto-Scroll</button>
+                <button class="control-button" id="toggleDarkMode">Dark Mode</button>
             </div>
-            
-            <!-- Transcript Content -->
-            <div class="transcript" id="transcriptContent">
-                {{ range $index, $chapter := site.Data.transcripts.lama_zopa_nonsense_mind.chapters }}
-                    <div id="chapter-{{ $chapter.id }}" class="chapter{{ if eq $index 0 }} active{{ end }}">
-                        <div class="chapter-header">
-                            <h3>{{ $chapter.id }}. {{ $chapter.title }}</h3>
+        </div>
+        
+        <!-- Transcript Section (Right) -->
+        <div class="transcript-section" id="transcript">
+            {{ range $index, $chapter := site.Data.transcripts.lama_zopa_nonsense_mind.chapters }}
+                <div id="chapter-{{ $chapter.id }}" class="chapter">
+                    <div class="chapter-header{{ if eq $index 0 }} expanded{{ else }} collapsed{{ end }}" data-chapter="{{ $chapter.id }}">
+                        <div class="chapter-title-wrapper">
+                            <h3 class="chapter-title">{{ $chapter.id }}. {{ $chapter.title }}</h3>
                             <span class="chapter-time">{{ div $chapter.start_time 60 | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }} - {{ div $chapter.end_time 60 | int }}:{{ mod $chapter.end_time 60 | printf "%02d" }}</span>
                         </div>
-                        
-                        <!-- Split the transcript into paragraphs -->
-                        {{ $paragraphs := split $chapter.transcript "\n\n" }}
-                        {{ range $pIndex, $paragraph := $paragraphs }}
-                            {{ if ne (trim $paragraph " ") "" }}
-                                <div class="transcript-paragraph">
-                                    <!-- Calculate an approximate timestamp for the paragraph -->
-                                    {{ $paraTimeOffset := mul $pIndex 20 }}
-                                    {{ $paraTime := add $chapter.start_time $paraTimeOffset }}
-                                    <span class="paragraph-timestamp">{{ div $paraTime 60 | int }}:{{ mod $paraTime 60 | printf "%02d" }}</span>
-                                    
-                                    <!-- Check if the paragraph should have commentary -->
-                                    <p class="transcript-text{{ if ne $chapter.commentary "" }} has-commentary{{ end }}">
-                                        {{ $paragraph | markdownify }}
-                                    </p>
-                                    
-                                    <!-- Add commentary if available -->
-                                    {{ if ne $chapter.commentary "" }}
-                                        <div class="commentary-block">
-                                            {{ $chapter.commentary | markdownify }}
-                                        </div>
-                                    {{ end }}
+                        <div class="chapter-toggle"></div>
+                    </div>
+                    
+                    <div class="chapter-content{{ if eq $index 0 }} expanded{{ end }}">
+                        <div class="chapter-transcript" data-start="{{ $chapter.start_time }}" data-end="{{ $chapter.end_time }}">
+                            {{ $paragraphs := split $chapter.transcript "\n\n" }}
+                            {{ range $pIndex, $paragraph := $paragraphs }}
+                                {{ if ne (trim $paragraph " ") "" }}
+                                    <p class="transcript-paragraph">{{ $paragraph | markdownify }}</p>
+                                {{ end }}
+                            {{ end }}
+                            
+                            {{ if ne $chapter.commentary "" }}
+                                <div class="commentary">
+                                    {{ $chapter.commentary | markdownify }}
                                 </div>
                             {{ end }}
-                        {{ end }}
+                        </div>
                     </div>
-                {{ end }}
-            </div>
+                </div>
+            {{ end }}
         </div>
     </div>
 </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Toggle commentary visibility
-        const toggleButton = document.getElementById('toggleCommentary');
-        const transcript = document.getElementById('transcriptContent');
+        // DOM elements
+        const transcript = document.getElementById('transcript');
+        const toggleCommentaryBtn = document.getElementById('toggleCommentary');
+        const toggleAutoScrollBtn = document.getElementById('toggleAutoScroll');
+        const toggleDarkModeBtn = document.getElementById('toggleDarkMode');
+        const chapterHeaders = document.querySelectorAll('.chapter-header');
+        const chapterContents = document.querySelectorAll('.chapter-content');
         
-        toggleButton.addEventListener('click', function() {
-            transcript.classList.toggle('show-commentary');
-            toggleButton.classList.toggle('active');
-            
-            if (transcript.classList.contains('show-commentary')) {
-                toggleButton.textContent = 'Hide Commentary';
-            } else {
-                toggleButton.textContent = 'Show Commentary';
-            }
-        });
+        // Variables
+        let autoScrollEnabled = false;
+        let youtubePlayer;
         
-        // Chapter navigation
-        const chapterLinks = document.querySelectorAll('.chapter-link');
-        const chapters = document.querySelectorAll('.chapter');
-        const currentChapterTitle = document.getElementById('currentChapterTitle');
-        
-        chapterLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
+        // Chapter expand/collapse functionality (without affecting video)
+        chapterHeaders.forEach(header => {
+            header.addEventListener('click', function(e) {
+                const chapterId = this.getAttribute('data-chapter');
+                const content = document.querySelector(`#chapter-${chapterId} .chapter-content`);
+                
+                this.classList.toggle('collapsed');
+                this.classList.toggle('expanded');
+                content.classList.toggle('expanded');
+                
                 e.preventDefault();
-                
-                // Update active link
-                chapterLinks.forEach(l => l.classList.remove('active'));
-                this.classList.add('active');
-                
-                // Update chapter visibility
-                const chapterId = this.getAttribute('href');
-                chapters.forEach(chapter => chapter.classList.remove('active'));
-                document.querySelector(chapterId).classList.add('active');
-                
-                // Update current chapter title
-                currentChapterTitle.textContent = this.textContent.trim().split('\n')[0];
-                
-                // Jump to timestamp in video
-                const chapterNum = this.getAttribute('data-chapter');
-                jumpToChapter(parseInt(chapterNum));
-                
-                // Hide mobile navigation after selection
-                const chapterNav = document.getElementById('chapterNav');
-                chapterNav.classList.remove('mobile-visible');
-                mobileNavToggle.textContent = 'Show Chapter Navigation';
+                e.stopPropagation();
             });
         });
         
-        // Mobile navigation toggle
-        const mobileNavToggle = document.getElementById('mobileNavToggle');
-        const chapterNav = document.getElementById('chapterNav');
-        
-        mobileNavToggle.addEventListener('click', function() {
-            chapterNav.classList.toggle('mobile-visible');
+        // Toggle commentary
+        toggleCommentaryBtn.addEventListener('click', function() {
+            transcript.classList.toggle('show-commentary');
+            this.classList.toggle('active');
             
-            if (chapterNav.classList.contains('mobile-visible')) {
-                mobileNavToggle.textContent = 'Hide Chapter Navigation';
+            if (transcript.classList.contains('show-commentary')) {
+                this.textContent = 'Hide Commentary';
             } else {
-                mobileNavToggle.textContent = 'Show Chapter Navigation';
+                this.textContent = 'Show Commentary';
             }
         });
         
-        // YouTube API Integration
-        let youtubePlayer;
+        // Toggle auto-scroll
+        toggleAutoScrollBtn.addEventListener('click', function() {
+            autoScrollEnabled = !autoScrollEnabled;
+            this.classList.toggle('active');
+            
+            if (autoScrollEnabled) {
+                this.textContent = 'Disable Auto-Scroll';
+            } else {
+                this.textContent = 'Enable Auto-Scroll';
+            }
+        });
         
-        // Load YouTube API
-        const tag = document.createElement('script');
+        // Toggle dark mode
+        toggleDarkModeBtn.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            this.classList.toggle('active');
+            
+            if (document.body.classList.contains('dark-mode')) {
+                this.textContent = 'Light Mode';
+            } else {
+                this.textContent = 'Dark Mode';
+            }
+        });
+        
+        // YouTube API integration
+        let tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
-        const firstScriptTag = document.getElementsByTagName('script')[0];
+        let firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         
-        // Setup YouTube player when API is ready
+        // When YouTube API is ready
         window.onYouTubeIframeAPIReady = function() {
             youtubePlayer = new YT.Player('youtube-player', {
                 events: {
@@ -528,10 +433,18 @@
         
         // When player is ready
         function onPlayerReady(event) {
-            console.log("YouTube player is ready");
+            // Make chapter transcripts clickable to jump to that point in the video
+            const chapterTranscripts = document.querySelectorAll('.chapter-transcript');
+            chapterTranscripts.forEach(transcript => {
+                transcript.addEventListener('click', function() {
+                    const startTime = parseInt(this.getAttribute('data-start'));
+                    youtubePlayer.seekTo(startTime, true);
+                    youtubePlayer.playVideo();
+                });
+            });
         }
         
-        // When player state changes
+        // Handle player state changes
         function onPlayerStateChange(event) {
             if (event.data === YT.PlayerState.PLAYING) {
                 startTracking();
@@ -542,13 +455,12 @@
         
         let trackingInterval;
         
-        // Start tracking current time
+        // Start tracking video time
         function startTracking() {
             stopTracking();
             trackingInterval = setInterval(() => {
                 if (youtubePlayer && youtubePlayer.getCurrentTime) {
-                    const currentTime = youtubePlayer.getCurrentTime();
-                    updateActiveChapter(currentTime);
+                    updateActiveChapter(youtubePlayer.getCurrentTime());
                 }
             }, 1000);
         }
@@ -560,79 +472,48 @@
             }
         }
         
-        // Update active chapter based on current time
+        // Update which chapter is active based on current time
         function updateActiveChapter(currentTime) {
-            // Get chapter data from data attributes
-            let activeChapterId = null;
-            let chapterData = [];
+            const chapters = document.querySelectorAll('.chapter');
+            let activeChapter = null;
             
-            document.querySelectorAll('.chapter-link').forEach(link => {
-                const chapterText = link.querySelector('.chapter-timestamp').textContent;
-                const times = chapterText.match(/(\d+):(\d+) - (\d+):(\d+)/);
-                if (times) {
-                    const startMinutes = parseInt(times[1]);
-                    const startSeconds = parseInt(times[2]);
-                    const endMinutes = parseInt(times[3]);
-                    const endSeconds = parseInt(times[4]);
-                    
-                    const startTime = startMinutes * 60 + startSeconds;
-                    const endTime = endMinutes * 60 + endSeconds;
-                    
-                    chapterData.push({
-                        id: link.getAttribute('data-chapter'),
-                        start: startTime,
-                        end: endTime
-                    });
+            chapters.forEach(chapter => {
+                const transcript = chapter.querySelector('.chapter-transcript');
+                const startTime = parseInt(transcript.getAttribute('data-start'));
+                const endTime = parseInt(transcript.getAttribute('data-end'));
+                
+                if (currentTime >= startTime && currentTime < endTime) {
+                    activeChapter = chapter;
                 }
             });
             
-            // Find the active chapter
-            for (let chapter of chapterData) {
-                if (currentTime >= chapter.start && currentTime < chapter.end) {
-                    activeChapterId = chapter.id;
-                    break;
-                }
-            }
-            
-            // Update UI if we found an active chapter
-            if (activeChapterId) {
-                const activeLink = document.querySelector(`.chapter-link[data-chapter="${activeChapterId}"]`);
-                const activeChapter = document.querySelector(`#chapter-${activeChapterId}`);
+            if (activeChapter) {
+                // Expand the chapter if it's collapsed
+                const header = activeChapter.querySelector('.chapter-header');
+                const content = activeChapter.querySelector('.chapter-content');
                 
-                // Only update if there's a change
-                if (!activeLink.classList.contains('active')) {
-                    // Update navigation
-                    document.querySelectorAll('.chapter-link').forEach(l => l.classList.remove('active'));
-                    activeLink.classList.add('active');
-                    
-                    // Update chapter visibility
-                    document.querySelectorAll('.chapter').forEach(c => c.classList.remove('active'));
-                    activeChapter.classList.add('active');
-                    
-                    // Update title
-                    currentChapterTitle.textContent = activeLink.textContent.trim().split('\n')[0];
+                if (!content.classList.contains('expanded')) {
+                    header.classList.remove('collapsed');
+                    header.classList.add('expanded');
+                    content.classList.add('expanded');
+                }
+                
+                // Auto-scroll if enabled
+                if (autoScrollEnabled) {
+                    activeChapter.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             }
         }
         
-        // Jump to specific chapter
-        function jumpToChapter(chapterNum) {
-            if (!youtubePlayer || !youtubePlayer.seekTo) return;
-            
-            // Find chapter data
-            const chapterLink = document.querySelector(`.chapter-link[data-chapter="${chapterNum}"]`);
-            if (chapterLink) {
-                const timestampText = chapterLink.querySelector('.chapter-timestamp').textContent;
-                const times = timestampText.match(/(\d+):(\d+)/);
-                if (times) {
-                    const minutes = parseInt(times[1]);
-                    const seconds = parseInt(times[2]);
-                    const targetTime = minutes * 60 + seconds;
-                    
-                    // Seek to time
-                    youtubePlayer.seekTo(targetTime, true);
-                }
-            }
+        // Check if element is visible in viewport
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
         }
     });
 </script>
