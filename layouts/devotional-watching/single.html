@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container">
+<div class="transcript-player-container">
     <h1>{{ .Title }}</h1>
     <h2>By {{ .Params.speaker }}</h2>
     
@@ -20,16 +20,9 @@
         </div>
     </div>
 
-    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
-        // YouTube player
-        let youtubePlayer;
-        let currentSegmentId = null;
-        let playbackInterval;
-        
-        // Access transcript data from Hugo front matter
+        // Logically grouped transcript data while maintaining exact timing boundaries
         const transcriptData = {{ .Params.transcript | jsonify | safeJS }};
-        const videoDuration = {{ .Params.duration }};
         
         // Format time (seconds) to MM:SS
         function formatTime(seconds) {
@@ -37,6 +30,16 @@
             const remainingSeconds = Math.floor(seconds % 60);
             return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
         }
+        
+        let youtubePlayer;
+        let currentSegmentId = null;
+        let playbackInterval;
+        
+        // Load YouTube API
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         
         // Initialize YouTube player
         function onYouTubeIframeAPIReady() {
@@ -108,7 +111,6 @@
                 segmentElement.innerHTML = `
                     <div class="segment-time">${formatTime(segment.start)} - ${formatTime(segment.end)}</div>
                     <div class="segment-text">${segment.text}</div>
-                    ${segment.commentary ? `<div class="commentary">${segment.commentary}</div>` : ''}
                 `;
                 
                 segmentElement.addEventListener('click', () => {

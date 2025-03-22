@@ -1,7 +1,3 @@
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap');
-
-/* Custom properties */
 :root {
     /* Colors */
     --color-base: #fdf5ea;
@@ -28,40 +24,12 @@
     --spacing-xl: clamp(30px, 5vw, 50px);
 }
 
-/* Base styles */
-.transcript-player-container {
-    font-family: var(--font-primary);
-    font-size: var(--font-size-medium);
-    line-height: 1.6;
-    color: var(--color-contrast);
-    background-color: var(--color-base);
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: var(--spacing-xl);
 }
 
-.transcript-player-container h1 {
-    font-family: var(--font-heading-1);
-    font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 1.565), 2.5rem);
-    font-weight: 700;
-    line-height: 1.3;
-    color: var(--color-contrast);
-    margin-bottom: var(--spacing-md);
-    text-align: center;
-}
-
-.transcript-player-container h2 {
-    font-family: var(--font-heading-2);
-    font-size: clamp(0.929rem, 0.929rem + ((1vw - 0.2rem) * 0.739), 1.4rem);
-    font-weight: 400;
-    line-height: 1.3;
-    color: var(--color-contrast);
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: var(--spacing-lg);
-}
-
-/* Content layout */
 .content-container {
     display: flex;
     gap: var(--spacing-xl);
@@ -82,7 +50,6 @@
     background-color: var(--color-accent-5);
 }
 
-/* Video container */
 .video-container {
     position: relative;
     width: 100%;
@@ -103,7 +70,6 @@
     border: none;
 }
 
-/* Transcript segments */
 .transcript-segment {
     margin-bottom: var(--spacing-md);
     padding: var(--spacing-md);
@@ -153,7 +119,7 @@
     .transcript-section {
         width: 100%;
     }
-    .transcript-player-container {
+    .container {
         padding: var(--spacing-md);
     }
 }
