@@ -6,4 +6,4 @@ layout: video
 youtube_id: "1LbbrZEX1EI"
 ---
 
-This teaching by Venerable Lama Zopa Rinpoche explores the nature of the mind and the concept of emptiness in Buddhist philosophy.
+In this profound teaching, Lama Zopa Rinpoche explores the nature of the mind and the concept of emptiness, examining how our perception of self is fundamentally mistaken and showing the path to realization.
