@@ -58,7 +58,6 @@
         line-height: 1.3;
         color: var(--color-contrast);
         margin-bottom: var(--spacing-md);
-        margin-top: 0;
         text-align: center;
         position: relative;
         opacity: 0.95; /* Increased from screenshot */
@@ -319,16 +318,44 @@
     }
     
     .transcript-paragraph {
-        margin-bottom: var(--spacing-md);
+        margin-bottom: var(--spacing-sm);
         line-height: 1.7;
         font-size: var(--font-size-large); /* Incorporating your manual override */
         width: 90%; /* Incorporating your manual override */
     }
     
-    /* Commentary styling */
-    .commentary {
-        font-style: italic;
+    /* Commentary container and toggle styling */
+    .commentary-container {
         margin-top: var(--spacing-lg);
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    .commentary-toggle {
+        display: inline-block;
+        margin-bottom: var(--spacing-sm);
+        background-color: rgba(212, 167, 57, 0.1);
+        border: 1px solid var(--color-accent-2);
+        color: var(--color-accent-2);
+        font-family: var(--font-heading-2);
+        font-size: var(--font-size-small);
+        padding: 6px 14px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+    }
+    
+    .commentary-toggle:hover {
+        background-color: rgba(212, 167, 57, 0.2);
+        transform: translateY(-1px);
+    }
+    
+    .commentary-toggle.active {
+        background-color: rgba(212, 167, 57, 0.25);
+    }
+    
+    /* Commentary styling with improved paragraph support and separation */
+    .commentary {
+        font-style: normal;
         padding: var(--spacing-md);
         padding-left: var(--spacing-md);
         border-left: 3px solid var(--color-accent-2);
@@ -337,15 +364,45 @@
         opacity: 0;
         max-height: 0;
         overflow: hidden;
-        transition: all 0.5s ease;
+        transition: opacity 0.5s ease, max-height 1s ease-in-out; /* Separated transitions for smoother effect */
         background-color: rgba(212, 167, 57, 0.05);
         border-radius: 0 5px 5px 0;
+        display: block; /* Ensure it's a block element */
+        clear: both; /* Clear any floats */
     }
     
-    .show-commentary .commentary {
+    /* Commentary styling with improved paragraph support and separation */
+    .commentary.show-commentary {
         opacity: 0.9;
-        max-height: 500px;
-        margin-bottom: var(--spacing-md);
+        max-height: 6000px; /* Substantially increased for very long commentaries */
+        margin-bottom: var(--spacing-sm);
+        overflow: visible; /* Ensure content isn't cut off */
+    }
+    
+    /* Ensure paragraphs within commentary display properly */
+    .commentary p {
+        margin-bottom: var(--spacing-sm);
+        line-height: 1.7;
+        display: block;
+        clear: both;
+        width: 100%; /* Ensure full width */
+        font-size: var(--font-size-medium); /* Adjusted for readability */
+    }
+    
+    .commentary p:last-child {
+        margin-bottom: 0;
+    }
+    
+    /* Create clear separation between transcript and commentary */
+    .chapter-transcript {
+        margin: var(--spacing-md) 0;
+        padding: var(--spacing-md);
+        background-color: rgba(26, 26, 26, 0.6);
+        border-radius: 5px;
+        border-left: 2px solid transparent;
+        transition: all 0.3s ease;
+        max-width: 650px; /* Limit width for better readability */
+        display: flow-root; /* Modern way to establish a new block formatting context */
     }
     
     /* Light mode - IMPROVED with comprehensive overrides */
@@ -378,8 +435,18 @@
         background-color: rgba(212, 167, 57, 0.1);
     }
     
-    body.light-mode .commentary {
-        background-color: rgba(212, 167, 57, 0.08);
+    /* Light mode overrides for commentary */
+    body.light-mode .commentary-toggle {
+        background-color: rgba(212, 167, 57, 0.1);
+        color: #6b5114;
+    }
+    
+    body.light-mode .commentary-toggle:hover {
+        background-color: rgba(212, 167, 57, 0.2);
+    }
+    
+    body.light-mode .commentary-toggle.active {
+        background-color: rgba(212, 167, 57, 0.3);
     }
     
     body.light-mode .control-button {
@@ -449,7 +516,6 @@
             
             <!-- Control Buttons - Fixed styling -->
             <div class="control-buttons">
-                <button class="control-button" id="toggleCommentary">Reveal Commentary</button>
                 <button class="control-button" id="toggleAutoScroll">Enable Flow</button>
                 <button class="control-button" id="toggleLightMode">Light Mode</button>
             </div>
@@ -477,8 +543,16 @@
                             {{ end }}
                             
                             {{ if ne $chapter.commentary "" }}
-                                <div class="commentary">
-                                    {{ $chapter.commentary | markdownify }}
+                                <div class="commentary-container">
+                                    <button class="commentary-toggle control-button">Show Notes</button>
+                                    <div class="commentary">
+                                        {{ $commentaryParagraphs := split $chapter.commentary "\n\n" }}
+                                        {{ range $cIndex, $commentaryParagraph := $commentaryParagraphs }}
+                                            {{ if ne (trim $commentaryParagraph " ") "" }}
+                                                <p>{{ $commentaryParagraph | markdownify }}</p>
+                                            {{ end }}
+                                        {{ end }}
+                                    </div>
                                 </div>
                             {{ end }}
                         </div>
@@ -493,11 +567,11 @@
     document.addEventListener('DOMContentLoaded', function() {
         // DOM elements
         const transcript = document.getElementById('transcript');
-        const toggleCommentaryBtn = document.getElementById('toggleCommentary');
         const toggleAutoScrollBtn = document.getElementById('toggleAutoScroll');
         const toggleLightModeBtn = document.getElementById('toggleLightMode');
         const chapterHeaders = document.querySelectorAll('.chapter-header');
         const chapterTimes = document.querySelectorAll('.chapter-time');
+        const commentaryToggles = document.querySelectorAll('.commentary-toggle');
         
         // Variables
         let autoScrollEnabled = false;
@@ -552,17 +626,22 @@
             });
         });
         
-        // Toggle commentary
-        if (toggleCommentaryBtn) {
-            toggleCommentaryBtn.addEventListener('click', function() {
-                transcript.classList.toggle('show-commentary');
-                this.classList.toggle('active');
-                
-                if (transcript.classList.contains('show-commentary')) {
-                    this.textContent = 'Hide Commentary';
-                } else {
-                    this.textContent = 'Reveal Commentary';
-                }
+        // Toggle commentary for each chapter
+        if (commentaryToggles.length > 0) {
+            commentaryToggles.forEach(toggleBtn => {
+                toggleBtn.addEventListener('click', function() {
+                    const commentaryContainer = this.closest('.commentary-container');
+                    const commentary = commentaryContainer.querySelector('.commentary');
+                    
+                    this.classList.toggle('active');
+                    commentary.classList.toggle('show-commentary');
+                    
+                    if (this.classList.contains('active')) {
+                        this.textContent = 'Hide Notes';
+                    } else {
+                        this.textContent = 'Show Notes';
+                    }
+                });
             });
         }
         
@@ -616,11 +695,13 @@
             const chapterTranscripts = document.querySelectorAll('.chapter-transcript');
             chapterTranscripts.forEach(transcript => {
                 transcript.addEventListener('click', function(e) {
-                    // Only highlight, don't seek to time
-                    chapterTranscripts.forEach(t => {
-                        t.classList.remove('active-chapter');
-                    });
-                    this.classList.add('active-chapter');
+                    // Only highlight when clicked directly, not for chapter tracking
+                    if (e.target === this || e.target.closest('.chapter-transcript') === this) {
+                        chapterTranscripts.forEach(t => {
+                            t.classList.remove('active-chapter');
+                        });
+                        this.classList.add('active-chapter');
+                    }
                 });
             });
         }
