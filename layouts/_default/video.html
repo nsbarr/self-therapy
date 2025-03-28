@@ -1,6 +1,7 @@
 {{ define "main" }}
 <!-- Add Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap">
 
 <style>
     :root {
@@ -8,11 +9,13 @@
         --color-base: #0f0f0f;
         --color-contrast: #f5f1e4;
         --color-accent-1: #1a1a1a;
-        --color-accent-2: #d4a739; /* Golden accent */
-        --color-accent-3: #9a7b45; /* Secondary gold */
+        --color-accent-2: #d4a739;
+        /* Golden accent */
+        --color-accent-3: #9a7b45;
+        /* Secondary gold */
         --color-accent-4: #8a8a8a;
         --color-accent-5: #181818;
-        
+
         /* Original Typography */
         --font-primary: 'Petrona', serif;
         --font-heading-1: 'Rosarivo', serif;
@@ -21,19 +24,19 @@
         --font-size-medium: 1rem;
         --font-size-large: 1.2rem;
         --font-size-x-large: 1.6rem;
-        
+
         /* Spacing */
         --spacing-sm: 10px;
         --spacing-md: 20px;
         --spacing-lg: 30px;
         --spacing-xl: clamp(30px, 5vw, 50px);
     }
-    
+
     * {
         box-sizing: border-box;
         transition: all 0.3s cubic-bezier(0.33, 1, 0.68, 1);
     }
-    
+
     body {
         font-family: var(--font-primary);
         font-size: var(--font-size-medium);
@@ -43,14 +46,15 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .container {
         max-width: 1400px;
         margin: 0 auto;
         padding: var(--spacing-xl);
-        background-color: var(--color-base); /* Incorporating your manual override */
+        background-color: var(--color-base);
+        /* Incorporating your manual override */
     }
-    
+
     h1 {
         font-family: var(--font-heading-1);
         font-size: clamp(1.8rem, 1.8rem + ((1vw - 0.2rem) * 1.565), 2.8rem);
@@ -60,13 +64,15 @@
         margin-bottom: var(--spacing-md);
         text-align: center;
         position: relative;
-        opacity: 0.95; /* Increased from screenshot */
+        opacity: 0.95;
+        /* Increased from screenshot */
     }
-    
+
     h1::after {
-        content: none; /* Remove gradient from h1 */
+        content: none;
+        /* Remove gradient from h1 */
     }
-    
+
     h2 {
         font-family: var(--font-heading-2);
         font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.739), 1.5rem);
@@ -75,12 +81,29 @@
         color: var(--color-accent-2);
         text-align: center;
         margin-top: 0;
-        margin-bottom: var(--spacing-lg);
+        margin-bottom: var(--spacing-md);
         opacity: 0.95;
         position: relative;
     }
-    
-    h2::after {
+
+    /* Removed the h2::after divider and moved it to h3::after */
+
+    /* Added h3 styling to make it less prominent than h2 */
+    h3 {
+        font-family: var(--font-primary);
+        font-size: clamp(0.9rem, 0.9rem + ((1vw - 0.2rem) * 0.5), 1.2rem);
+        font-weight: 400;
+        line-height: 1.2;
+        color: var(--color-accent-4);
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: var(--spacing-lg);
+        opacity: 0.9;
+        position: relative;
+    }
+
+    /* Added the divider to h3::after 
+    h3::after {
         content: "";
         position: absolute;
         bottom: -15px;
@@ -90,41 +113,44 @@
         height: 2px;
         background: linear-gradient(to right, transparent, var(--color-accent-2), transparent);
     }
-    
+    */
     /* Improved content layout */
     .content-container {
         display: flex;
         gap: var(--spacing-xl);
     }
-    
+
     .video-section {
-        flex: 0 0 45%; /* Increase video section width */
+        flex: 0 0 45%;
+        /* Increase video section width */
         position: sticky;
         top: var(--spacing-xl);
         height: fit-content;
     }
-    
+
     .transcript-section {
         flex: 0 0 50%;
         border: 1px solid var(--color-accent-1);
         border-radius: 5px;
         padding: var(--spacing-md);
         background-color: var(--color-accent-5);
-        max-width: 700px; /* Limit width for readability */
+        max-width: 700px;
+        /* Limit width for readability */
     }
-    
+
     /* Enhanced video container */
     .video-container {
         position: relative;
         width: 100%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        padding-top: 56.25%;
+        /* 16:9 Aspect Ratio */
         background-color: #000;
         margin-bottom: var(--spacing-md);
         border-radius: 5px;
         overflow: hidden;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
     }
-    
+
     .video-container::before {
         content: "";
         position: absolute;
@@ -137,7 +163,7 @@
         pointer-events: none;
         z-index: 1;
     }
-    
+
     .video-container iframe {
         position: absolute;
         top: 0;
@@ -146,7 +172,7 @@
         height: 100%;
         border: none;
     }
-    
+
     /* Control buttons - Fixed styling */
     .control-buttons {
         display: flex;
@@ -154,7 +180,7 @@
         margin: var(--spacing-md) 0;
         justify-content: center;
     }
-    
+
     .control-button {
         background-color: rgba(212, 167, 57, 0.07);
         border: 1px solid var(--color-accent-2);
@@ -169,32 +195,32 @@
         min-width: 120px;
         text-align: center;
     }
-    
+
     .control-button:hover {
         background-color: rgba(212, 167, 57, 0.15);
         border-color: var(--color-accent-2);
         transform: translateY(-1px);
     }
-    
+
     .control-button.active {
         background-color: rgba(212, 167, 57, 0.25);
         border-color: var(--color-accent-2);
         color: var(--color-accent-2);
         opacity: 1;
     }
-    
+
     /* Chapter styling */
     .chapter {
         margin-bottom: var(--spacing-md);
         opacity: 0.95;
         position: relative;
     }
-    
+
     /* Remove unwanted + icon */
     .chapter .unwanted-icon {
         display: none;
     }
-    
+
     .chapter-header {
         display: flex;
         justify-content: space-between;
@@ -207,22 +233,22 @@
         position: relative;
         border-left: 3px solid transparent;
     }
-    
+
     .chapter-header:hover {
         background-color: rgba(212, 167, 57, 0.08);
         border-left: 3px solid var(--color-accent-3);
     }
-    
+
     .chapter-header.active {
         border-left: 3px solid var(--color-accent-2);
         background-color: rgba(212, 167, 57, 0.1);
     }
-    
+
     .chapter-title-wrapper {
         display: flex;
         flex-direction: column;
     }
-    
+
     .chapter-title {
         margin: 0;
         font-family: var(--font-heading-2);
@@ -230,7 +256,7 @@
         font-weight: 500;
         color: var(--color-contrast);
     }
-    
+
     /* Timestamp styled as a clickable button */
     .chapter-time {
         display: inline-block;
@@ -243,18 +269,19 @@
         color: var(--color-accent-2);
         cursor: pointer;
         transition: all 0.2s ease;
-        width: fit-content; /* Incorporating your manual override */
+        width: fit-content;
+        /* Incorporating your manual override */
     }
-    
+
     .chapter-time:hover {
         background-color: rgba(212, 167, 57, 0.25);
         transform: translateY(-1px);
     }
-    
+
     .chapter-time:active {
         transform: translateY(1px);
     }
-    
+
     .chapter-toggle {
         width: 24px;
         height: 24px;
@@ -262,7 +289,7 @@
         background-color: rgba(212, 167, 57, 0.1);
         border-radius: 12px;
     }
-    
+
     .chapter-toggle::before,
     .chapter-toggle::after {
         content: "";
@@ -270,37 +297,38 @@
         background-color: var(--color-accent-2);
         transition: transform 0.3s ease;
     }
-    
+
     .chapter-toggle::before {
         width: 2px;
         height: 12px;
         top: 6px;
         left: 11px;
     }
-    
+
     .chapter-toggle::after {
         width: 12px;
         height: 2px;
         top: 11px;
         left: 6px;
     }
-    
+
     .chapter-header.collapsed .chapter-toggle::before {
         transform: rotate(90deg);
     }
-    
+
     .chapter-content {
         height: auto;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
     }
-    
+
     .chapter-content.expanded {
-        max-height: 2000px; /* Large enough to fit content */
+        max-height: 2000px;
+        /* Large enough to fit content */
         transition: max-height 1s ease-in-out;
     }
-    
+
     /* Chapter transcript styling */
     .chapter-transcript {
         margin: var(--spacing-md) 0;
@@ -309,27 +337,30 @@
         border-radius: 5px;
         border-left: 2px solid transparent;
         transition: all 0.3s ease;
-        max-width: 650px; /* Limit width for better readability */
+        max-width: 650px;
+        /* Limit width for better readability */
     }
-    
+
     .chapter-transcript.active-chapter {
         background-color: rgba(212, 167, 57, 0.08);
         border-left: 3px solid var(--color-accent-2);
     }
-    
+
     .transcript-paragraph {
         margin-bottom: var(--spacing-sm);
         line-height: 1.7;
-        font-size: var(--font-size-large); /* Incorporating your manual override */
-        width: 90%; /* Incorporating your manual override */
+        font-size: var(--font-size-large);
+        /* Incorporating your manual override */
+        width: 90%;
+        /* Incorporating your manual override */
     }
-    
+
     /* Commentary container and toggle styling */
     .commentary-container {
         margin-top: var(--spacing-lg);
         margin-bottom: var(--spacing-sm);
     }
-    
+
     .commentary-toggle {
         display: inline-block;
         margin-bottom: var(--spacing-sm);
@@ -343,16 +374,16 @@
         border-radius: 4px;
         transition: all 0.2s ease;
     }
-    
+
     .commentary-toggle:hover {
         background-color: rgba(212, 167, 57, 0.2);
         transform: translateY(-1px);
     }
-    
+
     .commentary-toggle.active {
         background-color: rgba(212, 167, 57, 0.25);
     }
-    
+
     /* Commentary styling with improved paragraph support and separation */
     .commentary {
         font-style: normal;
@@ -364,35 +395,42 @@
         opacity: 0;
         max-height: 0;
         overflow: hidden;
-        transition: opacity 0.5s ease, max-height 1s ease-in-out; /* Separated transitions for smoother effect */
+        transition: opacity 0.5s ease, max-height 1s ease-in-out;
+        /* Separated transitions for smoother effect */
         background-color: rgba(212, 167, 57, 0.05);
         border-radius: 0 5px 5px 0;
-        display: block; /* Ensure it's a block element */
-        clear: both; /* Clear any floats */
+        display: block;
+        /* Ensure it's a block element */
+        clear: both;
+        /* Clear any floats */
     }
-    
+
     /* Commentary styling with improved paragraph support and separation */
     .commentary.show-commentary {
         opacity: 0.9;
-        max-height: 6000px; /* Substantially increased for very long commentaries */
+        max-height: 6000px;
+        /* Substantially increased for very long commentaries */
         margin-bottom: var(--spacing-sm);
-        overflow: visible; /* Ensure content isn't cut off */
+        overflow: visible;
+        /* Ensure content isn't cut off */
     }
-    
+
     /* Ensure paragraphs within commentary display properly */
     .commentary p {
         margin-bottom: var(--spacing-sm);
         line-height: 1.7;
         display: block;
         clear: both;
-        width: 100%; /* Ensure full width */
-        font-size: var(--font-size-medium); /* Adjusted for readability */
+        width: 100%;
+        /* Ensure full width */
+        font-size: var(--font-size-medium);
+        /* Adjusted for readability */
     }
-    
+
     .commentary p:last-child {
         margin-bottom: 0;
     }
-    
+
     /* Create clear separation between transcript and commentary */
     .chapter-transcript {
         margin: var(--spacing-md) 0;
@@ -401,10 +439,12 @@
         border-radius: 5px;
         border-left: 2px solid transparent;
         transition: all 0.3s ease;
-        max-width: 650px; /* Limit width for better readability */
-        display: flow-root; /* Modern way to establish a new block formatting context */
+        max-width: 650px;
+        /* Limit width for better readability */
+        display: flow-root;
+        /* Modern way to establish a new block formatting context */
     }
-    
+
     /* Light mode - IMPROVED with comprehensive overrides */
     body.light-mode {
         --color-base: #f9f6f0;
@@ -412,66 +452,67 @@
         --color-accent-1: #f0e9dd;
         --color-accent-5: #fcfcfc;
     }
-    
+
     /* Comprehensive light mode overrides for all backgrounds */
     body.light-mode .chapter-header {
         background-color: var(--color-accent-1);
     }
-    
+
     body.light-mode .chapter-header:hover {
         background-color: rgba(212, 167, 57, 0.15);
         border-left: 3px solid var(--color-accent-3);
     }
-    
+
     body.light-mode .chapter-header.active {
         background-color: rgba(212, 167, 57, 0.2);
     }
-    
+
     body.light-mode .chapter-transcript {
         background-color: rgba(212, 167, 57, 0.05);
     }
-    
+
     body.light-mode .chapter-transcript.active-chapter {
         background-color: rgba(212, 167, 57, 0.1);
     }
-    
+
     /* Light mode overrides for commentary */
     body.light-mode .commentary-toggle {
         background-color: rgba(212, 167, 57, 0.1);
         color: #6b5114;
     }
-    
+
     body.light-mode .commentary-toggle:hover {
         background-color: rgba(212, 167, 57, 0.2);
     }
-    
+
     body.light-mode .commentary-toggle.active {
         background-color: rgba(212, 167, 57, 0.3);
     }
-    
+
     body.light-mode .control-button {
         background-color: rgba(212, 167, 57, 0.1);
         color: var(--color-contrast);
     }
-    
+
     body.light-mode .control-button:hover {
         background-color: rgba(212, 167, 57, 0.2);
     }
-    
+
     body.light-mode .control-button.active {
         background-color: rgba(212, 167, 57, 0.3);
         color: #6b5114;
     }
-    
+
     body.light-mode .video-container {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
-    
+
     /* Mobile responsive styles */
     @media (max-width: 768px) {
         .content-container {
             flex-direction: column;
         }
+
         .video-section {
             position: sticky;
             top: 0;
@@ -481,17 +522,21 @@
             padding-bottom: var(--spacing-sm);
             margin-bottom: var(--spacing-md);
         }
+
         .transcript-section {
             width: 100%;
             max-width: 100%;
         }
+
         .container {
             padding: var(--spacing-md);
         }
+
         .control-buttons {
             flex-wrap: wrap;
             justify-content: center;
         }
+
         .control-button {
             flex: 1 0 100px;
         }
@@ -502,70 +547,72 @@
     <h1>{{ .Title }}</h1>
     <h2>{{ .Params.subtitle }}</h2>
     <h3>{{ .Params.editor}}</h3>
-    
+
     <div class="content-container">
         <!-- Video Section (Left) -->
         <div class="video-section">
             <div class="video-container">
-                <iframe id="youtube-player" 
-                    src="https://www.youtube.com/embed/{{ .Params.youtube_id }}?enablejsapi=1" 
+                <iframe id="youtube-player" src="https://www.youtube.com/embed/{{ .Params.youtube_id }}?enablejsapi=1"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
-            
+
             <!-- Control Buttons - Fixed styling -->
             <div class="control-buttons">
                 <button class="control-button" id="toggleAutoScroll">Enable Flow</button>
                 <button class="control-button" id="toggleLightMode">Light Mode</button>
             </div>
         </div>
-        
+
         <!-- Transcript Section (Right) -->
         <div class="transcript-section" id="transcript">
             {{ range $index, $chapter := site.Data.transcripts.lama_zopa_nonsense_mind.chapters }}
-                <div id="chapter-{{ $chapter.id }}" class="chapter">
-                    <div class="chapter-header{{ if eq $index 0 }} expanded{{ else }} collapsed{{ end }}" data-chapter="{{ $chapter.id }}">
-                        <div class="chapter-title-wrapper">
-                            <h3 class="chapter-title">{{ $chapter.id }}. {{ $chapter.title }}</h3>
-                            <span class="chapter-time" data-start="{{ $chapter.start_time }}">{{ div $chapter.start_time 60 | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }}</span>
-                        </div>
-                        <div class="chapter-toggle"></div>
+            <div id="chapter-{{ $chapter.id }}" class="chapter">
+                <div class="chapter-header{{ if eq $index 0 }} expanded{{ else }} collapsed{{ end }}"
+                    data-chapter="{{ $chapter.id }}">
+                    <div class="chapter-title-wrapper">
+                        <h3 class="chapter-title">{{ $chapter.id }}. {{ $chapter.title }}</h3>
+                        <span class="chapter-time" data-start="{{ $chapter.start_time }}">{{ div $chapter.start_time 60
+                            | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }}</span>
                     </div>
-                    
-                    <div class="chapter-content{{ if eq $index 0 }} expanded{{ end }}">
-                        <div class="chapter-transcript" data-start="{{ $chapter.start_time }}" data-end="{{ $chapter.end_time }}">
-                            {{ $paragraphs := split $chapter.transcript "\n\n" }}
-                            {{ range $pIndex, $paragraph := $paragraphs }}
-                                {{ if ne (trim $paragraph " ") "" }}
-                                    <p class="transcript-paragraph">{{ $paragraph | markdownify }}</p>
+                    <div class="chapter-toggle"></div>
+                </div>
+
+                <div class="chapter-content{{ if eq $index 0 }} expanded{{ end }}">
+                    <div class="chapter-transcript" data-start="{{ $chapter.start_time }}"
+                        data-end="{{ $chapter.end_time }}">
+                        {{ $paragraphs := split $chapter.transcript "\n\n" }}
+                        {{ range $pIndex, $paragraph := $paragraphs }}
+                        {{ if ne (trim $paragraph " ") "" }}
+                        <p class="transcript-paragraph">{{ $paragraph | markdownify }}</p>
+                        {{ end }}
+                        {{ end }}
+
+                        {{ if ne $chapter.commentary "" }}
+                        <div class="commentary-container">
+                            <button class="commentary-toggle control-button">Show Notes</button>
+                            <div class="commentary">
+                                {{ $commentaryParagraphs := split $chapter.commentary "\n\n" }}
+                                {{ range $cIndex, $commentaryParagraph := $commentaryParagraphs }}
+                                {{ if ne (trim $commentaryParagraph " ") "" }}
+                                <p>{{ $commentaryParagraph | markdownify }}</p>
                                 {{ end }}
-                            {{ end }}
-                            
-                            {{ if ne $chapter.commentary "" }}
-                                <div class="commentary-container">
-                                    <button class="commentary-toggle control-button">Show Notes</button>
-                                    <div class="commentary">
-                                        {{ $commentaryParagraphs := split $chapter.commentary "\n\n" }}
-                                        {{ range $cIndex, $commentaryParagraph := $commentaryParagraphs }}
-                                            {{ if ne (trim $commentaryParagraph " ") "" }}
-                                                <p>{{ $commentaryParagraph | markdownify }}</p>
-                                            {{ end }}
-                                        {{ end }}
-                                    </div>
-                                </div>
-                            {{ end }}
+                                {{ end }}
+                            </div>
                         </div>
+                        {{ end }}
                     </div>
                 </div>
+            </div>
             {{ end }}
         </div>
     </div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         // DOM elements
         const transcript = document.getElementById('transcript');
         const toggleAutoScrollBtn = document.getElementById('toggleAutoScroll');
@@ -573,32 +620,32 @@
         const chapterHeaders = document.querySelectorAll('.chapter-header');
         const chapterTimes = document.querySelectorAll('.chapter-time');
         const commentaryToggles = document.querySelectorAll('.commentary-toggle');
-        
+
         // Variables
         let autoScrollEnabled = false;
         let youtubePlayer;
         let userCollapseOverride = {}; // Store user's collapse preference
-        
+
         // Remove any unwanted icons that might be added by the CMS/framework
         document.querySelectorAll('.unwanted-icon, .chapter-plus-icon').forEach(icon => {
             if (icon) icon.remove();
         });
-        
+
         // Chapter expand/collapse functionality (without affecting video)
         chapterHeaders.forEach(header => {
-            header.addEventListener('click', function(e) {
+            header.addEventListener('click', function (e) {
                 // Ignore clicks on timestamp button
                 if (e.target.classList.contains('chapter-time')) return;
-                
+
                 const chapterId = this.getAttribute('data-chapter');
                 const content = document.querySelector(`#chapter-${chapterId} .chapter-content`);
-                
+
                 // Store user's explicit collapse preference to override auto-expand
                 userCollapseOverride[chapterId] = this.classList.contains('expanded');
-                
+
                 this.classList.toggle('collapsed');
                 this.classList.toggle('expanded');
-                
+
                 if (content.classList.contains('expanded')) {
                     content.classList.remove('expanded');
                 } else {
@@ -607,36 +654,36 @@
                         content.classList.add('expanded');
                     }, 10);
                 }
-                
+
                 e.preventDefault();
                 e.stopPropagation();
             });
         });
-        
+
         // Make timestamps affect video position
         chapterTimes.forEach(time => {
-            time.addEventListener('click', function(e) {
+            time.addEventListener('click', function (e) {
                 const startTime = parseInt(this.getAttribute('data-start'));
                 if (youtubePlayer && youtubePlayer.seekTo) {
                     youtubePlayer.seekTo(startTime, true);
                     youtubePlayer.playVideo();
                 }
-                
+
                 e.preventDefault();
                 e.stopPropagation();
             });
         });
-        
+
         // Toggle commentary for each chapter
         if (commentaryToggles.length > 0) {
             commentaryToggles.forEach(toggleBtn => {
-                toggleBtn.addEventListener('click', function() {
+                toggleBtn.addEventListener('click', function () {
                     const commentaryContainer = this.closest('.commentary-container');
                     const commentary = commentaryContainer.querySelector('.commentary');
-                    
+
                     this.classList.toggle('active');
                     commentary.classList.toggle('show-commentary');
-                    
+
                     if (this.classList.contains('active')) {
                         this.textContent = 'Hide Notes';
                     } else {
@@ -645,13 +692,13 @@
                 });
             });
         }
-        
+
         // Toggle auto-scroll
         if (toggleAutoScrollBtn) {
-            toggleAutoScrollBtn.addEventListener('click', function() {
+            toggleAutoScrollBtn.addEventListener('click', function () {
                 autoScrollEnabled = !autoScrollEnabled;
                 this.classList.toggle('active');
-                
+
                 if (autoScrollEnabled) {
                     this.textContent = 'Disable Flow';
                 } else {
@@ -659,13 +706,13 @@
                 }
             });
         }
-        
+
         // Toggle light mode
         if (toggleLightModeBtn) {
-            toggleLightModeBtn.addEventListener('click', function() {
+            toggleLightModeBtn.addEventListener('click', function () {
                 document.body.classList.toggle('light-mode');
                 this.classList.toggle('active');
-                
+
                 if (document.body.classList.contains('light-mode')) {
                     this.textContent = 'Dark Mode';
                 } else {
@@ -673,15 +720,15 @@
                 }
             });
         }
-        
+
         // YouTube API integration
         let tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
         let firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        
+
         // When YouTube API is ready
-        window.onYouTubeIframeAPIReady = function() {
+        window.onYouTubeIframeAPIReady = function () {
             youtubePlayer = new YT.Player('youtube-player', {
                 events: {
                     'onReady': onPlayerReady,
@@ -689,13 +736,13 @@
                 }
             });
         };
-        
+
         // When player is ready
         function onPlayerReady(event) {
             // Make chapter transcripts respond to clicks
             const chapterTranscripts = document.querySelectorAll('.chapter-transcript');
             chapterTranscripts.forEach(transcript => {
-                transcript.addEventListener('click', function(e) {
+                transcript.addEventListener('click', function (e) {
                     // Only highlight when clicked directly, not for chapter tracking
                     if (e.target === this || e.target.closest('.chapter-transcript') === this) {
                         chapterTranscripts.forEach(t => {
@@ -706,7 +753,7 @@
                 });
             });
         }
-        
+
         // Handle player state changes
         function onPlayerStateChange(event) {
             if (event.data === YT.PlayerState.PLAYING) {
@@ -715,9 +762,9 @@
                 stopTracking();
             }
         }
-        
+
         let trackingInterval;
-        
+
         // Start tracking video time
         function startTracking() {
             stopTracking();
@@ -727,66 +774,249 @@
                 }
             }, 1000);
         }
-        
+
         // Stop tracking
         function stopTracking() {
             if (trackingInterval) {
                 clearInterval(trackingInterval);
             }
         }
-        
-        // Update which chapter is active based on current time
+
+        // Replace the current "updateActiveChapter" function with this enhanced version
+        // Add this to your existing JavaScript section
+
+        // Replace the current "updateActiveChapter" function and related flow logic
+
+        // Global variables for scroll control
+        let lastScrollTime = 0;
+        let lastScrollPosition = 0;
+        let scrollUpdateInterval = 3000; // ms between major scroll updates
+
         function updateActiveChapter(currentTime) {
             const chapters = document.querySelectorAll('.chapter');
             const transcripts = document.querySelectorAll('.chapter-transcript');
             const headers = document.querySelectorAll('.chapter-header');
-            
+
             let activeChapter = null;
             let activeTranscript = null;
             let activeHeader = null;
-            
+
             chapters.forEach(chapter => {
                 const transcript = chapter.querySelector('.chapter-transcript');
                 const header = chapter.querySelector('.chapter-header');
                 const startTime = parseInt(transcript.getAttribute('data-start'));
                 const endTime = parseInt(transcript.getAttribute('data-end'));
-                
+
                 if (currentTime >= startTime && currentTime < endTime) {
                     activeChapter = chapter;
                     activeTranscript = transcript;
                     activeHeader = header;
                 }
             });
-            
+
             // Remove active class from all elements
             transcripts.forEach(t => t.classList.remove('active-chapter'));
             headers.forEach(h => h.classList.remove('active'));
-            
+
             if (activeChapter && activeTranscript && activeHeader) {
                 // Add active classes
                 activeTranscript.classList.add('active-chapter');
                 activeHeader.classList.add('active');
-                
+
                 const chapterId = activeHeader.getAttribute('data-chapter');
                 const content = activeChapter.querySelector('.chapter-content');
-                
+
                 // Only expand the chapter if the user hasn't explicitly collapsed it
                 if (!userCollapseOverride[chapterId] && !content.classList.contains('expanded')) {
                     activeHeader.classList.remove('collapsed');
                     activeHeader.classList.add('expanded');
-                    
+
                     // Give time for animation to complete smoothly
                     setTimeout(() => {
                         content.classList.add('expanded');
+
+                        // If auto-scroll is enabled, scroll to the beginning of the newly expanded chapter
+                        if (autoScrollEnabled) {
+                            setTimeout(() => {
+                                smoothScrollToChapter(activeChapter, activeHeader, 0);
+                            }, 300);
+                        }
                     }, 10);
                 }
-                
-                // Auto-scroll if enabled
+
+                // Enhanced auto-scroll if enabled
                 if (autoScrollEnabled) {
-                    activeChapter.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    handleSmartScrolling(activeChapter, activeHeader, activeTranscript, currentTime);
                 }
             }
         }
+
+        function handleSmartScrolling(activeChapter, activeHeader, activeTranscript, currentTime) {
+            const now = Date.now();
+
+            // Determine current paragraph based on time
+            const paragraphs = activeChapter.querySelectorAll('.transcript-paragraph');
+            if (paragraphs.length === 0) return;
+
+            // Get chapter time information
+            const startTime = parseInt(activeTranscript.getAttribute('data-start'));
+            const endTime = parseInt(activeTranscript.getAttribute('data-end'));
+
+            // Calculate how far through this chapter we are (as a percentage)
+            const chapterDuration = endTime - startTime;
+            const currentProgress = currentTime - startTime;
+            const progressPercent = Math.min(Math.max(currentProgress / chapterDuration, 0), 1);
+
+            // Only scroll if enough time has passed since the last scroll
+            // or if we've just changed chapters (indicated by a large change in progress)
+            if (now - lastScrollTime > scrollUpdateInterval ||
+                Math.abs(lastScrollPosition - progressPercent) > 0.15) {
+
+                // Choose which paragraph to scroll to based on progress
+                const targetIndex = Math.floor(progressPercent * paragraphs.length);
+                const targetParagraph = targetIndex < paragraphs.length ?
+                    paragraphs[targetIndex] :
+                    paragraphs[paragraphs.length - 1];
+
+                if (targetParagraph) {
+                    // Scroll to the paragraph with the optimal viewing position
+                    const windowHeight = window.innerHeight;
+                    const headerHeight = activeHeader.offsetHeight;
+                    const scrollTop = activeChapter.offsetTop + headerHeight +
+                        targetParagraph.offsetTop - (windowHeight * 0.3);
+
+                    // Scroll with gentle easing
+                    window.scrollTo({
+                        top: scrollTop,
+                        behavior: 'smooth'
+                    });
+
+                    // Update tracking variables
+                    lastScrollTime = now;
+                    lastScrollPosition = progressPercent;
+                }
+            }
+        }
+
+        // Helper function for smooth scrolling to the beginning of a chapter
+        function smoothScrollToChapter(chapter, header, delay) {
+            setTimeout(() => {
+                const scrollTop = chapter.offsetTop + header.offsetHeight - (window.innerHeight * 0.3);
+                window.scrollTo({
+                    top: scrollTop,
+                    behavior: 'smooth'
+                });
+            }, delay);
+        }
+
+        // When setting up the player and tracking
+        function startTracking() {
+            stopTracking();
+
+            // Reset scroll tracking variables
+            lastScrollTime = 0;
+            lastScrollPosition = 0;
+
+            // Use a less frequent interval to check video time (every 1s instead of faster)
+            trackingInterval = setInterval(() => {
+                if (youtubePlayer && youtubePlayer.getCurrentTime) {
+                    updateActiveChapter(youtubePlayer.getCurrentTime());
+                }
+            }, 1000);
+        }
+
+        // Add a more advanced flow mode option
+        function enhanceFlowControls() {
+            // Create a new flow speed control
+            const flowControls = document.createElement('div');
+            flowControls.className = 'flow-speed-controls';
+            flowControls.style.display = 'none';
+            flowControls.innerHTML = `
+        <span class="flow-speed-label">Reading Speed:</span>
+        <button class="flow-speed-btn" data-speed="0.8">Slower</button>
+        <button class="flow-speed-btn active" data-speed="1">Normal</button>
+        <button class="flow-speed-btn" data-speed="1.2">Faster</button>
+    `;
+
+            // Add the controls after the existing control buttons
+            const controlButtons = document.querySelector('.control-buttons');
+            controlButtons.parentNode.insertBefore(flowControls, controlButtons.nextSibling);
+
+            // Add CSS for the flow controls
+            const style = document.createElement('style');
+            style.textContent = `
+        .flow-speed-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        .flow-speed-label {
+            color: var(--color-contrast);
+            font-size: var(--font-size-small);
+            opacity: 0.8;
+        }
+        .flow-speed-btn {
+            background-color: rgba(212, 167, 57, 0.07);
+            border: 1px solid var(--color-accent-2);
+            color: var(--color-contrast);
+            font-family: var(--font-heading-2);
+            font-size: var(--font-size-small);
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            opacity: 0.9;
+            transition: all 0.2s ease;
+        }
+        .flow-speed-btn:hover {
+            background-color: rgba(212, 167, 57, 0.15);
+        }
+        .flow-speed-btn.active {
+            background-color: rgba(212, 167, 57, 0.25);
+            color: var(--color-accent-2);
+        }
+    `;
+            document.head.appendChild(style);
+
+            // Update the toggle auto-scroll function
+            const toggleAutoScrollBtn = document.getElementById('toggleAutoScroll');
+            let flowSpeedMultiplier = 1;
+
+            // Show/hide flow speed controls
+            if (toggleAutoScrollBtn) {
+                const originalClickHandler = toggleAutoScrollBtn.onclick;
+                toggleAutoScrollBtn.onclick = function () {
+                    autoScrollEnabled = !autoScrollEnabled;
+                    this.classList.toggle('active');
+
+                    if (autoScrollEnabled) {
+                        this.textContent = 'Disable Flow';
+                        flowControls.style.display = 'flex';
+                    } else {
+                        this.textContent = 'Enable Flow';
+                        flowControls.style.display = 'none';
+                    }
+                };
+            }
+
+            // Add event listeners to speed buttons
+            document.querySelectorAll('.flow-speed-btn').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    document.querySelectorAll('.flow-speed-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    flowSpeedMultiplier = parseFloat(this.getAttribute('data-speed'));
+                });
+            });
+        }
+
+        // Call this function when the document is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            // ... your existing code ...
+
+            // Add enhanced flow controls
+            enhanceFlowControls();
+        });
     });
 </script>
 {{ end }}
