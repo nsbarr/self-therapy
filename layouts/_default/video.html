@@ -2,19 +2,21 @@
 <!-- Add Google Fonts -->
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap">
+<!-- Add Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <style>
     :root {
-        /* Colors - Dark canvas with gold accents */
-        --color-base: #0f0f0f;
-        --color-contrast: #f5f1e4;
-        --color-accent-1: #1a1a1a;
+        /* Colors - Light canvas with gold accents */
+        --color-base: #f9f6f0;
+        --color-contrast: #3a3124;
+        --color-accent-1: #f0e9dd;
         --color-accent-2: #d4a739;
         /* Golden accent */
         --color-accent-3: #9a7b45;
         /* Secondary gold */
         --color-accent-4: #8a8a8a;
-        --color-accent-5: #181818;
+        --color-accent-5: #fcfcfc;
 
         /* Original Typography */
         --font-primary: 'Petrona', serif;
@@ -333,12 +335,14 @@
     .chapter-transcript {
         margin: var(--spacing-md) 0;
         padding: var(--spacing-md);
-        background-color: rgba(26, 26, 26, 0.6);
+        background-color: rgba(212, 167, 57, 0.05);
         border-radius: 5px;
         border-left: 2px solid transparent;
         transition: all 0.3s ease;
         max-width: 650px;
         /* Limit width for better readability */
+        display: flow-root;
+        /* Modern way to establish a new block formatting context */
     }
 
     .chapter-transcript.active-chapter {
@@ -432,79 +436,68 @@
     }
 
     /* Create clear separation between transcript and commentary */
-    .chapter-transcript {
-        margin: var(--spacing-md) 0;
-        padding: var(--spacing-md);
-        background-color: rgba(26, 26, 26, 0.6);
-        border-radius: 5px;
-        border-left: 2px solid transparent;
-        transition: all 0.3s ease;
-        max-width: 650px;
-        /* Limit width for better readability */
-        display: flow-root;
-        /* Modern way to establish a new block formatting context */
+    /* Remove duplicate chapter-transcript definition */
+
+    /* Dark mode - IMPROVED with comprehensive overrides */
+    body.dark-mode {
+        --color-base: #0f0f0f;
+        --color-contrast: #f5f1e4;
+        --color-accent-1: #1a1a1a;
+        --color-accent-5: #181818;
     }
 
-    /* Light mode - IMPROVED with comprehensive overrides */
-    body.light-mode {
-        --color-base: #f9f6f0;
-        --color-contrast: #3a3124;
-        --color-accent-1: #f0e9dd;
-        --color-accent-5: #fcfcfc;
-    }
-
-    /* Comprehensive light mode overrides for all backgrounds */
-    body.light-mode .chapter-header {
+    /* Comprehensive dark mode overrides for all backgrounds */
+    body.dark-mode .chapter-header {
         background-color: var(--color-accent-1);
     }
 
-    body.light-mode .chapter-header:hover {
+    body.dark-mode .chapter-header:hover {
         background-color: rgba(212, 167, 57, 0.15);
         border-left: 3px solid var(--color-accent-3);
     }
 
-    body.light-mode .chapter-header.active {
+    body.dark-mode .chapter-header.active {
         background-color: rgba(212, 167, 57, 0.2);
     }
 
-    body.light-mode .chapter-transcript {
-        background-color: rgba(212, 167, 57, 0.05);
+    body.dark-mode .chapter-transcript {
+        background-color: rgba(26, 26, 26, 0.6);
     }
 
-    body.light-mode .chapter-transcript.active-chapter {
+    body.dark-mode .chapter-transcript.active-chapter {
+        background-color: rgba(26, 26, 26, 0.8);
+    }
+
+    /* Dark mode overrides for commentary */
+    body.dark-mode .commentary-toggle {
         background-color: rgba(212, 167, 57, 0.1);
+        color: #f5f1e4;
     }
 
-    /* Light mode overrides for commentary */
-    body.light-mode .commentary-toggle {
-        background-color: rgba(212, 167, 57, 0.1);
-        color: #6b5114;
-    }
-
-    body.light-mode .commentary-toggle:hover {
+    body.dark-mode .commentary-toggle:hover {
         background-color: rgba(212, 167, 57, 0.2);
     }
 
-    body.light-mode .commentary-toggle.active {
+    body.dark-mode .commentary-toggle.active {
         background-color: rgba(212, 167, 57, 0.3);
     }
 
-    body.light-mode .control-button {
+    body.dark-mode .control-button {
         background-color: rgba(212, 167, 57, 0.1);
         color: var(--color-contrast);
     }
 
-    body.light-mode .control-button:hover {
+    body.dark-mode .control-button:hover {
         background-color: rgba(212, 167, 57, 0.2);
     }
 
-    body.light-mode .control-button.active {
+    body.dark-mode .control-button.active {
         background-color: rgba(212, 167, 57, 0.3);
-        color: #6b5114;
+        color: #f5f1e4;
     }
 
-    body.light-mode .video-container {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    body.dark-mode .video-container {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
     }
 
     /* Mobile responsive styles */
@@ -541,6 +534,61 @@
             flex: 1 0 100px;
         }
     }
+
+    /* Theme toggle button styling */
+    .theme-toggle {
+        background-color: rgba(212, 167, 57, 0.07);
+        border: 1px solid var(--color-accent-2);
+        color: var(--color-contrast);
+        font-family: var(--font-heading-2);
+        font-size: var(--font-size-small);
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        opacity: 0.9;
+        transition: all 0.2s ease;
+        min-width: 120px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .theme-toggle:hover {
+        background-color: rgba(212, 167, 57, 0.15);
+        border-color: var(--color-accent-2);
+        transform: translateY(-1px);
+    }
+
+    .theme-toggle.active {
+        background-color: rgba(212, 167, 57, 0.25);
+        border-color: var(--color-accent-2);
+        color: var(--color-accent-2);
+        opacity: 1;
+    }
+
+    .theme-toggle i {
+        font-size: 1.1em;
+        transition: transform 0.3s ease;
+    }
+
+    .theme-toggle:hover i {
+        transform: rotate(15deg);
+    }
+
+    /* Dark mode specific styles for the toggle */
+    body.dark-mode .theme-toggle {
+        background-color: rgba(212, 167, 57, 0.1);
+    }
+
+    body.dark-mode .theme-toggle:hover {
+        background-color: rgba(212, 167, 57, 0.2);
+    }
+
+    body.dark-mode .theme-toggle.active {
+        background-color: rgba(212, 167, 57, 0.3);
+    }
 </style>
 
 <div class="container">
@@ -562,7 +610,10 @@
             <!-- Control Buttons - Fixed styling -->
             <div class="control-buttons">
                 <button class="control-button" id="toggleAutoScroll">Enable Flow</button>
-                <button class="control-button" id="toggleLightMode">Light Mode</button>
+                <button class="theme-toggle" id="toggleLightMode">
+                    <i class="fas fa-sun"></i>
+                    <span>Light Mode</span>
+                </button>
             </div>
         </div>
 
@@ -707,16 +758,21 @@
             });
         }
 
-        // Toggle light mode
+        // Toggle light/dark mode
         if (toggleLightModeBtn) {
+            const icon = toggleLightModeBtn.querySelector('i');
+            const text = toggleLightModeBtn.querySelector('span');
+            
             toggleLightModeBtn.addEventListener('click', function () {
-                document.body.classList.toggle('light-mode');
+                document.body.classList.toggle('dark-mode');
                 this.classList.toggle('active');
 
-                if (document.body.classList.contains('light-mode')) {
-                    this.textContent = 'Dark Mode';
+                if (document.body.classList.contains('dark-mode')) {
+                    icon.className = 'fas fa-moon';
+                    text.textContent = 'Dark Mode';
                 } else {
-                    this.textContent = 'Light Mode';
+                    icon.className = 'fas fa-sun';
+                    text.textContent = 'Light Mode';
                 }
             });
         }
