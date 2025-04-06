@@ -1,9 +1,14 @@
-baseURL = 'https://nsbarr.github.io/self-therapy/'
+baseURL = '/'
 languageCode = 'en-us'
 title = ''
 theme = 'hugo-tufte'
 custom_css = ["css/custom.css"]
 canonifyURLs = true
+
+[params]
+  KaTeXCDN = "https://cdn.jsdelivr.net/npm"
+  KaTeXVersion = "0.16.7"
+
 [permalinks]
   posts = "/:title/"
 [markup]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <title>{{ .Title }} {{ if ne .Title .Site.Title }}- {{ .Site.Title }}{{ end }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}" />
+    
+    <!-- Google Fonts - Just using Petrona for reliability -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tufte CSS (for non-home pages) -->
+    {{ if ne .IsHome true }}
+        {{ partial "header.includes.html" . }}
+    {{ end }}
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
+    
+    {{ with .Params.metatags }}{{ . | safeHTML }}{{ end }}
+</head>
+
+<body{{ if .IsHome }} class="home-page"{{ end }}>
+    {{ block "main" . }}{{ end }}
+    
+    <!-- Load Katex, only when explicitly enabled -->
+    {{ if .Params.math }}
+    {{ partial "math.html" . }}
+    {{ end }}
+</body>
+</html> 

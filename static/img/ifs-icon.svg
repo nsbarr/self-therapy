@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="hexPattern" patternUnits="userSpaceOnUse" width="100" height="86.6" patternTransform="scale(0.85)">
+      <polygon fill="none" stroke="#95A5A0" stroke-width="1" points="50,0 100,25 100,75 50,100 0,75 0,25" />
+      <polygon fill="none" stroke="#95A5A0" stroke-width="0.8" points="50,20 80,35 80,65 50,80 20,65 20,35" />
+      <circle fill="#E7E7E7" cx="50" cy="50" r="4" />
+    </pattern>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAFA" />
+      <stop offset="100%" stop-color="#F2F2F2" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+      <feOffset dx="0" dy="5" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.15" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#backgroundGradient)" />
+  
+  <g filter="url(#softShadow)">
+    <!-- Flower of Life Pattern - Moved to upper right -->
+    <g transform="translate(500, 250) scale(0.75)">
+      <circle cx="0" cy="0" r="200" fill="none" stroke="#2C3333" stroke-width="1" opacity="0.07" />
+      
+      <!-- Inner circles with reduced opacity -->
+      <g opacity="0.5">
+        <circle cx="-100" cy="-173.2" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+        <circle cx="100" cy="-173.2" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+        <circle cx="200" cy="0" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+        <circle cx="100" cy="173.2" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+        <circle cx="-100" cy="173.2" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+        <circle cx="-200" cy="0" r="100" fill="none" stroke="#95A5A0" stroke-width="1" />
+      </g>
+      
+      <!-- Inner details with reduced opacity -->
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#2C3333" stroke-width="1" opacity="0.1" />
+      <circle cx="0" cy="0" r="20" fill="#95A5A0" opacity="0.2" />
+      
+      <!-- Connecting lines with reduced opacity -->
+      <g stroke="#2C3333" stroke-width="0.8" opacity="0.1">
+        <line x1="-150" y1="0" x2="150" y2="0" />
+        <line x1="-75" y1="-129.9" x2="75" y2="129.9" />
+        <line x1="75" y1="-129.9" x2="-75" y2="129.9" />
+      </g>
+    </g>
+    
+    <!-- Background hex pattern -->
+    <rect width="100%" height="100%" fill="url(#hexPattern)" opacity="0.1" />
+  </g>
+  
+  <!-- Title - Removed -->
+</svg> 
