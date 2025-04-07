@@ -1,0 +1,5 @@
+Applied 3 heading standardization changes:
+
+1. Applied heading pattern: ^#\s+Type (\d+): (.*?)(\s+\{#.*?\})?$ -> # Enneagram Type \1: \2\3
+2. Applied heading pattern: ^##\s+\*\*The (Social) (One): (.*?)\*\*(\s+\{#.*?\})?$ -> ## \1 1: \3\4
+3. Applied heading pattern: ^##\s+\*\*(Social) (Two): (.*?)\*\*(\s+\{#.*?\})?$ -> ## \1 2: \3\4

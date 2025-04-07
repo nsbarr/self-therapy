@@ -2,17 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nsbarr.github.io/self-therapy/ifs/</loc>
+    <loc>/examining-nonsense-mind/</loc>
+    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/examining-nonsense-mind/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/teachings/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/devotional-watching/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/devotional-watching/perfection-of-wisdom/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/ifs/</loc>
     <lastmod>2023-08-19T15:23:24+02:00</lastmod>
   </url><url>
-    <loc>https://nsbarr.github.io/self-therapy/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-08-19T15:23:24+02:00</lastmod>
   </url><url>
-    <loc>https://nsbarr.github.io/self-therapy/posts/</loc>
-    <lastmod>2023-08-19T15:23:24+02:00</lastmod>
+    <loc>/reading-experience/</loc>
   </url><url>
-    <loc>https://nsbarr.github.io/self-therapy/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://nsbarr.github.io/self-therapy/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

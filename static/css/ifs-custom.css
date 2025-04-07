@@ -1,0 +1,12 @@
+/* IFS article specific styles */
+.content-title {
+  max-width: 800px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .content-title {
+    font-size: 2.2rem;
+  }
+} 

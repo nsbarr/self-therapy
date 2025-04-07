@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reading-experience-custom.css">
+    <style>
+        .progress-container {
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            width: 100%;
+            height: 4px;
+            background: transparent;
+        }
+        .progress-bar {
+            height: 4px;
+            background: var(--gold-accent);
+            width: 0%;
+        }
+        .reading-preferences {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 10;
+        }
+        .preference-button {
+            background: var(--color-space);
+            border: 1px solid var(--color-subtle);
+            color: var(--color-accent);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .preference-button:hover {
+            background: var(--color-subtle);
+            color: var(--gold-accent-dark);
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="readingProgress"></div>
+    </div>
+    
+    <div class="reading-preferences">
+        <button id="darkModeToggle" class="preference-button" title="Toggle Dark Mode">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+        <button id="focusModeToggle" class="preference-button" title="Toggle Focus Mode">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="4"></circle>
+            </svg>
+        </button>
+        <button id="fontSizeToggle" class="preference-button" title="Adjust Font Size">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="4 7 4 4 20 4 20 7"></polyline>
+                <line x1="9" y1="20" x2="15" y2="20"></line>
+                <line x1="12" y1="4" x2="12" y2="20"></line>
+            </svg>
+        </button>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1 class="book-title">{{ .Title }}</h1>
+            <div class="book-subtitle">{{ .Params.subtitle }}</div>
+        </header>
+        
+        <div class="content-wrapper">
+            {{ .Content }}
+        </div>
+    </div>
+
+    <script>
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fix any remaining invalid IDs
+            document.querySelectorAll('[id]').forEach(el => {
+                if (el.id.includes('{') || el.id.includes('}')) {
+                    let newId = el.id.replace(/\{[^}]*\}/g, '');
+                    el.id = newId;
+                }
+            });
+            
+            // Fix any remaining invalid hrefs
+            document.querySelectorAll('a[href^="#"]').forEach(link => {
+                let href = link.getAttribute('href');
+                if (href.includes('{') || href.includes('}')) {
+                    let newHref = href.replace(/\{[^}]*\}/g, '');
+                    link.setAttribute('href', newHref);
+                }
+            });
+            
+            // Clean up header text formatting
+            document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(header => {
+                let headerText = header.innerText;
+                
+                // Replace dash with colon for consistency
+                if (headerText.includes(' - ')) {
+                    headerText = headerText.replace(' - ', ': ');
+                }
+                
+                // Remove the curly brace annotations
+                if (headerText.includes('{')) {
+                    headerText = headerText.replace(/\s*\{[^}]*\}\s*$/, '');
+                }
+                
+                header.innerText = headerText;
+            });
+            
+            // Clean up TOC links text
+            document.querySelectorAll('.toc-item a').forEach(link => {
+                let linkText = link.innerText;
+                
+                // Replace dash with colon for consistency
+                if (linkText.includes(' - ')) {
+                    linkText = linkText.replace(' - ', ': ');
+                }
+                
+                // Remove the curly brace annotations
+                if (linkText.includes('{')) {
+                    linkText = linkText.replace(/\s*\{[^}]*\}\s*$/, '');
+                }
+                
+                link.innerText = linkText;
+            });
+        });
+
+        // Dark mode toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark-mode');
+        });
+
+        // Focus mode toggle
+        const focusModeToggle = document.getElementById('focusModeToggle');
+        focusModeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('focus-mode');
+        });
+
+        // Font size toggle
+        const fontSizeToggle = document.getElementById('fontSizeToggle');
+        let currentFontSize = 18;
+        fontSizeToggle.addEventListener('click', () => {
+            currentFontSize = currentFontSize === 18 ? 20 : currentFontSize === 20 ? 22 : 18;
+            document.documentElement.style.setProperty('--font-size-base', `${currentFontSize}px`);
+        });
+
+        // Reading progress
+        const progressBar = document.getElementById('readingProgress');
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+    </script>
+</body>
+</html> 

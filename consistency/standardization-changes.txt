@@ -1,0 +1,14 @@
+Applied 12 standardization changes:
+
+1. Applied: Enneatype ([IVX]+) -> Enneagram Type \1
+2. Applied: \bE(\d+)\b -> Enneagram Type \1
+3. Applied: Type I\b -> Type 1
+4. Applied: Type III\b -> Type 3
+5. Applied: Type IV\b -> Type 4
+6. Applied: Type V\b -> Type 5
+7. Applied: Type VI\b -> Type 6
+8. Applied: Type VII\b -> Type 7
+9. Applied: Type VIII\b -> Type 8
+10. Applied: Type IX\b -> Type 9
+11. Applied: \bSO (\d+) -> Social \1
+12. Applied: Self Preservation -> Self-Preservation

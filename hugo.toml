@@ -20,3 +20,7 @@ canonifyURLs = true
     name = "Devotional Watching"
     url = "/devotional-watching/"
     weight = 5
+  [[menu.main]]
+    name = "Reading Experience"
+    url = "/reading-experience/"
+    weight = 6

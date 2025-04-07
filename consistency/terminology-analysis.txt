@@ -1,0 +1,111 @@
+=== Enneagram Type Reference Analysis ===
+Most common references:
+  ex: 1326
+  ei: 1251
+  e i: 1241
+  ev: 1190
+  e I: 192
+  exi: 118
+  e v: 118
+  evi: 116
+  eiv: 95
+  Ev: 47
+  E6: 41
+  Ei: 36
+  E7: 35
+  E4: 33
+  Ex: 27
+  E9: 26
+  e vi: 26
+  E5: 24
+  E8: 23
+  eivi: 23
+  E2: 17
+  Sexual 4: 14
+  type i: 12
+  E1: 9
+  E3: 8
+  Type 5: 7
+  e7: 6
+  e9: 6
+  Type 4: 6
+  Enneatype I: 6
+  Social 5: 6
+  e6: 4
+  e8: 4
+  Exi: 3
+  type I: 3
+  e Vi: 3
+  e3: 2
+  e5: 2
+  e 20: 2
+  Enneatype III: 2
+  Enneagram Type V: 2
+  Enneatype VI: 2
+  Type VII: 2
+  Enneagram Type VIII: 2
+  Enneatype IX: 2
+  Evi: 2
+  Sexual 5: 2
+  Sexual 6: 2
+  SO 8: 2
+  sexual 4: 2
+  e 27: 1
+  e	41: 1
+  e	60: 1
+  e	70: 1
+  e	96: 1
+  e	122: 1
+  e	150: 1
+  e	192: 1
+  e	268: 1
+  e 1970: 1
+  e 70: 1
+  e 17: 1
+  Type 1: 1
+  EX: 1
+  e V: 1
+  Type IV: 1
+  e iv: 1
+  e II: 1
+  SEXUAL 1: 1
+  SO 3: 1
+
+=== Subtype Reference Analysis ===
+
+Social references:
+  so: 1663
+  social: 161
+  So: 78
+  Social: 70
+  SO: 4
+
+Sexual references:
+  sexual: 214
+  Sexual: 80
+  SEXUAL: 1
+
+Self-Preservation references:
+  sp: 768
+  conservation: 40
+  Conservation: 31
+  self-preservation: 30
+  Sp: 20
+  Self-Preservation: 12
+  Self Preservation: 2
+  SELF-PRESERVATION: 1
+
+=== Heading Format Analysis ===
+Type heading examples:
+  # Type One: Anger {#type-one:-anger}
+  # Enneagram Type Two: Pride {#enneagram-type-two:-pride}
+  # Enneatype III: Vanity {#enneatype-iii:-vanity}
+  # Enneagram Type Four: Envy {#enneagram-type-four:-envy}
+  # Enneagram Type V: Avarice {#enneagram-type-v:-avarice}
+
+Subtype heading examples:
+  ## **The Social One: Inadaptability/Superiority** {#the-social-one:-inadaptability/superiority}
+  ## **The Sexual One: Vehemence/Zeal** {#the-sexual-one:-vehemence/zeal}
+  ## **The Self-Preservation One: Concern** {#the-self-preservation-one:-concern}
+  ## **Social Two: Ambition** {#social-two:-ambition}
+  ## **Sexual Two: Conquest** {#sexual-two:-conquest}

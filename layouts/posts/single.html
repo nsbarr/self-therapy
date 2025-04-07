@@ -1,0 +1,31 @@
+{{ define "main" }}
+<style>
+  .content-title {
+    max-width: 800px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .content-title {
+      font-size: 2.2rem;
+    }
+  }
+</style>
+
+<article id="main">
+  <section>
+    <h1 class="content-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+  </section>
+
+  {{ if .Params.toc }}
+    <section class="table-of-contents">
+      <h2>Table of Contents</h2>
+      {{ .TableOfContents }}
+    </section>
+  {{ end }}
+
+  <section>{{ .Content }}</section>
+</article>
+{{ end }} 

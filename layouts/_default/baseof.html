@@ -19,9 +19,31 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
+    
+    <!-- Reading Experience CSS -->
+    {{ if eq .RelPermalink "/reading-experience/" }}
+    <link rel="stylesheet" href="/css/reading-experience-custom.css">
+    {{ end }}
+    
     <link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
     
     {{ with .Params.metatags }}{{ . | safeHTML }}{{ end }}
+
+    {{ if eq .RelPermalink "/ifs/" }}
+    <style>
+        .content-title {
+            max-width: 800px !important;
+            line-height: 1.2 !important;
+            margin-bottom: 1rem !important;
+        }
+        
+        @media (max-width: 768px) {
+            .content-title {
+                font-size: 2.2rem !important;
+            }
+        }
+    </style>
+    {{ end }}
 </head>
 
 <body{{ if .IsHome }} class="home-page"{{ end }}>

@@ -1,0 +1,115 @@
+{{ $content := readFile "static/reading-experience/index.html" }}
+{{ $content := replaceRE `(?s).*<main class="content">(.*)</main>.*` "$1" $content }}
+
+<!-- Clean up curly braces and ID markers in the content -->
+{{ $content := replaceRE `id="([^"]*)\{[^"]*\}"` `id="$1"` $content }}
+{{ $content := replaceRE `href="#([^"]*)\{[^"]*\}"` `href="#$1"` $content }}
+
+<!-- Update header formatting for subtypes - case insensitive -->
+{{ $content := replaceRE `(?i)Enneagram Type (\d+) Conservation:` `The Self-Preservation $1:` $content }}
+{{ $content := replaceRE `(?i)Enneagram Type (\d+) (social|sexual|self-preservation):` `The $2 $1:` $content }}
+{{ $content := replaceRE `(?i)<h[12][^>]*>(?:Type )?(\d+) Conservation:` `<h$1>The Self-Preservation $1:` $content }}
+{{ $content := replaceRE `(?i)<h[12][^>]*>(?:Type )?(\d+) (social|sexual|self-preservation):` `<h$1>The $2 $1:` $content }}
+{{ $content := replaceRE `(?i)Conservation (\d+):` `The Self-Preservation $1:` $content }}
+{{ $content := replaceRE `(?i)Social (\d+):` `The Social $1:` $content }}
+{{ $content := replaceRE `(?i)Sexual (\d+):` `The Sexual $1:` $content }}
+{{ $content := replaceRE `(?i)Self-Preservation (\d+):` `The Self-Preservation $1:` $content }}
+
+<!-- Additional patterns for specific cases -->
+{{ $content := replaceRE `(?i)Enneagram Type (\d+) social:` `The Social $1:` $content }}
+{{ $content := replaceRE `(?i)Enneagram Type (\d+) sexual:` `The Sexual $1:` $content }}
+{{ $content := replaceRE `(?i)<h[12][^>]*>Social (\d+):` `<h$1>The Social $1:` $content }}
+
+<!-- Convert numbers to spelled out words in headers -->
+{{ $content := replaceRE `The Social 1:` `The Social One:` $content }}
+{{ $content := replaceRE `The Social 2:` `The Social Two:` $content }}
+{{ $content := replaceRE `The Social 3:` `The Social Three:` $content }}
+{{ $content := replaceRE `The Social 4:` `The Social Four:` $content }}
+{{ $content := replaceRE `The Social 5:` `The Social Five:` $content }}
+{{ $content := replaceRE `The Social 6:` `The Social Six:` $content }}
+{{ $content := replaceRE `The Social 7:` `The Social Seven:` $content }}
+{{ $content := replaceRE `The Social 8:` `The Social Eight:` $content }}
+{{ $content := replaceRE `The Social 9:` `The Social Nine:` $content }}
+{{ $content := replaceRE `The Sexual 1:` `The Sexual One:` $content }}
+{{ $content := replaceRE `The Sexual 2:` `The Sexual Two:` $content }}
+{{ $content := replaceRE `The Sexual 3:` `The Sexual Three:` $content }}
+{{ $content := replaceRE `The Sexual 4:` `The Sexual Four:` $content }}
+{{ $content := replaceRE `The Sexual 5:` `The Sexual Five:` $content }}
+{{ $content := replaceRE `The Sexual 6:` `The Sexual Six:` $content }}
+{{ $content := replaceRE `The Sexual 7:` `The Sexual Seven:` $content }}
+{{ $content := replaceRE `The Sexual 8:` `The Sexual Eight:` $content }}
+{{ $content := replaceRE `The Sexual 9:` `The Sexual Nine:` $content }}
+{{ $content := replaceRE `The Self-Preservation 1:` `The Self-Preservation One:` $content }}
+{{ $content := replaceRE `The Self-Preservation 2:` `The Self-Preservation Two:` $content }}
+{{ $content := replaceRE `The Self-Preservation 3:` `The Self-Preservation Three:` $content }}
+{{ $content := replaceRE `The Self-Preservation 4:` `The Self-Preservation Four:` $content }}
+{{ $content := replaceRE `The Self-Preservation 5:` `The Self-Preservation Five:` $content }}
+{{ $content := replaceRE `The Self-Preservation 6:` `The Self-Preservation Six:` $content }}
+{{ $content := replaceRE `The Self-Preservation 7:` `The Self-Preservation Seven:` $content }}
+{{ $content := replaceRE `The Self-Preservation 8:` `The Self-Preservation Eight:` $content }}
+{{ $content := replaceRE `The Self-Preservation 9:` `The Self-Preservation Nine:` $content }}
+
+<div class="reading-experience">
+    <div class="container">
+        <div class="content-wrapper">
+            <aside class="toc-container">
+                <div class="toc-header">Table of Contents</div>
+                <div class="toc-content">
+                    {{ $toc := readFile "static/reading-experience/index.html" }}
+                    {{ $toc := replaceRE `(?s).*<div class="toc-content">(.*)</div>.*<main.*` "$1" $toc }}
+                    
+                    <!-- Clean up links and text in TOC -->
+                    {{ $toc := replaceRE `href="#([^"]*)\{[^"]*\}"` `href="#$1"` $toc }}
+                    {{ $toc := replaceRE `(?i)>Enneagram Type (\d+) Conservation:` `>The Self-Preservation $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Enneagram Type (\d+) (social|sexual|self-preservation):` `>The $2 $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>(?:Type )?(\d+) Conservation:` `>The Self-Preservation $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>(?:Type )?(\d+) (social|sexual|self-preservation):` `>The $2 $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Conservation (\d+):` `>The Self-Preservation $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Social (\d+):` `>The Social $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Sexual (\d+):` `>The Sexual $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Self-Preservation (\d+):` `>The Self-Preservation $1:` $toc }}
+                    
+                    <!-- Additional patterns for specific cases in TOC -->
+                    {{ $toc := replaceRE `(?i)>Enneagram Type (\d+) social:` `>The Social $1:` $toc }}
+                    {{ $toc := replaceRE `(?i)>Enneagram Type (\d+) sexual:` `>The Sexual $1:` $toc }}
+                    
+                    <!-- Convert numbers to spelled out words in TOC -->
+                    {{ $toc := replaceRE `>The Social 1:` `>The Social One:` $toc }}
+                    {{ $toc := replaceRE `>The Social 2:` `>The Social Two:` $toc }}
+                    {{ $toc := replaceRE `>The Social 3:` `>The Social Three:` $toc }}
+                    {{ $toc := replaceRE `>The Social 4:` `>The Social Four:` $toc }}
+                    {{ $toc := replaceRE `>The Social 5:` `>The Social Five:` $toc }}
+                    {{ $toc := replaceRE `>The Social 6:` `>The Social Six:` $toc }}
+                    {{ $toc := replaceRE `>The Social 7:` `>The Social Seven:` $toc }}
+                    {{ $toc := replaceRE `>The Social 8:` `>The Social Eight:` $toc }}
+                    {{ $toc := replaceRE `>The Social 9:` `>The Social Nine:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 1:` `>The Sexual One:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 2:` `>The Sexual Two:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 3:` `>The Sexual Three:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 4:` `>The Sexual Four:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 5:` `>The Sexual Five:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 6:` `>The Sexual Six:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 7:` `>The Sexual Seven:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 8:` `>The Sexual Eight:` $toc }}
+                    {{ $toc := replaceRE `>The Sexual 9:` `>The Sexual Nine:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 1:` `>The Self-Preservation One:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 2:` `>The Self-Preservation Two:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 3:` `>The Self-Preservation Three:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 4:` `>The Self-Preservation Four:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 5:` `>The Self-Preservation Five:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 6:` `>The Self-Preservation Six:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 7:` `>The Self-Preservation Seven:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 8:` `>The Self-Preservation Eight:` $toc }}
+                    {{ $toc := replaceRE `>The Self-Preservation 9:` `>The Self-Preservation Nine:` $toc }}
+                    
+                    {{ $toc | safeHTML }}
+                </div>
+            </aside>
+            <main class="content">
+                {{ $content := replaceRE `<table>.*?<\/table>` `` $content }}
+                {{ $content := replaceRE `<p><a href="#.*?<\/a><\/p>` `` $content }}
+                {{ $content | safeHTML }}
+            </main>
+        </div>
+    </div>
+</div> 

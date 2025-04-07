@@ -1,0 +1,18 @@
+<head>
+<title>{{ .Title  }} - {{ .Site.Title }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+<link rel="canonical" href="{{ .Permalink }}" />
+<meta property="og:title" content="Enhancing Self-Therapy with Internal Family Systems and AI">
+<meta property="og:description" content="For several months, I've been prototyping an AI-powered therapy tool. It's proven surprisingly useful, so I want to share it with you here. Many people are experimenting with AI for therapy, but the tool I've built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model.">
+<meta property="og:image" content="https://allbein.gs/interface.png">
+
+  {{ partial "header.includes.html" . }}
+<link rel="stylesheet" href="/css/custom.css">
+{{ if eq .RelPermalink "/ifs/" }}
+<link rel="stylesheet" href="/css/ifs-custom.css">
+{{ end }}
+<link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
+</head> 

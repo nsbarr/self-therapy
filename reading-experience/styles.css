@@ -1,0 +1,447 @@
+/* Base Styles */
+:root {
+    --text-color: #333;
+    --bg-color: #fff;
+    --accent-color: #6b46c1;
+    --light-accent: #e9e4f0;
+    --muted-color: #718096;
+    --border-color: #e2e8f0;
+    --toc-bg: #f8f9fa;
+    --toc-width: 280px;
+    --content-width: 720px;
+    --heading-font: 'Georgia', serif;
+    --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --text-color: #e2e8f0;
+    --bg-color: #1a202c;
+    --accent-color: #9f7aea;
+    --light-accent: #4a5568;
+    --muted-color: #a0aec0;
+    --border-color: #4a5568;
+    --toc-bg: #2d3748;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Font Size Preferences */
+body[data-font-size="small"] {
+    font-size: 16px;
+}
+
+body[data-font-size="medium"] {
+    font-size: 18px;
+}
+
+body[data-font-size="large"] {
+    font-size: 20px;
+}
+
+.container {
+    max-width: calc(var(--content-width) + var(--toc-width) + 80px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin: 2rem 0 1rem;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid var(--light-accent);
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid var(--light-accent);
+    padding-bottom: 0.3rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+blockquote {
+    border-left: 4px solid var(--light-accent);
+    padding-left: 1rem;
+    font-style: italic;
+    margin: 1.5rem 0;
+    color: var(--muted-color);
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+code {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    background-color: var(--light-accent);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+pre {
+    padding: 1rem;
+    background-color: var(--light-accent);
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Header & Footer */
+header {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.book-title {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--accent-color);
+    border-bottom: none;
+    transition: color 0.3s ease;
+}
+
+.book-subtitle {
+    font-size: 1.4rem;
+    color: var(--muted-color);
+    font-style: italic;
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    color: var(--muted-color);
+    font-size: 0.9rem;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Content Layout */
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+/* Table of Contents */
+.toc-container {
+    width: var(--toc-width);
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    padding: 1.5rem;
+    background-color: var(--toc-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toc-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.toc-list, .toc-sublist {
+    list-style: none;
+}
+
+.toc-item {
+    margin-bottom: 0.5rem;
+}
+
+.toc-level-1 {
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.toc-level-2 {
+    padding-left: 1rem;
+    font-size: 0.95rem;
+}
+
+.toc-item a {
+    display: block;
+    padding: 0.3rem 0;
+    transition: background-color 0.2s, color 0.2s;
+    border-radius: 4px;
+}
+
+.toc-item a:hover {
+    background-color: var(--light-accent);
+    text-decoration: none;
+}
+
+.toc-item a.active {
+    background-color: var(--light-accent);
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    transition: border-color 0.3s ease;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+th {
+    background-color: var(--light-accent);
+}
+
+/* Responsive Layout */
+.toc-toggle {
+    display: none;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Reading Preferences */
+.reading-preferences {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preference-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.preference-button:hover {
+    transform: scale(1.1);
+}
+
+.preference-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Reading Progress Bar */
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 1000;
+    background-color: var(--border-color);
+}
+
+.progress-bar {
+    height: 4px;
+    background-color: var(--accent-color);
+    width: 0%;
+    transition: width 0.1s ease;
+}
+
+/* Focus Mode */
+.focus-mode .content p:not(:hover),
+.focus-mode .content li:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.focus-mode .content p:hover,
+.focus-mode .content li:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1100px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .toc-container {
+        width: 100%;
+        position: static;
+        max-height: none;
+        margin-bottom: 2rem;
+        display: none;
+    }
+    
+    .toc-toggle {
+        display: block;
+    }
+    
+    .toc-open {
+        display: block;
+    }
+    
+    .toc-toggle-active {
+        background-color: var(--muted-color);
+    }
+    
+    .reading-preferences {
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reading-preferences {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --content-width: 100%;
+    }
+    
+    body {
+        font-size: 16px;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .book-title {
+        font-size: 2rem;
+    }
+    
+    .book-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+/* Additional Reading Enhancements */
+.content p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 4px;
+    transition: filter 0.3s ease;
+}
+
+.dark-mode .content img {
+    filter: brightness(0.8) contrast(1.2);
+}
+
+/* Print Styles */
+@media print {
+    .toc-container, .toc-toggle, .progress-container, .reading-preferences {
+        display: none !important;
+    }
+    
+    .content {
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+    
+    table, figure {
+        page-break-inside: avoid;
+    }
+    
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+}
