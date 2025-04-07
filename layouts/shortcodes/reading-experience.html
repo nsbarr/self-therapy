@@ -1,4 +1,4 @@
-{{ $content := readFile "static/reading-experience/index.html" }}
+{{ $content := readFile "reading-experience/index.html" }}
 {{ $content := replaceRE `(?s).*<main class="content">(.*)</main>.*` "$1" $content }}
 
 <!-- Clean up curly braces and ID markers in the content -->
@@ -51,11 +51,18 @@
 
 <div class="reading-experience">
     <div class="container">
+        <header>
+            <h1 class="book-title">27 Personalities in Search of Being</h1>
+            <div class="book-subtitle">by Claudio Naranjo</div>
+            <div class="book-contributors">with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj</div>
+            <div class="book-translator">Translated by Nick Barr</div>
+        </header>
+        
         <div class="content-wrapper">
             <aside class="toc-container">
                 <div class="toc-header">Table of Contents</div>
                 <div class="toc-content">
-                    {{ $toc := readFile "static/reading-experience/index.html" }}
+                    {{ $toc := readFile "reading-experience/index.html" }}
                     {{ $toc := replaceRE `(?s).*<div class="toc-content">(.*)</div>.*<main.*` "$1" $toc }}
                     
                     <!-- Clean up links and text in TOC -->

@@ -72,12 +72,12 @@
 }
 
 .home-page .home-quote p {
-  margin: 0.8rem 0;
+  margin: 0 0;
 }
 
 .home-page .home-quote .attribution {
-  margin-top: 1.5rem;
-  font-size: 1.0rem;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
   color: var(--color-accent);
   font-style: normal;
 }
@@ -149,7 +149,7 @@
 }
 
 .home-page .article-meta {
-  font-size: 0.85rem;
+  font-size: 1.0rem;
   color: var(--color-accent);
   letter-spacing: 0.02em;
 }
