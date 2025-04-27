@@ -50,7 +50,7 @@
         }
     </style>
 </head>
-<body>
+<body class="reading-experience">
     <div class="progress-container">
         <div class="progress-bar" id="readingProgress"></div>
     </div>
@@ -78,7 +78,10 @@
     
     <div class="container">
         <header>
-
+            <h1 class="book-title">27 Personalities in Search of Being</h1>
+            <div class="book-subtitle">by Claudio Naranjo</div>
+            <div class="book-contributors">with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj</div>
+            <div class="book-translator">Translated by Nick Barr</div>
         </header>
         
         <div class="content-wrapper">
@@ -87,26 +90,95 @@
     </div>
 
     <script>
-        // Initialize when DOM is loaded
         document.addEventListener('DOMContentLoaded', function() {
-            // Fix any remaining invalid IDs
-            document.querySelectorAll('[id]').forEach(el => {
-                if (el.id.includes('{') || el.id.includes('}')) {
-                    let newId = el.id.replace(/\{[^}]*\}/g, '');
-                    el.id = newId;
+            // Generate table of contents
+            buildTableOfContents();
+            
+            // Fix heading IDs and clean formatting
+            cleanupHeadings();
+            
+            // Set up TOC link click handlers
+            setupTOCLinks();
+            
+            // Set up active section tracking
+            setupScrollSpy();
+            
+            // Remove redundant content at the beginning
+            removeRedundantContent();
+        });
+        
+        function buildTableOfContents() {
+            // Create TOC container structure
+            const tocContainer = document.createElement('aside');
+            tocContainer.className = 'toc-container';
+            tocContainer.innerHTML = '<div class="toc-header">Table of Contents</div><div class="toc-content"></div>';
+            
+            // Find all headings in the content
+            const headings = document.querySelectorAll('.content h1, .content h2');
+            if (headings.length === 0) return;
+            
+            // Create TOC list
+            const tocList = document.createElement('ul');
+            tocList.className = 'toc-list';
+            
+            let currentLevel1Item = null;
+            let currentSublist = null;
+            
+            headings.forEach(heading => {
+                // Clean up heading text
+                const headingText = heading.textContent.replace(/\s*\{.*\}\s*$/, '');
+                heading.textContent = headingText;
+                
+                // Create an ID for the heading if it doesn't have one
+                if (!heading.id) {
+                    const id = headingText
+                        .toLowerCase()
+                        .replace(/[^\w\s-]/g, '')
+                        .replace(/\s+/g, '-');
+                    heading.id = id;
+                } else {
+                    // Clean up existing ID
+                    heading.id = heading.id
+                        .replace(/\s*\{.*\}\s*$/, '')
+                        .toLowerCase()
+                        .replace(/\s+/g, '-');
+                }
+                
+                // Create TOC item
+                const listItem = document.createElement('li');
+                listItem.className = 'toc-item toc-level-' + heading.tagName.substring(1);
+                
+                const link = document.createElement('a');
+                link.href = '#' + heading.id;
+                link.textContent = headingText;
+                listItem.appendChild(link);
+                
+                // Add to the appropriate list
+                if (heading.tagName === 'H1') {
+                    tocList.appendChild(listItem);
+                    currentLevel1Item = listItem;
+                    
+                    // Create a new sublist for this H1
+                    currentSublist = document.createElement('ul');
+                    currentSublist.className = 'toc-sublist';
+                    currentLevel1Item.appendChild(currentSublist);
+                } else if (heading.tagName === 'H2' && currentSublist) {
+                    currentSublist.appendChild(listItem);
                 }
             });
             
-            // Fix any remaining invalid hrefs
-            document.querySelectorAll('a[href^="#"]').forEach(link => {
-                let href = link.getAttribute('href');
-                if (href.includes('{') || href.includes('}')) {
-                    let newHref = href.replace(/\{[^}]*\}/g, '');
-                    link.setAttribute('href', newHref);
-                }
-            });
+            // Add the TOC to the container
+            tocContainer.querySelector('.toc-content').appendChild(tocList);
             
-            // Clean up header text formatting
+            // Insert TOC before the main content
+            const content = document.querySelector('.content');
+            if (content) {
+                content.parentNode.insertBefore(tocContainer, content);
+            }
+        }
+        
+        function cleanupHeadings() {
+            // Clean up heading text and IDs
             document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(header => {
                 let headerText = header.innerText;
                 
@@ -121,25 +193,84 @@
                 }
                 
                 header.innerText = headerText;
+                
+                // Fix ID
+                if (header.id) {
+                    header.id = header.id
+                        .replace(/\{[^}]*\}/g, '')
+                        .toLowerCase()
+                        .replace(/\s+/g, '-')
+                        .replace(/[^\w-]/g, '');
+                }
             });
-            
-            // Clean up TOC links text
+        }
+        
+        function setupTOCLinks() {
+            // Add click handlers for TOC links
             document.querySelectorAll('.toc-item a').forEach(link => {
-                let linkText = link.innerText;
-                
-                // Replace dash with colon for consistency
-                if (linkText.includes(' - ')) {
-                    linkText = linkText.replace(' - ', ': ');
-                }
-                
-                // Remove the curly brace annotations
-                if (linkText.includes('{')) {
-                    linkText = linkText.replace(/\s*\{[^}]*\}\s*$/, '');
-                }
-                
-                link.innerText = linkText;
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update active state
+                        document.querySelectorAll('.toc-item a').forEach(a => a.classList.remove('active'));
+                        this.classList.add('active');
+                        
+                        // Update URL without jumping
+                        history.pushState(null, null, '#' + targetId);
+                    }
+                });
             });
-        });
+        }
+        
+        function setupScrollSpy() {
+            // Set up intersection observer for active TOC highlighting
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        document.querySelectorAll('.toc-item a').forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === '#' + id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, { rootMargin: '0px 0px -80% 0px' });
+            
+            // Observe all headings
+            document.querySelectorAll('h1[id], h2[id], h3[id]').forEach(heading => {
+                observer.observe(heading);
+            });
+        }
+        
+        function removeRedundantContent() {
+            // Remove the manual TOC at the beginning
+            const paragraphs = document.querySelectorAll('.content > p');
+            let redundantParagraphs = [];
+            
+            // Check for the redundant TOC paragraphs (they have bracket links)
+            for (let i = 0; i < paragraphs.length; i++) {
+                const p = paragraphs[i];
+                if (p.textContent.includes('[') && p.textContent.includes(']') && p.textContent.includes('#')) {
+                    redundantParagraphs.push(p);
+                } else {
+                    // Stop once we hit regular content
+                    break;
+                }
+            }
+            
+            // Remove the redundant paragraphs
+            redundantParagraphs.forEach(p => p.remove());
+        }
 
         // Dark mode toggle
         const darkModeToggle = document.getElementById('darkModeToggle');

@@ -4,51 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>27 Personalities in Search of Being</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reading-experience-custom.css">
-    <style>
-        .progress-container {
-            position: fixed;
-            top: 0;
-            z-index: 999;
-            width: 100%;
-            height: 4px;
-            background: transparent;
-        }
-        .progress-bar {
-            height: 4px;
-            background: var(--gold-accent);
-            width: 0%;
-        }
-        .reading-preferences {
-            position: fixed;
-            right: 20px;
-            top: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            z-index: 10;
-        }
-        .preference-button {
-            background: var(--color-space);
-            border: 1px solid var(--color-subtle);
-            color: var(--color-accent);
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .preference-button:hover {
-            background: var(--color-subtle);
-            color: var(--gold-accent-dark);
-        }
-    </style>
 </head>
 <body class="reading-experience">
     <div class="progress-container">
@@ -80,90 +36,149 @@
         <header>
             <h1 class="book-title">27 Personalities in Search of Being</h1>
             <div class="book-subtitle">by Claudio Naranjo</div>
-            <div class="book-contributors">with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj</div>
-            <div class="book-translator">Translated by Nick Barr</div>
         </header>
         
         <div class="content-wrapper">
+            <aside class="toc-container">
+                <div class="toc-header">Table of Contents</div>
+                <div class="toc-content">
+                    <ul class="toc-list">
+<li class="toc-item toc-level-1"><a href="#type-one-anger-{#type-one-anger}">Type One: Anger {#type-one:-anger}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-1-inadaptability-superiority-{#the-social-one-inadaptability-superiority}">Social 1: Inadaptability/Superiority {#the-social-one:-inadaptability/superiority}</a></li>
+<li class="toc-item toc-level-2"><a href="#the-sexual-one-vehemence-zeal-{#the-sexual-one-vehemence-zeal}">The Sexual One: Vehemence/Zeal {#the-sexual-one:-vehemence/zeal}</a></li>
+<li class="toc-item toc-level-2"><a href="#the-self-preservation-one-concern-{#the-self-preservation-one-concern}">The Self-Preservation One: Concern {#the-self-preservation-one:-concern}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-two-pride-{#enneagram-type-two-pride}">Enneagram Type Two: Pride {#enneagram-type-two:-pride}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-2-ambition-{#social-two-ambition}">Social 2: Ambition {#social-two:-ambition}</a></li>
+<li class="toc-item toc-level-2"><a href="#sexual-two-conquest-{#sexual-two-conquest}">Sexual Two: Conquest {#sexual-two:-conquest}</a></li>
+<li class="toc-item toc-level-2"><a href="#self-preservation-two-privilege-{#self-preservation-two-privilege}">Self-Preservation Two: Privilege {#self-preservation-two:-privilege}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-3-vanity-{#enneatype-iii-vanity}">Enneagram Type 3: Vanity {#enneatype-iii:-vanity}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-three-prestige-{#social-three-prestige}">Social Three: Prestige {#social-three:-prestige}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-3-sexual-attractiveness-{#enneagram-type-3-sexual-attractiveness}">Enneagram Type 3 Sexual: Attractiveness {#Enneagram Type 3-sexual:-attractiveness}</a></li>
+<li class="toc-item toc-level-2"><a href="#the-self-preservation-three:-security">Self-Preservation Three: Security</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-four-envy-{#enneagram-type-four-envy}">Enneagram Type Four: Envy {#enneagram-type-four:-envy}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-four-shame-{#social-four-shame}">Social Four: Shame {#social-four:-shame}</a></li>
+<li class="toc-item toc-level-2"><a href="#sexual-four---hatred-{#sexual-four---hatred}">Sexual Four - Hatred {#sexual-four---hatred}</a></li>
+<li class="toc-item toc-level-2"><a href="#self-preservation-four---tenacity-{#self-preservation-four---tenacity}">Self-Preservation Four - Tenacity {#self-preservation-four---tenacity}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-5-avarice-{#enneagram-type-v-avarice}">Enneagram Type 5: Avarice {#enneagram-type-v:-avarice}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-5-totem-{#social-5-totem}">Social 5: Totem {#social-5:-totem}</a></li>
+<li class="toc-item toc-level-2"><a href="#sexual-5-confidant-{#sexual-5-confidant}">Sexual 5: Confidant {#sexual-5:-confidant}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-5-conservation-refuge-{#enneagram-type-5-conservation-refuge}">Enneagram Type 5 Conservation: Refuge {#Enneagram Type 5-conservation:-refuge}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-6-fear-{#enneatype-vi-fear}">Enneagram Type 6: Fear {#enneatype-vi:-fear}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#enneagram-type-6-social-duty-{#enneagram-type-6-social-duty}">Enneagram Type 6 Social: Duty {#Enneagram Type 6-social:-duty}</a></li>
+<li class="toc-item toc-level-2"><a href="#"></a></li>
+<li class="toc-item toc-level-2"><a href="#sexual-6-strength-{#sexual-6-strength}">Sexual 6: Strength {#sexual-6:-strength}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-6-conservation-warmth---{#enneagram-type-6-conservation-warmth}">Enneagram Type 6 Conservation: Warmth   {#Enneagram Type 6-conservation:-warmth}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#"></a></li>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-7-gluttony-{#type-vii-gluttony}">Enneagram Type 7: Gluttony {#type-vii:-gluttony}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#enneagram-type-7-social-sacrifice-{#enneagram-type-7-social-sacrifice}">Enneagram Type 7 social: Sacrifice {#Enneagram Type 7-social:-sacrifice}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-7-sexual-suggestibility-{#enneagram-type-7-sexual-suggestibility}">Enneagram Type 7 Sexual: Suggestibility {#Enneagram Type 7-sexual:-suggestibility}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-7-preservation-family-{#enneagram-type-7-preservation-family}">Enneagram Type 7 Preservation: Family {#Enneagram Type 7-preservation:-family}</a></li>
+<li class="toc-item toc-level-2"><a href="#"></a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-8-lust-{#enneagram-type-viii-lust}">Enneagram Type 8: Lust {#enneagram-type-viii:-lust}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#social-8---complicity-{#so-8---complicity}">Social 8 - Complicity {#so-8---complicity}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-8-sexual-possessiveness-{#enneagram-type-8-sexual-possessiveness}">Enneagram Type 8 Sexual: Possessiveness {#Enneagram Type 8-sexual:-possessiveness}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-8-self-preservation-satisfaction-{#enneagram-type-8-self-preservation-satisfaction}">Enneagram Type 8 Self-Preservation: Satisfaction {#Enneagram Type 8-self-preservation:-satisfaction}</a></li>
+</ul>
+<li class="toc-item toc-level-1"><a href="#enneagram-type-9-sloth-{#enneatype-ix-sloth}">Enneagram Type 9: Sloth {#enneatype-ix:-sloth}</a></li>
+<ul class="toc-sublist">
+<li class="toc-item toc-level-2"><a href="#enneagram-type-9-social-participation-belonging-{#enneagram-type-9-social-participation-belonging}">Enneagram Type 9 Social: Participation/Belonging {#Enneagram Type 9-social:-participation/belonging}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-9-sexual-symbiosis-{#enneagram-type-9-sexual-symbiosis}">Enneagram Type 9 Sexual: Symbiosis {#Enneagram Type 9-sexual:-symbiosis}</a></li>
+<li class="toc-item toc-level-2"><a href="#enneagram-type-9-self-preservation-appetite-{#enneagram-type-9-self-preservation-appetite}">Enneagram Type 9 Self-Preservation: Appetite {#Enneagram Type 9-self-preservation:-appetite}</a></li>
+</ul>
+</ul>
+                </div>
+            </aside>
             
+            <main class="content">
 
+<p>[Type One: Anger - 2](#type-one:-anger)</p>
 
-<main class="content">
+<p>[The Social One: Inadaptability/Superiority - 3](#the-social-one:-inadaptability/superiority)</p>
 
+<p>[The Sexual One: Vehemence/Zeal - 18](#the-sexual-one:-vehemence/zeal)</p>
 
-<p>[Type One: Anger - 2](#type-one-anger)</p>
+<p>[The Self-Preservation One: Concern - 28](#the-self-preservation-one:-concern)</p>
 
-<p>[The Social One: Inadaptability/Superiority - 3](#the-social-one-inadaptability-superiority)</p>
+<p>[Enneagram Type Two: Pride - 41](#type-two:-pride)</p>
 
-<p>[The Sexual One: Vehemence/Zeal - 18](#the-sexual-one-vehemence-zeal)</p>
+<p>[Social Two: Ambition - 42](#the-social-two:-ambition)</p>
 
-<p>[The Self-Preservation One: Concern - 28](#the-self-preservation-one-concern)</p>
+<p>[Sexual Two: Conquest - 49](#the-sexual-two:-conquest)</p>
 
-<p>[Enneagram Type Two: Pride - 41](#type-two-pride)</p>
+<p>[Self Preservation Two: Privilege - 60](#the-self-preservation-two:-privilege)</p>
 
-<p>[Social Two: Ambition - 42](#the-social-two-ambition)</p>
+<p>[Enneatype III: Vanity - 69](#type-three:-vanity)</p>
 
-<p>[Sexual Two: Conquest - 49](#the-sexual-two-conquest)</p>
+<p>[Social Three: Prestige - 70](#the-social-three:-prestige)</p>
 
-<p>[Self Preservation Two: Privilege - 60](#the-self-preservation-two-privilege)</p>
+<p>[E3 Sexual: Attractiveness - 78](#the-sexual-three:-attractiveness)</p>
 
-<p>[Enneatype III: Vanity - 69](#type-three-vanity)</p>
+<p>[Self-Preservation Three: Security - 93](#the-self-preservation-three:-security)</p>
 
-<p>[Social Three: Prestige - 70](#the-social-three-prestige)</p>
+<p>[Enneagram Type Four: Envy - 105](#type-four:-envy)</p>
 
-<p>[E3 Sexual: Attractiveness - 78](#the-sexual-three-attractiveness)</p>
+<p>[Social Four: Shame - 107](#the-social-four:-shame)</p>
 
-<p>[Self-Preservation Three: Security - 93](#the-self-preservation-three-security)</p>
+<p>[Sexual Four \- Hatred - 113](#the-sexual-four---hatred)</p>
 
-<p>[Enneagram Type Four: Envy - 105](#type-four-envy)</p>
+<p>[Self-Preservation Four \- Tenacity - 125](#the-self-preservation-four---tenacity)</p>
 
-<p>[Social Four: Shame - 107](#the-social-four-shame)</p>
+<p>[Enneagram Type V: Avarice - 132](#type-five:-avarice)</p>
 
-<p>[Sexual Four \- Hatred - 113](#the-sexual-four-hatred)</p>
+<p>[Social 5: Totem - 134](#the-social-five:-totem)</p>
 
-<p>[Self-Preservation Four \- Tenacity - 125](#the-self-preservation-four-tenacity)</p>
+<p>[Sexual 5: Confidant - 155](#the-sexual-five:-confidant)</p>
 
-<p>[Enneagram Type V: Avarice - 132](#type-five-avarice)</p>
+<p>[E5 Conservation: Refuge - 161](#the-self-preservation-five:-refuge)</p>
 
-<p>[Social 5: Totem - 134](#the-social-five-totem)</p>
+<p>[Enneatype VI: Fear - 169](#type-six:-fear)</p>
 
-<p>[Sexual 5: Confidant - 155](#the-sexual-five-confidant)</p>
+<p>[E6 Social: Duty - 170](#the-social-six:-duty)</p>
 
-<p>[E5 Conservation: Refuge - 161](#the-self-preservation-five-refuge)</p>
+<p>[Sexual 6: Strength - 177](#the-sexual-six:-strength)</p>
 
-<p>[Enneatype VI: Fear - 169](#type-six-fear)</p>
+<p>[E6 Conservation: Warmth - 189](#the-self-preservation-six:-warmth)</p>
 
-<p>[E6 Social: Duty - 170](#the-social-six-duty)</p>
+<p>[Type VII: Gluttony - 201](#type-seven:-gluttony)</p>
 
-<p>[Sexual 6: Strength - 177](#the-sexual-six-strength)</p>
+<p>[E7 social: Sacrifice - 202](#the-social-seven:-sacrifice)</p>
 
-<p>[E6 Conservation: Warmth - 189](#the-self-preservation-six-warmth)</p>
+<p>[E7 Sexual: Suggestibility - 211](#the-sexual-seven:-suggestibility)</p>
 
-<p>[Type VII: Gluttony - 201](#type-seven-gluttony)</p>
+<p>[E7 Preservation: Family - 224](#the-self-preservation-seven:-family)</p>
 
-<p>[E7 social: Sacrifice - 202](#the-social-seven-sacrifice)</p>
+<p>[Enneagram Type VIII: Lust - 233](#type-eight:-lust)</p>
 
-<p>[E7 Sexual: Suggestibility - 211](#the-sexual-seven-suggestibility)</p>
+<p>[SO 8 \- Complicity - 235](#the-social-eight:-complicity)</p>
 
-<p>[E7 Preservation: Family - 224](#the-self-preservation-seven-family)</p>
+<p>[E8 Sexual: Possessiveness - 244](#the-sexual-eight:-possessiveness)</p>
 
-<p>[Enneagram Type VIII: Lust - 233](#type-eight-lust)</p>
+<p>[E8 Self-Preservation: Satisfaction - 252](#the-self-preservation-eight:-satisfaction)</p>
 
-<p>[SO 8 \- Complicity - 235](#the-social-eight-complicity)</p>
+<p>[Enneatype IX: Sloth - 256](#type-nine:-sloth)</p>
 
-<p>[E8 Sexual: Possessiveness - 244](#the-sexual-eight-possessiveness)</p>
+<p>[E9 Social: Participation/Belonging - 257](#the-social-nine:-participation/belonging)</p>
 
-<p>[E8 Self-Preservation: Satisfaction - 252](#the-self-preservation-eight-satisfaction)</p>
+<p>[E9 Sexual: Symbiosis - 265](#the-sexual-nine:-symbiosis)</p>
 
-<p>[Enneatype IX: Sloth - 256](#type-nine-sloth)</p>
+<p>[E9 Self-Preservation: Appetite - 279](#the-self-preservation-nine:-appetite)</p>
 
-<p>[E9 Social: Participation/Belonging - 257](#the-social-nine-participation-belonging)</p>
-
-<p>[E9 Sexual: Symbiosis - 265](#the-sexual-nine-symbiosis)</p>
-
-<p>[E9 Self-Preservation: Appetite - 279](#the-self-preservation-nine-appetite)</p>
-
-<h1 id="type-one-anger">Type One: Anger</h1>
+<h1 id="Type One: Anger {#type-one:-anger}">Type One: Anger {#type-one:-anger}</h1>
 
 <p>To understand the Passion of Anger, we must first distinguish it from rage as an emotion.</p>
 
@@ -191,7 +206,7 @@
 
 <p>This is a normative and neurotically ethical character, with the specificity of dictating personal norms that they consider absolute codes. This allows them to transform desire into a behavioral rule, so they feel exempt from perceiving themselves as imperfect simply for having impulses or emotions (which they view as flaws).</p>
 
-<h2 id="the-social-one-inadaptability-superiority"><strong>The Social One: Inadaptability/Superiority</strong></h2>
+<h2 id="<strong>The Social One: Inadaptability/Superiority<em>* {#the-social-one:-inadaptability/superiority}">*</em>The Social One: Inadaptability/Superiority</strong> {#the-social-one:-inadaptability/superiority}</h2>
 
 <p>The character of the Social One is very different from the other subtypes of Type One. This results from a characteristic identified by Óscar Ichazo—whom I learned from—as inadaptability. For a long time, I preferred to simply use the word rigidity to describe this character, referring to something resembling a schoolteacher mentality, as well as what Wilhelm Reich observed when speaking of an "aristocratic character." However, the term rigidity describes more of a behavioral style or a specific personality trait and not exactly a need or passion. For this reason, I felt the need to formulate a neurotic need from which the rigid character could be understood.</p>
 
@@ -310,7 +325,7 @@
 
 <p>In the following months, I maintained this relaxed attitude, and my desire to laugh and bring lightness to my family grew even more. The dominant traits of my character haven’t disappeared. I am still an angry-maladjusted person, but today I can move very quickly from a state of demandingness and reforming impulse to one of acceptance and tranquility. For me, this marks a significant difference.</p>
 
-<h2 id="the-sexual-one-vehemence-zeal">*</em>The Sexual One: Vehemence/Zeal</strong></h2>
+<h2 id="<strong>The Sexual One: Vehemence/Zeal<em>* {#the-sexual-one:-vehemence/zeal}">*</em>The Sexual One: Vehemence/Zeal</strong> {#the-sexual-one:-vehemence/zeal}</h2>
 
 <p>Oscar Ichazo used the Spanish noun <em>celo* in reference to the characteristic passion of the Sexual instinct, a word with a dual meaning. When referring to an animal *en celo* (in heat, that is, in estrus), the word denotes great sexual excitement. In the context of personality, when one does something *con celo*, it implies care, dedication, or fervor. Thus, it can be understood that *celo</em>, in its broadest sense, is analogous to the intensity with which an animal in heat seeks the object of its instinct.</p>
 
@@ -428,8 +443,11 @@
 <p>* That my childhood was not sexualized but sensualized; I still have that sensitivity of the senses, especially in touch and skin. Sexuality was a sensualized (with all senses) way of channeling energy or vitality—of which there is a lot—in a playful way.  </p>
 <p>* And, of course, gratitude without ceasing for what life brings me, which gives me a lot, and yet I need less and less to live.</p>
 
+<p>Certainly\! I will carefully revisit, refine, and reproduce the entire translation, remaining as faithful as possible to the original text, its structure, and its tone. Here is the revised full translation:</p>
 
-<h2 id="the-self-preservation-one-concern">*</em>The Self-Preservation One: Concern</strong></h2>
+<p>---</p>
+
+<h2 id="<strong>The Self-Preservation One: Concern<em>* {#the-self-preservation-one:-concern}">*</em>The Self-Preservation One: Concern</strong> {#the-self-preservation-one:-concern}</h2>
 
 <p>Ichazo referred to the characteristic passion of the conservation One as "anguish." However, I prefer to use the word "concern." In fact, it could be said that for this type of person, concern becomes a true passion. And it is not simply a behavior that could be described as worrying too much—or even feeling a need to worry—but rather, they concern themselves with things that are already fine, and sometimes ruin what they touch by trying to fix what does not need fixing.</p>
 
@@ -616,7 +634,7 @@
 
   
 
-<h1 id="type-two-pride">Type Two: Pride</h1>
+<h1 id="Type Two: Pride {#type-two:-pride}">Type Two: Pride {#type-two:-pride}</h1>
 
 <p>In all spiritual traditions, Pride is considered the primary sin, as the proud person resolves the loss of meaning and connection by filling the void with a grandiose self-image.</p>
 
@@ -638,7 +656,7 @@
 
 <p>The ease with which they form affectionate and erotic relationships is reflected in their body—soft and flexible, with a gaze unafraid of direct contact, sometimes bordering on invasive. The expression of their eroticism is free.</p>
 
-<h2 id="the-social-two-ambition">*</em>The Social Two: Ambition</strong></h2>
+<h2 id="<strong>The Social Two: Ambition<em>* {#the-social-two:-ambition}">*</em>The Social Two: Ambition</strong> {#the-social-two:-ambition}</h2>
 
 <p>In the social Two, the passion of pride manifests as satisfaction in conquering the public.  </p>
 <p>It may not take much intelligence, nor the appearance of it, to awaken a great passion, but for a social Two, simply being seen as a "dumb blonde" would never be enough. A social Two needs to <em>be</em> someone, and to achieve that, they must use their mind more. As someone who seeks to be important to feed their pride, they must be capable of seducing the social environment, becoming a seducer of groups, a distinguished being, and perhaps not only someone superior but also endowed with leadership qualities.</p>
@@ -741,7 +759,7 @@
 
 <p>Each of these emotions seemed to me to be linked to particular personal or family experiences that were etched into my inner world and needed to be cared for or set right in order to return the emotions to their natural functioning and deflate their excessive activation, which was so disruptive to consciousness.</p>
 
-<h2 id="the-sexual-two-conquest">*</em>The Sexual Two: Conquest</strong></h2>
+<h2 id="<strong>The Sexual Two: Conquest<em>* {#the-sexual-two:-conquest}">*</em>The Sexual Two: Conquest</strong> {#the-sexual-two:-conquest}</h2>
 
 <p>The Sexual Two is the quintessential Type Two, as if we say this character is a seducer, we can also add that the Sexual Two is the most visibly seductive of all.</p>
 
@@ -987,7 +1005,7 @@
 <p>* Solitude and reflection.  </p>
 <p>* Writing—whether a presentation like this or a personal diary.</p>
 
-<h2 id="the-self-preservation-two-privilege">*</em>The Self Preservation Two: Privilege</strong></h2>
+<h2 id="<strong>The Self Preservation Two: Privilege<em>* {#the-self-preservation-two:-privilege}">*</em>The Self Preservation Two: Privilege</strong> {#the-self-preservation-two:-privilege}</h2>
 
 <p>In the case of the conservation type, seduction can be compared to that of a child towards their parents. Just as the social type appears "big," this is someone who is perceived as small, childlike, in their attitudes and even in their physical traits. Just as the social Two seems hyper-adult, over-mature, and the sexual Two—like Bizet’s Carmen—appears as a force of nature, wild, the conservation Two comes across as tender and childlike.</p>
 
@@ -1144,7 +1162,7 @@
 
 <p>In summary, their path involves understanding their limits. This exploration offers a valuable experience of security and containment.</p>
 
-<h1 id="type-three-vanity">Type Three: Vanity</h1>
+<h1 id="Type Three: Vanity {#type-three:-vanity}">Type Three: Vanity {#type-three:-vanity}</h1>
 
 <p>The Passion of Vanity is the need to falsify one’s own self, constructing a presentable personal image for the world, with the expectation that this image will be accepted, loved, and validated.</p>
 
@@ -1162,7 +1180,7 @@
 
 <p>In relationships, they demonstrate hyper-adaptation and fear of conflict; in their eagerness to "do," they become disconnected from their inner world as well as from the inner world of others.</p>
 
-<h2 id="the-social-three-prestige">The Social Three: Prestige</h2>
+<h2 id="<strong>The Social Three: Prestige<em>* {#the-social-three:-prestige}">*</em>The Social Three: Prestige</strong> {#the-social-three:-prestige}</h2>
 
 <p>For the distinctive passion of the Social Three, Ichazo proposed the term <em>prestige</em>. We can say that the Social Three is someone who has a passion for shining—not only through work but also in how they present themselves to others. It is as if they have an internal public relations department. By elevating the drive for prestige, understood as a passion for social recognition, to a need for universal applause rather than selective approval, they expend excessive energy, which naturally interferes with spontaneous action.</p>
 
@@ -1288,7 +1306,7 @@
 
 <p>---</p>
 
-<h2 id="<strong>The Sexual Three: Attractiveness<em>* {#the-sexual-three-attractiveness}">*</em>The Sexual Three: Attractiveness</strong> {#the-sexual-three-attractiveness}</h2>
+<h2 id="<strong>The Sexual Three: Attractiveness<em>* {#the-sexual-three:-attractiveness}">*</em>The Sexual Three: Attractiveness</strong> {#the-sexual-three:-attractiveness}</h2>
 
 <p>For the passion of the sexual Three, Ichazo used the words <em>masculinity* or *femininity</em>, depending on the case. I used to explain it as an excessive attempt to conform to cultural images (perhaps Hollywood-style) of what it means to be masculine or feminine.</p>
 
@@ -1571,7 +1589,7 @@
 
 <p>And in this way, as we began to find our own power, we stopped handing it over to others.</p>
 
-<h2 id="<strong>The Self-Preservation Three: Security<em>* {#the-self-preservation-three-security}">*</em>The Self-Preservation Three: Security</strong> {#the-self-preservation-three-security}</h2>
+<h2 id="<strong>The Self-Preservation Three: Security<em>* {#the-self-preservation-three:-security}">*</em>The Self-Preservation Three: Security</strong> {#the-self-preservation-three:-security}</h2>
 
 <p>When considering Enneatype Three from a broad perspective, what tends to stand out are its social and sexual manifestations. However, when we encounter self-preservation Threes, we can't exactly say we're facing a third form of vanity. Just as the proud in the self-preservation subtype don't appear particularly prideful, the self-preserving vain don't seem visibly vain either — and I’ve come to describe them as <strong>counter-vain</strong>, using language analogous to psychoanalysis when it introduced the notion of the “counter-phobic” character, one who hides fear through visibly bold behavior.</p>
 
@@ -1799,7 +1817,7 @@
 
 <p>* That happiness comes from giving—not compulsively, but from genuine feeling. And also that happiness comes from receiving, rather than compulsively feeling the need to give back.</p>
 
-<h1 id="type-four-envy">Type Four: Envy</h1>
+<h1 id="Type Four: Envy {#type-four:-envy}">Type Four: Envy {#type-four:-envy}</h1>
 
 <p>Envy is the passion for controlling and calibrating one’s own existence by comparing it with that of another. The meaning of existence largely depends on the level of lack and frustration concerning what is perceived as desirable in others.</p>
 
@@ -1821,7 +1839,7 @@
 
 <p>In the sexual subtype, the expression of envy takes on different characteristics: crying is replaced by aggressive shouting and demanding. The demand to fill their deep lack is overpowering, reaching the point of destroying or hating the one they love when they show their human limits and therefore do not live up to their great idealizations.</p>
 
-<h2 id="<strong>The Social Four: Shame<em>* {#the-social-four-shame}">*</em>The Social Four: Shame</strong> {#the-social-four-shame}</h2>
+<h2 id="<strong>The Social Four: Shame<em>* {#the-social-four:-shame}">*</em>The Social Four: Shame</strong> {#the-social-four:-shame}</h2>
 
 <p>The contrasts between the character types of the four are the most striking, as their different subtypes seem more differentiated than in the other passions. When I explain this topic in Spanish, I usually say there are “sufferers, endurers, and the insufferable”. The sufferers are the social fours.</p>
 
@@ -1915,7 +1933,7 @@
 
 <p>I remember a time when I lived a kind of pseudo-spirituality. Later, I went through years of disbelief, tied to letting go of all my dependencies. Then, faith arrived, an absolute trust in something higher. I experience it through dreams and feelings that have nothing to do with the psychological and bring me immense peace and joy. That's how my search is today: happier and more enthusiastic. I feel God in my own way, not following anything or anyone. And I believe it will remain this way for at least several more years.</p>
 
-<h2 id="<strong>The Sexual Four \- Hatred<em>* {#the-sexual-four-hatred}">*</em>The Sexual Four \- Hatred</strong> {#the-sexual-four-hatred}</h2>
+<h2 id="<strong>The Sexual Four \- Hatred<em>* {#the-sexual-four---hatred}">*</em>The Sexual Four \- Hatred</strong> {#the-sexual-four---hatred}</h2>
 
 <p>If the E4 social subtype suffers more than the other subtypes, feeling guilty about any desire, the Sexual 4 turns against shame by becoming shameless to satisfy their intense desires. Therefore, even if it’s shameful, they will bang on every possible door. They become insistent, even against frustrations, as if thinking that the loudest baby gets the most milk. "The more I complain, the more I'll get," they seem to think. Only, this strategy, which works well in childhood, doesn't work so well in adulthood. People who are too insistent, demanding, and exacting tend to be annoying and get rejected, and thus the vicious circle emerges, where rejection leads to protest and protest leads to rejection.</p>
 
@@ -2021,7 +2039,7 @@
 
 <p>To have compassion is to admit you're wrong, to lose in emotional intensity and gain in clarity: realizing everything is simpler than one imagined, that one has a very bad temper but a very good heart.</p>
 
-<h2 id="<strong>The Self-Preservation Four \- Tenacity<em>* {#the-self-preservation-four-tenacity}">*</em>The Self-Preservation Four \- Tenacity</strong> {#the-self-preservation-four-tenacity}</h2>
+<h2 id="<strong>The Self-Preservation Four \- Tenacity<em>* {#the-self-preservation-four---tenacity}">*</em>The Self-Preservation Four \- Tenacity</strong> {#the-self-preservation-four---tenacity}</h2>
 
 <p>Different from the “sufferer” (Social E4) and the “insufferable” (Sexual E4) is what in Spanish is called the “stoic,” a term that speaks to us about a capacity for self-denial and endurance. Instead of being an overly tearful person, this “stoic” individual is one who doesn’t complain and avoids crying in front of others. They have learned to swallow a lot and endure pain without flinching.</p>
 
@@ -2119,7 +2137,7 @@
 
 <p>In its healthy maturation, this subtype finds a deep calm based on the development of emotional poise provided by the residue of so much endurance. In this way, equanimity emerges along with the ability to express their vibrant emotional pulses with many subtle tones.</p>
 
-<h1 id="type-five-avarice">Type Five: Avarice</h1>
+<h1 id="Type Five: Avarice {#type-five:-avarice}">Type Five: Avarice {#type-five:-avarice}</h1>
 
 <p>The Passion of Avarice is the neurotic need to preserve what little one feels they have conquered or what little they possess within. With the existential experience of having lost the original unity, the Five renounces what they do not have while striving not to lose what little they have left.</p>
 
@@ -2139,7 +2157,7 @@
 
 <p>Type 5 appears cold, unexpressive, thoughtful, inhibited, distrustful, and physically withdrawn. They lack awareness of being a body themselves and remain disconnected from the bodies of others, as if they were walking in a world that does not belong to them.</p>
 
-<h2 id="<strong>The Social Five: Totem<em>* {#the-social-five-totem}">*</em>The Social Five: Totem</strong> {#the-social-five-totem}</h2>
+<h2 id="<strong>The Social Five: Totem<em>* {#the-social-five:-totem}">*</em>The Social Five: Totem</strong> {#the-social-five:-totem}</h2>
 
 <p>If Type 4 personalities are so intense that they stand out as very distinct or contrasting characters, Type 5 personalities, on the other hand, with their habitual lack of intensity, appear more challenging to differentiate among themselves.</p>
 
@@ -2386,7 +2404,7 @@
 
 <p>Also, the awareness of the end of life, which for a long time was what drove us to take advantage of it, the motivation for a more authentic search, now loses the dramatic tone that accompanied it to be seen as a real possibility that can arrive at any moment and that fades into a process where full and empty, existence and being, life and death, relate and merge into one another.</p>
 
-<h2 id="<strong>The Sexual Five: Confidant<em>* {#the-sexual-five-confidant}">*</em>The Sexual Five: Confidant</strong> {#the-sexual-five-confidant}</h2>
+<h2 id="<strong>The Sexual Five: Confidant<em>* {#the-sexual-five:-confidant}">*</em>The Sexual Five: Confidant</strong> {#the-sexual-five:-confidant}</h2>
 
 <p><strong>E5 Sexual: Trust</strong></p>
 
@@ -2474,7 +2492,7 @@
 
 <p>Experimenting with forms of expression such as art, dance, poetry, creating stories or tales, so that what is happening internally can be given an outlet, will put our healing process on the path to maturity.</p>
 
-<h2 id="<strong>The Self-Preservation Five: Refuge<em>* {#the-self-preservation-five-refuge}">*</em>The Self-Preservation Five: Refuge</strong> {#the-self-preservation-five-refuge}</h2>
+<h2 id="<strong>The Self-Preservation Five: Refuge<em>* {#the-self-preservation-five:-refuge}">*</em>The Self-Preservation Five: Refuge</strong> {#the-self-preservation-five:-refuge}</h2>
 
 <p>The need to retreat is a clear characteristic for the conservation type five. However, it must be taken into account that each subtype of the E5 has some of that: a need to withdraw. In the case of conservation, the passion has a lot to do with finding refuge, erecting high walls that separate them from a world that can invade them, that can take them out of a small precious world hidden inside them. The idea of self-conservation becomes clearer if we imagine them as firm supporters of retreating into a cave. The E5 conservation extremely limits their needs and desires, as each desire could mean a status of dependency for them.</p>
 
@@ -2618,7 +2636,7 @@
 
 <p>Finally, it especially helps to work and balance the three loves through relationships, giving more space to compassionate-maternal love and recovering and giving life to erotic love or love-enjoyment.</p>
 
-<h1 id="type-six-fear">Type Six: Fear</h1>
+<h1 id="Type Six: Fear {#type-six:-fear}">Type Six: Fear {#type-six:-fear}</h1>
 
 <p>If the E9 seeks to overcome the anxiety of separation with forgetfulness or the illusion that it never existed, the E6 has a surprising awareness of loss and, in the face of it, reacts compulsively to defend against the danger inevitably spread in the external world.</p>
 
@@ -2636,7 +2654,7 @@
 
 <p>Instinctivity must be controlled and kept at bay because surrendering would mean opening the doors to a devastating external invasion, thinks the E6: the head must always be in command of experiences.</p>
 
-<h2 id="<strong>The Social Six: Duty<em>* {#the-social-six-duty}">*</em>The Social Six: Duty</strong> {#the-social-six-duty}</h2>
+<h2 id="<strong>The Social Six: Duty<em>* {#the-social-six:-duty}">*</em>The Social Six: Duty</strong> {#the-social-six:-duty}</h2>
 
 <p>Here is what I call a "Prussian character." The social six is cold, very formal. Kant, for example, was a great philosopher. He was Prussian, and the Prussians had this type of character that feels great love for precision and intolerance for ambiguity. This is precisely the complete opposite of the conservation six, who is warm and feels too much permissiveness for ambiguity.</p>
 
@@ -2735,9 +2753,10 @@
 <p>In this way, the next step will be to live my emotions freely, containing myself with kindness, being sober but with a sense of humor, optimistic, joyful, experiencing life with serenity, calm and peace, open to fun, enjoyment, and pleasure.</p>
 
 <p>I will express my unconditional and non-judgmental love, balanced in the three loves; I will show myself and be assertive and trustworthy without explaining or justifying actions, accepting error and the ability to correct, in myself and others. I will live creating a world of possibilities, with more tranquility, facing what comes at the moment without thinking about hypotheses, risks, or dangers.</p>
+
 <h2 id=""></h2>
 
-<h2 id="<strong>The Sexual Six: Strength<em>* {#the-sexual-six-strength}">*</em>The Sexual Six: Strength</strong> {#the-sexual-six-strength}</h2>
+<h2 id="<strong>The Sexual Six: Strength<em>* {#the-sexual-six:-strength}">*</em>The Sexual Six: Strength</strong> {#the-sexual-six:-strength}</h2>
 
 <p>And here is the so-called counterphobic character: the Sexual Six goes against fear. We could call this neurotic need "strength." Descriptively, we can say "strong" in the same way that we might label a conservation six as "weak." One is like a rabbit, and the other is like a bulldog: a counterphobic is very much like a barking dog. He doesn’t always bite; he barks more than he bites, but he has a fierce appearance. The need isn’t just to feel strong, but also to be able to intimidate. The internal programming says that the best defense is a good offense.</p>
 
@@ -2890,7 +2909,7 @@
 
 <p>The transformation lies in losing oneself in pleasure, surrendering to the orgasmic and ecstatic pleasure of union with the other: reclaiming erotic love as a passionate and tender experience of union with the whole, with the supreme.</p>
 
-<h2 id="<strong>The Self-Preservation Six: Warmth<em>*   {#the-self-preservation-six-warmth}">*</em>The Self-Preservation Six: Warmth</strong>   {#the-self-preservation-six-warmth}</h2>
+<h2 id="<strong>The Self-Preservation Six: Warmth<em>*   {#the-self-preservation-six:-warmth}">*</em>The Self-Preservation Six: Warmth</strong>   {#the-self-preservation-six:-warmth}</h2>
 
 <p>The E6 Conservation type is the opposite of the E6 Social. This type is warm and ambiguous, bland, even a bit dull. They find it difficult to assert that something is black or white. It takes a lot of courage to say that something is black or white. For them, it’s easier to say: "Oh, there are various shades of gray between the two. And I’m not sure which kind of gray we’re dealing with because life is very complex." And so, they can go on endlessly, always beating around the bush.</p>
 
@@ -3020,8 +3039,9 @@
 
 <p>Today, I feel more resourceful, more autonomous, and more capable of defending myself, even though fantasies and fears, especially about the future, occasionally return. It helps to remind myself that all this is part of the neurotic dynamic. I still blush, but less, and it doesn’t bother me as much anymore...</p>
 
+<h1 id=""></h1>
 
-<h1 id="type-seven-gluttony">Type Seven: Gluttony</h1>
+<h1 id="Type Seven: Gluttony {#type-seven:-gluttony}">Type Seven: Gluttony {#type-seven:-gluttony}</h1>
 
 <p>Gluttony is the irrepressible need to taste everything the world offers. Tasting without digesting means taking from the world only the most exciting and delightful aspects and easily rejecting anything that hurts or is harmful. The E7 avoids the feeling of emptiness by "filling their mouth" with pleasurable experiences and stimuli, thereby cultivating a great skill for staying on the surface. The E7 believes they are filling the void with an illusory layer made up of multiple behaviors aimed at displacement and distraction.</p>
 
@@ -3037,7 +3057,7 @@
 
 <p>For an E7, taking on a commitment means finding themselves once again immersed in that subtle obligation to satisfy the impossible expectations of the family environment (and also to stop them). The greatest fear of an E7 is being unable to escape or not having an exit.</p>
 
-<h2 id="the-social-seven-sacrifice"><strong>The Social Seven: Sacrifice</strong></h2>
+<h2 id="<strong>The Social Seven: Sacrifice<em>* {#the-social-seven:-sacrifice}">*</em>The Social Seven: Sacrifice</strong> {#the-social-seven:-sacrifice}</h2>
 
 <p>The social E7 is the countertype seven, in the sense that it is difficult to recognize the passion for gluttony in them, as they strive to hide it with altruistic behavior that, somehow, should purify them from the guilt of feeling an attraction towards pleasure or personal advantage. This is an attraction they try not to feel by pursuing an ideal of themselves and the world: they sacrifice their gluttony to be better and for a better world where there is no pain or conflict.</p>
 
@@ -3166,7 +3186,7 @@
 <p>"The practice of meditation to not lose myself in fantasies... really listening, to others and myself. Being. Laughing, not being ironic... Paying attention to the body... Going to the essence of the problem and not staying on the surface... Admitting when I don't know something" (J. Locutura).  </p>
 <p>"In my case, I have found pleasure in the physical, in the body, through simple activities: walking, cooking, digging the earth, resting... The formula Claudio gave me has been magical: 'doing what corresponds at the moment'" (P. Durán).</p>
 
-<h2 id="the-sexual-seven-suggestibility">The Sexual Seven: Suggestibility</h2>
+<h2 id="<strong>The Sexual Seven: Suggestibility<em>* {#the-sexual-seven:-suggestibility}">*</em>The Sexual Seven: Suggestibility</strong> {#the-sexual-seven:-suggestibility}</h2>
 
 <p>The sexual Seven is not earthly but celestial. They are not interested in the things of this world. It is the gluttony for things from a higher and more advanced world. The sexual E7 is what we might call a dreamer. To define it, Ichazo used the word "suggestibility," which I understand as the passion for imagining something better than the desolate reality. It’s the passion for enchanting reality, for fantasizing, for painting things in a rosy hue. In other words, it's a form of idealization. If the word for the social E5 is totem — totemizing being a type of super-idealization — here, it's more about the idealization of the ordinary: the sexual Seven looks at things with the optimism of those who are in love. They say love is blind. It could be that the sexual Seven is blind in the same way. They are overly enthusiastic.</p>
 
@@ -3310,8 +3330,9 @@
 
 <p>Finally, as an effective tool, it can be helpful to use their own mechanism: humor and irony, bearing in mind that Sevens in general handle this very well.</p>
 
-<h2 id="the-self-preservation-seven-family">The Self-Preservation Seven: Family</h2>
+<h2 id="<strong>The Self-Preservation Seven: Family<em>* {#the-self-preservation-seven:-family}">*</em>The Self-Preservation Seven: Family</strong> {#the-self-preservation-seven:-family}</h2>
 
+<h2 id=" "> </h2>
 
 <p>It is often easier to recognize a sexual or social Seven than a preservation Seven. To refer to them, Ichazo used the phrase "the guardian of the castle." He also used the word "castle" for the preservation Five — I preferred to use the word refuge or lair. But what is the meaning of the phrase "the guardian of the castle"?</p>
 
@@ -3448,7 +3469,7 @@
 <p>To conclude, I’ll share another fragment of my biography:    </p>
 <p>"\[...\] I feel more concise and less in need of external recognition. The professional style that began as something very excessive, very loud and flamboyant \[...\] has been gaining refinement and calm. I still have the ability to detect falsehood that had emerged so brutally then, but I no longer feel the same need to use it to show off. Or, simply, I give myself the opportunity to keep it to myself to the extent that I can distinguish what I really want at that moment and, above all, what I’m willing to take on. I can be confrontational without being violent. And, above all, I’ve been developing the experience of living in a heart that I didn’t inhabit before, or didn’t inhabit in this way; which professionally shows up, at times, as the grace to touch people’s souls in increasingly simple ways. However, I feel the weight of years of work, I’m less passionately interested in it, and I tire more easily."</p>
 
-<h1 id="type-one-anger">Type Eight: Lust</h1>
+<h1 id="Type Eight: Lust {#type-eight:-lust}">Type Eight: Lust {#type-eight:-lust}</h1>
 
 <p>The passion of Lust denotes a passion for excess, "a passion that seeks intensity, not only through sex but in all kinds of stimuli: activity, anxiety, spices, high speed, loud music, etc." (C. Naranjo, \<em>Character and Neurosis\</em>). </p>
 
@@ -3486,7 +3507,7 @@
 
 <p>Just as they do not allow themselves to feel their emotions, they also do not leave room for physical pain, to the extent that they neglect their body; even when they suffer, they find satisfaction in the intensity.</p>
 
-<h2 id="the-social-eight-complicity">The Social Eight: Complicity</h2>
+<h2 id="<strong>The Social Eight: Complicity<em>* {#the-social-eight:-complicity}">*</em>The Social Eight: Complicity</strong> {#the-social-eight:-complicity}</h2>
 
 <p>The E8 social is a kind of antisocial social type. If we want to use modern psychology categories, the Eight fits into the label of antisocial personality: more or less, a person who opposes social norms. Or rather, a rebellious person.  </p>
 
@@ -3673,7 +3694,7 @@
 
 <p>It also helps when the therapist makes constant references to the actions that the social Eight is taking because it’s in action where they get lost. It’s good to focus on their world of personal relationships, especially those outside the group, as the social Eight has great difficulty committing to individualized relationships.  </p>
 
-<h2 id="the-sexual-eight-possessiveness">The Sexual Eight: Possessiveness</h2>
+<h2 id="<strong>The Sexual Eight: Possessiveness<em>* {#the-sexual-eight:-possessiveness}">*</em>The Sexual Eight: Possessiveness</strong> {#the-sexual-eight:-possessiveness}</h2>
 
 <p>A sexual Eight has a tendency toward social detachment. This person is rebellious, even more so than other Eights. They are also more provocative, flaunting, proclaiming that their values are different from the norm. This occurs with all Eights, but in the sexual subtype, this tendency becomes a clear detachment from intellect.</p>
 
@@ -3835,7 +3856,7 @@
 
 <p>They also noted that it will be necessary to find the inner emptiness to be filled by something greater. They seek a reference point within themselves, having a teacher as a bridge—a guide who can help them replace the food of the ego with compassion and love for God, healing the original wound. Because only in this way can they feel included as human beings and beloved children of the Father’s heart, so they can reclaim the lost link from childhood, which is the sweetness and spontaneity where innocence resides.</p>
 
-<h2 id="the-self-preservation-eight-satisfaction">The Self-Preservation Eight: Satisfaction</h2>
+<h2 id="<strong>The Self-Preservation Eight: Satisfaction<em>* {#the-self-preservation-eight:-satisfaction}">*</em>The Self-Preservation Eight: Satisfaction</strong> {#the-self-preservation-eight:-satisfaction}</h2>
 
 <p>The most armored of all E8s is the self-preservation subtype. The word that defines them is satisfaction: “I have to have it. This is mine. I need to have it.” It’s more of an intolerance for the frustration of not having what they want than the possession itself. In this sense, they’re somewhat like the E1 sexual subtype, which also becomes obsessive in its desires. But an E1 (Type 1\) is very different from an E8. The former is hypersocial, while the latter is completely antisocial. One is overly concerned with norms, and the other cares far too little.</p>
 
@@ -3913,7 +3934,7 @@
 
 <p>Juanjo: Yes… through blood and fire.</p>
 
-<h1 id="type-one-anger">Type Nine: Sloth</h1>
+<h1 id="Type Nine: Sloth {#type-nine:-sloth}">Type Nine: Sloth {#type-nine:-sloth}</h1>
 
 <p>Sloth here refers to a sloth of consciousness. Having a passion for Sloth means having the motivation to maintain a low level of awareness so that no stimuli, whether emotional or environmental, can conflict with a pre-existing status quo or equilibrium. Faced with a loss of life’s meaning, the E9 responds with spiritual and psychological indolence, a “deafness to the spirit and a loss of the sense of being to the point of not even knowing the difference: a spiritual coarsening” (C. Naranjo, \<em>Character and Neurosis\</em>).</p>
 
@@ -3927,7 +3948,7 @@
 
 <p>They perform their activities robotically, without complaining about fatigue, displaying a high level of anesthesia, even physically. They neither listen to the needs nor the pains of their body and often neglect their appearance.</p>
 
-<h2 id="the-social-nine-participation-belonging">The Social Nine: Participation/Belonging</h2>
+<h2 id="<strong>The Social Nine: Participation/Belonging<em>* {#the-social-nine:-participation/belonging}">*</em>The Social Nine: Participation/Belonging</strong> {#the-social-nine:-participation/belonging}</h2>
 
 <p>The Social Nine is a good-natured person. What drives a good-natured person? What lies behind these cheerful, lighthearted individuals? According to this framework, the passion of the Social Nine is participation. They need to feel like an integral part of something. But anyone with an intense need to participate, to become part of something, is someone who doesn’t feel part of anything.</p>
 
@@ -4055,7 +4076,7 @@
 
 <p>And finally, how important it is to know how to give good feedback, or anything else that helps with awareness…</p>
 
-<h2 id="the-sexual-nine-symbiosis">The Sexual Nine: Symbiosis</h2>
+<h2 id="<strong>The Sexual Nine: Symbiosis<em>* {#the-sexual-nine:-symbiosis}">*</em>The Sexual Nine: Symbiosis</strong> {#the-sexual-nine:-symbiosis}</h2>
 
 <p>I would prefer to use the word "union"—the word that Ichazo used—in a more elevated sense. Union signifies the response that we find in love, the desire for communion with the beloved. Thus, such a word should not be used to describe a neurotic game. Therefore, I prefer to use words like fusion, confluence, symbiosis...</p>
 
@@ -4287,7 +4308,7 @@
 
 <p>Accepting all of this has been possible thanks to my partner. Thanks to not being alone. Thanks to having support. (Thank you, Hilde, for loving me just as I am.)</p>
 
-<h2 id="the-self-preservation-nine-appetite">The Self-Preservation Nine: Appetite</h2>
+<h2 id="<strong>The Self-Preservation Nine: Appetite<em>* {#the-self-preservation-nine:-appetite}">*</em>The Self-Preservation Nine: Appetite</strong> {#the-self-preservation-nine:-appetite}</h2>
 
 <p>We will end with the E9 self-preservation type, for which Ichazo used the word "appetite." It is obvious that these individuals tend to have larger bodies, so it is likely they also have a larger appetite. Sancho Panza is a literal example of the E9 self-preservation type, and it is interesting that Cervantes chose "Panza" (belly) for his name, as it is something so central to this character.</p>
 
@@ -4492,159 +4513,22 @@
 <p>Everything changes, everything changes.  </p>
 <p>Everything changes, everything changes.</p>
 
-            
-</main> 
-
+            </main>
         </div>
+        
+        <footer>
+            <p>English translation. Original title: "27 Personajes en Busca de Ser" by Claudio Naranjo</p>
+        </footer>
     </div>
 
     <script>
+        /* JavaScript for table of contents functionality */
         document.addEventListener('DOMContentLoaded', function() {
-            
-            buildTableOfContents();
-            
-            
-            cleanupHeadings();
-            
-            
-            setupTOCLinks();
-            
-            
-            setupScrollSpy();
-            
-            
-            removeRedundantContent();
-        });
-        
-        function buildTableOfContents() {
-            
-            const tocContainer = document.createElement('aside');
-            tocContainer.className = 'toc-container';
-            tocContainer.innerHTML = '<div class="toc-header">Table of Contents</div><div class="toc-content"></div>';
-            
-            
-            const headings = document.querySelectorAll('.content h1, .content h2');
-            if (headings.length === 0) return;
-            
-            
-            const tocList = document.createElement('ul');
-            tocList.className = 'toc-list';
-            
-            let currentLevel1Item = null;
-            let currentSublist = null;
-            
-            headings.forEach(heading => {
-                
-                const headingText = heading.textContent.replace(/\s*\{.*\}\s*$/, '');
-                heading.textContent = headingText;
-                
-                
-                if (!heading.id) {
-                    const id = headingText
-                        .toLowerCase()
-                        .replace(/[^\w\s-]/g, '')
-                        .replace(/\s+/g, '-');
-                    heading.id = id;
-                } else {
-                    
-                    heading.id = heading.id
-                        .replace(/\s*\{.*\}\s*$/, '')
-                        .toLowerCase()
-                        .replace(/\s+/g, '-');
-                }
-                
-                
-                const listItem = document.createElement('li');
-                listItem.className = 'toc-item toc-level-' + heading.tagName.substring(1);
-                
-                const link = document.createElement('a');
-                link.href = '#' + heading.id;
-                link.textContent = headingText;
-                listItem.appendChild(link);
-                
-                
-                if (heading.tagName === 'H1') {
-                    tocList.appendChild(listItem);
-                    currentLevel1Item = listItem;
-                    
-                    
-                    currentSublist = document.createElement('ul');
-                    currentSublist.className = 'toc-sublist';
-                    currentLevel1Item.appendChild(currentSublist);
-                } else if (heading.tagName === 'H2' && currentSublist) {
-                    currentSublist.appendChild(listItem);
-                }
-            });
-            
-            
-            tocContainer.querySelector('.toc-content').appendChild(tocList);
-            
-            
-            const content = document.querySelector('.content');
-            if (content) {
-                content.parentNode.insertBefore(tocContainer, content);
-            }
-        }
-        
-        function cleanupHeadings() {
-            
-            document.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(header => {
-                let headerText = header.innerText;
-                
-                
-                if (headerText.includes(' - ')) {
-                    headerText = headerText.replace(' - ', ': ');
-                }
-                
-                
-                if (headerText.includes('{')) {
-                    headerText = headerText.replace(/\s*\{[^}]*\}\s*$/, '');
-                }
-                
-                header.innerText = headerText;
-                
-                
-                if (header.id) {
-                    header.id = header.id
-                        .replace(/\{[^}]*\}/g, '')
-                        .toLowerCase()
-                        .replace(/\s+/g, '-')
-                        .replace(/[^\w-]/g, '');
-                }
-            });
-        }
-        
-        function setupTOCLinks() {
-            
-            document.querySelectorAll('.toc-item a').forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-                    
-                    if (targetElement) {
-                        window.scrollTo({
-                            top: targetElement.offsetTop - 20,
-                            behavior: 'smooth'
-                        });
-                        
-                        
-                        document.querySelectorAll('.toc-item a').forEach(a => a.classList.remove('active'));
-                        this.classList.add('active');
-                        
-                        
-                        history.pushState(null, null, '#' + targetId);
-                    }
-                });
-            });
-        }
-        
-        function setupScrollSpy() {
-            
+            /* Highlight the current section in the TOC */
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const id = entry.target.getAttribute('id');
+                    const id = entry.target.getAttribute('id');
+                    if (entry.intersectionRatio > 0) {
                         document.querySelectorAll('.toc-item a').forEach(link => {
                             link.classList.remove('active');
                             if (link.getAttribute('href') === '#' + id) {
@@ -4654,61 +4538,102 @@
                     }
                 });
             }, { rootMargin: '0px 0px -80% 0px' });
-            
-            
-            document.querySelectorAll('h1[id], h2[id], h3[id]').forEach(heading => {
+
+            /* Track all headings */
+            document.querySelectorAll('h1[id], h2[id]').forEach(heading => {
                 observer.observe(heading);
             });
-        }
-        
-        function removeRedundantContent() {
             
-            const paragraphs = document.querySelectorAll('.content > p');
-            let redundantParagraphs = [];
-            
-            
-            for (let i = 0; i < paragraphs.length; i++) {
-                const p = paragraphs[i];
-                if (p.textContent.includes('[') && p.textContent.includes(']') && p.textContent.includes('#')) {
-                    redundantParagraphs.push(p);
-                } else {
+            /* Smooth scrolling for TOC links */
+            document.querySelectorAll('.toc-item a').forEach(link => {
+                link.addEventListener('click', e => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
                     
-                    break;
-                }
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            /* Mobile TOC toggle */
+            const tocToggle = document.createElement('button');
+            tocToggle.classList.add('toc-toggle');
+            tocToggle.textContent = 'Table of Contents';
+            document.querySelector('.container').prepend(tocToggle);
+            
+            tocToggle.addEventListener('click', () => {
+                const tocContainer = document.querySelector('.toc-container');
+                tocContainer.classList.toggle('toc-open');
+                tocToggle.classList.toggle('toc-toggle-active');
+            });
+            
+            /* Reading Progress Bar */
+            window.addEventListener('scroll', function() {
+                const windowHeight = window.innerHeight;
+                const documentHeight = document.body.scrollHeight - windowHeight;
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const progress = Math.max(0, Math.min(100, (scrollTop / documentHeight) * 100));
+                
+                document.getElementById('readingProgress').style.width = progress + '%';
+            });
+            
+            /* Dark Mode Toggle */
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            darkModeToggle.addEventListener('click', () => {
+                document.documentElement.classList.toggle('dark-mode');
+                document.documentElement.classList.toggle('light-mode');
+                
+                // Save preference to localStorage
+                const isDarkMode = document.documentElement.classList.contains('dark-mode');
+                localStorage.setItem('darkMode', isDarkMode);
+            });
+            
+            /* Focus Mode Toggle */
+            const focusModeToggle = document.getElementById('focusModeToggle');
+            focusModeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('focus-mode');
+                
+                // Save preference to localStorage
+                const isFocusMode = document.body.classList.contains('focus-mode');
+                localStorage.setItem('focusMode', isFocusMode);
+            });
+            
+            /* Font Size Toggle */
+            const fontSizeToggle = document.getElementById('fontSizeToggle');
+            let currentFontSize = localStorage.getItem('fontSize') || 'medium';
+            
+            // Apply saved font size
+            document.body.setAttribute('data-font-size', currentFontSize);
+            
+            fontSizeToggle.addEventListener('click', () => {
+                const sizes = ['small', 'medium', 'large'];
+                const currentIndex = sizes.indexOf(currentFontSize);
+                const newIndex = (currentIndex + 1) % sizes.length;
+                currentFontSize = sizes[newIndex];
+                
+                document.body.setAttribute('data-font-size', currentFontSize);
+                localStorage.setItem('fontSize', currentFontSize);
+            });
+            
+            /* Load user preferences from localStorage */
+            if (localStorage.getItem('darkMode') === 'true') {
+                document.documentElement.classList.add('dark-mode');
+                document.documentElement.classList.remove('light-mode');
             }
             
+            if (localStorage.getItem('focusMode') === 'true') {
+                document.body.classList.add('focus-mode');
+            }
             
-            redundantParagraphs.forEach(p => p.remove());
-        }
-
-        
-        const darkModeToggle = document.getElementById('darkModeToggle');
-        darkModeToggle.addEventListener('click', () => {
-            document.documentElement.classList.toggle('dark-mode');
-        });
-
-        
-        const focusModeToggle = document.getElementById('focusModeToggle');
-        focusModeToggle.addEventListener('click', () => {
-            document.documentElement.classList.toggle('focus-mode');
-        });
-
-        
-        const fontSizeToggle = document.getElementById('fontSizeToggle');
-        let currentFontSize = 18;
-        fontSizeToggle.addEventListener('click', () => {
-            currentFontSize = currentFontSize === 18 ? 20 : currentFontSize === 20 ? 22 : 18;
-            document.documentElement.style.setProperty('--font-size-base', `${currentFontSize}px`);
-        });
-
-        
-        const progressBar = document.getElementById('readingProgress');
-        window.addEventListener('scroll', () => {
-            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = (winScroll / height) * 100;
-            progressBar.style.width = scrolled + '%';
+            if (localStorage.getItem('fontSize')) {
+                document.body.setAttribute('data-font-size', localStorage.getItem('fontSize'));
+            }
         });
     </script>
 </body>
-</html> 
+</html>

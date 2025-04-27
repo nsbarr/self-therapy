@@ -60,7 +60,7 @@
   font-family: var(--font-body);
   font-style: italic;
   line-height: 1.1;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--color-light-ink);
   max-width: 580px;
   /* background-color: var(--color-space); 
@@ -76,8 +76,8 @@
 }
 
 .home-page .home-quote .attribution {
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
   color: var(--color-accent);
   font-style: normal;
 }
@@ -149,7 +149,7 @@
 }
 
 .home-page .article-meta {
-  font-size: 0.85rem;
+  font-size: 1.0rem;
   color: var(--color-accent);
   letter-spacing: 0.02em;
 }
@@ -183,6 +183,10 @@
   max-width: 800px;
   line-height: 1.2;
   margin-bottom: 1rem;
+}
+
+.intro-text{
+  font-size: 1.2rem;
 }
 
 /* Specific override for IFS article title */

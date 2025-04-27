@@ -25,6 +25,8 @@
 
 [E3 Sexual: Attractiveness	78](#e3-sexual:-attractiveness)
 
+[Self Preservation Three: Security	78](#self-preservation-three:-security)
+
 [Enneagram Type Four: Envy	95](#enneagram-type-four:-envy)
 
 [Social Four: Shame	96](#social-four:-shame)
@@ -1488,7 +1490,233 @@ And that rage, in turn, transformed into strength—a strength that allowed us t
 
 And in this way, as we began to find our own power, we stopped handing it over to others.
 
-## **SO 3: Todo**
+## **Self-Preservation Three: Security**{#self-preservation-three:-security}
+
+When considering Enneatype Three from a broad perspective, what tends to stand out are its social and sexual manifestations. However, when we encounter self-preservation Threes, we can't exactly say we're facing a third form of vanity. Just as the proud in the self-preservation subtype don't appear particularly prideful, the self-preserving vain don't seem visibly vain either — and I’ve come to describe them as **counter-vain**, using language analogous to psychoanalysis when it introduced the notion of the “counter-phobic” character, one who hides fear through visibly bold behavior.
+
+Over the years, I’ve come to see that this same dynamic holds true in the self-preservation versions of each passion. In the case of Type One, for instance, it's striking how little they appear angry — they mask their anger while also defending against it through benevolent attitudes.
+
+The case of the self-preservation Three, who seems minimally vain, is akin to someone so determined to be a good person (that is, to follow the perfect or ideal model of the good mother, the good homemaker, etc.) that living this way results in an implicit taboo against vanity. For this reason, it can be difficult for someone without much experience to recognize a self-preservation Three, who could easily be mistaken for a One or show traits of other types.
+
+If we ask what their neurotic need is — what a self-preservation Three needs above all — it might seem that they are mainly trying to be good. But that’s a universal commandment present in the lives of nearly everyone (even if some rebel against it). What is more specific to the self-preservation Three is the concept of security, a notion emphasized by Ichazo.
+
+It seems to me that a threatened sense of security leads these individuals to develop a special form of autonomy. Because they weren’t sufficiently cared for, they learned to take care of themselves — and eventually, they also come to take care of others. There is an atmosphere of security around self-preservation Threes, and they are often people others turn to for advice, as they seem to specialize in problem-solving.
+
+However, this passion for security can lead to excessive simplification in their lives, as they reduce their interests to what is most practical and useful. Moreover, when too much emphasis is placed on efficiency, one ends up making efficiency itself efficient.
+
+**The Transformation in the Self-Preservation Type Three** by Assumpta Mateu
+
+The following individuals also contributed as co-authors: Amor Hernández (Spain), Elia Gerardi (Italy), Ferran Pauné (Spain), Ilse Kretzschmar (Mexico), María Teresa Ceserani (Italy), Maribel Fernández (Spain), Nilda Paes (Brazil), Sandra Geralda Ferreira (Brazil), Suzana Stroke (Brazil), Vera L. Petry Schoenardie (Brazil)
+
+Claudio Naranjo refers to a gesture when speaking about a person's transformation process: as if it were a sign, this something gives us a hint that we are already “somewhere else,” in another state of consciousness, another attitude, another perceptual dimension of the ego and its workings, in the growing certainty that the machine dominates us less and less.
+
+If the inertia of the self-preservation Three is based on being seen—on action directed by the gaze of the other—the gesture toward healing lies in looking inward, emphasizing that this gesture must manifest in attitude, not in striving to achieve it.
+
+From everything we’ve gathered, what stands out is an evolution toward self-awareness, an understanding of the compulsive process, and the ability to catch oneself in one’s own traps. There is talk of a more awakened consciousness, which points to a reduction in self-deception.
+
+From this place, the need to sell ourselves to an external image is called into question.
+
+“I notice myself reworking paths, less concerned with my image. I feel less need to please everyone. I speak more frankly with people, saying what I like and what I don’t. That means not burying a person alive when I’m hurt—I say clearly what hurt me. I feel that today I have a truer self-esteem, less narcissistic, less dependent on others’ evaluations,” writes Nilda.
+
+The maturation and transformation process of the self-preservation Three allows them to become slower, less agitated, less active and flamboyant; they know themselves to be more capable of being in contact with a sense of emptiness without the frantic need to fill it, and more capable of being in any situation without succumbing to the compulsive impulse to act in order to flee or change it.
+
+“If before I was a foamy sea, now I’m a calm sea,” says María Teresa.
+
+When the self-preservation Three begins to take life as it comes, without trying to steer it as they once did, they begin to rest, lean back, and trust.
+
+There is in the self-pres Three a pressing need to believe they can handle everything, even at the cost of their own health and self-care. Gradually, that attitude begins to fall away. Age seems to be a determining factor here, as physical strength declines; one would hope that wisdom and understanding increase.
+
+“I stopped being the superwoman of the family and at work—something I used to be proud of. I ask for help and acknowledge my fatigue and the limitations imposed by age. I’m not afraid of aging; I’m getting through this phase well... but I still fear dependence, the loss of my intellectual capacity. Another thing to work on, right? I think it’s the hardest,” says Nilda.
+
+One of the loops we observe in self-preservation vanity is that, when one finally realizes they are vain, censorship appears: “How can I be vain?” “Being vain isn’t right.” “It’s not virtuous.” But if we don’t dare to clearly and authentically show our vanity, we are then accused—or worse, we accuse ourselves—of false modesty, and we’re back at the start again: “I show vanity—I mustn’t. I show modesty—it turns out to be fake.” It’s a vicious circle.
+
+“I recognize in myself a sensitivity I didn’t know before, as well as a genuine kindness that doesn’t need recognition (am I being vain?),” writes Nilda.
+
+She wonders whether feeling what she feels is being vain: the necessary gesture here would be a simple “so what?”, to accept the doubt generated by her present attitude as natural and stop trying to correct it, to let herself be.
+
+A self-preservation Three, as they progress on the path, gradually dissolves their anxieties. The obsession with security relaxes, and they move more quickly toward relativizing that need, even if they feel physically depleted. It is about surrendering to what is, so that one can discover the spiritual dimension, the sacred within oneself, and recognize oneself as worthy of love.
+
+“I feel more secure in myself—this is a security that comes from an internal place, from the sense of being, and hardly at all from external achievements,” says Ferran.
+
+“My daily practice keeps me in continuous contact throughout the day. I can say I feel capable of dying and also of living with enthusiasm and intensity,” says Suzana.
+
+“The greatest shift is linked to letting go of a purely mechanical, cause-and-effect, materialistic view of life, in favor of a more spiritual dimension where I’ve been able to recover—or discover—a sense of devotion to God and an awareness that everything that happens, even the most dramatic, fits into a divine plan that’s incomprehensible to a rational and objective mind like mine,” reflects Elia.
+
+Meditation is a fundamental path in this sense, and some participants in this inquiry speak of their experience in retreats, especially in Claudio Naranjo’s meditation retreat, where they encountered the Holy Idea corresponding to their Enneatype.
+
+“The perception that there is a Universal Order to which we are subject was the starting point for the transformation now underway. God doesn’t need my help,” believes Nilda.
+
+“When I truly commit to the practice of meditation, it becomes a balm for me—experiencing that I don’t have to run anywhere, realizing that everything is just as it is, and that I don’t need to control it. I like to recall a phrase I once heard as a joke: ‘Want to make God laugh? Then tell Him your plans.’ It helps me quickly realize that my need for so much control is ridiculous, a mental construct,” says Assumpta.
+
+Avoidance of conflict, for someone acting from the gaze of the other, becomes intrinsic to their being, their mask. The process of confronting conflict is shaped by the need for everything to be okay for everyone. This trait is so socially accepted that it makes the path to transformation difficult. Some begin to let disagreements take their course, refraining from interfering in the process of things, attempting not to avoid life’s darker and more chaotic areas.
+
+The transformed self-preservation Three is less afraid of others’ anger, more considerate, and more respectful of their own needs, allowing themselves to set aside others’ needs without guilt. They learn to love themselves well. They begin to allow contact with their own emotions, especially sadness. Their expressive capacity grows while becoming less theatrical. They are more direct, leaving behind detours and manipulation. They become more able to accept and express insecurity, vulnerability, fear, and the need for help. They are less overbearing, more assertive, and less aggressive. They discover and accept their envy, competitiveness, and sense of inferiority—traits they previously denied completely to themselves and others.
+
+In compulsive action, from neurotic inertia, the self-preservation Three loses the reference points of authenticity. In the transformation process, they realize how important it is to learn not to act, and to unlearn how they act. This allows for the resurrection of their inner being, their essence. It’s not easy, of course—at first, it only happens occasionally, and it’s about cultivating the willingness and intention to discover oneself.
+
+“I first notice a growing awareness of my body—how I somatize (sinusitis), which foods are good or bad for me, my sleep, my tensions… And, though still a bit shyly, I’m starting to prioritize my needs more,” writes Maribel.
+
+“Any situation that got out of my control left me confused, scared, lost. These situations included events where I lacked the right response. I would then feel a sense of injustice, misunderstanding, or even being lost. This could escalate to the point of freezing, doing the opposite of my normal action-oriented mode. After freezing, I would cry like a child—a hysterical reaction that melted the ice. I needed the tears to feel myself, to breathe, and to reconnect with myself. Today, with a more grounded presence, the disorientation has softened: I can breathe and calm the anxiety by grounding myself and becoming aware of what’s happening. I’m less invasive now, and a bit more intimate (that’s the paradox of the self-preservation Three). I can now see with a different quality of seeing—a gaze that recognizes the other from their unique, distinct point,” shares Vera.
+
+The self-preservation Three fears allowing themselves to feel emotions and feelings, to lose independence, to need help… But finally, when they recognize the fear, they also recognize that they need others, that they need to surrender and let go.
+
+“I used to think love was about pleasing the other’s needs, meeting their expectations, doing what they needed. I thought love was doing. I never thought it could be just feeling. Then I realized I had a huge difficulty giving and receiving. I was afraid of being in someone else’s hands,” says Sandra.
+
+“I imagined I could go anywhere, do anything I wanted, with a sense of total independence, cross the world, work until I collapsed, get recognition and applause. All that—without vanity, without showiness, with modesty. I didn’t see that I was a slave to myself. Seeing this is still painful at times,” says Assumpta.
+
+In the self-preservation subtype, maternal love tends to dominate as a channel for expressing love through being useful to others. For someone of this subtype, there’s a compulsion to ensure conditions of safety and stability that give the needed sense of control over their life.
+
+The need for affection is expressed in constant care for others and in avoiding conflict or inappropriate situations. Adaptation becomes so intense that they forget their own feelings in favor of a loving ideal. This attitude, though self-generated in childhood in relation to parental figures, reaches its peak tension in romantic relationships.
+
+By contrast, admiring love never fully encompasses their existential core—it doesn’t occupy much space within the individual. Thus, a self-preservation Three feels admiration only for certain people—those who are very obviously worthy of it, such as spiritual teachers, scientists, or influential figures in domains important to them.
+
+Erotic love tends to be the least developed or most dormant at the conscious level. Somehow, their compulsion to act—to always be in doing mode—interferes with their openness to pleasure. It’s not uncommon, then, for this type, when they do feel admiring love for one of these figures, to devote themselves to the work or cause that person represents, neglecting pleasure and everyday life.
+
+How does a self-preservation Three experience love? Generally, they expect to receive admiring love in all areas of life, while giving little admiration to others. How can they give admiring love if they are the ones who are supposed to be admired?
+
+From their partner, they expect to receive all three types of love, since the romantic relationship is one of the most important spheres for them. The partner is everything for many self-preservation Threes, especially for those who are sexual subtypes, and important for the rest—essentially for social self-preservation Threes. For the latter, the professional sphere takes on more prominence, and with it, the need for validation earned through their efforts and service.
+
+In the case of admired figures, such as teachers, the individual expects both compassionate and valuing love. In turn, they give valuing love and often also compassionate love, in the form of admiration, loyalty, commitment, affection, and service.
+
+The following testimonies are especially revealing of the dominance of the different kinds of love:
+
+“Erotic love is camouflaged in being useful to the other. If I’m useful, the other will give me what I need out of obligation. I don’t understand a love based on mutual sharing, a love without a price. That’s why instinctual and pleasure-based love seems meaningless to me,” says Amor.
+
+“Accepting my insecurity was one of my most important achievements. But the decisive turning point came during a meditation retreat. I handed over my weapons of war to the teacher: my lipstick and my watch (appearance and control). I entered the retreat very afraid—I thought I wouldn’t be able to be with anything other than what I had made of myself. What did I have to offer from just myself? Yet those were days of joy, a sense of freedom, of peace, of love for myself. For the first time since childhood, I was able to connect with my true feelings, without blockages. Finally, I knew what I felt. I truly cried over all my mistakes. I felt a deep joy that gratitude could bring me. I became fully aware of the love I had for my teacher, my family, my friends. I discovered I was a much better person than I had imagined; I began to like myself more and take care of myself by respecting my body’s needs. The teacher awakened in me the faith and surrender to a universe that is beyond my control. Today, nearly four years after that experience, when I feel myself faltering or slipping back into old patterns, I return to those sensations,” remembers Nilda.
+
+Crisis is often an essential gateway into awareness and the beginning of transformation. Without that nearly insurmountable obstacle, the self-preservation Three—like many Enneatypes—would likely find it very difficult to change. In particular, it’s especially hard for the self-pres Three who clings to the omnipotent idea of being able to handle everything through sheer effort. The following testimony addresses the typical self-deception of the self-preservation Three:
+
+“In my experience, I can say that for a Three, approaching a therapeutic process is very hard. You don’t naturally feel drawn to dive into issues, because you basically live your life without a sense of having important problems to solve.
+
+“In fact, until I faced a real possibility of dying and saw my physical appearance completely altered, I didn’t truly take the work on myself seriously.
+
+“I think I needed to see, concretely, the collapse of my idealized self-image as a self-preservation Three—and also of my physical image (as an attractive and charismatic woman)—in order to convince myself of the need to look beyond the material side of life.
+
+“When I came face-to-face with a deformed face and could no longer rely on my physical appearance, I had to ask myself who I really was, since the image no longer gave me any security. That brought me shame, and I saw this even in my relationships with others—because I found myself isolated,” shares Elia.
+
+Sandra adds:
+
+“I believe that for a self-preservation Three, walking the path of true healing requires making some renunciations and a conscious choice: letting go of the attachment to work that generates economic security as a vicious cycle that feeds the ego, and allowing oneself a pure and sincere surrender to oneself, to others, to the divine—without worrying about how it looks. Changing one’s relationship to the ego requires the wisdom to see the hungry, uncared-for child within, and to stop giving importance to the internal hunger that fuels action as a vengeful way of not needing anyone and becoming self-sufficient in front of others and the world—while hiding, from oneself and from others, a deep internal suffering caused by not allowing oneself to feel and by becoming increasingly lonely. I believe that when a self-preservation Three is able to make that choice—difficult as it is—they begin to understand what Holy Hope means.”
+
+**What has been left behind?**
+
+**Security, that fixation...**  
+ "Security is now an inner security. I’m less affected by things I don’t like. I observe them, but I get less angry. Now I’m much more honest with myself and with others; I’m more in touch with my inner world and its needs. I feel more balanced between the external and internal worlds. I take the outside world less seriously," says Ilse.
+
+**The compulsion with image, with being liked, with achieving**  
+ "I feel like I’m no longer dependent on others’ approval. I feel free to act, to be, and to live in accordance with my heart, with the ability to recognize mistakes and correct them when they happen, without guilt or cover-ups. I listen, assess, and can accept criticism—also advice or viewpoints—when they come from people I care about, who I respect, and who, above all, love me," says Suzana.
+
+"The need to be the good and pretty girl dissolves, is unmasked, and is replaced by a desire to connect with inner truth," says Assumpta.
+
+"My energy is now more focused on deepening and reflecting, more on subtle details than on duty, on what I really like, what I’m passionate about, and what opens windows both inward and outward," shares Ilse.
+
+"We leave behind unconscious effort, the struggle for achievements, the need to build a safe environment (being in good standing with others, house, work), the fear of transgression (one can allow themselves to transgress any rule or social role). In a way, a Type Three, energetically, becomes a little like an Eight. They become able to shout, to get angry, to express rage, to relate sexually with whomever they please, to accept or leave jobs as they please, to value themselves economically..." testifies Ferran.
+
+**Falseness**  
+ "The transformation process has led me to understand how I used to adopt a false way of relating to others, without real listening or empathy, just my physical presence—but not an authentic one—just to keep up appearances. I also believed others behaved falsely; maybe that was a way of justifying myself and avoiding other alternatives," says Elia.
+
+"Another thing that has been left behind is the indirect way of speaking—with vague subjects, metaphors, and half-words. I think people now feel more comfortable with me because they also feel more free to express themselves, without diplomacy or pretense. It’s been important to learn to say yes and no directly. A real absence is better than a false presence," adds Vera.
+
+**False maternal love**  
+ "I feel like I deceive myself less. I’m more truthful with my feelings, even if I rarely express them. I’m more tolerant, less demanding of others. I don’t feel like the best; on the contrary, many times I feel like the worst. I have much less energy for action, even though I’m still a very active person. I feel I’m much more emotional, much more sensitive, more compassionate, more understanding of human suffering in general," writes Suzana.
+
+"Realizing that it doesn’t matter so much whether the other person loves me, admires me, or acknowledges me, and that what really matters is that I love them—that realization comes like a gentle wave that arrives without making noise, grows and fades, and then returns again, in a rhythmic motion that makes me feel very good. It connects me with gratitude, peace, and serenity," says Vera.
+
+"Maternal love seems the most developed in our subtype—the empathy, the pleasing and understanding of others, to the point of erasing ourselves: that’s giving in order to be loved. I feel that this is slowly dissolving. I’ve learned to receive, and I want to receive from a place of the honor I deserve, not from emotional manipulation, which is what I used to do," says Assumpta.
+
+**Unconscious effort, self-demand**  
+ "I feel very meditative, with the inner observer quite active. One longing is to sit down and meditate more regularly—which I still don’t do. But I no longer demand it of myself, I just wait for it to arise naturally. I like having less discipline," says Ilse.
+
+**Control**  
+ "I’m less demanding of myself and less controlling. I’m tired of so much effort. I’ve relaxed more," shares Ilse.
+
+"Self-control and control of others: the anxiety that everything should go smoothly, anticipating any possible red flag, the belief that emotions, feelings, and thoughts must be the ‘right’ ones in order to be a good person. The constant question is: ‘What should I do?’ instead of the healthy: ‘What do I want to do?’" explains María Teresa.
+
+"The physical fatigue that comes with age helps me understand and accept the limits of my need to control everything. It also helps me see the falseness of that need," concludes Assumpta.
+
+**Disconnection from instinct**  
+ "A fundamental achievement in my process has been reconnecting with my instinct, even though it was buried after so many years of control. Seeing and accepting my instinctive side has also meant accepting my most human side, linked to my more earthly self. It has meant recovering physical strength and, in some respects, even health," says Elia.
+
+**Compulsive action, haste**  
+ "I feel a strong need for more unscheduled time, to see what I engage in—or don’t. I thought about using the time to write a book but decided to take the time without planning, without preoccupying myself in advance with any defined task," says Ilse.
+
+"The compulsion to act and to move quickly, the demand for speed, the ‘there’s no time,’ the idea of ‘I must do everything because I do it best,’ the difficulty of being in contact with feelings of insecurity, doubt, and ambivalence—all that is gradually left behind," says María Teresa.
+
+"One of the best things that has been left behind is a great oppressor: haste. The urgency to do, do, do... I harmed them a lot—especially my children—because, in my rush, I stopped them from taking responsibility for their learning, their initiatives, and their tasks by doing it all for them," adds Vera.
+
+**Omnipotence, self-sufficiency, drive**  
+ "I enjoy receiving much more than I used to," says Ilse.
+
+"Also, a sense of fear—terror, really—has surfaced and is much more present and constant than at any other time in my life. I connect with my basic anxiety, with the anxiety I’ve always felt and that I used to associate with constant doing. Now I see that it’s rooted in a terrible fear related to pain, torture, and destruction (probably linked to experiences of war), which I have repressed and tried to keep buried all my life," confesses Suzana.
+
+**Narcissism**  
+ The omnipotent idea of being able to determine the course of one's life and actions. The idea of “achieving at any cost.” The difficulty of trusting and surrendering. The belief in knowing what is right and wanting to save the world. The need to feel superior. The denial of one’s competitiveness. The denial of one’s envy and opportunism.
+
+**Coldness**  
+ "What is left behind is the need to control the world, the insensitivity, the lies, the arrogance, the fear of feeling, the superheroine persona, the fantasies about the world and the ideal self, the false power, the idealization of happiness, a bit of rigidity and a bit of detachment," says Sandra.
+
+---
+
+**Therapeutic recommendations and useful tasks**
+
+The therapist must pay close attention to the condescension of the self-preservation Three patient and their "everything’s fine" attitude, as this subtype tends to take on the role of the good patient, enhancing the therapeutic alliance. They will try to figure out what the therapist wants from them, what they like or don’t like, what interests them most—in order to align as effectively as possible with their expectations and thus feel safe.
+
+It’s important to continually guide them back to themselves, to work on their expectations, and on the idealized image of the "perfect patient" they strive to become in order to be accepted. Very skilled in manipulation, they will play on the therapist’s narcissism: if they are the best patient, the therapist must be the best therapist. Since they idealize, they can also easily destroy the therapist’s self-image.
+
+The self-preservation Three’s greatest difficulty is letting go and showing emotions—especially sadness through tears—as they experience this as a dangerous weakness. Every shadow aspect that emerges in therapy is felt as a threatening narcissistic wound.
+
+Their main avoidance strategy is to remain on the surface, recounting events in detail, thereby losing sight of the process, dynamics, and symbolic level. It’s important for them to recognize their inner rhythm and to experience being in pain and difficulty without rushing to do something to escape it—so they discover that they don’t drown in the pain, that the current of life lets them see the way more clearly.
+
+When in distress, forcing themselves to be still allows them to become aware of how they control emotional flow—felt physically as tightness in the stomach, chest, back, and throat. These tensions are soon recognized as fear of losing control and of feeling pain.
+
+It is essential to work on envy, competitiveness, and the sense of inferiority—central, denied aspects that often fuel their neurotic behavior when unconscious. These traits can become great resources for transformation when brought to awareness.
+
+It is useful to encourage the direct expression of anger and disagreement with the therapist.
+
+When the idealized self-image begins to shatter like a mirror struck with a stone, the self-preservation Three comes into contact with deep pain and the terror of being nothing—a hollow vessel—and becomes aware of having played a role their entire life, to the point of no longer knowing who they are.
+
+The self-preservation Three seeks in the therapist a solid container that gives them safety—someone they can finally trust, through whom they can discover their own vulnerability and, gradually, in their own time, rediscover their human identity. It is important to restore the permission to exist beyond all performance. Physical containment and touch work well ("as you are is fine; you don’t have to do so much to be accepted").
+
+It is important to dismantle their mechanism of self-justification and external attribution of responsibility, so they can reconnect with their interior life.
+
+It is worth exploring their tendency toward easy enthusiasm for activities (hobbies, work) and the ease with which they get stuck or lose interest. One should investigate what moves them and what blocks them.
+
+First, one must offer a psychologically safe environment (where the patient feels seen, welcomed, heard, and respected). At the beginning, strong confrontation is not advisable, as the Type Three might withdraw or disengage. However, at some point in their process, it becomes essential that they are confronted and not kindly accommodated.
+
+It is healing to reconnect with one’s masculine or feminine energy, as the case may be—this means allowing space for direct and clear confrontation, for going after what one truly desires or needs (to penetrate the world). For this, it is necessary to experience that there is another man (or woman) there who supports you, who serves as a reference point, and with whom you collaborate (not compete)—which is equivalent to recovering trust in the other.
+
+As therapists, being aware of our own neurotic defenses—and understanding that what shows up as a flaw in the foreground can be a quality in the background (and vice versa)—allows us to use these traits therapeutically in the process.
+
+The self-preservation Three therapist can offer strong containment and security to the client. When they are authentic and in touch with themselves, they foster and encourage the client to dare to be more authentic. Their self-awareness of their own falseness makes it easier to detect imposture in others.
+
+The drive to “do it well,” when it stops being a neurotic need, allows the therapist to pay close attention to the impeccability of their presence, and therefore to their therapeutic work. The self-preservation Three therapist will not settle for doing the bare minimum.
+
+Their tendency toward control can be transformed into a therapeutic presence with a panoramic view of the process and the field.
+
+"I feel I now use the characteristics I consider positive in my personality, even if they feel less dominant—such as efficiency and quick thinking and action. I’ve also learned to wait for signs that confirm the validity of my intuition before acting," writes Suzana.
+
+**What must a Self-Preservation Type Three come to understand?**
+
+* That attention must be directed inward, not outward.
+
+* That one exists independently of others.
+
+* That one exists independently of any environment that provides something (security, acceptance, validation).
+
+* That what matters is the present and its cultivation; neither the future nor the past matter.
+
+* That one must not project, but rather feel and remain attentive.  
+   Especially, it is essential not to project expectations onto others or onto situations.
+
+* That the therapeutic process is not an external one, but an internal one: it’s not about solving things with a therapist, or sharing things to gain reassurance or security, but about undertaking an inner journey—reconnecting with one’s deepest feelings and experience.
+
+* That one is not more or less important than others. One is simply another human being.
+
+* That what is relevant is not the person, but the presence.
+
+* That one is a presence—not an ego.
+
+* That happiness comes from giving—not compulsively, but from genuine feeling. And also that happiness comes from receiving, rather than compulsively feeling the need to give back.
 
 # Enneagram Type Four: Envy {#enneagram-type-four:-envy}
 
