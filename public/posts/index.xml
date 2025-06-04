@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on </title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 19 Aug 2023 15:23:24 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Enhancing Self-Therapy with Internal Family Systems and AI</title>
-      <link>/ifs/</link>
-      <pubDate>Sat, 19 Aug 2023 15:23:24 +0200</pubDate>
-      
-      <guid>/ifs/</guid>
-      <description>For several months, I&amp;rsquo;ve been prototyping an AI-powered therapy tool. It&amp;rsquo;s proven surprisingly useful, so I want to share it with you here.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on</title><link>/posts/</link><description>Recent content in Posts on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Aug 2023 15:23:24 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Enhancing Self-Therapy with Internal Family Systems and AI</title><link>/ifs/</link><pubDate>Sat, 19 Aug 2023 15:23:24 +0200</pubDate><guid>/ifs/</guid><description>For several months, I&amp;rsquo;ve been prototyping an AI-powered therapy tool. It&amp;rsquo;s proven surprisingly useful, so I want to share it with you here.
 Many people are experimenting with AI for therapy, but the tool I&amp;rsquo;ve built takes advantage of unusual structural properties in the Internal Family Systems (IFS) model.
-Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through the relevant protocols.</description>
-    </item>
-    
-  </channel>
-</rss>
+Unlike many therapeutic modalities, IFS comes with a user manual. The role of the therapist is not to diagnose or to heal the client, but rather to guide them step-by-step through the relevant protocols.</description></item></channel></rss>
