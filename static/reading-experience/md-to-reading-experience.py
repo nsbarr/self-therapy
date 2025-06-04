@@ -97,19 +97,6 @@ def generate_html_page(markdown_text, title="27 Personalities in Search of Being
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
         </button>
-        <button id="focusModeToggle" class="preference-button" title="Toggle Focus Mode">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"></circle>
-                <circle cx="12" cy="12" r="4"></circle>
-            </svg>
-        </button>
-        <button id="fontSizeToggle" class="preference-button" title="Adjust Font Size">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="4 7 4 4 20 4 20 7"></polyline>
-                <line x1="9" y1="20" x2="15" y2="20"></line>
-                <line x1="12" y1="4" x2="12" y2="20"></line>
-            </svg>
-        </button>
     </div>
     
     <div class="container">
@@ -208,45 +195,10 @@ def generate_html_page(markdown_text, title="27 Personalities in Search of Being
                 localStorage.setItem('darkMode', isDarkMode);
             }});
             
-            /* Focus Mode Toggle */
-            const focusModeToggle = document.getElementById('focusModeToggle');
-            focusModeToggle.addEventListener('click', () => {{
-                document.body.classList.toggle('focus-mode');
-                
-                // Save preference to localStorage
-                const isFocusMode = document.body.classList.contains('focus-mode');
-                localStorage.setItem('focusMode', isFocusMode);
-            }});
-            
-            /* Font Size Toggle */
-            const fontSizeToggle = document.getElementById('fontSizeToggle');
-            let currentFontSize = localStorage.getItem('fontSize') || 'medium';
-            
-            // Apply saved font size
-            document.body.setAttribute('data-font-size', currentFontSize);
-            
-            fontSizeToggle.addEventListener('click', () => {{
-                const sizes = ['small', 'medium', 'large'];
-                const currentIndex = sizes.indexOf(currentFontSize);
-                const newIndex = (currentIndex + 1) % sizes.length;
-                currentFontSize = sizes[newIndex];
-                
-                document.body.setAttribute('data-font-size', currentFontSize);
-                localStorage.setItem('fontSize', currentFontSize);
-            }});
-            
             /* Load user preferences from localStorage */
             if (localStorage.getItem('darkMode') === 'true') {{
                 document.documentElement.classList.add('dark-mode');
                 document.documentElement.classList.remove('light-mode');
-            }}
-            
-            if (localStorage.getItem('focusMode') === 'true') {{
-                document.body.classList.add('focus-mode');
-            }}
-            
-            if (localStorage.getItem('fontSize')) {{
-                document.body.setAttribute('data-font-size', localStorage.getItem('fontSize'));
             }}
         }});
     </script>
@@ -711,39 +663,24 @@ th {
 
 def main():
     # Paths
-    input_file = '/Users/nickbarr/Desktop/ai/selftherapy/consistency/27 Personalities - Headings Standardized.md'
-    # If the standardized file doesn't exist yet, use the original
-    if not os.path.exists(input_file):
-        input_file = '/Users/nickbarr/Desktop/ai/selftherapy/public/27 Personalities in Search of Being.md'
-        
-    output_dir = '/Users/nickbarr/Desktop/ai/selftherapy/reading-experience'
-    output_html = os.path.join(output_dir, 'index.html')
-    output_css = os.path.join(output_dir, 'styles.css')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(script_dir, '../../reading-experience')
+    input_file = os.path.join(script_dir, 'content.md')
+    output_file = os.path.join(output_dir, 'index.html')
     
-    # Ensure output directory exists
+    # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
     
-    # Read input file
-    if not os.path.exists(input_file):
-        print(f"Input file not found: {input_file}")
-        return
-    
+    # Read markdown content
     markdown_text = read_file(input_file)
     
-    # Generate HTML page from markdown
+    # Generate HTML page
     html_content = generate_html_page(markdown_text)
     
-    # Generate CSS
-    css_content = generate_css()
+    # Write HTML file
+    write_file(output_file, html_content)
     
-    # Write outputs
-    write_file(output_html, html_content)
-    write_file(output_css, css_content)
-    
-    print(f"Reading experience created successfully.")
-    print(f"- HTML file: {output_html}")
-    print(f"- CSS file: {output_css}")
-    print(f"Open {output_html} in your browser to view the result.")
+    print(f"Successfully generated {output_file}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main() 
