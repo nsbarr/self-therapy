@@ -2582,8 +2582,6 @@ In this way, the next step will be to live my emotions freely, containing myself
 
 I will express my unconditional and non-judgmental love, balanced in the three loves; I will show myself and be assertive and trustworthy without explaining or justifying actions, accepting error and the ability to correct, in myself and others. I will live creating a world of possibilities, with more tranquility, facing what comes at the moment without thinking about hypotheses, risks, or dangers.
 
-## 
-
 ## **The Sexual Six: Strength**
 
 And here is the so-called counterphobic character: the Sexual Six goes against fear. We could call this neurotic need "strength." Descriptively, we can say "strong" in the same way that we might label a conservation six as "weak." One is like a rabbit, and the other is like a bulldog: a counterphobic is very much like a barking dog. He doesn’t always bite; he barks more than he bites, but he has a fierce appearance. The need isn’t just to feel strong, but also to be able to intimidate. The internal programming says that the best defense is a good offense.
@@ -2866,8 +2864,6 @@ Knowing Claudio Naranjo’s work, which integrates the wisdom of compassion — 
 The love of my husband is another miracle of healing for me. At 42, I moved to Spain to marry. With my previous partners, I hadn’t lived together; we kept separate houses and economies. I didn’t fully commit; I feared intimacy, although I desired it. I didn’t trust that I could be truly loved, so I didn’t commit. I protected myself in my independence while I fantasized about a wonderful love. Until the relationship with my husband, Juan Carlos, arrived, with whom I am much happier than I could have imagined.
 
 Today, I feel more resourceful, more autonomous, and more capable of defending myself, even though fantasies and fears, especially about the future, occasionally return. It helps to remind myself that all this is part of the neurotic dynamic. I still blush, but less, and it doesn’t bother me as much anymore...
-
-# 
 
 # Type Seven: Gluttony
 
@@ -3159,8 +3155,6 @@ Lastly, it’s essential not to overlook any of a Seven’s manipulations. As th
 Finally, as an effective tool, it can be helpful to use their own mechanism: humor and irony, bearing in mind that Sevens in general handle this very well.
 
 ## **The Self-Preservation Seven: Family**
-
-##  
 
 It is often easier to recognize a sexual or social Seven than a preservation Seven. To refer to them, Ichazo used the phrase "the guardian of the castle." He also used the word "castle" for the preservation Five — I preferred to use the word refuge or lair. But what is the meaning of the phrase "the guardian of the castle"?
 
