@@ -3,6 +3,8 @@ title: "27 Personalities in Search of Being"
 subtitle: "by Claudio Naranjo"
 layout: reading-experience
 url: "/twenty-seven-personalities/"
+aliases:
+  - /reading-experience/
 ---
 # Type One: Anger
 
