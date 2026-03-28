@@ -1,6 +1,0 @@
-{{ $content := readFile "reading-experience/index.html" }}
-{{ $content := replaceRE `(?s).*<main class="content">(.*)</main>.*` "$1" $content }}
-
-<main class="content">
-{{ $content | safeHTML }}
-</main> 

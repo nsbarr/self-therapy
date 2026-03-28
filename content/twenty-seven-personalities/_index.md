@@ -1,107 +1,38 @@
-
-
-| Hello\! This is a (currently unauthorized) English translation of Claudio Naranjo’s *27 Personajes en Busca de Ser*. To my knowledge it’s never been translated to English, which is a shame because it is a treasure trove of insights into the 27 subtypes of the Enneagram. Please do not share this Google Doc without permission, as this project has not been cleared with the copyright holders of the original work. For my commentary or to get in touch, you can find me on [Substack](https://polytrope.substack.com/) or reach out at [nsbarr@gmail.com](mailto:nsbarr@gmail.com). Feel free to comment or suggest improvements to this doc. |
-| :---- |
-
-[Type One: Anger	2](#type-one:-anger)
-
-[The Social One: Inadaptability/Superiority	3](#the-social-one:-inadaptability/superiority)
-
-[The Sexual One: Vehemence/Zeal	18](#the-sexual-one:-vehemence/zeal)
-
-[The Self-Preservation One: Concern	28](#the-self-preservation-one:-concern)
-
-[Enneagram Type Two: Pride	41](#enneagram-type-two:-pride)
-
-[Social Two: Ambition	42](#social-two:-ambition)
-
-[Sexual Two: Conquest	49](#sexual-two:-conquest)
-
-[Self-Preservation Two: Privilege	60](#self-preservation-two:-privilege)
-
-[Enneagram Type 3: Vanity	69](#enneatype-iii:-vanity)
-
-[Social Three: Prestige	70](#social-three:-prestige)
-
-[Enneagram Type 3 Sexual: Attractiveness	78](#Enneagram Type 3-sexual:-attractiveness)
-
-[Enneagram Type Four: Envy	95](#enneagram-type-four:-envy)
-
-[Social Four: Shame	96](#social-four:-shame)
-
-[Sexual Four \- Hatred	102](#sexual-four---hatred)
-
-[Self-Preservation Four \- Tenacity	114](#self-preservation-four---tenacity)
-
-[Enneagram Type 5: Avarice	122](#enneagram-type-v:-avarice)
-
-[Social 5: Totem	123](#social-5:-totem)
-
-[Sexual 5: Confidant	144](#sexual-5:-confidant)
-
-[Enneagram Type 5 Conservation: Refuge	150](#Enneagram Type 5-conservation:-refuge)
-
-[Enneagram Type 6: Fear	158](#enneatype-vi:-fear)
-
-[Enneagram Type 6 Social: Duty	160](#Enneagram Type 6-social:-duty)
-
-[Sexual 6: Strength	166](#sexual-6:-strength)
-
-[Enneagram Type 6 Conservation: Warmth	178](#Enneagram Type 6-conservation:-warmth)
-
-[Type 7: Gluttony	190](#type-vii:-gluttony)
-
-[Enneagram Type 7 social: Sacrifice	192](#Enneagram Type 7-social:-sacrifice)
-
-[Enneagram Type 7 Sexual: Suggestibility	200](#Enneagram Type 7-sexual:-suggestibility)
-
-[Enneagram Type 7 Preservation: Family	213](#Enneagram Type 7-preservation:-family)
-
-[Enneagram Type 8: Lust	222](#enneagram-type-viii:-lust)
-
-[Social 8 \- Complicity	224](#so-8---complicity)
-
-[Enneagram Type 8 Sexual: Possessiveness	233](#Enneagram Type 8-sexual:-possessiveness)
-
-[Enneagram Type 8 Self-Preservation: Satisfaction	241](#Enneagram Type 8-self-preservation:-satisfaction)
-
-[Enneagram Type 9: Sloth	246](#enneatype-ix:-sloth)
-
-[Enneagram Type 9 Social: Participation/Belonging	246](#Enneagram Type 9-social:-participation/belonging)
-
-[Enneagram Type 9 Sexual: Symbiosis	254](#Enneagram Type 9-sexual:-symbiosis)
-
-[Enneagram Type 9 Self-Preservation: Appetite	268](#Enneagram Type 9-self-preservation:-appetite)
-
-# Type One: Anger {#type-one:-anger}
+---
+title: "27 Personalities in Search of Being"
+subtitle: "by Claudio Naranjo"
+layout: reading-experience
+url: "/twenty-seven-personalities/"
+---
+# Type One: Anger
 
 To understand the Passion of Anger, we must first distinguish it from rage as an emotion.
 
 While rage refers to the emotional reaction of attack in response to danger or invasion, Anger, in this case, is a furious and uncontrolled drive that this personality experiences in the face of the existential void caused by the loss of the original state of wholeness.
 
-It is as if, having lost the earthly paradise, the Enneagram Type 1 sees this loss as a mistake that must be rectified.
+It is as if, having lost the earthly paradise, the Enneatype I sees this loss as a mistake that must be rectified.
 
-Whereas for mental types—and even more so for emotional types—passion is an attempt to regain existential wholeness through contact with suffering and fear of loss, the Enneagram Type 1 distances themselves from both pain and fear by adopting an attitude of superior detachment, which they regard as a corrective for what they perceive as an error.
+Whereas for mental types—and even more so for emotional types—passion is an attempt to regain existential wholeness through contact with suffering and fear of loss, the Enneatype I distances themselves from both pain and fear by adopting an attitude of superior detachment, which they regard as a corrective for what they perceive as an error.
 
 From this, it follows that their method of rectification will be a drive toward concrete, perfect action—something tangible—that will eliminate suffering.
 
-The Enneagram Type 1 generally did not experience being a child who was guided and cared for but rather a child who was compelled to behave prudently, renouncing their instinctiveness, emotionality, and expressiveness—qualities typical of childhood. In essence, they were burdened with very high expectations that left no room for error.
+The Enneatype I generally did not experience being a child who was guided and cared for but rather a child who was compelled to behave prudently, renouncing their instinctiveness, emotionality, and expressiveness—qualities typical of childhood. In essence, they were burdened with very high expectations that left no room for error.
 
 The child’s sensitivity to their parents’ suffering quickly transformed into a willingness to solve their problems for them.
 
-What drives the Enneagram Type 1 is the solution; in this sense, we can understand to what extent Anger is not an emotional aspect but a fiery energy that always propels them forward, bypassing contact with the feelings tied to the context and the corresponding mental processing.
+What drives the Enneatype I is the solution; in this sense, we can understand to what extent Anger is not an emotional aspect but a fiery energy that always propels them forward, bypassing contact with the feelings tied to the context and the corresponding mental processing.
 
-The Enneagram Type 1’s attitude of “pushing the river” reflects an inner need to try to change the context rather than consider the possibility of adapting to it; from this arises their sense of superiority and disdain for those who "are wrong."
+The Enneatype I’s attitude of “pushing the river” reflects an inner need to try to change the context rather than consider the possibility of adapting to it; from this arises their sense of superiority and disdain for those who "are wrong."
 
 Rage manifests in different styles depending on the subtype: in the social subtype, as well as the self-preservation subtype, Anger underlies a reactive formation that transforms it into imperturbability or benevolence.
 
-In relationships, the Enneagram Type 1 exhibits an automatic tendency to impose their mental and behavioral rigor, demanding the same perfectionism (the fixation) from others that they demand of themselves; they control and insist on discipline so that, both behaviorally and emotionally, order and rigor are maintained, which they believe will lead to the elimination of errors.
+In relationships, the Enneatype I exhibits an automatic tendency to impose their mental and behavioral rigor, demanding the same perfectionism (the fixation) from others that they demand of themselves; they control and insist on discipline so that, both behaviorally and emotionally, order and rigor are maintained, which they believe will lead to the elimination of errors.
 
 Their sense of superiority stems from a self-certification—since they hold a self-concept as a virtuous and just person—that grants them the merit of occupying a position of authority and dominance.
 
 This is a normative and neurotically ethical character, with the specificity of dictating personal norms that they consider absolute codes. This allows them to transform desire into a behavioral rule, so they feel exempt from perceiving themselves as imperfect simply for having impulses or emotions (which they view as flaws).
 
-## Social 1: Inadaptability/Superiority {#the-social-one:-inadaptability/superiority}
+## **The Social One: Inadaptability/Superiority**
 
 The character of the Social One is very different from the other subtypes of Type One. This results from a characteristic identified by Óscar Ichazo—whom I learned from—as inadaptability. For a long time, I preferred to simply use the word rigidity to describe this character, referring to something resembling a schoolteacher mentality, as well as what Wilhelm Reich observed when speaking of an "aristocratic character." However, the term rigidity describes more of a behavioral style or a specific personality trait and not exactly a need or passion. For this reason, I felt the need to formulate a neurotic need from which the rigid character could be understood.
 
@@ -142,9 +73,9 @@ The feelings and consequent behaviors of inadaptability can be considered the re
 
 The mother is presented with more diverse images. Unlike the father, she seems afraid of life. In most cases, she appears submissive to the husband and dedicated to the family. Sometimes she is counter-dependent, and others describe her as superficial. For B., she is more affectionate and protective than the father. She gave him a lot of freedom, bordering on unconsciousness. In other cases, however, she suffered from physical ailments and hysterical tendencies. P. was, from birth, rejected by the mother and for this reason, she has hated her. O. presents his mother as a "strong, combative woman and a great worker. Very intelligent and alert." She has a notable religious feeling and, like the father, is critical and authoritarian. But also kind and generous: she likes to help those in need. She tends to isolation, while the husband is more sociable. "She gets very involved in the children's lives, feels responsible/guilty," and expresses her love through worry. She is stubborn and obstinate, holds grudges, and "does not easily forgive offenses received."
 
-The parent that the social Type 1 most evidently incorporates and identifies with is the father. From here derives a greater development of love-admiration. Secondly, empathetic love is present, which generally increases with age. The least developed is erotic love. For A. and O., especially, love-admiration is also directed towards knowledge and spirituality, not just towards people. For almost all, the initial idea is that they lived a happy childhood, although this view changes over time.
+The parent that the social type I most evidently incorporates and identifies with is the father. From here derives a greater development of love-admiration. Secondly, empathetic love is present, which generally increases with age. The least developed is erotic love. For A. and O., especially, love-admiration is also directed towards knowledge and spirituality, not just towards people. For almost all, the initial idea is that they lived a happy childhood, although this view changes over time.
 
-In summary, the social Type 1 convinces themselves that what their parents offer is not enough for them. They believe that their needs cannot be met. They think it is better to organize themselves. From a very young age, they have claims to autonomy, whether obedient or rebellious. From very early on, they are a small adult. They want to do their things directly, declaring it, or more subtly, pursuing their goal without making much noise. Finally, they tend to impose their own model and are unlikely to adapt to what the external world offers them.
+In summary, the social type I convinces themselves that what their parents offer is not enough for them. They believe that their needs cannot be met. They think it is better to organize themselves. From a very young age, they have claims to autonomy, whether obedient or rebellious. From very early on, they are a small adult. They want to do their things directly, declaring it, or more subtly, pursuing their goal without making much noise. Finally, they tend to impose their own model and are unlikely to adapt to what the external world offers them.
 
 **Existential Decisions**  
 Inadaptability is structured around decisions such as: if things are this way and I don’t like them, I’ll do them my way. Even when I need help, it’s better not to rely on others; I surely won’t get what I need, and in the end, I’ll have to manage on my own. I must make an effort and work hard to achieve it. I’ll be strong, so I can face life and overcome my limitations and incapacity. I won’t let fever or illness stop me; I’ll always be on my feet. I won’t bother anyone, and then they’ll love me. I’ll strive to be deserving so that I’ll be recognized and have the right to live in this world...
@@ -220,7 +151,7 @@ As I write this, I smile. Were the risks I took—then and now—a matter of rec
 
 In the following months, I maintained this relaxed attitude, and my desire to laugh and bring lightness to my family grew even more. The dominant traits of my character haven’t disappeared. I am still an angry-maladjusted person, but today I can move very quickly from a state of demandingness and reforming impulse to one of acceptance and tranquility. For me, this marks a significant difference.
 
-## **The Sexual One: Vehemence/Zeal** {#the-sexual-one:-vehemence/zeal}
+## **The Sexual One: Vehemence/Zeal**
 
 Oscar Ichazo used the Spanish noun *celo* in reference to the characteristic passion of the Sexual instinct, a word with a dual meaning. When referring to an animal *en celo* (in heat, that is, in estrus), the word denotes great sexual excitement. In the context of personality, when one does something *con celo*, it implies care, dedication, or fervor. Thus, it can be understood that *celo*, in its broadest sense, is analogous to the intensity with which an animal in heat seeks the object of its instinct.
 
@@ -268,7 +199,7 @@ Before, my way of thinking was to want to do everything as well as possible, dem
 
 As I said, I think I have conquered my guts, which is where I feel aggression, the anger that no longer directs me. It's been a long time (since SAT 1, in 2003\) since the volcano erupted (to everyone's relief). I also leave more space for my emotions, those that in childhood I was taught not to show because they were considered a sign of weakness, sadness, vulnerability, pain... This feeling, pain, is the one that still costs me the most to show publicly, but now, when it appears, I let it be, before anyone. The paradox is that my impulsive reactions have considerably reduced, so my moods and emotions are more balanced, have fewer oscillations, and are less intense than in the past. I would say that by lowering the intensity of the sexual instinctive sphere, the other two instincts have been balancing, especially the conservative one (the most deficient in me), and in passing, I have connected more with the emotional. I could describe my sensation as if the strong potential energy of the hara had risen to the heart, impregnating all other spheres with that heart tenderness that I know I have.
 
-The relationship with my father, an Enneagram Type 8, was an authentic battle. I felt a need to confront him about everything. On the other hand, with my mother and siblings, I developed a more protective bond to defend them from an abusive father and husband. My mother, an Enneagram Type 3, I didn't consider much because I negatively judged her passivity and living through others.
+The relationship with my father, an E8, was an authentic battle. I felt a need to confront him about everything. On the other hand, with my mother and siblings, I developed a more protective bond to defend them from an abusive father and husband. My mother, an E3, I didn't consider much because I negatively judged her passivity and living through others.
 
 With my siblings, the relationship became distant, although I still feel great affection for them. Each lives for and with their families, and it doesn't seem like there will be any changes between us. On the other hand, with my parents, the relationship has become closer, warmer, and less confrontational. I take care of them more than my siblings do, as although we have talked about it, they are not willing to give up the resentment they feel towards our father. I don't judge them for it; I understand them. If I take care of my parents, it's because I want to, and I do it from a compassionate feeling of accompaniment, without wanting to change anything. They enjoy it, and I enjoy taking them to places they've never been, visiting them frequently, and dedicating time to them whenever I can. I like taking care of them. They are very old now, and on some occasions, even my father has shown me that spark of tenderness we all have inside.
 
@@ -288,11 +219,11 @@ The maternal love I relate to the bond with the earth and the body. From there, 
 
 Before, I lived my social and personal relationships with more need to be seen. The truth is that people of my trait do not go unnoticed, but now it no longer matters: detachment can have a healthy and positive aspect, which is the ease of letting go of what hinders us. I think that has been my case, experiencing non-attachment. I don't have an agenda full of pending things to do as before; for a long time, I have let the day flow, and so I have the necessary time for whatever appears. It is a very gratifying experience because there is space for spontaneity, and each day seems different without doing anything special for it. My friends have surprised me by defining me as a joyful, generous, warm, tender person, not resentful, and with a lot of humor.
 
-Before, in my personal relationships, men predominated, and for about ten years now, women predominate. In general, I feel very close to them, and there is a bond of cooperation, complicity, and sisterhood. Lately, I relate a lot with Enneagram Type 4 women, whom I have been able to support without judging or demanding, and they have been able to lean on me. There are also some Enneagram Type 9 and even a few Enneagram Type 1 sexual who feel good and comfortable with me, and I with them. I have to say that reflecting on violence has made me reconsider some misunderstandings that exist in society about it. I also feel empathetic and supportive of women.
+Before, in my personal relationships, men predominated, and for about ten years now, women predominate. In general, I feel very close to them, and there is a bond of cooperation, complicity, and sisterhood. Lately, I relate a lot with E4 women, whom I have been able to support without judging or demanding, and they have been able to lean on me. There are also some E9 and even a few E1 sexual who feel good and comfortable with me, and I with them. I have to say that reflecting on violence has made me reconsider some misunderstandings that exist in society about it. I also feel empathetic and supportive of women.
 
-Previously, distrust was more related to people. I suppose my father's mandate: "you have to be careful; people are very bad," was very present, starting with him, who was a violent person, and no one was safe around him. I always trusted life, as from a very young age, I related to nature and animals. I have felt little guilt, as living a double life was a way of transgressing norms, and I did it without fear, as a way of getting my way, of breaking my father's imperative by letting my little devil out to play. I learned early to lose my fear of my father; I felt strong from the age of six. But that also put me in danger several times, though not out of recklessness. I would say that the aspect that has changed the most is distrust, as now I don't defend myself or try to change anyone or anything, but I have understood that everyone has their path and does what they can, how they can, and when they can. I have seen what is in me in others and what is in others in me. I would say that my trait and subtype have generally softened: my character is less consistent, as if the contours had blurred. Now I say that my trait is decaffeinated sexual Enneagram Type 1.
+Previously, distrust was more related to people. I suppose my father's mandate: "you have to be careful; people are very bad," was very present, starting with him, who was a violent person, and no one was safe around him. I always trusted life, as from a very young age, I related to nature and animals. I have felt little guilt, as living a double life was a way of transgressing norms, and I did it without fear, as a way of getting my way, of breaking my father's imperative by letting my little devil out to play. I learned early to lose my fear of my father; I felt strong from the age of six. But that also put me in danger several times, though not out of recklessness. I would say that the aspect that has changed the most is distrust, as now I don't defend myself or try to change anyone or anything, but I have understood that everyone has their path and does what they can, how they can, and when they can. I have seen what is in me in others and what is in others in me. I would say that my trait and subtype have generally softened: my character is less consistent, as if the contours had blurred. Now I say that my trait is decaffeinated sexual E1.
 
-The trait of worry is not familiar to me: I have heard it applied to Enneagram Type 1, but I don't feel it is mine. Let me explain: from the age of eight to sixteen, I did competitive gymnastics, then risk sports like high mountain, climbing, caving, diving, etc. The focus was on the here and now and breathing, which was very natural for me. Perhaps that is why I trusted the body impulse, letting myself be carried by what the body advised at the moment. Taking a step, not staying stuck ruminating on where to go, was always my way of doing things. I would say that the step itself marks the direction towards a goal, even if I don't know what it is.
+The trait of worry is not familiar to me: I have heard it applied to E1, but I don't feel it is mine. Let me explain: from the age of eight to sixteen, I did competitive gymnastics, then risk sports like high mountain, climbing, caving, diving, etc. The focus was on the here and now and breathing, which was very natural for me. Perhaps that is why I trusted the body impulse, letting myself be carried by what the body advised at the moment. Taking a step, not staying stuck ruminating on where to go, was always my way of doing things. I would say that the step itself marks the direction towards a goal, even if I don't know what it is.
 
 Sometimes my experience has been to seek a solution to a problem in the following way: I want to get my husband out of jail (where he is for political reasons), I know what the goal is, and I make the path as I walk. I involve all the people, organizations, and institutions that can do something; I don't care if they are not of the same ideology, if I have to visit the Attorney General of the National Court in Madrid or the Minister of Justice of the country: I do it. And if in the same effort others can benefit, then a list is made with all of them. And it worked. Of the six involved, all received some type of pardon; my husband the most.
 
@@ -302,9 +233,9 @@ In that aspect, the before and after have not varied much. However, that impulsi
 
 Life before was to be lived, explored, and wanted all of us to live better, with fewer injustices and inequalities, which is why I joined clandestine political activities against Francoism from a very young age. Before, the mystery was in death, what is beyond life? Today, life is that great mystery that penetrates us and we do not know, regardless of what science says, and I give myself to it, trying to explore some of its inscrutable paths that have brought me closer to the divine.
 
-Another important element of transformation has been the use of aggressiveness and the ability to confront in the task of helping others. The fact is that both are generally very repressed and confused. There is also in this character a great ability to move from one extreme to the other of the polarities and that we can put into play in therapeutic work. Our strength and determination can be at the service of accompanying and containing, especially in therapeutic work with strong enneatypes like Enneagram Type 8 or sexual Enneagram Type 6.
+Another important element of transformation has been the use of aggressiveness and the ability to confront in the task of helping others. The fact is that both are generally very repressed and confused. There is also in this character a great ability to move from one extreme to the other of the polarities and that we can put into play in therapeutic work. Our strength and determination can be at the service of accompanying and containing, especially in therapeutic work with strong enneatypes like E8 or sexual E6.
 
-In the process of transformation, the angry aggressiveness of sexual Enneagram Type 1 is transformed into determination with warmth, and also into acceptance; judgment and criticism into acceptance; control into awareness that controlling is an illusion (and this ends up generating a transformation of control into spontaneity); vehemence into serenity; zeal into love of heart; idealism into loving compassion. I have discovered a genuine indomitable spirit that I believe is linked to what in a dream appeared to me as the spirit of the girl who, to survive, made a pact with the potential warrior in her to take her place in the world.
+In the process of transformation, the angry aggressiveness of sexual E1 is transformed into determination with warmth, and also into acceptance; judgment and criticism into acceptance; control into awareness that controlling is an illusion (and this ends up generating a transformation of control into spontaneity); vehemence into serenity; zeal into love of heart; idealism into loving compassion. I have discovered a genuine indomitable spirit that I believe is linked to what in a dream appeared to me as the spirit of the girl who, to survive, made a pact with the potential warrior in her to take her place in the world.
 
 Another contribution we E1s can make who are dedicated to therapeutic help is to work from the body and the sensual, the senses, and erotism: from self-knowledge we can accompany the other in their self-exploration. I call it the eagle's gaze, or how the ability to see defects becomes the ability to capture significant moments in or for the links, interrelations, and interdependencies. It would be comparable to being able to see the forest and the trees at the same time.
 
@@ -314,11 +245,11 @@ Today I feel that benevolence is genuine when it appears; in reality, if they do
 
 I started therapeutic work from the roof, that is, through the analysis of deep dreams, about six years ago. On the first occasion, I saw my resentment, its link with a violent father and the mistreatment I received in my childhood. The resentment towards my deceased partner, the unresolved grief, I forgave myself and could forgive him, in a process I called "The Squaring of the Circle."
 
-When reading Character and Neurosis, I immediately identified, although there was a part of Enneagram Type 1 that I didn't see in me: it was, clearly, due to the peculiarities of my subtype, the sexual one. Discovering the Enneagram as a tool for self-knowledge was the spark that ignited everything else for me. I have always been a seeker of knowledge, and now I had found it. Then the desire to expand my training as a therapist arose, and I began training in Bodywork and Gestalt in 2001\.
+When reading Character and Neurosis, I immediately identified, although there was a part of E1 that I didn't see in me: it was, clearly, due to the peculiarities of my subtype, the sexual one. Discovering the Enneagram as a tool for self-knowledge was the spark that ignited everything else for me. I have always been a seeker of knowledge, and now I had found it. Then the desire to expand my training as a therapist arose, and I began training in Bodywork and Gestalt in 2001\.
 
 In SAT 1 (2003), even with a broken leg, I devoted myself to the work. Discovering my mother's manipulation was very painful and made me see her more clearly, especially when she tries to force my will. Regarding my father, I also discovered the strength in my hands and arms, from so much accumulated aggressiveness over the years, wanting to return every blow he gave me. The containment of that murderous rage came out with all its potential; it was for a short time, although very intense, and then I sang with satisfaction.
 
-The good came afterward, as my aggressiveness progressively diminished considerably: first, I feel my guts, and then I can see that inflection point where I tell myself: "more of the same or not." I didn't realize how much I had changed until the day during a weekend workshop, my ex-partner (sexual Enneagram Type 4), who seemed very angry because he couldn't reconnect with me either by good or bad means, threw a jug of water on me. I saw everything as if in slow motion: I was sitting and looked at the empty wine bottle on the table in front of me. But my guts didn't even move. And I understood with all clarity that responding to him meant getting caught in his game. I didn't do it. This vivid anecdote still impresses me now, as in another time, I would have jumped at his throat or broken the bottle over his head. I am impressed by the capacity of SAT to transform people, especially by generating contact with love.
+The good came afterward, as my aggressiveness progressively diminished considerably: first, I feel my guts, and then I can see that inflection point where I tell myself: "more of the same or not." I didn't realize how much I had changed until the day during a weekend workshop, my ex-partner (sexual E4), who seemed very angry because he couldn't reconnect with me either by good or bad means, threw a jug of water on me. I saw everything as if in slow motion: I was sitting and looked at the empty wine bottle on the table in front of me. But my guts didn't even move. And I understood with all clarity that responding to him meant getting caught in his game. I didn't do it. This vivid anecdote still impresses me now, as in another time, I would have jumped at his throat or broken the bottle over his head. I am impressed by the capacity of SAT to transform people, especially by generating contact with love.
 
 Other discoveries of the process consisted, for example, in realizing that my madness was thinking I was less crazy than others. Or seeing the murderous force of my rage, the feline strength and agility of my body. Lately, I have delved into the idea that I have to prepare for death, and from there, discovering that this way of looking at the world and what happens in it in a childlike, curious, and naive manner is the same look of the old woman I am, an old woman who, by the way, no longer pushes the river.
 
@@ -342,7 +273,7 @@ Certainly\! I will carefully revisit, refine, and reproduce the entire translati
 
 ---
 
-## **The Self-Preservation One: Concern** {#the-self-preservation-one:-concern}
+## **The Self-Preservation One: Concern**
 
 Ichazo referred to the characteristic passion of the conservation One as "anguish." However, I prefer to use the word "concern." In fact, it could be said that for this type of person, concern becomes a true passion. And it is not simply a behavior that could be described as worrying too much—or even feeling a need to worry—but rather, they concern themselves with things that are already fine, and sometimes ruin what they touch by trying to fix what does not need fixing.
 
@@ -529,21 +460,21 @@ The priority of conservation, of concern, of anguish, is abandoned: “I no long
 
   
 
-# Enneagram Type Two: Pride {#enneagram-type-two:-pride}
+# Type Two: Pride
 
 In all spiritual traditions, Pride is considered the primary sin, as the proud person resolves the loss of meaning and connection by filling the void with a grandiose self-image.
 
 The construction of a luminous and exalted self-image must be fueled by the need to be loved and adored by others. Their pride requires others to see them as indispensable and irreplaceable, without realizing to what extent they themselves actually depend on others.
 
-The Enneagram Type 2 confuses their own pleasure with giving pleasure to others; they lack direct contact with their essential needs.
+The E2 confuses their own pleasure with giving pleasure to others; they lack direct contact with their essential needs.
 
-In their family, the Enneagram Type 2 child was often a source of joy and fulfillment. They often took on the role of alleviating pain or deficiencies and bringing light to the family's shadows.
+In their family, the E2 child was often a source of joy and fulfillment. They often took on the role of alleviating pain or deficiencies and bringing light to the family's shadows.
 
 This difficult role did not represent authentic recognition or value for them but was the only way they found to be seen. However, it became a massive defense against the pain of the humiliation of being used.
 
 The great narcissistic satisfaction of being "the light of mom's eyes" for boys or dad's for girls comes at the cost of being unable to fulfill their own role.
 
-The Enneagram Type 2 forms loving bonds primarily through a compulsion to be seductive. They could be defined as "specialists in falling in love," a situation that makes them feel alive. They cannot help but conquer people and territories, without even questioning whether the person or territory is genuinely interesting to them.
+The E2 forms loving bonds primarily through a compulsion to be seductive. They could be defined as "specialists in falling in love," a situation that makes them feel alive. They cannot help but conquer people and territories, without even questioning whether the person or territory is genuinely interesting to them.
 
 Being at the center of attention, or occupying a privileged position (for the self-preservation Two), gives them the assurance they will not be abandoned, as they are the irreplaceable partner or friend.
 
@@ -551,7 +482,7 @@ In relationships, they cannot withdraw from their task of filling others or sati
 
 The ease with which they form affectionate and erotic relationships is reflected in their body—soft and flexible, with a gaze unafraid of direct contact, sometimes bordering on invasive. The expression of their eroticism is free.
 
-## Social 2: Ambition {#social-two:-ambition}
+## **The Social Two: Ambition**
 
 In the social Two, the passion of pride manifests as satisfaction in conquering the public.  
 It may not take much intelligence, nor the appearance of it, to awaken a great passion, but for a social Two, simply being seen as a "dumb blonde" would never be enough. A social Two needs to *be* someone, and to achieve that, they must use their mind more. As someone who seeks to be important to feed their pride, they must be capable of seducing the social environment, becoming a seducer of groups, a distinguished being, and perhaps not only someone superior but also endowed with leadership qualities.
@@ -654,7 +585,7 @@ In my experience, the deepest layer is affective despair, followed by panic, and
 
 Each of these emotions seemed to me to be linked to particular personal or family experiences that were etched into my inner world and needed to be cared for or set right in order to return the emotions to their natural functioning and deflate their excessive activation, which was so disruptive to consciousness.
 
-## **Sexual Two: Conquest** {#sexual-two:-conquest}
+## **The Sexual Two: Conquest**
 
 The Sexual Two is the quintessential Type Two, as if we say this character is a seducer, we can also add that the Sexual Two is the most visibly seductive of all.
 
@@ -900,11 +831,7 @@ Indeed, revisiting one’s experience of sexuality is a transformative journey f
 * Solitude and reflection.  
 * Writing—whether a presentation like this or a personal diary.
 
-**Translation of Section 1:**
-
----
-
-## **Self-Preservation Two: Privilege** {#self-preservation-two:-privilege}
+## **The Self Preservation Two: Privilege**
 
 In the case of the conservation type, seduction can be compared to that of a child towards their parents. Just as the social type appears "big," this is someone who is perceived as small, childlike, in their attitudes and even in their physical traits. Just as the social Two seems hyper-adult, over-mature, and the sexual Two—like Bizet’s Carmen—appears as a force of nature, wild, the conservation Two comes across as tender and childlike.
 
@@ -912,7 +839,7 @@ Precisely for this reason, psychoanalysts have referred to this as a childlike c
 
 The most prominent characteristic of this human type, then, is the need for love, a bare need for love, not obtained through sexual seduction or the self-importance of the social type. But why might a person feel the need to remain childlike or to act like a child? Naturally, there is some advantage in it. Children are more likable than adults, and babies are very attractive to people with a maternal disposition. We could say that childlike traits themselves are seductive, and that the neurotic need of this human type is to seduce through childlikeness—which implies a need for tenderness, delicacy, and fragility, even though it also involves egocentrism and an avoidance of responsibilities.
 
-**The Transformation in the Enneagram Type 2 Conservation**  
+**The Transformation in the E2 Conservation**  
 *By Cati Preciado*
 
 **“I don’t want to grow up\!”**  
@@ -1035,39 +962,39 @@ Looking ahead to my future process, I want to avoid anticipating, avoid getting 
 
 What I’ve learned from my growth process is that it’s important not to despair when feeling alone, to have patience, and to know that just beginning to understand yourself can help you feel accompanied.
 
-For an Enneagram Type 2 Conservation type, it’s important to recognize the extent to which their relationships are utilitarian: to see how they always involve an exchange of advantages and conveniences. The Type Two personality uses others and ends up being used by them, which eventually leaves them with a sense of being objectified or of seeing others as objects.
+For an E2 Conservation type, it’s important to recognize the extent to which their relationships are utilitarian: to see how they always involve an exchange of advantages and conveniences. The Type Two personality uses others and ends up being used by them, which eventually leaves them with a sense of being objectified or of seeing others as objects.
 
-From my experience, I would recommend that an Enneagram Type 2 Conservation type resist their tantrums when confronted by those who care about them, learning to stay and face things, to nurture the relationship with the other person. It’s important to acknowledge the desire to control relationships and to understand how manipulation and lies are used to steer the other person where the Enneagram Type 2 wants them to go.
+From my experience, I would recommend that an E2 Conservation type resist their tantrums when confronted by those who care about them, learning to stay and face things, to nurture the relationship with the other person. It’s important to acknowledge the desire to control relationships and to understand how manipulation and lies are used to steer the other person where the E2 wants them to go.
 
-I suggest that the Enneagram Type 2 Conservation type consider the cost of their childish behavior—what they lose every time they act like a child. They must see how this small form of power becomes a way of degrading themselves and ends up leaving them isolated.
+I suggest that the E2 Conservation type consider the cost of their childish behavior—what they lose every time they act like a child. They must see how this small form of power becomes a way of degrading themselves and ends up leaving them isolated.
 
 ---
 
-In the therapeutic relationship, the Enneagram Type 2 Conservation type is initially compliant and very affectionate, attempting to seduce the therapist with their childlike charms and significant idealization. This seduction acts as bait to prevent the therapist from confronting them or treating them harshly. They aim for the therapist to grow fond of them and find it difficult to treat them as an adult. Through this false tenderness, they try to soften the relationship, creating a dynamic where they are treated as friends or accomplices. In this way, the Enneagram Type 2 Conservation type’s ego remains intact.
+In the therapeutic relationship, the E2 Conservation type is initially compliant and very affectionate, attempting to seduce the therapist with their childlike charms and significant idealization. This seduction acts as bait to prevent the therapist from confronting them or treating them harshly. They aim for the therapist to grow fond of them and find it difficult to treat them as an adult. Through this false tenderness, they try to soften the relationship, creating a dynamic where they are treated as friends or accomplices. In this way, the E2 Conservation type’s ego remains intact.
 
-In my practice, I have worked with Enneagram Type 2 Conservation patients. In all cases, they were women. What always strikes me are the reasons they give for seeking psychological help. In some cases, the problems are related to their romantic partner, and the issue lies in the fact that their manipulations are no longer effective, or they’ve been given an ultimatum. Often, there is a problem with setting boundaries in the relationship. This manifests in behaviors such as spending family money irresponsibly or secretly, failing to keep agreements, or feeling victimized by the partner without recognizing their own role in the conflict.
+In my practice, I have worked with E2 Conservation patients. In all cases, they were women. What always strikes me are the reasons they give for seeking psychological help. In some cases, the problems are related to their romantic partner, and the issue lies in the fact that their manipulations are no longer effective, or they’ve been given an ultimatum. Often, there is a problem with setting boundaries in the relationship. This manifests in behaviors such as spending family money irresponsibly or secretly, failing to keep agreements, or feeling victimized by the partner without recognizing their own role in the conflict.
 
-Additionally, they often harbor the feeling that they are always giving more than their partner—more sex, more joy, more time, more dedication. I have frequently observed significant difficulties in separating from their family of origin. These patients expend energy, money, and effort trying to get their family of origin to behave according to their wishes. Added to this is the fact that the Enneagram Type 2 Conservation type often struggles with setting boundaries, leading to situations where their family of origin becomes more important than their current family. They also cannot relinquish control, needing to be the protagonist within their family of origin. As mothers, they find it difficult to act like adults and behave like children with their own children. There is a strong identification with the children’s childhoods and a desire for them to live a life completely free from pain and suffering.
+Additionally, they often harbor the feeling that they are always giving more than their partner—more sex, more joy, more time, more dedication. I have frequently observed significant difficulties in separating from their family of origin. These patients expend energy, money, and effort trying to get their family of origin to behave according to their wishes. Added to this is the fact that the E2 Conservation type often struggles with setting boundaries, leading to situations where their family of origin becomes more important than their current family. They also cannot relinquish control, needing to be the protagonist within their family of origin. As mothers, they find it difficult to act like adults and behave like children with their own children. There is a strong identification with the children’s childhoods and a desire for them to live a life completely free from pain and suffering.
 
-As long as they are in the honeymoon phase with their therapist, the Enneagram Type 2 Conservation type will seem like an excellent student—the most dedicated, the most affectionate. However, the moment this illusion fades, they tend to leave therapy and seek someone new who will pamper them, show them affection, and treat them as they wish.
+As long as they are in the honeymoon phase with their therapist, the E2 Conservation type will seem like an excellent student—the most dedicated, the most affectionate. However, the moment this illusion fades, they tend to leave therapy and seek someone new who will pamper them, show them affection, and treat them as they wish.
 
-For the Enneagram Type 2 Conservation type, it is beneficial to be encouraged to experience what it feels like to stop being childish. The therapist must inspire them to embrace the freedom of being an adult, to make independent decisions about their life, and to avoid being enslaved by their desires and relationships.
+For the E2 Conservation type, it is beneficial to be encouraged to experience what it feels like to stop being childish. The therapist must inspire them to embrace the freedom of being an adult, to make independent decisions about their life, and to avoid being enslaved by their desires and relationships.
 
-Another important aspect for the Enneagram Type 2 Conservation type is recognizing their implacable childlike narcissism. To self-regulate, it is crucial for them to understand that everything they do ultimately leaves them without the ability to fend for themselves. While they succeed in finding protectors, they generally become enslaved to them in a utilitarian relationship where the Enneagram Type 2 Conservation type feels privileged while suppressing their frustrations and personal desires—a position that is highly suspicious for true growth.
+Another important aspect for the E2 Conservation type is recognizing their implacable childlike narcissism. To self-regulate, it is crucial for them to understand that everything they do ultimately leaves them without the ability to fend for themselves. While they succeed in finding protectors, they generally become enslaved to them in a utilitarian relationship where the E2 Conservation type feels privileged while suppressing their frustrations and personal desires—a position that is highly suspicious for true growth.
 
 For all these reasons, it is essential to tell them the truth, to confront them despite their sweetness—that false sweetness that is merely the facade of a titanium armor built to shield them from an uncomfortable, hostile world they don’t want to see or acknowledge.
 
-To transform, the Enneagram Type 2 must accept constructive challenges that teach them to face the adult world, allowing them to confront it with the resources they genuinely possess—not with promises they fail to keep. It is necessary for them to understand how their whims not only fail to satisfy them but also fuel their frustration. They need to see that acting childishly guarantees loneliness in their life and that by avoiding effort, they remain stuck in immaturity, leaving them feeling useless.
+To transform, the E2 must accept constructive challenges that teach them to face the adult world, allowing them to confront it with the resources they genuinely possess—not with promises they fail to keep. It is necessary for them to understand how their whims not only fail to satisfy them but also fuel their frustration. They need to see that acting childishly guarantees loneliness in their life and that by avoiding effort, they remain stuck in immaturity, leaving them feeling useless.
 
 In summary, their path involves understanding their limits. This exploration offers a valuable experience of security and containment.
 
-# Enneagram Type 3: Vanity {#enneatype-iii:-vanity}
+# Type Three: Vanity
 
 The Passion of Vanity is the need to falsify one’s own self, constructing a presentable personal image for the world, with the expectation that this image will be accepted, loved, and validated.
 
 We could say that the Vanity character represents the neurotic construction of that part of humanity that is compelled to manipulate itself to maintain emotional relationships (*false self* in Winnicott’s terms).
 
-This passion leads Enneagram Type 3 to transfer its energetic charge into functional action, in response to the expectations of the external world; it develops a considerable ability to perceive what the context demands and adapts to it. The self-manipulation as a "product for sale" manifests both on the aesthetic level and in operational efficiency; thus, the illusion is forged that this transformation can be identified with oneself.
+This passion leads E3 to transfer its energetic charge into functional action, in response to the expectations of the external world; it develops a considerable ability to perceive what the context demands and adapts to it. The self-manipulation as a "product for sale" manifests both on the aesthetic level and in operational efficiency; thus, the illusion is forged that this transformation can be identified with oneself.
 
 This strategy implies a disconnection from one's own emotions and needs; they are so immersed in this exhausting activity that they even adapt their thoughts and actions to those of others. They identify with what they have falsified, believing in their false image (*fixation*) and losing all connection with their inner truth.
 
@@ -1079,7 +1006,7 @@ During childhood, they learned to be a pleasant, smiling, and compliant child to
 
 In relationships, they demonstrate hyper-adaptation and fear of conflict; in their eagerness to "do," they become disconnected from their inner world as well as from the inner world of others.
 
-## **Social Three: Prestige** {#social-three:-prestige}
+## **The Social Three: Prestige**
 
 For the distinctive passion of the Social Three, Ichazo proposed the term *prestige*. We can say that the Social Three is someone who has a passion for shining—not only through work but also in how they present themselves to others. It is as if they have an internal public relations department. By elevating the drive for prestige, understood as a passion for social recognition, to a need for universal applause rather than selective approval, they expend excessive energy, which naturally interferes with spontaneous action.
 
@@ -1205,7 +1132,7 @@ Got it\! I'll start from the beginning and translate it section by section.
 
 ---
 
-## **Enneagram Type 3 Sexual: Attractiveness** {#Enneagram Type 3-sexual:-attractiveness}
+## **The Sexual Three: Attractiveness**
 
 For the passion of the sexual Three, Ichazo used the words *masculinity* or *femininity*, depending on the case. I used to explain it as an excessive attempt to conform to cultural images (perhaps Hollywood-style) of what it means to be masculine or feminine.
 
@@ -1232,13 +1159,13 @@ In this way, they are freed to be able to make mistakes without the fear that th
 
 *"I understand how my ego was destroying me and preventing me from finding love. Now, at this stage of my life, love is above all the love I can feel for myself, truly knowing myself and considering myself. That is where everything begins to be more real. Love is not a goal, nor a task, nor an achievement, nor a conquest."*
 
-When a sexual Enneagram Type 3 heals, they also appear more relaxed and carefree: they let go of the compulsion to do things to have everything under control and to be loved. With their gaze turned inward rather than outward, they can see the difference between what they truly feel and need and self-deception. In this way, they become stronger and more mature, and the sensation of fragility disappears, the kind that makes people say, “Better not touch them, they might break.” They also become more independent, knowing they can survive—sometimes even better—without a partner, feeling loved and valued for who they are, not for what they do.
+When a sexual E3 heals, they also appear more relaxed and carefree: they let go of the compulsion to do things to have everything under control and to be loved. With their gaze turned inward rather than outward, they can see the difference between what they truly feel and need and self-deception. In this way, they become stronger and more mature, and the sensation of fragility disappears, the kind that makes people say, “Better not touch them, they might break.” They also become more independent, knowing they can survive—sometimes even better—without a partner, feeling loved and valued for who they are, not for what they do.
 
 Healing also involves finding the freedom to enjoy sex without being merely an object for the other’s pleasure, being able to let go of control and be less focused on their image, which does not allow them to feel pleasure and, in many cases, reach orgasm.
 
 *"After working on myself, I have opened up a lot sexually, and I am also more aware of what I want and don’t want, and I allow myself more pleasure. In my life, I have often used sexuality for other purposes: to get affection, admiration, recognition, to feel close, to give thanks, or as a way of manipulating, as a reward or punishment. Also, to maintain my romantic relationship. Many times without any connection with myself or with the other person, only to please, to fix things, or to avoid problems. As I have had greater contact with myself and my body, there have been periods when I didn’t want any sex at all, or the opposite, of great excitement. I like having control in sexuality. I realize that something has become unblocked on a sexual level, now I feel a lot of energy, I am very open, enjoying myself and feeling a lot of pleasure and in greater connection with myself and with the other. Movement and bodywork have greatly influenced this."*
 
-The sexual Enneagram Type 3 woman in the process of healing sees herself learning to live without the need for the gaze and recognition of a man, which is related to having experienced some kind of absence of a father figure. For a man, it would similarly involve the need for the gaze of a woman—a childish and narcissistic need for constant applause, which leaves him increasingly empty because his romantic relationships are based on doing things so that the other applauds him.
+The sexual E3 woman in the process of healing sees herself learning to live without the need for the gaze and recognition of a man, which is related to having experienced some kind of absence of a father figure. For a man, it would similarly involve the need for the gaze of a woman—a childish and narcissistic need for constant applause, which leaves him increasingly empty because his romantic relationships are based on doing things so that the other applauds him.
 
 Many times, achieving that applause becomes very difficult, leading to great frustration that results in a permanent state of unhappiness in their romantic life.
 
@@ -1266,7 +1193,7 @@ There are questions that help people connect with themselves. *What do you feel?
 
 *"The first thing I realized in my therapy was that I didn't know what I felt. It was very difficult for me to connect with my feelings, and I felt bewildered and anxious when I became aware of my deep disconnection. I found myself facing the emptiness that lay behind my appearance. Without it, and without the resources I used to maintain it, there was nothing—just an agonizing space."*
 
-A sexual Enneagram Type 3 feels and lives in a permanent prison. They feel suffocated by vanity, and this suffocation leads them to want to remain unnoticed and to be extremely shy, afraid of saying or doing the wrong thing. The need to free themselves from this is another motivation that might lead them to therapy when they gain greater self-awareness.
+A sexual E3 feels and lives in a permanent prison. They feel suffocated by vanity, and this suffocation leads them to want to remain unnoticed and to be extremely shy, afraid of saying or doing the wrong thing. The need to free themselves from this is another motivation that might lead them to therapy when they gain greater self-awareness.
 
 ***What is left behind?***
 
@@ -1488,19 +1415,245 @@ And that rage, in turn, transformed into strength—a strength that allowed us t
 
 And in this way, as we began to find our own power, we stopped handing it over to others.
 
-## **Social 3: Todo**
+## **The Self-Preservation Three: Security**
 
-# Enneagram Type Four: Envy {#enneagram-type-four:-envy}
+When considering Enneatype Three from a broad perspective, what tends to stand out are its social and sexual manifestations. However, when we encounter self-preservation Threes, we can't exactly say we're facing a third form of vanity. Just as the proud in the self-preservation subtype don't appear particularly prideful, the self-preserving vain don't seem visibly vain either — and I’ve come to describe them as **counter-vain**, using language analogous to psychoanalysis when it introduced the notion of the “counter-phobic” character, one who hides fear through visibly bold behavior.
+
+Over the years, I’ve come to see that this same dynamic holds true in the self-preservation versions of each passion. In the case of Type One, for instance, it's striking how little they appear angry — they mask their anger while also defending against it through benevolent attitudes.
+
+The case of the self-preservation Three, who seems minimally vain, is akin to someone so determined to be a good person (that is, to follow the perfect or ideal model of the good mother, the good homemaker, etc.) that living this way results in an implicit taboo against vanity. For this reason, it can be difficult for someone without much experience to recognize a self-preservation Three, who could easily be mistaken for a One or show traits of other types.
+
+If we ask what their neurotic need is — what a self-preservation Three needs above all — it might seem that they are mainly trying to be good. But that’s a universal commandment present in the lives of nearly everyone (even if some rebel against it). What is more specific to the self-preservation Three is the concept of security, a notion emphasized by Ichazo.
+
+It seems to me that a threatened sense of security leads these individuals to develop a special form of autonomy. Because they weren’t sufficiently cared for, they learned to take care of themselves — and eventually, they also come to take care of others. There is an atmosphere of security around self-preservation Threes, and they are often people others turn to for advice, as they seem to specialize in problem-solving.
+
+However, this passion for security can lead to excessive simplification in their lives, as they reduce their interests to what is most practical and useful. Moreover, when too much emphasis is placed on efficiency, one ends up making efficiency itself efficient.
+
+**The Transformation in the Self-Preservation Type Three** by Assumpta Mateu
+
+The following individuals also contributed as co-authors: Amor Hernández (Spain), Elia Gerardi (Italy), Ferran Pauné (Spain), Ilse Kretzschmar (Mexico), María Teresa Ceserani (Italy), Maribel Fernández (Spain), Nilda Paes (Brazil), Sandra Geralda Ferreira (Brazil), Suzana Stroke (Brazil), Vera L. Petry Schoenardie (Brazil)
+
+Claudio Naranjo refers to a gesture when speaking about a person's transformation process: as if it were a sign, this something gives us a hint that we are already “somewhere else,” in another state of consciousness, another attitude, another perceptual dimension of the ego and its workings, in the growing certainty that the machine dominates us less and less.
+
+If the inertia of the self-preservation Three is based on being seen—on action directed by the gaze of the other—the gesture toward healing lies in looking inward, emphasizing that this gesture must manifest in attitude, not in striving to achieve it.
+
+From everything we’ve gathered, what stands out is an evolution toward self-awareness, an understanding of the compulsive process, and the ability to catch oneself in one’s own traps. There is talk of a more awakened consciousness, which points to a reduction in self-deception.
+
+From this place, the need to sell ourselves to an external image is called into question.
+
+“I notice myself reworking paths, less concerned with my image. I feel less need to please everyone. I speak more frankly with people, saying what I like and what I don’t. That means not burying a person alive when I’m hurt—I say clearly what hurt me. I feel that today I have a truer self-esteem, less narcissistic, less dependent on others’ evaluations,” writes Nilda.
+
+The maturation and transformation process of the self-preservation Three allows them to become slower, less agitated, less active and flamboyant; they know themselves to be more capable of being in contact with a sense of emptiness without the frantic need to fill it, and more capable of being in any situation without succumbing to the compulsive impulse to act in order to flee or change it.
+
+“If before I was a foamy sea, now I’m a calm sea,” says María Teresa.
+
+When the self-preservation Three begins to take life as it comes, without trying to steer it as they once did, they begin to rest, lean back, and trust.
+
+There is in the self-pres Three a pressing need to believe they can handle everything, even at the cost of their own health and self-care. Gradually, that attitude begins to fall away. Age seems to be a determining factor here, as physical strength declines; one would hope that wisdom and understanding increase.
+
+“I stopped being the superwoman of the family and at work—something I used to be proud of. I ask for help and acknowledge my fatigue and the limitations imposed by age. I’m not afraid of aging; I’m getting through this phase well... but I still fear dependence, the loss of my intellectual capacity. Another thing to work on, right? I think it’s the hardest,” says Nilda.
+
+One of the loops we observe in self-preservation vanity is that, when one finally realizes they are vain, censorship appears: “How can I be vain?” “Being vain isn’t right.” “It’s not virtuous.” But if we don’t dare to clearly and authentically show our vanity, we are then accused—or worse, we accuse ourselves—of false modesty, and we’re back at the start again: “I show vanity—I mustn’t. I show modesty—it turns out to be fake.” It’s a vicious circle.
+
+“I recognize in myself a sensitivity I didn’t know before, as well as a genuine kindness that doesn’t need recognition (am I being vain?),” writes Nilda.
+
+She wonders whether feeling what she feels is being vain: the necessary gesture here would be a simple “so what?”, to accept the doubt generated by her present attitude as natural and stop trying to correct it, to let herself be.
+
+A self-preservation Three, as they progress on the path, gradually dissolves their anxieties. The obsession with security relaxes, and they move more quickly toward relativizing that need, even if they feel physically depleted. It is about surrendering to what is, so that one can discover the spiritual dimension, the sacred within oneself, and recognize oneself as worthy of love.
+
+“I feel more secure in myself—this is a security that comes from an internal place, from the sense of being, and hardly at all from external achievements,” says Ferran.
+
+“My daily practice keeps me in continuous contact throughout the day. I can say I feel capable of dying and also of living with enthusiasm and intensity,” says Suzana.
+
+“The greatest shift is linked to letting go of a purely mechanical, cause-and-effect, materialistic view of life, in favor of a more spiritual dimension where I’ve been able to recover—or discover—a sense of devotion to God and an awareness that everything that happens, even the most dramatic, fits into a divine plan that’s incomprehensible to a rational and objective mind like mine,” reflects Elia.
+
+Meditation is a fundamental path in this sense, and some participants in this inquiry speak of their experience in retreats, especially in Claudio Naranjo’s meditation retreat, where they encountered the Holy Idea corresponding to their Enneatype.
+
+“The perception that there is a Universal Order to which we are subject was the starting point for the transformation now underway. God doesn’t need my help,” believes Nilda.
+
+“When I truly commit to the practice of meditation, it becomes a balm for me—experiencing that I don’t have to run anywhere, realizing that everything is just as it is, and that I don’t need to control it. I like to recall a phrase I once heard as a joke: ‘Want to make God laugh? Then tell Him your plans.’ It helps me quickly realize that my need for so much control is ridiculous, a mental construct,” says Assumpta.
+
+Avoidance of conflict, for someone acting from the gaze of the other, becomes intrinsic to their being, their mask. The process of confronting conflict is shaped by the need for everything to be okay for everyone. This trait is so socially accepted that it makes the path to transformation difficult. Some begin to let disagreements take their course, refraining from interfering in the process of things, attempting not to avoid life’s darker and more chaotic areas.
+
+The transformed self-preservation Three is less afraid of others’ anger, more considerate, and more respectful of their own needs, allowing themselves to set aside others’ needs without guilt. They learn to love themselves well. They begin to allow contact with their own emotions, especially sadness. Their expressive capacity grows while becoming less theatrical. They are more direct, leaving behind detours and manipulation. They become more able to accept and express insecurity, vulnerability, fear, and the need for help. They are less overbearing, more assertive, and less aggressive. They discover and accept their envy, competitiveness, and sense of inferiority—traits they previously denied completely to themselves and others.
+
+In compulsive action, from neurotic inertia, the self-preservation Three loses the reference points of authenticity. In the transformation process, they realize how important it is to learn not to act, and to unlearn how they act. This allows for the resurrection of their inner being, their essence. It’s not easy, of course—at first, it only happens occasionally, and it’s about cultivating the willingness and intention to discover oneself.
+
+“I first notice a growing awareness of my body—how I somatize (sinusitis), which foods are good or bad for me, my sleep, my tensions… And, though still a bit shyly, I’m starting to prioritize my needs more,” writes Maribel.
+
+“Any situation that got out of my control left me confused, scared, lost. These situations included events where I lacked the right response. I would then feel a sense of injustice, misunderstanding, or even being lost. This could escalate to the point of freezing, doing the opposite of my normal action-oriented mode. After freezing, I would cry like a child—a hysterical reaction that melted the ice. I needed the tears to feel myself, to breathe, and to reconnect with myself. Today, with a more grounded presence, the disorientation has softened: I can breathe and calm the anxiety by grounding myself and becoming aware of what’s happening. I’m less invasive now, and a bit more intimate (that’s the paradox of the self-preservation Three). I can now see with a different quality of seeing—a gaze that recognizes the other from their unique, distinct point,” shares Vera.
+
+The self-preservation Three fears allowing themselves to feel emotions and feelings, to lose independence, to need help… But finally, when they recognize the fear, they also recognize that they need others, that they need to surrender and let go.
+
+“I used to think love was about pleasing the other’s needs, meeting their expectations, doing what they needed. I thought love was doing. I never thought it could be just feeling. Then I realized I had a huge difficulty giving and receiving. I was afraid of being in someone else’s hands,” says Sandra.
+
+“I imagined I could go anywhere, do anything I wanted, with a sense of total independence, cross the world, work until I collapsed, get recognition and applause. All that—without vanity, without showiness, with modesty. I didn’t see that I was a slave to myself. Seeing this is still painful at times,” says Assumpta.
+
+In the self-preservation subtype, maternal love tends to dominate as a channel for expressing love through being useful to others. For someone of this subtype, there’s a compulsion to ensure conditions of safety and stability that give the needed sense of control over their life.
+
+The need for affection is expressed in constant care for others and in avoiding conflict or inappropriate situations. Adaptation becomes so intense that they forget their own feelings in favor of a loving ideal. This attitude, though self-generated in childhood in relation to parental figures, reaches its peak tension in romantic relationships.
+
+By contrast, admiring love never fully encompasses their existential core—it doesn’t occupy much space within the individual. Thus, a self-preservation Three feels admiration only for certain people—those who are very obviously worthy of it, such as spiritual teachers, scientists, or influential figures in domains important to them.
+
+Erotic love tends to be the least developed or most dormant at the conscious level. Somehow, their compulsion to act—to always be in doing mode—interferes with their openness to pleasure. It’s not uncommon, then, for this type, when they do feel admiring love for one of these figures, to devote themselves to the work or cause that person represents, neglecting pleasure and everyday life.
+
+How does a self-preservation Three experience love? Generally, they expect to receive admiring love in all areas of life, while giving little admiration to others. How can they give admiring love if they are the ones who are supposed to be admired?
+
+From their partner, they expect to receive all three types of love, since the romantic relationship is one of the most important spheres for them. The partner is everything for many self-preservation Threes, especially for those who are sexual subtypes, and important for the rest—essentially for social self-preservation Threes. For the latter, the professional sphere takes on more prominence, and with it, the need for validation earned through their efforts and service.
+
+In the case of admired figures, such as teachers, the individual expects both compassionate and valuing love. In turn, they give valuing love and often also compassionate love, in the form of admiration, loyalty, commitment, affection, and service.
+
+The following testimonies are especially revealing of the dominance of the different kinds of love:
+
+“Erotic love is camouflaged in being useful to the other. If I’m useful, the other will give me what I need out of obligation. I don’t understand a love based on mutual sharing, a love without a price. That’s why instinctual and pleasure-based love seems meaningless to me,” says Amor.
+
+“Accepting my insecurity was one of my most important achievements. But the decisive turning point came during a meditation retreat. I handed over my weapons of war to the teacher: my lipstick and my watch (appearance and control). I entered the retreat very afraid—I thought I wouldn’t be able to be with anything other than what I had made of myself. What did I have to offer from just myself? Yet those were days of joy, a sense of freedom, of peace, of love for myself. For the first time since childhood, I was able to connect with my true feelings, without blockages. Finally, I knew what I felt. I truly cried over all my mistakes. I felt a deep joy that gratitude could bring me. I became fully aware of the love I had for my teacher, my family, my friends. I discovered I was a much better person than I had imagined; I began to like myself more and take care of myself by respecting my body’s needs. The teacher awakened in me the faith and surrender to a universe that is beyond my control. Today, nearly four years after that experience, when I feel myself faltering or slipping back into old patterns, I return to those sensations,” remembers Nilda.
+
+Crisis is often an essential gateway into awareness and the beginning of transformation. Without that nearly insurmountable obstacle, the self-preservation Three—like many Enneatypes—would likely find it very difficult to change. In particular, it’s especially hard for the self-pres Three who clings to the omnipotent idea of being able to handle everything through sheer effort. The following testimony addresses the typical self-deception of the self-preservation Three:
+
+“In my experience, I can say that for a Three, approaching a therapeutic process is very hard. You don’t naturally feel drawn to dive into issues, because you basically live your life without a sense of having important problems to solve.
+
+“In fact, until I faced a real possibility of dying and saw my physical appearance completely altered, I didn’t truly take the work on myself seriously.
+
+“I think I needed to see, concretely, the collapse of my idealized self-image as a self-preservation Three—and also of my physical image (as an attractive and charismatic woman)—in order to convince myself of the need to look beyond the material side of life.
+
+“When I came face-to-face with a deformed face and could no longer rely on my physical appearance, I had to ask myself who I really was, since the image no longer gave me any security. That brought me shame, and I saw this even in my relationships with others—because I found myself isolated,” shares Elia.
+
+Sandra adds:
+
+“I believe that for a self-preservation Three, walking the path of true healing requires making some renunciations and a conscious choice: letting go of the attachment to work that generates economic security as a vicious cycle that feeds the ego, and allowing oneself a pure and sincere surrender to oneself, to others, to the divine—without worrying about how it looks. Changing one’s relationship to the ego requires the wisdom to see the hungry, uncared-for child within, and to stop giving importance to the internal hunger that fuels action as a vengeful way of not needing anyone and becoming self-sufficient in front of others and the world—while hiding, from oneself and from others, a deep internal suffering caused by not allowing oneself to feel and by becoming increasingly lonely. I believe that when a self-preservation Three is able to make that choice—difficult as it is—they begin to understand what Holy Hope means.”
+
+**What has been left behind?**
+
+**Security, that fixation...**  
+ "Security is now an inner security. I’m less affected by things I don’t like. I observe them, but I get less angry. Now I’m much more honest with myself and with others; I’m more in touch with my inner world and its needs. I feel more balanced between the external and internal worlds. I take the outside world less seriously," says Ilse.
+
+**The compulsion with image, with being liked, with achieving**  
+ "I feel like I’m no longer dependent on others’ approval. I feel free to act, to be, and to live in accordance with my heart, with the ability to recognize mistakes and correct them when they happen, without guilt or cover-ups. I listen, assess, and can accept criticism—also advice or viewpoints—when they come from people I care about, who I respect, and who, above all, love me," says Suzana.
+
+"The need to be the good and pretty girl dissolves, is unmasked, and is replaced by a desire to connect with inner truth," says Assumpta.
+
+"My energy is now more focused on deepening and reflecting, more on subtle details than on duty, on what I really like, what I’m passionate about, and what opens windows both inward and outward," shares Ilse.
+
+"We leave behind unconscious effort, the struggle for achievements, the need to build a safe environment (being in good standing with others, house, work), the fear of transgression (one can allow themselves to transgress any rule or social role). In a way, a Type Three, energetically, becomes a little like an Eight. They become able to shout, to get angry, to express rage, to relate sexually with whomever they please, to accept or leave jobs as they please, to value themselves economically..." testifies Ferran.
+
+**Falseness**  
+ "The transformation process has led me to understand how I used to adopt a false way of relating to others, without real listening or empathy, just my physical presence—but not an authentic one—just to keep up appearances. I also believed others behaved falsely; maybe that was a way of justifying myself and avoiding other alternatives," says Elia.
+
+"Another thing that has been left behind is the indirect way of speaking—with vague subjects, metaphors, and half-words. I think people now feel more comfortable with me because they also feel more free to express themselves, without diplomacy or pretense. It’s been important to learn to say yes and no directly. A real absence is better than a false presence," adds Vera.
+
+**False maternal love**  
+ "I feel like I deceive myself less. I’m more truthful with my feelings, even if I rarely express them. I’m more tolerant, less demanding of others. I don’t feel like the best; on the contrary, many times I feel like the worst. I have much less energy for action, even though I’m still a very active person. I feel I’m much more emotional, much more sensitive, more compassionate, more understanding of human suffering in general," writes Suzana.
+
+"Realizing that it doesn’t matter so much whether the other person loves me, admires me, or acknowledges me, and that what really matters is that I love them—that realization comes like a gentle wave that arrives without making noise, grows and fades, and then returns again, in a rhythmic motion that makes me feel very good. It connects me with gratitude, peace, and serenity," says Vera.
+
+"Maternal love seems the most developed in our subtype—the empathy, the pleasing and understanding of others, to the point of erasing ourselves: that’s giving in order to be loved. I feel that this is slowly dissolving. I’ve learned to receive, and I want to receive from a place of the honor I deserve, not from emotional manipulation, which is what I used to do," says Assumpta.
+
+**Unconscious effort, self-demand**  
+ "I feel very meditative, with the inner observer quite active. One longing is to sit down and meditate more regularly—which I still don’t do. But I no longer demand it of myself, I just wait for it to arise naturally. I like having less discipline," says Ilse.
+
+**Control**  
+ "I’m less demanding of myself and less controlling. I’m tired of so much effort. I’ve relaxed more," shares Ilse.
+
+"Self-control and control of others: the anxiety that everything should go smoothly, anticipating any possible red flag, the belief that emotions, feelings, and thoughts must be the ‘right’ ones in order to be a good person. The constant question is: ‘What should I do?’ instead of the healthy: ‘What do I want to do?’" explains María Teresa.
+
+"The physical fatigue that comes with age helps me understand and accept the limits of my need to control everything. It also helps me see the falseness of that need," concludes Assumpta.
+
+**Disconnection from instinct**  
+ "A fundamental achievement in my process has been reconnecting with my instinct, even though it was buried after so many years of control. Seeing and accepting my instinctive side has also meant accepting my most human side, linked to my more earthly self. It has meant recovering physical strength and, in some respects, even health," says Elia.
+
+**Compulsive action, haste**  
+ "I feel a strong need for more unscheduled time, to see what I engage in—or don’t. I thought about using the time to write a book but decided to take the time without planning, without preoccupying myself in advance with any defined task," says Ilse.
+
+"The compulsion to act and to move quickly, the demand for speed, the ‘there’s no time,’ the idea of ‘I must do everything because I do it best,’ the difficulty of being in contact with feelings of insecurity, doubt, and ambivalence—all that is gradually left behind," says María Teresa.
+
+"One of the best things that has been left behind is a great oppressor: haste. The urgency to do, do, do... I harmed them a lot—especially my children—because, in my rush, I stopped them from taking responsibility for their learning, their initiatives, and their tasks by doing it all for them," adds Vera.
+
+**Omnipotence, self-sufficiency, drive**  
+ "I enjoy receiving much more than I used to," says Ilse.
+
+"Also, a sense of fear—terror, really—has surfaced and is much more present and constant than at any other time in my life. I connect with my basic anxiety, with the anxiety I’ve always felt and that I used to associate with constant doing. Now I see that it’s rooted in a terrible fear related to pain, torture, and destruction (probably linked to experiences of war), which I have repressed and tried to keep buried all my life," confesses Suzana.
+
+**Narcissism**  
+ The omnipotent idea of being able to determine the course of one's life and actions. The idea of “achieving at any cost.” The difficulty of trusting and surrendering. The belief in knowing what is right and wanting to save the world. The need to feel superior. The denial of one’s competitiveness. The denial of one’s envy and opportunism.
+
+**Coldness**  
+ "What is left behind is the need to control the world, the insensitivity, the lies, the arrogance, the fear of feeling, the superheroine persona, the fantasies about the world and the ideal self, the false power, the idealization of happiness, a bit of rigidity and a bit of detachment," says Sandra.
+
+---
+
+**Therapeutic recommendations and useful tasks**
+
+The therapist must pay close attention to the condescension of the self-preservation Three patient and their "everything’s fine" attitude, as this subtype tends to take on the role of the good patient, enhancing the therapeutic alliance. They will try to figure out what the therapist wants from them, what they like or don’t like, what interests them most—in order to align as effectively as possible with their expectations and thus feel safe.
+
+It’s important to continually guide them back to themselves, to work on their expectations, and on the idealized image of the "perfect patient" they strive to become in order to be accepted. Very skilled in manipulation, they will play on the therapist’s narcissism: if they are the best patient, the therapist must be the best therapist. Since they idealize, they can also easily destroy the therapist’s self-image.
+
+The self-preservation Three’s greatest difficulty is letting go and showing emotions—especially sadness through tears—as they experience this as a dangerous weakness. Every shadow aspect that emerges in therapy is felt as a threatening narcissistic wound.
+
+Their main avoidance strategy is to remain on the surface, recounting events in detail, thereby losing sight of the process, dynamics, and symbolic level. It’s important for them to recognize their inner rhythm and to experience being in pain and difficulty without rushing to do something to escape it—so they discover that they don’t drown in the pain, that the current of life lets them see the way more clearly.
+
+When in distress, forcing themselves to be still allows them to become aware of how they control emotional flow—felt physically as tightness in the stomach, chest, back, and throat. These tensions are soon recognized as fear of losing control and of feeling pain.
+
+It is essential to work on envy, competitiveness, and the sense of inferiority—central, denied aspects that often fuel their neurotic behavior when unconscious. These traits can become great resources for transformation when brought to awareness.
+
+It is useful to encourage the direct expression of anger and disagreement with the therapist.
+
+When the idealized self-image begins to shatter like a mirror struck with a stone, the self-preservation Three comes into contact with deep pain and the terror of being nothing—a hollow vessel—and becomes aware of having played a role their entire life, to the point of no longer knowing who they are.
+
+The self-preservation Three seeks in the therapist a solid container that gives them safety—someone they can finally trust, through whom they can discover their own vulnerability and, gradually, in their own time, rediscover their human identity. It is important to restore the permission to exist beyond all performance. Physical containment and touch work well ("as you are is fine; you don’t have to do so much to be accepted").
+
+It is important to dismantle their mechanism of self-justification and external attribution of responsibility, so they can reconnect with their interior life.
+
+It is worth exploring their tendency toward easy enthusiasm for activities (hobbies, work) and the ease with which they get stuck or lose interest. One should investigate what moves them and what blocks them.
+
+First, one must offer a psychologically safe environment (where the patient feels seen, welcomed, heard, and respected). At the beginning, strong confrontation is not advisable, as the Type Three might withdraw or disengage. However, at some point in their process, it becomes essential that they are confronted and not kindly accommodated.
+
+It is healing to reconnect with one’s masculine or feminine energy, as the case may be—this means allowing space for direct and clear confrontation, for going after what one truly desires or needs (to penetrate the world). For this, it is necessary to experience that there is another man (or woman) there who supports you, who serves as a reference point, and with whom you collaborate (not compete)—which is equivalent to recovering trust in the other.
+
+As therapists, being aware of our own neurotic defenses—and understanding that what shows up as a flaw in the foreground can be a quality in the background (and vice versa)—allows us to use these traits therapeutically in the process.
+
+The self-preservation Three therapist can offer strong containment and security to the client. When they are authentic and in touch with themselves, they foster and encourage the client to dare to be more authentic. Their self-awareness of their own falseness makes it easier to detect imposture in others.
+
+The drive to “do it well,” when it stops being a neurotic need, allows the therapist to pay close attention to the impeccability of their presence, and therefore to their therapeutic work. The self-preservation Three therapist will not settle for doing the bare minimum.
+
+Their tendency toward control can be transformed into a therapeutic presence with a panoramic view of the process and the field.
+
+"I feel I now use the characteristics I consider positive in my personality, even if they feel less dominant—such as efficiency and quick thinking and action. I’ve also learned to wait for signs that confirm the validity of my intuition before acting," writes Suzana.
+
+**What must a Self-Preservation Type Three come to understand?**
+
+* That attention must be directed inward, not outward.
+
+* That one exists independently of others.
+
+* That one exists independently of any environment that provides something (security, acceptance, validation).
+
+* That what matters is the present and its cultivation; neither the future nor the past matter.
+
+* That one must not project, but rather feel and remain attentive.  
+   Especially, it is essential not to project expectations onto others or onto situations.
+
+* That the therapeutic process is not an external one, but an internal one: it’s not about solving things with a therapist, or sharing things to gain reassurance or security, but about undertaking an inner journey—reconnecting with one’s deepest feelings and experience.
+
+* That one is not more or less important than others. One is simply another human being.
+
+* That what is relevant is not the person, but the presence.
+
+* That one is a presence—not an ego.
+
+* That happiness comes from giving—not compulsively, but from genuine feeling. And also that happiness comes from receiving, rather than compulsively feeling the need to give back.
+
+# Type Four: Envy
 
 Envy is the passion for controlling and calibrating one’s own existence by comparing it with that of another. The meaning of existence largely depends on the level of lack and frustration concerning what is perceived as desirable in others.
 
-The desire to have what the other has is not a wish whose end is to obtain precisely what the other possesses, but rather the only possibility of being in relation with them: “as long as I lack, I have the possibility of being with you and in the world.” Being dependent on the other or their qualities gives the Enneagram Type 4 the illusion that through lack they can escape the inevitable separation. False lack is the Enneagram Type 4’s fixation.
+The desire to have what the other has is not a wish whose end is to obtain precisely what the other possesses, but rather the only possibility of being in relation with them: “as long as I lack, I have the possibility of being with you and in the world.” Being dependent on the other or their qualities gives the E4 the illusion that through lack they can escape the inevitable separation. False lack is the E4’s fixation.
 
 They are very in touch with their desire to be loved and recognized, and they idealize this fulfillment in such a totalizing way that nothing can satisfy them. This paradoxical search for unhappiness is like a home always lit, waiting for the departed one to return.
 
 Being passionately envious means, in a way, being eternal children with a demanding gaze directed at the other. But, since envy is a neurotic need, the goal is to always maintain the state of waiting and lack.
 
-It’s quite common for an Enneagram Type 4 in childhood to have had a real experience of frustration and loss: typical events could be the loss of one of the parents, the presence of a sibling perceived as privileged (or who held an important position due to the need for special care), or a family situation in which the Enneagram Type 4 felt they had to step aside and renounce a paradise they had already tasted.
+It’s quite common for an E4 in childhood to have had a real experience of frustration and loss: typical events could be the loss of one of the parents, the presence of a sibling perceived as privileged (or who held an important position due to the need for special care), or a family situation in which the E4 felt they had to step aside and renounce a paradise they had already tasted.
 
 In relationships with others, they perceive themselves as inadequate, guilty, and submit to abusive relationships in order to reconfirm their victim position.  
 They are very emotional and empathetic to the suffering of others, empathy whose function is to highlight their own suffering.
@@ -1512,15 +1665,15 @@ Unexpressed aggressiveness (except in the sexual subtype) produces retroflection
 
 In the sexual subtype, the expression of envy takes on different characteristics: crying is replaced by aggressive shouting and demanding. The demand to fill their deep lack is overpowering, reaching the point of destroying or hating the one they love when they show their human limits and therefore do not live up to their great idealizations.
 
-## **Social Four: Shame** {#social-four:-shame}
+## **The Social Four: Shame**
 
 The contrasts between the character types of the four are the most striking, as their different subtypes seem more differentiated than in the other passions. When I explain this topic in Spanish, I usually say there are “sufferers, endurers, and the insufferable”. The sufferers are the social fours.
 
-The social Enneagram Type 4 is a person who complains too much, is very tearful, and often plays the victim role. In the DSM-IV, a category of person given to self-sabotage is suggested. The characteristic indicated by Ichazo for this character is shame, which descriptively seems accurate but doesn’t fully describe a neurotic need. Indeed, these are people who undervalue themselves and, therefore, feel less than others. But how can we explain that these people are so prone to self-blaming and unfavorably comparing themselves to others?
+The social E4 is a person who complains too much, is very tearful, and often plays the victim role. In the DSM-IV, a category of person given to self-sabotage is suggested. The characteristic indicated by Ichazo for this character is shame, which descriptively seems accurate but doesn’t fully describe a neurotic need. Indeed, these are people who undervalue themselves and, therefore, feel less than others. But how can we explain that these people are so prone to self-blaming and unfavorably comparing themselves to others?
 
-The answer, it seems to me, is found in what Melanie Klein called the depressive position, through which the child prefers to blame themselves rather than vent their anger against the mother, whom they desperately need. Similarly, we can consider that the social Enneagram Type 4 prefers to swallow their own poison rather than express it towards their loved ones; they’ve learned to internalize their aggression due to an exaggerated emotional dependency.
+The answer, it seems to me, is found in what Melanie Klein called the depressive position, through which the child prefers to blame themselves rather than vent their anger against the mother, whom they desperately need. Similarly, we can consider that the social E4 prefers to swallow their own poison rather than express it towards their loved ones; they’ve learned to internalize their aggression due to an exaggerated emotional dependency.
 
-Type 4 Transformation in Social: by SONIA GAJNAJ
+Type IV Transformation in Social: by SONIA GAJNAJ
 
 In the past, I didn’t recognize the chained thoughts of envy or the envious emotion. The world was against me, and nobody gave me what I wanted or needed; I didn’t push away: I was pushed away. This way, I often set up situations where I was the victim, and others were my perpetrators. I projected my own hatred onto others and didn’t take responsibility for my envy. I felt a fierce competitiveness that I couldn’t acknowledge: a competition for recognition, to be unique and special, to have a place… A place to exist, but sought from an eternally boycotted ego, always consumed with complaints and laments.
 
@@ -1606,9 +1759,9 @@ I love my parents just as they are and see them as individuals with their own li
 
 I remember a time when I lived a kind of pseudo-spirituality. Later, I went through years of disbelief, tied to letting go of all my dependencies. Then, faith arrived, an absolute trust in something higher. I experience it through dreams and feelings that have nothing to do with the psychological and bring me immense peace and joy. That's how my search is today: happier and more enthusiastic. I feel God in my own way, not following anything or anyone. And I believe it will remain this way for at least several more years.
 
-## **Sexual Four \- Hatred** {#sexual-four---hatred}
+## **The Sexual Four \- Hatred**
 
-If the Enneagram Type 4 social subtype suffers more than the other subtypes, feeling guilty about any desire, the Sexual 4 turns against shame by becoming shameless to satisfy their intense desires. Therefore, even if it’s shameful, they will bang on every possible door. They become insistent, even against frustrations, as if thinking that the loudest baby gets the most milk. "The more I complain, the more I'll get," they seem to think. Only, this strategy, which works well in childhood, doesn't work so well in adulthood. People who are too insistent, demanding, and exacting tend to be annoying and get rejected, and thus the vicious circle emerges, where rejection leads to protest and protest leads to rejection.
+If the E4 social subtype suffers more than the other subtypes, feeling guilty about any desire, the Sexual 4 turns against shame by becoming shameless to satisfy their intense desires. Therefore, even if it’s shameful, they will bang on every possible door. They become insistent, even against frustrations, as if thinking that the loudest baby gets the most milk. "The more I complain, the more I'll get," they seem to think. Only, this strategy, which works well in childhood, doesn't work so well in adulthood. People who are too insistent, demanding, and exacting tend to be annoying and get rejected, and thus the vicious circle emerges, where rejection leads to protest and protest leads to rejection.
 
 The name Ichazo gave to the characteristic passion of the Sexual 4 was "hatred," which is descriptively appropriate for these people who are very expressive about their anger. However, this might not sufficiently explain their motivation, so it seems better to talk about competition or competitiveness.
 
@@ -1660,11 +1813,11 @@ On the other hand, the extreme demand for transparent friendships, the impossibl
 
 It's crucial in the process to recognize the tendency towards self-destruction and wanting to destroy another because it highlights lacking aspects that arrogance covers up. It helps to see oneself as a spoiled and indulged child when the common biography of the Sexual 4 attributes that to another sibling. It's not easy to accept that one hasn't been the favorite. One knows, but it's necessary to surrender to the evidence without making up stories, without placing oneself above, surrendering to the pain of reality, that one hasn't been overly cared for or attended to. The Sexual 4 complains, laments, is unsatisfied, suffers a lot but doesn't fully let oneself be touched by what hurts. It's necessary to deeply feel it, without escaping the harshness of discovery with excessive crying, tantrums, hateful outbursts that distract from the real deficiency. Healing involves replacing complaints and laments with the conviction that if one has the strength to oppose, one also has the strength to face reality, no matter how painful. This last part reminds me of my childhood memory of "how I defended myself from not being the favorite by competing with my sister with qualities I had and she lacked."
 
-With maturity and by delving into working with character, the sexual 4 realizes that they remain particularly vigilant when it comes to affection, struggling not to become envious, measuring whether they are loved more or less than others. It's healing to cool down the emotion, stop feeling so much, and use their head, realizing how absurd it is to want to control something as uncontrollable as affections. Moreover, they shouldn't deny others what they freely allow themselves: expressing love and hate as they please. Thus, the path to healing involves no longer feeling exceptional (in the sense that everyone is in their own way) and leads to a genuine desire for equality and belonging. Anger and moodiness often serve to avoid feeling clumsy, tired, or depressed. It's therapeutic to soften, not fight, not go against what one considers as weakness, and recognize feelings shared by all, including dependency, which is the battleground for the sexual Enneagram Type 4 because they vehemently deny it. It's as if their life depends on it because of the deeply ingrained and distorted internal image of being free and independent. While it's true that many have lacked support in life and had to fend for themselves, it's essential to note that their complaints and vulnerability manipulations are so convincing that they easily find someone to help or rescue them. 
+With maturity and by delving into working with character, the sexual 4 realizes that they remain particularly vigilant when it comes to affection, struggling not to become envious, measuring whether they are loved more or less than others. It's healing to cool down the emotion, stop feeling so much, and use their head, realizing how absurd it is to want to control something as uncontrollable as affections. Moreover, they shouldn't deny others what they freely allow themselves: expressing love and hate as they please. Thus, the path to healing involves no longer feeling exceptional (in the sense that everyone is in their own way) and leads to a genuine desire for equality and belonging. Anger and moodiness often serve to avoid feeling clumsy, tired, or depressed. It's therapeutic to soften, not fight, not go against what one considers as weakness, and recognize feelings shared by all, including dependency, which is the battleground for the sexual E4 because they vehemently deny it. It's as if their life depends on it because of the deeply ingrained and distorted internal image of being free and independent. While it's true that many have lacked support in life and had to fend for themselves, it's essential to note that their complaints and vulnerability manipulations are so convincing that they easily find someone to help or rescue them. 
 
-Personally, they know they've had to walk alone but have clung to strong supports along the way: partners, teachers, people who have stood up for them, instructors who supported them in challenging times. It's been hard to admit they've received more support than believed, perpetuating dissatisfaction and justifying mistreatment towards themselves and others. It's been difficult to dissolve the arrogant attitude of not feeling indebted to anyone, believing that successes were only due to personal charm or worth rather than the generosity of others. The sexual Enneagram Type 4 becomes passionate with the belief that if the credit isn't entirely theirs, they get nothing. The words "everything" and "nothing" are especially dangerous for this character as they open the doors to irrationality, leading to a hateful hell. They need to prohibit entering there and accept their deficiencies and vulnerabilities, which humanizes. As the belief that they've made themselves fades, they begin to genuinely express gratitude. When they manage to do so, they realize they can follow their own path, free from the burden of counter-dependency.
+Personally, they know they've had to walk alone but have clung to strong supports along the way: partners, teachers, people who have stood up for them, instructors who supported them in challenging times. It's been hard to admit they've received more support than believed, perpetuating dissatisfaction and justifying mistreatment towards themselves and others. It's been difficult to dissolve the arrogant attitude of not feeling indebted to anyone, believing that successes were only due to personal charm or worth rather than the generosity of others. The sexual E4 becomes passionate with the belief that if the credit isn't entirely theirs, they get nothing. The words "everything" and "nothing" are especially dangerous for this character as they open the doors to irrationality, leading to a hateful hell. They need to prohibit entering there and accept their deficiencies and vulnerabilities, which humanizes. As the belief that they've made themselves fades, they begin to genuinely express gratitude. When they manage to do so, they realize they can follow their own path, free from the burden of counter-dependency.
 
-Ceasing to place oneself above or below in personal relationships helps integrate character aspects that are often projected outward. The sexual Enneagram Type 4 resists seeing themselves as authoritarian, intolerant, rigid. Profound change comes when they become aware of how they silence or intimidate with moodiness, anger, and tantrums. They especially can't tolerate changes in plans and often blame those responsible as if they'll never forgive them for ruining their imagined perfect scenario. They detest unexpected visitors and show their displeasure for the "unforgivable sin" of disrupting their day's plans. The real reason for their anger is not having time to prepare, ensuring the meeting isn't mundane, and the rational explanation they give themselves is a lack of food, even when the fridge is full.   
+Ceasing to place oneself above or below in personal relationships helps integrate character aspects that are often projected outward. The sexual E4 resists seeing themselves as authoritarian, intolerant, rigid. Profound change comes when they become aware of how they silence or intimidate with moodiness, anger, and tantrums. They especially can't tolerate changes in plans and often blame those responsible as if they'll never forgive them for ruining their imagined perfect scenario. They detest unexpected visitors and show their displeasure for the "unforgivable sin" of disrupting their day's plans. The real reason for their anger is not having time to prepare, ensuring the meeting isn't mundane, and the rational explanation they give themselves is a lack of food, even when the fridge is full.   
 In such cases, empathizing with others helps understand the impact of hateful behavior. It's healing to develop an outward receptive attitude, which this subtype lacks. This aids in recognizing how often others become diplomatic with them. Taking seriously the suspicion of being feared is transformative. It's vital to inquire, listen, and especially hear feedback regarding harshness, aggressiveness, and outbursts without defending oneself with the common excuse: "Yes, I'm unpleasant, and so are you\!" Admitting harmfulness helps in relinquishing the right to attack when something is bothersome. It's a wake-up call for the subtype to realize they don't have the exclusive right to be offended by others' inconsideration. In any case, it's therapeutic to delve into this, questioning why they deny others the feeling of being offended when they themselves are so sensitive to offense.
 
 To address the difficulty in listening and developing receptivity, "teamwork has helped me a lot, to re-educate the little wild one inside me, and to face competitiveness: the resistance to share, produce, carry out tasks, and hinder the common project. It's therapeutic to observe how one becomes hypersensitive and systematically refers to things others say (especially the negative ones)."  
@@ -1682,24 +1835,24 @@ Dramatization sabotages the task. For example:
 
 "In the current situation of political and economic uncertainty and loss of civil rights, I find myself believing I'm bound for unemployment and liable to be expelled from the country like a poor immigrant, until I realize the drama I'm making up and that it obviously has nothing to do with reality."
 
-For healing, the sexual Enneagram Type 4 must develop a continuous vision of their process and life. It's healing to learn from one's own experience to avoid falling repeatedly into the hells into which the subtype tends to fall. They need to connect what they are now to what they were, to not remain dramatically attached to the past and to be in the present. It's healing to get rid of the crazy idea that everything needs to be changed, as if one could start living from scratch, that what's there is worthless, that everything is to be done, and stop lamenting for not realizing sooner the egoic blindness:
+For healing, the sexual E4 must develop a continuous vision of their process and life. It's healing to learn from one's own experience to avoid falling repeatedly into the hells into which the subtype tends to fall. They need to connect what they are now to what they were, to not remain dramatically attached to the past and to be in the present. It's healing to get rid of the crazy idea that everything needs to be changed, as if one could start living from scratch, that what's there is worthless, that everything is to be done, and stop lamenting for not realizing sooner the egoic blindness:
 
 "Often any reproach made to me, no matter how trivial, I experience as a disqualification of my entire person. Although discovering this is disheartening, it is important to rescue how much fragility is hidden beneath the apparent ease and security of the persona one has built."
 
-The sexual Enneagram Type 4 must understand that dramatic excesses are distractions from what really matters: specific actions on the day they overdid it, were clumsy, or messed up. This doesn't mean eternal condemnation but leaving behind the self-image that is either undervalued or overvalued (believing oneself to be the worst without remedy or the most authentic with a right to attack).
+The sexual E4 must understand that dramatic excesses are distractions from what really matters: specific actions on the day they overdid it, were clumsy, or messed up. This doesn't mean eternal condemnation but leaving behind the self-image that is either undervalued or overvalued (believing oneself to be the worst without remedy or the most authentic with a right to attack).
 
-To heal, it's necessary to inhibit the temptation to caricature oneself internally as a dangerous monster or as inferior. It's transformative to discover how dramatic exaggeration often involves matters related to guilt. From the outside, it's easy to recognize the sexual Enneagram Type 4 as deeply guilty. However, the subtype commonly feels they've denied guilt due to excessive confidence in the veracity of their impulse. They don't recognize themselves as guilty because guilt is a natural state in which they systematically and robotically apologize without knowing why. Healing involves taking responsibility, being attentive to when one truly hurts another. Apologizing also means forgiving oneself naturally, without dramatizing, without beating oneself up, without giving oneself too much importance, as hatred is rekindled.
+To heal, it's necessary to inhibit the temptation to caricature oneself internally as a dangerous monster or as inferior. It's transformative to discover how dramatic exaggeration often involves matters related to guilt. From the outside, it's easy to recognize the sexual E4 as deeply guilty. However, the subtype commonly feels they've denied guilt due to excessive confidence in the veracity of their impulse. They don't recognize themselves as guilty because guilt is a natural state in which they systematically and robotically apologize without knowing why. Healing involves taking responsibility, being attentive to when one truly hurts another. Apologizing also means forgiving oneself naturally, without dramatizing, without beating oneself up, without giving oneself too much importance, as hatred is rekindled.
 
 Transformation involves discipline, remembering how easily they fall into the aggression/guilt/aggression dynamic and trying to nip it in the bud. This requires developing intellect, not blindly trusting emotion as absolute truth. It's necessary to develop a vision of the future, project oneself there, and draw on experience: one knows that the pleasure of exploding is short-lived compared to the remorse and guilt that torment afterward.
 
-Being attentive to this aspect of character helps to leave behind attachment to masochism and develop social skills simultaneously. For the sexual Enneagram Type 4, it's transformative to accept that they're not impervious to criticism or bad opinions others might have of them. It's good to think before acting and tell oneself: "The scene I'm about to make now, how many enemies will it get me? Is it worth getting involved if I'm going to regret it later?" Because one is not as strong as they appear. Regarding discord, the sexual Enneagram Type 4 gets overwhelmed, confuses, shields, or confronts aggressively. When they realize this, they no longer cultivate a negative stance. They change their perspective on themselves and life: they want to be accepted, recognized, and loved, and it's a bad deal to be against that.  
-Accepting that one is fearful means recognizing that others can also be aggressive, get tired of one, or leave them stranded. It's not cowardice or laziness, as they often reprimand themselves. One won't disappear from the face of the earth by accepting they're fearful. It's healing to develop prudence. For the sexual Enneagram Type 4, it's wise to negotiate socially, take care of one's interests and surroundings, exit dissatisfaction, and start being okay in the world.
+Being attentive to this aspect of character helps to leave behind attachment to masochism and develop social skills simultaneously. For the sexual E4, it's transformative to accept that they're not impervious to criticism or bad opinions others might have of them. It's good to think before acting and tell oneself: "The scene I'm about to make now, how many enemies will it get me? Is it worth getting involved if I'm going to regret it later?" Because one is not as strong as they appear. Regarding discord, the sexual E4 gets overwhelmed, confuses, shields, or confronts aggressively. When they realize this, they no longer cultivate a negative stance. They change their perspective on themselves and life: they want to be accepted, recognized, and loved, and it's a bad deal to be against that.  
+Accepting that one is fearful means recognizing that others can also be aggressive, get tired of one, or leave them stranded. It's not cowardice or laziness, as they often reprimand themselves. One won't disappear from the face of the earth by accepting they're fearful. It's healing to develop prudence. For the sexual E4, it's wise to negotiate socially, take care of one's interests and surroundings, exit dissatisfaction, and start being okay in the world.
 
 \*\*Developing Compassion\*\*
 
-For the sexual Enneagram Type 4 subtype, it's a matter of will to find peace. It's a kind of mental and spiritual exercise to feel good and cultivate well-being. To feel pity is to recognize that one is made of the same stuff as everyone else. Everyone is as they are, has their own life story and path, and we all do what we can. We are all equally both awful and divine, as Perls said, even though the sexual Enneagram Type 4 tends to value themselves either too high or too low.
+For the sexual E4 subtype, it's a matter of will to find peace. It's a kind of mental and spiritual exercise to feel good and cultivate well-being. To feel pity is to recognize that one is made of the same stuff as everyone else. Everyone is as they are, has their own life story and path, and we all do what we can. We are all equally both awful and divine, as Perls said, even though the sexual E4 tends to value themselves either too high or too low.
 
-If one recognizes their dependence on others, they become more autonomous, do their own thing, stop interfering with others, and don't need to hate them if they don't think, feel, or have the same opinion. Developing compassion means not defending oneself from what disturbs by anticipating disasters: stopping being pessimistic, becoming stoic with pain, feeling it only when necessary is a relief to oneself and avoids making good coexistence transform into a battlefield. For the sexual Enneagram Type 4, it's a learning experience to discover that being calm and in agreement with the environment is not living half-heartedly but a state to which we all naturally aspire. It's essential to understand that one doesn't deserve the mistreatment they give themselves or others. Living is both complex and simple. "You don't have to take anything from life, don't stop to think if you're liked or not, if you're loved or not, just breathe."
+If one recognizes their dependence on others, they become more autonomous, do their own thing, stop interfering with others, and don't need to hate them if they don't think, feel, or have the same opinion. Developing compassion means not defending oneself from what disturbs by anticipating disasters: stopping being pessimistic, becoming stoic with pain, feeling it only when necessary is a relief to oneself and avoids making good coexistence transform into a battlefield. For the sexual E4, it's a learning experience to discover that being calm and in agreement with the environment is not living half-heartedly but a state to which we all naturally aspire. It's essential to understand that one doesn't deserve the mistreatment they give themselves or others. Living is both complex and simple. "You don't have to take anything from life, don't stop to think if you're liked or not, if you're loved or not, just breathe."
 
 Breathing is listening to the body, being aware of how one accelerates robotically. Feeling compassion is realizing how one exhausts themselves and how they stress and strain their environment. It's necessary to stop the internal whirlwind and redirect the excess energy towards work, enjoyment, and creativity. It's not a frivolous and superficial attitude; it's pure gratitude for being alive. There's nothing better to do in life. To be like this is to live. To stop, try what life brings, get to know and then form an opinion. Get to know and then judge.  
 For me, developing compassion is "relaxing my brow, not tensing my face, loosening my muscles, distancing myself, laughing at myself. Realizing that it's not a crime to make mistakes, that I won't sink if I acknowledge it, and the world won't stop, even though egotistically I'd like it to."
@@ -1707,22 +1860,22 @@ For me, developing compassion is "relaxing my brow, not tensing my face, looseni
 Becoming compassionate is also about regaining self-esteem, feeling worthy. It's not about being solemn or arrogant but an open, benevolent, natural way of being in life. Personally, I associate it with renouncing excessive histrionics: "I know I have to be attentive because the tendency to trivialize or make light of what I want to say is pure automatism, and I often realize later because of the bad taste it leaves me. It's like debasing myself, selling myself short, not standing firm in what I maintain, losing my footing, and thus attacking myself and deceiving others."
 
 Feeling compassion is continuing to work on oneself, knowing that one can't always stop the runaway horse of hatred: watching oneself and not persecuting oneself. To feel compassion is to look inward and surrender to the evidence that if one has such a capacity to hate, they have the same capacity to love.  
-The difficulty the subtype faces in maintaining a loving attitude is confusing sweetness and benevolence with being overly sentimental. One fears dissolving into the world, becoming bland, losing one's place, disappearing. The Sexual Enneagram Type 4 must come to understand that this is a crazy idea, a cognitive distortion; what sounds to them like inauthenticity and fluff is actually letting oneself be guided by the true loving feeling that naturally flows when one stops being hard on oneself.  
+The difficulty the subtype faces in maintaining a loving attitude is confusing sweetness and benevolence with being overly sentimental. One fears dissolving into the world, becoming bland, losing one's place, disappearing. The Sexual E4 must come to understand that this is a crazy idea, a cognitive distortion; what sounds to them like inauthenticity and fluff is actually letting oneself be guided by the true loving feeling that naturally flows when one stops being hard on oneself.  
 I've learned all of this in gatherings with friends when I realized the pleasure I got from listening to them, recognizing their gestures, their way of laughing, and speaking \- so familiar and comforting for being so. I also enjoyed sometimes not understanding them at all, but just being there, laughing, being silent for a moment, and taking a break from always wanting to be the center of attention.
 
 To have compassion is to admit you're wrong, to lose in emotional intensity and gain in clarity: realizing everything is simpler than one imagined, that one has a very bad temper but a very good heart.
 
-## **Self-Preservation Four \- Tenacity** {#self-preservation-four---tenacity}
+## **The Self-Preservation Four \- Tenacity**
 
-Different from the “sufferer” (Social Enneagram Type 4) and the “insufferable” (Sexual Enneagram Type 4) is what in Spanish is called the “stoic,” a term that speaks to us about a capacity for self-denial and endurance. Instead of being an overly tearful person, this “stoic” individual is one who doesn’t complain and avoids crying in front of others. They have learned to swallow a lot and endure pain without flinching.
+Different from the “sufferer” (Social E4) and the “insufferable” (Sexual E4) is what in Spanish is called the “stoic,” a term that speaks to us about a capacity for self-denial and endurance. Instead of being an overly tearful person, this “stoic” individual is one who doesn’t complain and avoids crying in front of others. They have learned to swallow a lot and endure pain without flinching.
 
 How can we explain this in terms of motivation? What need can drive a person to become masochistic? It’s somewhat like telling a parent or a loved one: “See, I’m not complaining. Do you love me now? See how good I am?”
 
-The Self-Preservation Enneagram Type 4 seeks to make a virtue out of resistance to frustration. I have often explained it with an anecdote from Lawrence of Arabia, as per the famous film, where he’s seen in an office in Cairo lighting a cigarette for someone and then extinguishing the match with his fingers. Someone, surprised, asks, “What are you doing?” And he explains that in this way, he trains to endure pain. He had developed from childhood this supposed virtue of stoically enduring pain, and it undoubtedly served him during his feats, earning him the reputation of a great hero. Not even among the Arabs had anyone known to withstand the harshness of the desert in such a way.
+The Self-Preservation E4 seeks to make a virtue out of resistance to frustration. I have often explained it with an anecdote from Lawrence of Arabia, as per the famous film, where he’s seen in an office in Cairo lighting a cigarette for someone and then extinguishing the match with his fingers. Someone, surprised, asks, “What are you doing?” And he explains that in this way, he trains to endure pain. He had developed from childhood this supposed virtue of stoically enduring pain, and it undoubtedly served him during his feats, earning him the reputation of a great hero. Not even among the Arabs had anyone known to withstand the harshness of the desert in such a way.
 
-In the Self-Preservation Enneagram Type 4, endurance is a passion, but how to explain it? I believe the key lies in the internalization of voraciousness. The visible envy that presents the Sexual Enneagram Type 4 as an aggressive and insistent oral type turns here into a counter-envy directed against oneself, now in the form of a self-demand that is also self-consuming.
+In the Self-Preservation E4, endurance is a passion, but how to explain it? I believe the key lies in the internalization of voraciousness. The visible envy that presents the Sexual E4 as an aggressive and insistent oral type turns here into a counter-envy directed against oneself, now in the form of a self-demand that is also self-consuming.
 
-THE TRANSFORMATION IN THE SELF-PRESERVATION Enneagram Type 4 BY CRISTINA NADAL.  
+THE TRANSFORMATION IN THE SELF-PRESERVATION E4 BY CRISTINA NADAL.  
 The envious character is based on undervaluation. It focuses on what doesn’t work and what’s lacking. It dwells in its own deficiency and develops an intense longing for completeness, which is managed differently according to each subtype. Those who envy always lose in the comparison they make with others – with who they are, what they do, or what others have.
 
 In the self-preservation subtype, called “tenacious,” the passion is effort. As with the other envious subtypes, this individual has internalized the abandoning mother as a way of maintaining contact with her. By internalizing this mother who has not emotionally welcomed the baby (who, for various reasons, has been rejected or separated from her), they also incorporate a negative view of themselves. In this way, constant devaluation is assured. The superego resulting from this incorporation is, while devaluing, very demanding, especially in this subtype. Therefore, it’s essential to confront this demanding character, dismantling it and taking away the enormous power that the tenacious person continues to give it.
@@ -1810,7 +1963,7 @@ All E4s have a high capacity for enjoyment, joy, play, and madness. The tenaciou
 
 In its healthy maturation, this subtype finds a deep calm based on the development of emotional poise provided by the residue of so much endurance. In this way, equanimity emerges along with the ability to express their vibrant emotional pulses with many subtle tones.
 
-# Enneagram Type 5: Avarice {#enneagram-type-v:-avarice}
+# Type Five: Avarice
 
 The Passion of Avarice is the neurotic need to preserve what little one feels they have conquered or what little they possess within. With the existential experience of having lost the original unity, the Five renounces what they do not have while striving not to lose what little they have left.
 
@@ -1830,7 +1983,7 @@ Of all the mental Enneatypes, Type 5 undoubtedly demonstrates a massive splittin
 
 Type 5 appears cold, unexpressive, thoughtful, inhibited, distrustful, and physically withdrawn. They lack awareness of being a body themselves and remain disconnected from the bodies of others, as if they were walking in a world that does not belong to them.
 
-## **Social 5: Totem** {#social-5:-totem}
+## **The Social Five: Totem**
 
 If Type 4 personalities are so intense that they stand out as very distinct or contrasting characters, Type 5 personalities, on the other hand, with their habitual lack of intensity, appear more challenging to differentiate among themselves.
 
@@ -1901,7 +2054,7 @@ From a practical standpoint, everything takes on greater intensity. Unlike befor
 "Before, I was engaged in tasks that were above; before, elevated tasks demanded all my attention. Freed from this, I now have more love for myself, I am more aware of what I want, and I am freer and more courageous to say it. I dare," says Luisfer.
 
 The feeling of friendship, which the Five has always cultivated through affection related to esteem and admiration, becomes significant, a fundamental support base for sustaining and understanding what is happening. The saying "Better alone than in bad company" has been followed more than necessary.  
-"Opening one's heart to a friend, discovering that we can be loved and listened to even in situations that seem strange and still incomprehensible, is one of the things that most heals the Enneagram Type 5," believes Miguel.
+"Opening one's heart to a friend, discovering that we can be loved and listened to even in situations that seem strange and still incomprehensible, is one of the things that most heals the E5," believes Miguel.
 
 Recognizing the value of friendship also makes it unacceptable to give up on old friends with whom misunderstandings and annoyances may have arisen. It becomes equally important to repair conflicts, enduring distress, and keeping an open heart to show one's vulnerability.
 
@@ -1947,7 +2100,7 @@ This is a moment in the process that leads to the surrender to the evidence that
 
 What has helped us? Therapeutic Practices and Tools
 
-The social Enneagram Type 5 has more difficulties than the Enneagram Type 1 in identifying with its totemic ideal. This difficulty leads them, on one hand, to seek something ever more extraordinary to save them once and for all, and on the other hand, to perceive the distance separating their daily life from the ideal. Not being comfortable in the place we are accustomed to, predisposes us to travel, to meet new people with whom to establish different types of relationships, and to be in places where something significant can happen. This is enough to crystallize a state of deep equilibrium and well-being. It is, however, useful "to taste the emptiness of having achieved what we desired, knowledge, recognition, etcetera, and see that it does not satisfy the intimate hunger for love and contact," says Marian.
+The social E5 has more difficulties than the E1 in identifying with its totemic ideal. This difficulty leads them, on one hand, to seek something ever more extraordinary to save them once and for all, and on the other hand, to perceive the distance separating their daily life from the ideal. Not being comfortable in the place we are accustomed to, predisposes us to travel, to meet new people with whom to establish different types of relationships, and to be in places where something significant can happen. This is enough to crystallize a state of deep equilibrium and well-being. It is, however, useful "to taste the emptiness of having achieved what we desired, knowledge, recognition, etcetera, and see that it does not satisfy the intimate hunger for love and contact," says Marian.
 
 However, "I didn't get much from my searches or from so many books I read. My romantic relationships had been few, and generally were with women who were distant or emotionally unbalanced and heavily charged. Professionally, and despite knowing myself to be a very talented musician, I struggled to value myself and accepted financial arrangements below what I deserved," adds Pablo.
 
@@ -1967,7 +2120,7 @@ In the path of transformation, the experience of Gestalt therapy is one of the m
 
 "Gestalt therapy represents a quick way of contact with emotions, with their existence, their importance, and their usefulness in facing everyday life. It is a simple and fast way to get off the donkey and step into the mud of emotions," opines Marian.
 
-The authentic encounter with other people who question themselves—characteristic of group therapy—offers a great opportunity to the social Enneagram Type 5, lacking trust and withdrawn into themselves:
+The authentic encounter with other people who question themselves—characteristic of group therapy—offers a great opportunity to the social E5, lacking trust and withdrawn into themselves:
 
 "For me, there has been nothing so surprising, so unexpected, so transformative as being seen and considered as a person. Genuinely. With interest. Without abandoning me and without overwhelming me. Therefore, there are few things that have been more healing—more revolutionarily healing—than finding that other people treat with respect and care not what I think, but what I am," assures Marian.
 
@@ -2043,13 +2196,13 @@ We also know that the path is long and must be traveled with confidence. We have
 
 \*\*Inner Work and Fulfillment\*\*
 
-The social Enneagram Type 5 is deeply committed to self-improvement and is, therefore, naturally inclined towards inner work. However, it is surprising to see how the fruits of often disciplined and ethically motivated work can be tainted by the vanity of a self dissatisfied with its image in many areas of life. "Look how good I am... what experiences I am capable of achieving," is something we have all told ourselves more than once. Nonetheless, the psycho-spiritual path already traveled is and continues to be fertile ground for planting.
+The social E5 is deeply committed to self-improvement and is, therefore, naturally inclined towards inner work. However, it is surprising to see how the fruits of often disciplined and ethically motivated work can be tainted by the vanity of a self dissatisfied with its image in many areas of life. "Look how good I am... what experiences I am capable of achieving," is something we have all told ourselves more than once. Nonetheless, the psycho-spiritual path already traveled is and continues to be fertile ground for planting.
 
-Of course, one can resume and essentialize this path, and fortunately, spiritual practices have their antidotes, which generally have to do with the body. And the social Enneagram Type 5 has a great need for the body.
+Of course, one can resume and essentialize this path, and fortunately, spiritual practices have their antidotes, which generally have to do with the body. And the social E5 has a great need for the body.
 
-Dynamic spiritual practices like Latihan, dynamic Sufi practices, Zen meditation, meditative listening to music, all practices involving movement and the reduction of mental control have been very important to us: a constant change in experiences is experienced, and the organism's ability to self-recover and self-balance through the suspension of mental control interferences is discovered. For the social Enneagram Type 5 burning with the desire for search, it is fundamental to discover the possibility of relaxing, without making the efforts that often served to align with an ideal of behavior and image.
+Dynamic spiritual practices like Latihan, dynamic Sufi practices, Zen meditation, meditative listening to music, all practices involving movement and the reduction of mental control have been very important to us: a constant change in experiences is experienced, and the organism's ability to self-recover and self-balance through the suspension of mental control interferences is discovered. For the social E5 burning with the desire for search, it is fundamental to discover the possibility of relaxing, without making the efforts that often served to align with an ideal of behavior and image.
 
-The social Enneagram Type 5 has a marked tendency to surrender to experiences like meditation, but has many difficulties integrating them into everyday reality.
+The social E5 has a marked tendency to surrender to experiences like meditation, but has many difficulties integrating them into everyday reality.
 
 Moreover, there is a moment that all of us who contribute to these lines have experienced in which everything learned seems useless or insufficient for daily life, and one goes through a phase "of disappointment in achievements through the extraordinary. The references on the spiritual path have vanished. There has been a fall from the general lines on how things should be and a stay in not knowing. Without references. Abandoning concepts, ideas borrowed from teachers, adopted by affinity but without a very deep or very embodied approach," shares Luisfer. It is as if life, the great teacher, asks us what is truly ours, not borrowed, not stolen.
 
@@ -2077,19 +2230,19 @@ In essence, we discover that we participate in a greater destiny and accept the 
 
 Also, the awareness of the end of life, which for a long time was what drove us to take advantage of it, the motivation for a more authentic search, now loses the dramatic tone that accompanied it to be seen as a real possibility that can arrive at any moment and that fades into a process where full and empty, existence and being, life and death, relate and merge into one another.
 
-## **Sexual 5: Confidant** {#sexual-5:-confidant}
+## **The Sexual Five: Confidant**
 
-**Enneagram Type 5 Sexual: Trust**
+**E5 Sexual: Trust**
 
 The word "trust" would be the basic issue for the sexual five. Among them, there are many poets or artists. Nijinsky was such a five. He had extreme expressiveness, but it was cut off in many aspects.
 
-If one tries to find the difference between the sexual Enneagram Type 5 and the other subtypes of the five, it will not be easy. But if one engages in conversation with them, they will hear them say that they feel very passionate about a person; generally, about a person they cannot find in their lives. Here occurs a case similar to the extraordinary search of the social five—the extraordinary would be what is at the top of the totem pole: the sexual Enneagram Type 5 seeks a very high specimen. The same happens to them in love: this subtype is on a quest for absolute love, and their search is so strong that, if you are the one being sought, it is very difficult to pass the test. If someone is looking for the absolute, it is very easy for them to feel disappointed.
+If one tries to find the difference between the sexual E5 and the other subtypes of the five, it will not be easy. But if one engages in conversation with them, they will hear them say that they feel very passionate about a person; generally, about a person they cannot find in their lives. Here occurs a case similar to the extraordinary search of the social five—the extraordinary would be what is at the top of the totem pole: the sexual E5 seeks a very high specimen. The same happens to them in love: this subtype is on a quest for absolute love, and their search is so strong that, if you are the one being sought, it is very difficult to pass the test. If someone is looking for the absolute, it is very easy for them to feel disappointed.
 
-We must understand this passionate search in the sense of trust, of being able to trust the other: the sexual Enneagram Type 5 is looking for that person who will be there for them and with them, no matter how or what, far beyond the normal vows of a commitment or marriage. The thought of the sexual five is that they must be able to present themselves to you with the worst of their inner world, and that you, as their partner, should maintain complete equanimity in front of their inner monsters, since they love you so much...
+We must understand this passionate search in the sense of trust, of being able to trust the other: the sexual E5 is looking for that person who will be there for them and with them, no matter how or what, far beyond the normal vows of a commitment or marriage. The thought of the sexual five is that they must be able to present themselves to you with the worst of their inner world, and that you, as their partner, should maintain complete equanimity in front of their inner monsters, since they love you so much...
 
-So they live the love of a couple as a kind of ideal, but it is an ideal that does not exist in the human world. The sexual Enneagram Type 5 is quite romantic—this is the least five-like of the E5s. They can be very similar to other fives until you touch the romantic point: then a vibrant internal life will awaken. Chopin can be a good example of this. Who else was the most romantic among composers? Chopin was more of an aristocrat. He was a bit rigid. Someone who knew him quite well—the lover of Liszt—said of him that he was like an oyster with powdered sugar: he was not very open, he was not open to deep intimacy, except with one or two people in his life. Chopin came from Poland and arrived in France as a teenager, but he did not make new friends in France. He was at the center of high society, and his entire sentimental life was replaced by music.
+So they live the love of a couple as a kind of ideal, but it is an ideal that does not exist in the human world. The sexual E5 is quite romantic—this is the least five-like of the E5s. They can be very similar to other fives until you touch the romantic point: then a vibrant internal life will awaken. Chopin can be a good example of this. Who else was the most romantic among composers? Chopin was more of an aristocrat. He was a bit rigid. Someone who knew him quite well—the lover of Liszt—said of him that he was like an oyster with powdered sugar: he was not very open, he was not open to deep intimacy, except with one or two people in his life. Chopin came from Poland and arrived in France as a teenager, but he did not make new friends in France. He was at the center of high society, and his entire sentimental life was replaced by music.
 
-The transformation in the sexual Enneagram Type 5 by Mireia Darder
+The transformation in the sexual E5 by Mireia Darder
 
 The characters of the enneagram type five live in an inner world where reason and objectivity are kings. At the same time, we believe in unconditional love as a fantastic aspiration, and we think of ourselves as capable of giving it, as well as hoping to find a person who will take us out of our isolation and dryness. And so we can live indefinitely while observing what happens around us in a detached manner.
 
@@ -2165,15 +2318,15 @@ Recovering the bond with the nurturing mother, once the introjected, demanding, 
 
 Experimenting with forms of expression such as art, dance, poetry, creating stories or tales, so that what is happening internally can be given an outlet, will put our healing process on the path to maturity.
 
-## **Enneagram Type 5 Conservation: Refuge** {#Enneagram Type 5-conservation:-refuge}
+## **The Self-Preservation Five: Refuge**
 
-The need to retreat is a clear characteristic for the conservation type five. However, it must be taken into account that each subtype of the Enneagram Type 5 has some of that: a need to withdraw. In the case of conservation, the passion has a lot to do with finding refuge, erecting high walls that separate them from a world that can invade them, that can take them out of a small precious world hidden inside them. The idea of self-conservation becomes clearer if we imagine them as firm supporters of retreating into a cave. The Enneagram Type 5 conservation extremely limits their needs and desires, as each desire could mean a status of dependency for them.
+The need to retreat is a clear characteristic for the conservation type five. However, it must be taken into account that each subtype of the E5 has some of that: a need to withdraw. In the case of conservation, the passion has a lot to do with finding refuge, erecting high walls that separate them from a world that can invade them, that can take them out of a small precious world hidden inside them. The idea of self-conservation becomes clearer if we imagine them as firm supporters of retreating into a cave. The E5 conservation extremely limits their needs and desires, as each desire could mean a status of dependency for them.
 
-Like every conservation subtype, this one is also linked to survival and the concrete, attached to objects and personal space; but as Enneagram Type 5, which is the most mental of the mental characters, it is in thought, in incessant reflection on the way to survive and live by limiting external disturbances, where they find the greatest refuge.
+Like every conservation subtype, this one is also linked to survival and the concrete, attached to objects and personal space; but as E5, which is the most mental of the mental characters, it is in thought, in incessant reflection on the way to survive and live by limiting external disturbances, where they find the greatest refuge.
 
 ---
 
-The transformation in Enneagram Type 5 conservation by José Ignacio Fernández
+The transformation in E5 conservation by José Ignacio Fernández
 
 I got to know the Enneagram in 1998 and it had a great impact on me to identify myself in the type five character, seeing for the first time that there were other people like me. Knowing that the creator of the adaptation of the Enneagram to modern psychology was Claudio Naranjo, I always wanted to delve deeper by approaching him, his school, and his books. This led me to undertake the SAT process and to offer my collaboration after the II International Symposium on the Psychology of the Enneatypes, held in Pilas, Seville, in 2008\. I am deeply grateful to Claudio for having created this system that has helped me so much and helps others to go beyond themselves.
 
@@ -2219,13 +2372,13 @@ Seeing one's own withdrawal as aggression also helps, allowing one to take respo
 
 The avarice of time
 
-Not wasting time is an obsession. In the Enneagram Type 5 conservation, there is a passion for making the most of time but without a clearly defined purpose, it is rather something diffuse that is connected with when "wasting time."
+Not wasting time is an obsession. In the E5 conservation, there is a passion for making the most of time but without a clearly defined purpose, it is rather something diffuse that is connected with when "wasting time."
 
 This character needs to see to what extent they feel attached to objects and safe places, even transferring their emotional bonds to these. Something similar also happens with the few relationships they establish: although they have little awareness of their attachment to them, they actually feel great attachment and possessiveness.
 
 "Recently I understood what attachment was. That getting lost in the other without any limits. Giving everything to the other and being left with nothing, from a little worthiness, \[I understood\] that I have defended myself from sticking with an extreme distance, but when I opened up and related, I not only opened up but went to the other extreme of sticking to the other and losing my dreams, my flat, my limits," says Beatriz Helena Vega.
 
-The Enneagram Type 5 conservation also needs to realize the great attachment they have to their own intuitions, ideas, or deductions, and the impoverishment that entails by clinging to them, closing themselves off to other points of view. Realizing that many times criticisms or disagreements with these ideas are experienced as personal devaluation and aggression. And also how this leads to a reaction that can be of offense or arrogance, but also of self-devaluation.
+The E5 conservation also needs to realize the great attachment they have to their own intuitions, ideas, or deductions, and the impoverishment that entails by clinging to them, closing themselves off to other points of view. Realizing that many times criticisms or disagreements with these ideas are experienced as personal devaluation and aggression. And also how this leads to a reaction that can be of offense or arrogance, but also of self-devaluation.
 
 Given the passion for the elevated, for fantasy worlds, it is necessary to see that it constitutes a sterile search if it is done from disconnection in a vain attempt to give life meaning.
 
@@ -2309,11 +2462,11 @@ Helping others to heal is another step. From where one is and with one's own res
 
 Finally, it especially helps to work and balance the three loves through relationships, giving more space to compassionate-maternal love and recovering and giving life to erotic love or love-enjoyment.
 
-# Enneagram Type 6: Fear {#enneatype-vi:-fear}
+# Type Six: Fear
 
-If the Enneagram Type 9 seeks to overcome the anxiety of separation with forgetfulness or the illusion that it never existed, the Enneagram Type 6 has a surprising awareness of loss and, in the face of it, reacts compulsively to defend against the danger inevitably spread in the external world.
+If the E9 seeks to overcome the anxiety of separation with forgetfulness or the illusion that it never existed, the E6 has a surprising awareness of loss and, in the face of it, reacts compulsively to defend against the danger inevitably spread in the external world.
 
-The passion Fear implies a compulsive need—not determined by internal or external events—to move in relationships and in the world always in a state of alert. The anxiety of the loss of meaning becomes constant background anxiety, which it manages to mitigate with a clear separation between good and evil. It is as if, faced with the anxiety of feeling lost and fragmented, the Enneagram Type 6 finds relief only in constantly defending against danger, with the illusion that Fear will guarantee control to foresee from where or from whom that danger will come. The anxiety is channeled through the search for the enemy—the cause of the suffering experienced—even preferring to feel guilty to avoid navigating an uncontrollable ocean.
+The passion Fear implies a compulsive need—not determined by internal or external events—to move in relationships and in the world always in a state of alert. The anxiety of the loss of meaning becomes constant background anxiety, which it manages to mitigate with a clear separation between good and evil. It is as if, faced with the anxiety of feeling lost and fragmented, the E6 finds relief only in constantly defending against danger, with the illusion that Fear will guarantee control to foresee from where or from whom that danger will come. The anxiety is channeled through the search for the enemy—the cause of the suffering experienced—even preferring to feel guilty to avoid navigating an uncontrollable ocean.
 
 This tension implies a disconnection from one's own emotions and a paralysis of action, because since each action would be a possibility of error (guilt that deserves punishment) and each error would be irreversible, it paralyzes in the face of experimentation.
 
@@ -2321,17 +2474,17 @@ They try to anticipate difficulties using thought as a way to control and study 
 
 During childhood, there is often a lack of a guiding or paternal authority (understood here as a function not necessarily identifiable with the physical father) connected to reality, irrationally punitive or emotionally dangerous, and a relationship with the father or mother experienced, on the one hand, as castrating and harmful, and on the other, as a source of protection.
 
-Like all schizoid types, the Enneagram Type 6 splits good and evil, identifying alternately with one or the other, in a constant attempt to feel good to be safe from the danger of being punished, and therefore deserving rejection; they find refuge in the search for meanings and interpretations of reality, with a ruminative and labyrinthine way of thinking, completely losing contact with reality itself.
+Like all schizoid types, the E6 splits good and evil, identifying alternately with one or the other, in a constant attempt to feel good to be safe from the danger of being punished, and therefore deserving rejection; they find refuge in the search for meanings and interpretations of reality, with a ruminative and labyrinthine way of thinking, completely losing contact with reality itself.
 
 Regarding interpersonal relationships, this attitude often focuses on perceiving the other as a potential enemy; cultivating distrust instead of maintaining contact with the difficulties or pain that intimate relationships may involve. Accusation is their style of contact with themselves and the world, aiming to control where the evil is, where the enemy is, ultimately reaffirming themselves as their own enemy.
 
-Instinctivity must be controlled and kept at bay because surrendering would mean opening the doors to a devastating external invasion, thinks the Enneagram Type 6: the head must always be in command of experiences.
+Instinctivity must be controlled and kept at bay because surrendering would mean opening the doors to a devastating external invasion, thinks the E6: the head must always be in command of experiences.
 
-## **Enneagram Type 6 Social: Duty** {#Enneagram Type 6-social:-duty}
+## **The Social Six: Duty**
 
 Here is what I call a "Prussian character." The social six is cold, very formal. Kant, for example, was a great philosopher. He was Prussian, and the Prussians had this type of character that feels great love for precision and intolerance for ambiguity. This is precisely the complete opposite of the conservation six, who is warm and feels too much permissiveness for ambiguity.
 
-Among the Nazis, there were many social sixes. Their behavior is very visible: "this is the line, the party line, the line that defines who the good guys are and who the bad guys are... and what we need to do, and we do it very efficiently." In efficiency, the social six is similar to an Enneagram Type 3.
+Among the Nazis, there were many social sixes. Their behavior is very visible: "this is the line, the party line, the line that defines who the good guys are and who the bad guys are... and what we need to do, and we do it very efficiently." In efficiency, the social six is similar to an E3.
 
 Ichazo used the word duty, which is more than just being concerned with duty, as social sixes are primarily concerned with the point of reference. They have the mind of a legislator, with clear categories. Their intellectual orientation is to know very well where the north is, where the south is, the west, and the east, and...
 
@@ -2429,7 +2582,7 @@ I will express my unconditional and non-judgmental love, balanced in the three l
 
 ## 
 
-## **Sexual 6: Strength** {#sexual-6:-strength}
+## **The Sexual Six: Strength**
 
 And here is the so-called counterphobic character: the Sexual Six goes against fear. We could call this neurotic need "strength." Descriptively, we can say "strong" in the same way that we might label a conservation six as "weak." One is like a rabbit, and the other is like a bulldog: a counterphobic is very much like a barking dog. He doesn’t always bite; he barks more than he bites, but he has a fierce appearance. The need isn’t just to feel strong, but also to be able to intimidate. The internal programming says that the best defense is a good offense.
 
@@ -2437,12 +2590,12 @@ A very illustrative joke regarding this: a man visited several psychiatrists bec
 
 So these are the people who go against danger, who can kill anyone because anyone could become dangerous.
 
-**The Transformation in the Enneagram Type 6 Sexual by Grazia Cecchini**  
+**The Transformation in the E6 Sexual by Grazia Cecchini**  
 **With contributions from Mireya Aregui and Barbara Grassi**
 
 The Consciousness of Passion
 
-The first step toward transforming the counterphobic six is not easy: recognizing oneself as an Enneagram Type 6 means coming into contact with the passionate/emotional part, which is fear. To recognize fear as the underlying motivation for behavior and cognitive structure, the counterphobic must take a paradoxical step: feeling the emotion of fear.
+The first step toward transforming the counterphobic six is not easy: recognizing oneself as an E6 means coming into contact with the passionate/emotional part, which is fear. To recognize fear as the underlying motivation for behavior and cognitive structure, the counterphobic must take a paradoxical step: feeling the emotion of fear.
 
 On an emotional level, the counterphobic feels fear, but this fear is redefined in terms of an obstacle, a limit, and a shameful defect that must be overcome. To do this, they develop a series of behaviors aimed at convincing themselves and others that they are not victims of fear. Being discovered as fearful reactivates the feeling of indignity and insecurity that they try to hide through their specific passion: strength.
 
@@ -2460,7 +2613,7 @@ From a consciousness perspective, the SAT process and the recognition of the six
 
 Once fear is recognized as a passion, the counterphobic individual comes into contact with the true self-deception: strength.
 
-In counterphobics, strength is often cultivated on a physical level (almost all have spent time on sports or physical activities that helped them feel muscularly strong). Another characteristic is the cultivation of strength as resistance to fatigue, repression, humiliation, and even pain. This aspect makes them resemble a conservation-type Enneagram Type 4. The difference is that the Enneagram Type 6 sexual cultivates strength as an illusion to withstand the other's attack and to combat fear. However, for transformation to occur, it is necessary to reach deeper levels: recognizing that strength is a substitute identity that fills the deep sense of unworthiness and serves to avoid feeling the need for others. “If I am strong, I won’t fall into relationships, and I won’t be hurt.” “If I am strong, I can exist, whether or not the other person is in a relationship with me (because I will know how to defend myself), or even if the other person abandons me.” The neurotic illusion of strength is directly connected to the illusion of independence and invulnerability, as well as to the narcissistic trait of megalomania. To deeply penetrate the meaning of strength, it is important to understand what it implies to be a sexual subtype; in the counterphobic, it is not easy to perceive the energy they put into the relationship because they hide it from themselves and others. In reality, their passionate search for strength is intimately linked to the love relationship (attack and flight from intimacy).
+In counterphobics, strength is often cultivated on a physical level (almost all have spent time on sports or physical activities that helped them feel muscularly strong). Another characteristic is the cultivation of strength as resistance to fatigue, repression, humiliation, and even pain. This aspect makes them resemble a conservation-type E4. The difference is that the E6 sexual cultivates strength as an illusion to withstand the other's attack and to combat fear. However, for transformation to occur, it is necessary to reach deeper levels: recognizing that strength is a substitute identity that fills the deep sense of unworthiness and serves to avoid feeling the need for others. “If I am strong, I won’t fall into relationships, and I won’t be hurt.” “If I am strong, I can exist, whether or not the other person is in a relationship with me (because I will know how to defend myself), or even if the other person abandons me.” The neurotic illusion of strength is directly connected to the illusion of independence and invulnerability, as well as to the narcissistic trait of megalomania. To deeply penetrate the meaning of strength, it is important to understand what it implies to be a sexual subtype; in the counterphobic, it is not easy to perceive the energy they put into the relationship because they hide it from themselves and others. In reality, their passionate search for strength is intimately linked to the love relationship (attack and flight from intimacy).
 
 In the process of transformation, the experience of weakness and the need for the other’s love are fundamental. Sometimes physical weakness is also important. For me, fasting experiences through the practice of yoga were crucial: “Fasting leads to an inner emotional contact to which one cannot react in an adrenaline-driven way; one can only surrender. This helped me feel a way of being that is soft and slow, without any connection to emotional weakness or external events.”
 
@@ -2482,7 +2635,7 @@ The change lies in abandoning the anxious and illusory search to be good, accept
 
 "Today I can situate the recognition of my counterphobic character in adolescence (12-13 years), when after exhausting attempts to "be good," constantly making vows and promises — which I never managed to keep — to the Virgin, on the occasion of the preparation for First Communion, I abandoned all control and had a behavior of uncontrolled aggressiveness. Today I think that the teachings on goodness and holiness acted as a mirror regarding my feeling of exclusion, and I decided to move to the opposite side: to stand with the excluded.”
 
-For an Enneagram Type 6 sexual, crazy ideas, disconnected from reality, must change their value: "Even if I am bad, I do not lose love," "even if you are bad, you can love me," "even if you are bad, I need you." To achieve this cognitive change, the counterphobic must recognize their inner child who needs affection and tenderness. They must recognize that eliminating the good mother (as Melanie Klein would say) does not solve the pain of renouncing love. And they must realize that putting all their energy into control to avoid feeling deceived or manipulated denies the need for tenderness.
+For an E6 sexual, crazy ideas, disconnected from reality, must change their value: "Even if I am bad, I do not lose love," "even if you are bad, you can love me," "even if you are bad, I need you." To achieve this cognitive change, the counterphobic must recognize their inner child who needs affection and tenderness. They must recognize that eliminating the good mother (as Melanie Klein would say) does not solve the pain of renouncing love. And they must realize that putting all their energy into control to avoid feeling deceived or manipulated denies the need for tenderness.
 
 The most substantial change is the integration of good and bad within oneself and the other. It is abandoning the illusion of finding another totally good person in life (and therefore reliable and not dangerous).
 
@@ -2522,7 +2675,7 @@ Almost all counterphobics have difficulty feeling supported and in tune with the
 
 Spontaneity, Anger, and Sexuality
 
-The Enneagram Type 6 sexual has the neurotic illusion of being spontaneous. Only the deep experience of spontaneity, as carried out in Gestalt therapy or in the spontaneous movement of the SAT process, puts the counterphobic in a position to recognize their inhibition in the face of spontaneous action.
+The E6 sexual has the neurotic illusion of being spontaneous. Only the deep experience of spontaneity, as carried out in Gestalt therapy or in the spontaneous movement of the SAT process, puts the counterphobic in a position to recognize their inhibition in the face of spontaneous action.
 
 The counterphobic six manifests marked control over the body with the aim of cultivating strength and not feeling the chaotic emotions linked to the release of anger or free sexuality.
 
@@ -2534,7 +2687,7 @@ The sexual six also experiences pleasure with ambivalence: while on the one hand
 
 Moreover, freeing sensuality and eroticism would mean making room for tenderness, that is, showing the weak side. Being tender brings with it the fear that the other might take advantage of the weak side and also reveals the shame of feeling fear. The counterphobic resolves this conflict by separating emotions: behavioral aggressiveness is disconnected from the deep experience of anger, and sex is completely separated from the feeling of love and intimacy.
 
-In this respect, the transformation has shown significant progress in the practice of spontaneous movement. All sexual Enneagram Type 6 people declare themselves astonished by the power of this instrument, and all recognize that spontaneous movement should be practiced for life, not only to connect and integrate the split parts but also to cultivate surrender and trust.
+In this respect, the transformation has shown significant progress in the practice of spontaneous movement. All sexual E6 people declare themselves astonished by the power of this instrument, and all recognize that spontaneous movement should be practiced for life, not only to connect and integrate the split parts but also to cultivate surrender and trust.
 
 **\*\*Trust and Faith\*\***
 
@@ -2546,7 +2699,7 @@ But if the monster has to face love, that is when it doesn’t know why it exist
 
 Reconstructing the dialogue with the inner child is the only way to transform the monster: from a bad child (who wishes to see mom and dad dead) to a scared child.
 
-The sexual Enneagram Type 6 often perceives beauty not only as an aesthetic characteristic but as representative of a category of people from which they are irremediably excluded. The ugly and the bad are equivalent. Although they dedicate their lives to demonstrating that aesthetic beauty is not important — cultivating it is an index of stupidity — in the hidden recesses of their psyche, it is an unattainable quality. The only thing they can do is conquer the beautiful object by secretly cultivating poetic or visual art or trying to conquer the beautiful other, projecting all qualities of perfection and dignity onto the other. Once conquered, they can say to themselves that if the beautiful other is seen with them, it means they are not so ugly.
+The sexual E6 often perceives beauty not only as an aesthetic characteristic but as representative of a category of people from which they are irremediably excluded. The ugly and the bad are equivalent. Although they dedicate their lives to demonstrating that aesthetic beauty is not important — cultivating it is an index of stupidity — in the hidden recesses of their psyche, it is an unattainable quality. The only thing they can do is conquer the beautiful object by secretly cultivating poetic or visual art or trying to conquer the beautiful other, projecting all qualities of perfection and dignity onto the other. Once conquered, they can say to themselves that if the beautiful other is seen with them, it means they are not so ugly.
 
 Reclaiming artistic expression is one of the essential stages of transformation. Overcoming the shame of being an artist. Returning to writing poetry, prose, drawing, or composing music means showing oneself and exposing oneself, recognizing the right to be a vehicle of creativity.
 
@@ -2556,7 +2709,7 @@ Besides the therapeutic work focused on projection and aimed at dismantling gene
 
 The knot of distrust on a relational level is very important in the transformation process, not only to rebuild a basic trust that opens the way to emotional experimentation (the social and concrete one is quite accessible). If we take attachment theories as a reference, the counterphobic could be framed in the insecure/avoidant style, like all E6s, but the sexual subtype has a history of insecure/ambivalent attachment. This combination makes it difficult to rebuild a secure attachment base. On a relational level, the therapeutic work must involve the sexual six in approaching the other through contact, clearly establishing the boundaries between contact and withdrawal, while allowing free access to withdrawal, that is, the possibility of differentiating/separating from the other without guilt. The counterphobic must learn to let go, to separate, to build their differentiation process, with the courage to lose the relationship. The next phase involves practicing the courage to enter a relationship. This clarity of boundaries is useful for building a support base for faith.
 
-Faith is an experience that bypasses mental construction and, above all, intellectual understanding. For the sexual Enneagram Type 6, as for all mental characters, the concrete and pragmatic are secure ideologies that allow for control of the world. Faith in organismic self-regulation implies surrender and trust that the world has natural justice and beauty and that they are part of this world. There is nothing more to do; they can leave themselves in peace, lay down their arms, and appreciate tranquility (transition to point nine of the Enneagram).
+Faith is an experience that bypasses mental construction and, above all, intellectual understanding. For the sexual E6, as for all mental characters, the concrete and pragmatic are secure ideologies that allow for control of the world. Faith in organismic self-regulation implies surrender and trust that the world has natural justice and beauty and that they are part of this world. There is nothing more to do; they can leave themselves in peace, lay down their arms, and appreciate tranquility (transition to point nine of the Enneagram).
 
 In reality, access to faith for the counterphobic comes through experiencing being a creature of God, a child like the others, belonging to the supreme family of all. If they can perceive that their origin is not cursed and that their existence does not depend on who gave birth to them nor on those around them in the here and now, they can then perceive themselves as a spiritual being.
 
@@ -2566,9 +2719,9 @@ If a counterphobic can reconstruct this experience of themselves, they can rely 
 
 **The Three Loves**
 
-In Claudio Naranjo's theory, the Enneagram Type 6 is a character predisposed to admiring love, that is, to seeking someone superior and trustworthy in whom they can believe. After subjecting them to various tests, the other can be recognized as a bearer of qualities that the sexual six would like to have, or as a good authority (as opposed to the bad authority they experienced during their childhood) with whom they can resolve their conflict between surrender and trust.
+In Claudio Naranjo's theory, the E6 is a character predisposed to admiring love, that is, to seeking someone superior and trustworthy in whom they can believe. After subjecting them to various tests, the other can be recognized as a bearer of qualities that the sexual six would like to have, or as a good authority (as opposed to the bad authority they experienced during their childhood) with whom they can resolve their conflict between surrender and trust.
 
-Unlike the Enneagram Type 6 conservation, who seeks protection in the idealized other, the sexual Enneagram Type 6, in contact with the sensation of not being worthy, seeks in the other a recognition that will allow them to be and not be expelled.
+Unlike the E6 conservation, who seeks protection in the idealized other, the sexual E6, in contact with the sensation of not being worthy, seeks in the other a recognition that will allow them to be and not be expelled.
 
 In this sense, the sexual six is an idealist, a dreamer, a hero of great battles and great ideas.
 
@@ -2578,19 +2731,19 @@ To develop this level of compassionate understanding, the work on the inner fami
 
 The development of maternal love leads to giving the instinctual child permission to exist and above all helps them trust their instincts. Their instincts are wisdom, beauty, and goodness.
 
-Erotic love is certainly the least developed in E6s — even in the sexual Enneagram Type 6, although it may seem otherwise. We could say with Freud that the sexuality of the counterphobic is more phallic than genital. There is an enormous taboo around erotic pleasure. For counterphobics, it is easier to have impulsive sexual activity than to surrender to the sweet pleasures of foreplay. It's as if the erection were more important than the orgasm with ejaculation (and in metaphorical terms, this experience is valid for women as well). The counterphobic is sexually driven to demonstrate power and dominance over the other (this also applies to women), rather than being motivated by enjoying the other.
+Erotic love is certainly the least developed in E6s — even in the sexual E6, although it may seem otherwise. We could say with Freud that the sexuality of the counterphobic is more phallic than genital. There is an enormous taboo around erotic pleasure. For counterphobics, it is easier to have impulsive sexual activity than to surrender to the sweet pleasures of foreplay. It's as if the erection were more important than the orgasm with ejaculation (and in metaphorical terms, this experience is valid for women as well). The counterphobic is sexually driven to demonstrate power and dominance over the other (this also applies to women), rather than being motivated by enjoying the other.
 
 The transformation lies in losing oneself in pleasure, surrendering to the orgasmic and ecstatic pleasure of union with the other: reclaiming erotic love as a passionate and tender experience of union with the whole, with the supreme.
 
-## **Enneagram Type 6 Conservation: Warmth**   {#Enneagram Type 6-conservation:-warmth}
+## **The Self-Preservation Six: Warmth**  
 
-The Enneagram Type 6 Conservation type is the opposite of the Enneagram Type 6 Social. This type is warm and ambiguous, bland, even a bit dull. They find it difficult to assert that something is black or white. It takes a lot of courage to say that something is black or white. For them, it’s easier to say: "Oh, there are various shades of gray between the two. And I’m not sure which kind of gray we’re dealing with because life is very complex." And so, they can go on endlessly, always beating around the bush.
+The E6 Conservation type is the opposite of the E6 Social. This type is warm and ambiguous, bland, even a bit dull. They find it difficult to assert that something is black or white. It takes a lot of courage to say that something is black or white. For them, it’s easier to say: "Oh, there are various shades of gray between the two. And I’m not sure which kind of gray we’re dealing with because life is very complex." And so, they can go on endlessly, always beating around the bush.
 
-Here we have a person who needs a lot of protection. They fear not being protected, a fear that manifests as insecurity. Their characteristic passion is the need for something akin to friendship: a bit of warmth. What characterizes the Enneagram Type 6 Conservation among the three types of six is precisely this search for warmth. They are like teddy bears. They want to feel the embrace of a family, to be in a warm place, in a familiar environment where there are no enemies.
+Here we have a person who needs a lot of protection. They fear not being protected, a fear that manifests as insecurity. Their characteristic passion is the need for something akin to friendship: a bit of warmth. What characterizes the E6 Conservation among the three types of six is precisely this search for warmth. They are like teddy bears. They want to feel the embrace of a family, to be in a warm place, in a familiar environment where there are no enemies.
 
-In social contact, there is a kind of alliance formation of "I won’t hurt you, and you won’t hurt me," "I’m your friend, be my friend." Freud said that such alliances were the essence of friendship, but, of course, they are only the essence of a neurotic friendship: banding together against a common enemy, forming a united front against danger. The phenomenon of "I support you, and you support me" is generally human, but the Enneagram Type 6 Conservation does this constantly in their longing for a small and warm world.
+In social contact, there is a kind of alliance formation of "I won’t hurt you, and you won’t hurt me," "I’m your friend, be my friend." Freud said that such alliances were the essence of friendship, but, of course, they are only the essence of a neurotic friendship: banding together against a common enemy, forming a united front against danger. The phenomenon of "I support you, and you support me" is generally human, but the E6 Conservation does this constantly in their longing for a small and warm world.
 
-**Transformation in Enneagram Type 6 Conservation by Betina Waissman**    
+**Transformation in E6 Conservation by Betina Waissman**    
 My first contact with the Enneagram occurred in Rio de Janeiro in 1985\. At that time, I was participating in a growth group with Guillermo Borja, Memo, who came from Mexico to Rio de Janeiro every year. He was the one who introduced me to Claudio Naranjo, his teacher, with whom I took the Protoanalysis course. That encounter marked a before and after in my life.
 
 In that first course, I did not identify with the dynamics of Fear but with that of Gluttony, which resonated more with me due to what I was experiencing at the time. I was 28 years old, doing group theater as my primary professional and vital activity. I was deeply involved with my therapy process, Reichian body training, and the expressive bodywork of the Rio Abierto system. I was also studying and working with Tarot and was interested in astrology and Kabbalah. My theater group specialized in street theater, and although we also performed in theaters, our main focus was researching the language and our social commitment.
@@ -2604,9 +2757,9 @@ For all these reasons, I placed myself in the Gluttony trait, and for a good whi
 **Fear and the Search for Warmth**   
 Living in fear was something natural for me: I didn’t see it as an impediment or a problem. Since childhood, I felt shy, insecure, but I wasn’t aware of fear as a problem and normalized it. Although my shyness and insecurity held me back a bit, I always had a friend who was braver and more outgoing than I was, and that complicity pushed me forward. Perhaps that’s why I didn’t register that fear could prevent me from living what I wanted to live. My mother, her family, and friends were from Argentina, and we spent our vacations there every year. I studied at an American school attended by children from many countries. I learned languages, traveled, and met people from other places. All this gave me a certain ease in social relationships, although in groups, I was always withdrawn and quiet.
 
-I usually accessed the social through someone close with whom I felt safe, like my close friends or cousins. This way of relating, so typical of the Enneagram Type 6 Conservation, I recognize since childhood: I’ve always had a close, intimate, and trusting bond through which I felt safe, and from there, I could relate more broadly to the group. The search for warmth as a strategy still operates today when I arrive alone in a new group: I tend to stay on the periphery and naturally locate someone to approach. I don’t usually stay long in environments or situations where I can’t generate some sense of complicity and support, some homely, warm protection. When I achieve it, I relax, the internal tension eases, and I can start to enjoy the group.
+I usually accessed the social through someone close with whom I felt safe, like my close friends or cousins. This way of relating, so typical of the E6 Conservation, I recognize since childhood: I’ve always had a close, intimate, and trusting bond through which I felt safe, and from there, I could relate more broadly to the group. The search for warmth as a strategy still operates today when I arrive alone in a new group: I tend to stay on the periphery and naturally locate someone to approach. I don’t usually stay long in environments or situations where I can’t generate some sense of complicity and support, some homely, warm protection. When I achieve it, I relax, the internal tension eases, and I can start to enjoy the group.
 
-In childhood, I was seen as a good girl, kind, affectionate, calm, obedient... I never caused trouble. "Sweet," that’s how my father called me. I think I had an appearance of contentment, docility, and adaptability. My mother says that from babyhood, I didn’t cause her any trouble: I slept well, ate without problems, smiled. I was so easy and so good... I don’t remember being particularly happy, but I was gentle and cooperative, with good disposition and good humor, typical characteristics of the Enneagram Type 6 Conservation.
+In childhood, I was seen as a good girl, kind, affectionate, calm, obedient... I never caused trouble. "Sweet," that’s how my father called me. I think I had an appearance of contentment, docility, and adaptability. My mother says that from babyhood, I didn’t cause her any trouble: I slept well, ate without problems, smiled. I was so easy and so good... I don’t remember being particularly happy, but I was gentle and cooperative, with good disposition and good humor, typical characteristics of the E6 Conservation.
 
 My parents were young — my mother had me at 20 years old — and had a very active social life, so they entrusted me to caregivers throughout my childhood. I remember loving my first nanny very much. She told me stories with monsters and fantastic beings that fascinated but also impressed me. I would dream about these creatures and often had nightmares and delusions when I had a fever.
 
@@ -2614,7 +2767,7 @@ The next caregiver left a deep mark on me. This happened between the ages of thr
 
 I was a child who never talked about negative things, didn’t share what hurt me, didn’t complain, and didn’t ask for what I needed. I did or responded to what was asked of me, what I was supposed to do, or what was expected of me. Looking at my photos from that time, I find my gaze sad, different from what it was before I was three years old. During that period, I developed a continuous allergy on my legs that lasted until I was over 20 years old.
 
-Little by little, I stopped identifying what was happening to me and didn’t know what to say when asked about myself. It wasn’t that I knew and concealed or dissimulated, but that I diluted the conflict, suppressed it internally, remaining blank, disconnected. I conveyed naivety and an appearance that everything was fine, and I believed it myself. All the painful and hard aspects of my childhood were hidden, minimized; I didn’t share them with anyone and didn’t consider naming them until later when I went to therapy. From the Enneagram perspective, I understood that this was how my Enneagram Type 6 Conservation character crystallized.
+Little by little, I stopped identifying what was happening to me and didn’t know what to say when asked about myself. It wasn’t that I knew and concealed or dissimulated, but that I diluted the conflict, suppressed it internally, remaining blank, disconnected. I conveyed naivety and an appearance that everything was fine, and I believed it myself. All the painful and hard aspects of my childhood were hidden, minimized; I didn’t share them with anyone and didn’t consider naming them until later when I went to therapy. From the Enneagram perspective, I understood that this was how my E6 Conservation character crystallized.
 
 I endured the caregiver's mistreatment without saying anything until the day before my parents were to leave on a trip, after which the three sisters would be left alone with her for a month. Although I had already faced that situation, now I was six years old, felt stronger or more desperate, and had an outburst of tears, overwhelmed by fear, and revealed the mistreatment to my parents. I didn’t tell them the details of the atrocities the caregiver subjected me to, but they were very frightened, canceled the trip, and fired her. Some time later, she came to visit us and wanted to greet me; she asked for a kiss, and I gave it to her, shyly and fearfully. The same happened a couple of times at the park where I used to play. I don’t remember feeling anger, just fear.
 
@@ -2627,19 +2780,19 @@ I grew up being a good student, a good daughter, a good friend, and at school, I
 During the transition from puberty to adolescence, I began to perceive my anguish. And to discover that relationships with boys were very difficult for me. They scared me, I felt awkward, shy, I blushed, didn’t know how to chat or be entertaining, so I preferred not to go out with them. I took refuge in my group of friends, and as they started dating boys, I realized my shyness and fear of intimacy. I remember wanting to show myself as more open and bold than I was, but when they approached, I withdrew.
 
 **Ambiguity, Contradictions, and Guilt**    
-The adults around me said I conveyed balance, serenity, peace, tranquility. This bothered me because, inside, I felt the opposite: tight, tense, repressed, a little tormented, anxious. What they said was so different from what I felt or lived\! I lived with different realities, and they only unified in my silence and endurance. All this contributed to confirming a characteristic of Enneagram Type 6 Conservation: the sensation that head and heart were separated and that the unknown and threatening instinct was associated with monsters and bad things.
+The adults around me said I conveyed balance, serenity, peace, tranquility. This bothered me because, inside, I felt the opposite: tight, tense, repressed, a little tormented, anxious. What they said was so different from what I felt or lived\! I lived with different realities, and they only unified in my silence and endurance. All this contributed to confirming a characteristic of E6 Conservation: the sensation that head and heart were separated and that the unknown and threatening instinct was associated with monsters and bad things.
 
 I started gaining weight, which made me suffer more. I was very scared of anger, aggression, provocation, confrontation, as is typical in this subtype. I withdrew, pulled back, shrunk, but didn’t want to be seen as a coward. I presented myself as peaceful and conciliatory.
 
 I had fantasies of having a monster that could burst out and that one day I would be discovered, that the ugly and bad inside me would appear, and then I would disappoint and let people down. Seeing that others perceived me as so different from what I felt inside made me feel false, a liar, and guilty. It was like a ghost that could appear at any moment and reveal the evil I carried inside.
 
-This was one of the issues that led me to initially place myself in Enneatype Seven when I took the Enneagram I course (as it was called then) with Claudio. When I heard the word *fraud* in relation to Enneagram Type 7, I associated it with this familiar sensation of feeling inside something different from what people saw from outside: I feared being a fraud. I never believed I was prepared or capable, but I seemed to generate that expectation in others.
+This was one of the issues that led me to initially place myself in Enneatype Seven when I took the Enneagram I course (as it was called then) with Claudio. When I heard the word *fraud* in relation to E7, I associated it with this familiar sensation of feeling inside something different from what people saw from outside: I feared being a fraud. I never believed I was prepared or capable, but I seemed to generate that expectation in others.
 
 I felt a lot of ambiguity: a part of me wanted to move forward; I was attracted to expression, freedom, and bravery. Another part was pure insecurity, impotence: not knowing how to position myself, what to say or do in front of problematic or conflictive situations or people. I found it hard to accept my duality, my contradictions, as if that in itself were something bad and deceitful, fraudulent.
 
 Doubt being such an important issue in Enneatype Six, I didn’t recognize it as such. Instead, my experience was contradiction. Integrity, being true and consistent, was fundamental to me, as was the fear of hurting loved ones, of disappointing them, of not measuring up. Mentally, I’ve always been clear that contradictions are inherent to life and our humanity. Intellectually, it’s very easy for me to relativize, justify, and include different aspects of others and reality. But emotionally, it’s been very hard for me to move beyond the dichotomy of Good and Evil.
 
-Guilt was another clue that led me to place myself in Enneagram Type 6: it triggered very easily, with the consequent discomfort and fear of punishment. As a child, at school, when they threatened the whole group because they wanted to discover who was responsible for something that shouldn’t have been done, I, who never got into trouble, started burning inside as if I were guilty and would be discovered. As a young person, the same thing happened when I went through some police control, which was very common in my city at that time. I knew I had nothing to hide, that my papers and life were in order, but I lived it as if I were guilty of something.
+Guilt was another clue that led me to place myself in E6: it triggered very easily, with the consequent discomfort and fear of punishment. As a child, at school, when they threatened the whole group because they wanted to discover who was responsible for something that shouldn’t have been done, I, who never got into trouble, started burning inside as if I were guilty and would be discovered. As a young person, the same thing happened when I went through some police control, which was very common in my city at that time. I knew I had nothing to hide, that my papers and life were in order, but I lived it as if I were guilty of something.
 
 **From Disconnection to Greater Freedom**    
 Theater, expression, movement, and bodywork were my salvation. I started dancing as a child and participated in all the theatrical and artistic activities organized at school, but I never thought of taking the lead. I enjoyed the expressive and playful aspects, and when I fully immersed myself in this world at 18, I began to transform.
@@ -2652,9 +2805,9 @@ Upon returning from this trip, I joined the theater group that would be the cent
 
 Both artistic expression and clinical framing have been the most healing and transformative for me. In both contexts, I gradually overcame the taboo of expressing what was happening inside, which implied connecting with my emotional world, so blocked by unconscious fear.
 
-I didn’t know that the blockage I perceived in my relationship with my emotions and inner life, typical of Enneagram Type 6 Conservation, was a consequence of fear. Fear of feeling, fear of pain, fear of intensity. I had the fantasy that I wouldn’t be able to withstand the intensity, that it would disintegrate me. And on the other hand, I longed to break through the barrier that prevented me from feeling.
+I didn’t know that the blockage I perceived in my relationship with my emotions and inner life, typical of E6 Conservation, was a consequence of fear. Fear of feeling, fear of pain, fear of intensity. I had the fantasy that I wouldn’t be able to withstand the intensity, that it would disintegrate me. And on the other hand, I longed to break through the barrier that prevented me from feeling.
 
-What I most perceived was my disconnection: I didn’t know what was happening to me, I didn’t identify what I felt or if I felt anything, I remained blank, paralyzed, a bit dead. This mechanism of the Enneagram Type 6 Conservation character to disconnect from the reality that scares or bothers is especially active in conflictive or painful situations. I wouldn’t realize what affected me until some time later. When I finally woke up, I felt worse about myself because only then did I realize the things, their impact on me, and what I could have done but didn’t.
+What I most perceived was my disconnection: I didn’t know what was happening to me, I didn’t identify what I felt or if I felt anything, I remained blank, paralyzed, a bit dead. This mechanism of the E6 Conservation character to disconnect from the reality that scares or bothers is especially active in conflictive or painful situations. I wouldn’t realize what affected me until some time later. When I finally woke up, I felt worse about myself because only then did I realize the things, their impact on me, and what I could have done but didn’t.
 
 Something similar happened concerning my sister’s illness, which lasted two years until her death. I perceived that something important was happening. I was almost 16 years old and realized it was serious. But since it wasn’t talked about at home, I didn’t mention it either, nor did I ask questions. My parents wanted her to continue with a normal life and chose to conceal the situation, saying she had a severe anemia, thinking that would avoid suffering. I lived as if nothing serious was happening, although I was very attentive to my sister. I felt anguish, a bit frozen, and started gaining weight. When she fell into a coma, and everything finally revealed itself, my heart opened. Emotion gushed forth; I felt alive and present and not afraid of pain. A pain that opened me up to feel love for my sister, my family, and life as I had never felt before. At that moment, I understood the inner tension I had experienced under my disconnection during the previous two years. Understanding this, as well as experiencing the consequences of everything that happened then, unlocked the possibility of deeper changes within me.
 
@@ -2674,20 +2827,20 @@ I had experienced trembling and vibration in bioenergetic and Reichian therapy e
 Now, when I feel fear in my body without avoiding it, I can make decisions. If I allow myself to tremble, even subtly, and manage to endure it, breathe and stay there, a change occurs. I start to feel my body, be in the body, and that in itself already calms me down, I feel more real. The focus shifts: it’s not just a tremor of panic anymore; it’s also vibration, and it connects me with the flow of energy in my body. I feel alive and can move forward, even with fear; I’m here, and I do what I can.
 
 **Anger, Aggressiveness, Innocence, and Punishment**    
-Getting in touch with anger, living it, expressing it, and holding it has been very healing. When I started my process in body therapy, I couldn’t connect with anger. I knew it was important, I understood it, but I couldn’t live it. I did the classic anger exercises: hitting pillows, using the racket to hit, pushing, screaming, all the things one was supposed to do, but I didn’t feel it. The guilt and fear were so unconscious and internalized that I only managed to cool down and disconnect. Distrust and disbelief in oneself and one’s own experience seem to be a very active defense in the Enneagram Type 6 Conservation trait, which can lead us to give up or not value important issues.
+Getting in touch with anger, living it, expressing it, and holding it has been very healing. When I started my process in body therapy, I couldn’t connect with anger. I knew it was important, I understood it, but I couldn’t live it. I did the classic anger exercises: hitting pillows, using the racket to hit, pushing, screaming, all the things one was supposed to do, but I didn’t feel it. The guilt and fear were so unconscious and internalized that I only managed to cool down and disconnect. Distrust and disbelief in oneself and one’s own experience seem to be a very active defense in the E6 Conservation trait, which can lead us to give up or not value important issues.
 
 Seeking contact with anger — initially in a mechanical way — helped me approach and demystify the taboo towards this emotion, and gradually, internal permission to live it began to open up.
 
 As I began to experience anger, I saw more clearly how constant and internal the fear of punishment was: life could punish me. I lived with the fantasy that if someone got angry or fought with me, they would never love me again. Therefore, I feared that if I got angry, I wouldn’t love the other person anymore either. I couldn’t reconcile love and anger. For me, the great learning about anger has been in relationships, in love, and in trust. The effort has been to overcome the fear that the relationship would end or that love would be withdrawn. Now, when there is trust, I can get angry, disagree, or have a different opinion, and the world doesn’t end. But if there is no trust, I can still tend to remain silent, withdraw.
 
-With aggressiveness, the taboo was also immense. I felt incapable of defending myself, without resources, and therefore fearful of the world and life. I knew my endurance strength but not the strength to confront. It wasn’t just the idea that the world is dangerous, but that I wouldn’t know how or be able to defend myself. Claudio asked me about the tendency of Enneagram Type 6 Conservation to do what some small dogs do, which is to lie on their back offering their chest, belly, and soft parts to the aggressor. I think I’ve done that many times: showing myself fragile, weak, open, and submissive to defend myself from aggression.
+With aggressiveness, the taboo was also immense. I felt incapable of defending myself, without resources, and therefore fearful of the world and life. I knew my endurance strength but not the strength to confront. It wasn’t just the idea that the world is dangerous, but that I wouldn’t know how or be able to defend myself. Claudio asked me about the tendency of E6 Conservation to do what some small dogs do, which is to lie on their back offering their chest, belly, and soft parts to the aggressor. I think I’ve done that many times: showing myself fragile, weak, open, and submissive to defend myself from aggression.
 
 There is also an unconscious use of naivety as a defense in the form of "I didn’t realize" or "I don’t know," an infantilized attitude. A position of innocent weakness. I think this also relates to guilt and fear of punishment. It’s a mechanism that blinds me and really prevents me from being aware in the present, so I can’t take responsibility or defend myself at the moment. Today, when I see myself like this, I stop and ask myself what’s happening, what I’m afraid of. When I perceive it, something changes, I can take responsibility, and although it hurts, I reconnect with strength and confidence.
 
 In the process, I understood that behind so much fear of the harm that others might do to me lies the fear of causing harm. When I started to feel anger, the fear of exploding, losing control, and doing a lot of harm appeared: the monster.
 
 **Protection and Security**  
-I’ve heard many Enneagram Type 6 Conservation types mention the search for and importance of external security. I think this issue becomes compulsive because we don’t believe that security can be achieved: a floor can burn, money can be stolen, the future isn’t certain, nothing is certain, nobody knows the future... Still, there is a constant attempt to ensure, to anticipate just in case; often investing energy in creating security in which we don’t end up trusting. This tendency often appears in material things, even in the most mundane and trivial. More than once, I’ve resisted the temptation to buy two of something I need or like in case it runs out, is used up, or breaks. In my bags and suitcases, I always carry everything I might need; I don’t like to ask or depend on others. There’s satisfaction in being able to meet my own needs and also those of others without having to ask. Although consciously there is a rejection of dependency, protection is sought in relationships. Friends have been my main support since childhood, and I’ve always lived them as my family, as the most valuable thing I have.
+I’ve heard many E6 Conservation types mention the search for and importance of external security. I think this issue becomes compulsive because we don’t believe that security can be achieved: a floor can burn, money can be stolen, the future isn’t certain, nothing is certain, nobody knows the future... Still, there is a constant attempt to ensure, to anticipate just in case; often investing energy in creating security in which we don’t end up trusting. This tendency often appears in material things, even in the most mundane and trivial. More than once, I’ve resisted the temptation to buy two of something I need or like in case it runs out, is used up, or breaks. In my bags and suitcases, I always carry everything I might need; I don’t like to ask or depend on others. There’s satisfaction in being able to meet my own needs and also those of others without having to ask. Although consciously there is a rejection of dependency, protection is sought in relationships. Friends have been my main support since childhood, and I’ve always lived them as my family, as the most valuable thing I have.
 
 A crazy idea that fuels neurotic behavior is: "If I have friends, people who love me and whom I love, I’m protected." If something happens to me, someone will lend me a hand; I’ll have something to hold on to. On the other hand, there’s a lack of confidence in love. I didn’t believe anyone could really love me, much less protect me. The child in me didn’t understand why my parents, who loved me so much, hadn’t defended me from the caregiver’s abuse. My fantasy was that my friends would forget about me, that they wouldn’t see me. Therefore, it was important to have many friends and maintain relationships. Most of the time, I was the one offering the hand, the one protecting. As if this would guarantee future compensation in case of need. A kind of life insurance, which like all insurance, I preferred not to have to use, but it relaxed me to know I had it.
 
@@ -2702,7 +2855,7 @@ If I stay connected with my body, trusting my perception, I feel more whole and 
 
 Writing about myself, showing myself, and allowing this text to be published is an achievement against another fantasy: that exposing myself is dangerous and that it’s better not to appear. Exposing myself means being too much in the spotlight, and that’s very dangerous, an idea confirmed by my childhood experience of severe punishment. This is another crazy idea: if I stand out, they will cut off my head. It’s not a conscious thought; it’s something that, when it happens, is so quick and automatic that it completely invades me: it burns me, I blush, I want to flee and leave the spotlight; it’s too much of a threat. I remember hearing from my paternal grandmother, whom I loved very much and who was a model for me, a Jewish saying that said: it’s better not to stand out too much, neither up nor down. Otherwise, it arouses envy or contempt, and the consequence would be persecution.
 
-There is a kind of taboo against standing out, being very visible, which seems common to Enneagram Type 6 Conservation. Just as the childhood image of a severe, controlling, and punishing God, like that of the Old Testament, with whom one must constantly negotiate, praying for forgiveness.
+There is a kind of taboo against standing out, being very visible, which seems common to E6 Conservation. Just as the childhood image of a severe, controlling, and punishing God, like that of the Old Testament, with whom one must constantly negotiate, praying for forgiveness.
 
 The playful, expressive, and creative path, both in the artistic and therapeutic realms and especially in theater, allowed me to expose myself with meaning and pleasure, with less guilt and more freedom.
 
@@ -2714,25 +2867,25 @@ Today, I feel more resourceful, more autonomous, and more capable of defending m
 
 # 
 
-# Enneagram Type 7: Gluttony {#type-vii:-gluttony}
+# Type Seven: Gluttony
 
-Gluttony is the irrepressible need to taste everything the world offers. Tasting without digesting means taking from the world only the most exciting and delightful aspects and easily rejecting anything that hurts or is harmful. The Enneagram Type 7 avoids the feeling of emptiness by "filling their mouth" with pleasurable experiences and stimuli, thereby cultivating a great skill for staying on the surface. The Enneagram Type 7 believes they are filling the void with an illusory layer made up of multiple behaviors aimed at displacement and distraction.
+Gluttony is the irrepressible need to taste everything the world offers. Tasting without digesting means taking from the world only the most exciting and delightful aspects and easily rejecting anything that hurts or is harmful. The E7 avoids the feeling of emptiness by "filling their mouth" with pleasurable experiences and stimuli, thereby cultivating a great skill for staying on the surface. The E7 believes they are filling the void with an illusory layer made up of multiple behaviors aimed at displacement and distraction.
 
-The pleasure of seeking stimuli requires constant movement, which prevents Enneagram Type 7 from feeling the lack or frustration that the world, obviously, confronts them with. If something or someone disappears, it is enough to turn towards another pleasurable stimulus.
+The pleasure of seeking stimuli requires constant movement, which prevents E7 from feeling the lack or frustration that the world, obviously, confronts them with. If something or someone disappears, it is enough to turn towards another pleasurable stimulus.
 
-From childhood, the Enneagram Type 7 develops an intellectual repertoire that allows them to move nimbly around obstacles. This function has been experienced in family relationships, where often the Enneagram Type 7, in the absence of the father (physically or emotionally), took on the role of alleviating the mother’s pain or depression.
+From childhood, the E7 develops an intellectual repertoire that allows them to move nimbly around obstacles. This function has been experienced in family relationships, where often the E7, in the absence of the father (physically or emotionally), took on the role of alleviating the mother’s pain or depression.
 
 For males, this has meant a distant or rejecting relationship with the father; for females, it has meant fulfilling a masculine role, setting aside the feminine dimension (whether in terms of erotic or emotional aspects). This supportive function did not translate, as it did for Type One, into a rigid assumption of responsibilities but led to a compulsive need to please and be recognized as a skillful harlequin who serves others without giving up their own advantages.
 
 Although touched by feelings of guilt, they try to escape by distracting the other’s (and their own) attention from their wrongdoings. The weapons they use to charm and obtain forgiveness and approval are cunning and seduction (self-indulgence is their fixation). They take pleasure in their achievements, confusing cunning with intelligence. Making others fall into their traps gives them a narcissistic valuation of themselves; they are not interested in knowing the real feelings of others; their constant search is for the feeling of satisfaction from their own abilities.
 
-For the Enneagram Type 7, maintaining a relationship—whether sentimental or social—means adopting strategies. In love, friendship, or profession, they always have a plan B ready to resolve both emotional suffering and the weight of a commitment.
+For the E7, maintaining a relationship—whether sentimental or social—means adopting strategies. In love, friendship, or profession, they always have a plan B ready to resolve both emotional suffering and the weight of a commitment.
 
-For an Enneagram Type 7, taking on a commitment means finding themselves once again immersed in that subtle obligation to satisfy the impossible expectations of the family environment (and also to stop them). The greatest fear of an Enneagram Type 7 is being unable to escape or not having an exit.
+For an E7, taking on a commitment means finding themselves once again immersed in that subtle obligation to satisfy the impossible expectations of the family environment (and also to stop them). The greatest fear of an E7 is being unable to escape or not having an exit.
 
-## **Enneagram Type 7 social: Sacrifice** {#Enneagram Type 7-social:-sacrifice}
+## **The Social Seven: Sacrifice**
 
-The social Enneagram Type 7 is the countertype seven, in the sense that it is difficult to recognize the passion for gluttony in them, as they strive to hide it with altruistic behavior that, somehow, should purify them from the guilt of feeling an attraction towards pleasure or personal advantage. This is an attraction they try not to feel by pursuing an ideal of themselves and the world: they sacrifice their gluttony to be better and for a better world where there is no pain or conflict.
+The social E7 is the countertype seven, in the sense that it is difficult to recognize the passion for gluttony in them, as they strive to hide it with altruistic behavior that, somehow, should purify them from the guilt of feeling an attraction towards pleasure or personal advantage. This is an attraction they try not to feel by pursuing an ideal of themselves and the world: they sacrifice their gluttony to be better and for a better world where there is no pain or conflict.
 
 Social sevens are people who, on the surface, do not want to exploit others, do not want to be tied to their desires. They are very pure people, too pure. Some sevens are very concerned about their diet, world hunger, etc. The New Age fashion was a hotbed of this social seven culture.
 
@@ -2750,7 +2903,7 @@ It seems to me that health, both mental and spiritual, has to do with loving wha
 
 Maybe today's humans would be tempted to think that they have more rights than a cow, but maybe we are wrong about this too: deep ecology has something to tell us about it. But where is the limit of goodness? There is a kind of goodness for applause, very typical of the social seven.
 
-**The transformation in the Enneagram Type 7 social by Francisco Peñarrubia**
+**The transformation in the E7 social by Francisco Peñarrubia**
 
 The word sacrifice with which Claudio Naranjo has traditionally labeled the social subtype of enneatype seven aptly portrays a complacent and generous personality, capable of managing projects and mobilizing energies for a determined goal, to which they can devote themselves with great dedication. This requires enthusiasm, idealism, and social skills, and a sacrificed seven usually has all these in abundance. Such a stance towards the world has many egoic compensations: appreciation, recognition, good image, conflict reduction, and creating debts in the other (so that they treat you as well in return), ultimately generating interested relationships that end up devoid of real meaning (I-you), with a tendency towards superficiality.
 
@@ -2760,7 +2913,7 @@ But behind all this, there is guilt for feeling so interested under the mask of 
 
 Changing from "being for the other" to "being for oneself" is a complicated process: attending to one's deepest motivations is extremely difficult because either you don't see them, or they seem "bad" (self-interested). So, they must be disguised as altruism, idealism, dedication, and sacrifice to make them acceptable. The reverse path is to recognize comfort, laziness, narcissism... and then the insatiable hunger for recognition and love.
 
-The healthy path for a social Enneagram Type 7 is to decriminalize selfishness, to turn this taboo around and start truly loving oneself, legitimizing one's real needs instead of disguising them fraudulently. There are many contributions in this regard, received from other social E7s:
+The healthy path for a social E7 is to decriminalize selfishness, to turn this taboo around and start truly loving oneself, legitimizing one's real needs instead of disguising them fraudulently. There are many contributions in this regard, received from other social E7s:
 
 "Being more for myself and less for the other. Being more deeply selfish, knowing what I want and need" (Irene Díaz).
 
@@ -2776,13 +2929,13 @@ The healthy path for a social Enneagram Type 7 is to decriminalize selfishness, 
 
 **What has been left behind, what has changed**
 
-The most notable thing that has been falling away is idealism, that mix of illusion, good intentions, idealization, and naivety that functions as an intellectual drug (a cognitive stimulant) for action. With a shot of idealism, one can maintain the energy and effort that every sacrifice entails; otherwise, the strength and dedication would wane, and time would be spent dreaming and not doing. And the social Enneagram Type 7 is active, driven by ideals that they try to materialize in life, generally referring to improving the world, whether from religious, sociopolitical, therapeutic premises... with a certain sense of mission, not in the most extreme version of messianism, but in that of the visionary, one who is capable of imagining a freer, or more peaceful, or healthier world, or whatever moves them. In this idealism, there is a considerable component of rationalization and ideology, almost always in favor of changing the obsolete for the modern. If any of these beliefs prove to be wrong, they are changed for another, explaining this change as evolution.
+The most notable thing that has been falling away is idealism, that mix of illusion, good intentions, idealization, and naivety that functions as an intellectual drug (a cognitive stimulant) for action. With a shot of idealism, one can maintain the energy and effort that every sacrifice entails; otherwise, the strength and dedication would wane, and time would be spent dreaming and not doing. And the social E7 is active, driven by ideals that they try to materialize in life, generally referring to improving the world, whether from religious, sociopolitical, therapeutic premises... with a certain sense of mission, not in the most extreme version of messianism, but in that of the visionary, one who is capable of imagining a freer, or more peaceful, or healthier world, or whatever moves them. In this idealism, there is a considerable component of rationalization and ideology, almost always in favor of changing the obsolete for the modern. If any of these beliefs prove to be wrong, they are changed for another, explaining this change as evolution.
 
 The dissolution of this idealistic structure is therefore very difficult and at the same time inevitable if one takes maturation seriously. The fear of ceasing to be driven by ideals is that of falling into apathy, losing the fuel that allows them to intervene in the world, exist socially, be recognized.
 
 At the core, there is a deep pessimism towards oneself, towards people, and towards the world: with a little more confidence in life, there would be no need for so much indoctrination in one's ideals nor so much effort to please and mobilize others with these ideals. Something of all this is being abandoned in exchange for greater and more authentic trust.
 
-The mind of a social Enneagram Type 7 has something of a permanent adolescent: provocative, enlightened, simplistic, and lazy when the task becomes too demanding. Growing up literally means becoming an adult, more realistic, less subjective and willful. More understanding of the models previously ideologically denounced.  
+The mind of a social E7 has something of a permanent adolescent: provocative, enlightened, simplistic, and lazy when the task becomes too demanding. Growing up literally means becoming an adult, more realistic, less subjective and willful. More understanding of the models previously ideologically denounced.  
 "The change is to see with more precision even what I find ugly or painful... Discovering simplicity... Suspecting excessive enthusiasm..." (Katriona M.)
 
 "I see myself and feel more normal. I am aware that sacrifice is to achieve my ideal... for the search for recognition (narcissism), to avoid setting limits for myself... and it is also a compensation for the more manipulative part, which leaves the other in debt" (Irene D.).
@@ -2793,7 +2946,7 @@ The mind of a social Enneagram Type 7 has something of a permanent adolescent: p
 
 "I understand better my need to be loved, the fear of not doing what is expected of me. I can compassionately look at my need for my actions to be valued, as if constantly asking: 'Look, mom, what I can do.' I can realize this and smile when it happens" (Pep Durán).
 
-**What a social Enneagram Type 7 would have to understand to transform**
+**What a social E7 would have to understand to transform**
 
 *That the world is beyond repair.* 
 
@@ -2840,9 +2993,9 @@ In this same line of the three loves (father-mother-child), we present some more
 
 **Recommendations**
 
-In the general wave of practicing the virtue of sobriety, it is good for the social Enneagram Type 7 to stop, slow down their actions, curb anxious action, and prioritize what has intrinsic importance.
+In the general wave of practicing the virtue of sobriety, it is good for the social E7 to stop, slow down their actions, curb anxious action, and prioritize what has intrinsic importance.
 
-The development of non-action as a psycho-spiritual attitude is the most powerful field of experimentation for their transformation, as it does not correspond to the passivity or comfort that every Enneagram Type 7 drags, but to a detachment from interested, egoic, narcissistic action and an approach to action per se, to well-done work (not in the sense of perfectionism but of impeccability): doing what is needed at each moment without going overboard or falling short. Then much of the compulsive activity ceases to make sense, things simplify, and the inner chemistry transforms doing into being, helping the experience of being.
+The development of non-action as a psycho-spiritual attitude is the most powerful field of experimentation for their transformation, as it does not correspond to the passivity or comfort that every E7 drags, but to a detachment from interested, egoic, narcissistic action and an approach to action per se, to well-done work (not in the sense of perfectionism but of impeccability): doing what is needed at each moment without going overboard or falling short. Then much of the compulsive activity ceases to make sense, things simplify, and the inner chemistry transforms doing into being, helping the experience of being.
 
 Meditation is the practice par excellence to cultivate this attitude. In my case, as I am not into static meditation, I find more help in moving meditation, focusing on physical/manual activities (gardening...) or artistic activities that require concentration and at the same time inner freedom.
 
@@ -2854,18 +3007,18 @@ Here are some contributions in this regard:
 "Realizing projects, transforming them into accomplished works, consciously suffering the pain of disillusionment when the final result does not resemble the original idea... Practicing the Gestalt precepts: be aware, live in the present, and take responsibility\!... As a therapist, working on my own character has helped me develop an attitude of help and service to the other, to not be the protagonist but a discreet witness... with more patience with myself and the world... incorporating the relationship as an essential factor in the therapeutic process... that helps to feel the pain in company, without feeling judged or indulged... with the help of silence, body awareness, and especially with work done with hands" (E. de Diego).  
 "Meditation helped me a lot, being in the obvious, here and now, as a mantra to be in contact with reality. And working with the body" (I. Díaz).  
 "Connecting with the pain of seeing oneself with judgment and contempt towards others" (J. Micó).  
-"Helping the social Enneagram Type 7 to focus their monkey mind and challenge it... to reach a place of rest and quiet. They must find an inner sanctuary... frustrating their escapism: no one can do the work for them, it is the only opportunity they have to truly live" (K. Munthe).  
+"Helping the social E7 to focus their monkey mind and challenge it... to reach a place of rest and quiet. They must find an inner sanctuary... frustrating their escapism: no one can do the work for them, it is the only opportunity they have to truly live" (K. Munthe).  
 "Telling the other: 'up to here, I am with you, now I am leaving, or I need time for myself.' Lately, I have managed to be more at home, reading, calmly, and I have stopped wandering around aimlessly" (M. González).  
 "The practice of meditation to not lose myself in fantasies... really listening, to others and myself. Being. Laughing, not being ironic... Paying attention to the body... Going to the essence of the problem and not staying on the surface... Admitting when I don't know something" (J. Locutura).  
 "In my case, I have found pleasure in the physical, in the body, through simple activities: walking, cooking, digging the earth, resting... The formula Claudio gave me has been magical: 'doing what corresponds at the moment'" (P. Durán).
 
-## **Enneagram Type 7 Sexual: Suggestibility** {#Enneagram Type 7-sexual:-suggestibility}
+## **The Sexual Seven: Suggestibility**
 
-The sexual Seven is not earthly but celestial. They are not interested in the things of this world. It is the gluttony for things from a higher and more advanced world. The sexual Enneagram Type 7 is what we might call a dreamer. To define it, Ichazo used the word "suggestibility," which I understand as the passion for imagining something better than the desolate reality. It’s the passion for enchanting reality, for fantasizing, for painting things in a rosy hue. In other words, it's a form of idealization. If the word for the social Enneagram Type 5 is totem — totemizing being a type of super-idealization — here, it's more about the idealization of the ordinary: the sexual Seven looks at things with the optimism of those who are in love. They say love is blind. It could be that the sexual Seven is blind in the same way. They are overly enthusiastic.
+The sexual Seven is not earthly but celestial. They are not interested in the things of this world. It is the gluttony for things from a higher and more advanced world. The sexual E7 is what we might call a dreamer. To define it, Ichazo used the word "suggestibility," which I understand as the passion for imagining something better than the desolate reality. It’s the passion for enchanting reality, for fantasizing, for painting things in a rosy hue. In other words, it's a form of idealization. If the word for the social E5 is totem — totemizing being a type of super-idealization — here, it's more about the idealization of the ordinary: the sexual Seven looks at things with the optimism of those who are in love. They say love is blind. It could be that the sexual Seven is blind in the same way. They are overly enthusiastic.
 
 Their passion is dreaming, of going toward the sweetness of what is imagined instead of connecting with the ordinary and not-so-interesting reality. Cari Abraham, a collaborator of Freud who had a better eye for character descriptions than Freud, spoke of a completely optimistic character in every sense: "I'm fine, you're fine, everything is fine." And, naturally, this can be very therapeutic... for anyone except a Seven. Or, put another way: virtuous life is good for anyone who is not a nun.
 
-**Transformation in the Sexual Enneagram Type 7 by Enrique Villatoro**
+**Transformation in the Sexual E7 by Enrique Villatoro**
 
 Aspects that are left behind in the therapeutic process:
 
@@ -2932,7 +3085,7 @@ The antidote is commitment to oneself and to what one wants and desires. It’s 
 
 ---
 
-Paradoxically, there is less interest in social relationships, in people, in contacts. With the psycho-spiritual process, greater awareness of the antisocial aspect of the Enneagram Type 7 arises. Now I have more desire to be with myself or with my loved ones, and not so much to discover those who are more distant. What used to be a painful loneliness, translated into abandonment, marginalization, rejection, and fear, is now security, comfort, rest. The fact that there is more honesty, transparency, and frankness in the expression of desires and needs frees one from having to pretend, from having to put on a good face, making it easier to come and go from contact with others.
+Paradoxically, there is less interest in social relationships, in people, in contacts. With the psycho-spiritual process, greater awareness of the antisocial aspect of the E7 arises. Now I have more desire to be with myself or with my loved ones, and not so much to discover those who are more distant. What used to be a painful loneliness, translated into abandonment, marginalization, rejection, and fear, is now security, comfort, rest. The fact that there is more honesty, transparency, and frankness in the expression of desires and needs frees one from having to pretend, from having to put on a good face, making it easier to come and go from contact with others.
 
 The general feeling is one of maturity, of becoming more adult, serious, sensible, and judicious. To stop feeling like a child dependent on the world and instead assume responsibilities and tasks, becoming more present and competent in the world, and understanding responsibility not as a burden or weight, but as a freedom to choose and decide for oneself.
 
@@ -2942,7 +3095,7 @@ This represents a liberation on a very essential level that has to do with givin
 
 ---
 
-Maturity implies greater resilience to pain and frustration. Instead of stopping to feel lack, the typical trap of the sexual Enneagram Type 7 is that the frustration of not having something is replaced by a rosy fantasy that provides substitute satisfaction. The mental insistence is such, with logical arguments that sustain the fantasy, that one begins to enjoy it in advance. This means disconnecting from the discomfort caused by lack: the illusion is built to avoid it, and gradually, one loses touch with reality, to the point that, dragged more and more into one’s own lies, the sexual Seven becomes unable to distinguish fantasy from reality.
+Maturity implies greater resilience to pain and frustration. Instead of stopping to feel lack, the typical trap of the sexual E7 is that the frustration of not having something is replaced by a rosy fantasy that provides substitute satisfaction. The mental insistence is such, with logical arguments that sustain the fantasy, that one begins to enjoy it in advance. This means disconnecting from the discomfort caused by lack: the illusion is built to avoid it, and gradually, one loses touch with reality, to the point that, dragged more and more into one’s own lies, the sexual Seven becomes unable to distinguish fantasy from reality.
 
 The interruption of this avoidance cycle is achieved when the impulse of one’s desire is sustained without necessarily acting on it, both in its aspect of attraction to the new and stimulating, and in the avoidance of the unpleasant, the frustration, the painful. Patience, serenity, and self-control have grown. Being able to tolerate the anxiety and desire with greater calm and fortitude, and not being easily disturbed by external circumstances, is one of the great fruits. Solidity manifests in internal stability and external perseverance. It’s as if the willpower has been strengthened and solidified. There is more diligence, discipline, determination, to the point of being able to endure the routine, the repetitive, the boring, and the unenthusiastic.
 
@@ -2958,7 +3111,7 @@ One of the main themes of psycho-spiritual transformation is ceasing to look at 
 
 Thinking and planning become more concrete and systematic, more real and less cosmic. Efforts and energies are focused more methodically, with greater diligence, consistency, and determination. This greater presence and involvement in what is being done allows strategy and planning to be used as a pursuit of greater commitment and not as avoidance, escape, or opportunism. For this, it helps to trust that happiness lies in working in the present moment and is achieved step by step, little by little, not all at once and greedily.
 
-In this sense, honesty and transparency are essential. On one hand, with greater contact and awareness of what is felt, wanted, and needed at each moment, and on the other hand, with more self-confidence and integrity in showing it and operating from it, expressing both what is disliked and gratitude and recognition to others. This means being more confrontational, direct, and clear, rather than moving from the background, from the hidden, manipulative, boycotting, or rebellious stance typical of the Enneagram Type 7. It would involve assuming oneself as the authority and becoming responsible for one’s own life. That is, developing more seriousness, commitment, and presence, not just with others, but primarily with oneself, with one’s own feelings, desires, and goals.
+In this sense, honesty and transparency are essential. On one hand, with greater contact and awareness of what is felt, wanted, and needed at each moment, and on the other hand, with more self-confidence and integrity in showing it and operating from it, expressing both what is disliked and gratitude and recognition to others. This means being more confrontational, direct, and clear, rather than moving from the background, from the hidden, manipulative, boycotting, or rebellious stance typical of the E7. It would involve assuming oneself as the authority and becoming responsible for one’s own life. That is, developing more seriousness, commitment, and presence, not just with others, but primarily with oneself, with one’s own feelings, desires, and goals.
 
 It helps on this path to be able to sustain and face pain, frustration, and unpleasant sensations. To be more in contact with one's own dissatisfactions while also valuing what one has. Seeking more satisfaction in the real, in the quality and depth of life rather than in quantity and variety. Trusting more in what life brings, rather than moving from fear and the dread of lack, of dissatisfaction, and from that trust, renouncing the preventative strategy. It also helps to build a solid internal self-confidence, relying on one’s own resources and acknowledging limitations, rather than appealing to the false tranquility and detachment of improvisation, or believing things will work out on their own, which is ultimately an avoidant behavior.
 
@@ -2987,7 +3140,7 @@ It’s also very useful to stimulate their own curiosity. Leaving them with a bi
 
 ---
 
-With a sexual Enneagram Type 7, it’s necessary, in fact, to find the middle ground between a clear, concise, and firm therapeutic framework and a certain gentleness, delicacy, and spaciousness to foster their trust. If too strong and rigid limits are imposed, they will leave therapy; if the limits are too soft, they will tend to invade the therapist’s space and escape the process. It’s important to find the balance so they don’t invade, to ensure they respect the therapy and don’t confuse the therapist with a friend; at the same time, it’s necessary for them to feel an atmosphere of calm, encouragement, and trust so they gradually open up and allow themselves to fall into their pain. All this will mean a constant back and forth, where the limits must be reminded almost throughout the entire treatment. It will be a process of continual confrontation but very gentle, a soft fight with much nurturing and protection for when they begin to fall. Space must be given so they can show themselves without dragging the therapist down, seducing, and entrancing them with their confusions. It will be something like letting them believe they have the power. This push and pull will undoubtedly tire the therapist because the sexual Enneagram Type 7 will constantly test the boundaries we set.
+With a sexual E7, it’s necessary, in fact, to find the middle ground between a clear, concise, and firm therapeutic framework and a certain gentleness, delicacy, and spaciousness to foster their trust. If too strong and rigid limits are imposed, they will leave therapy; if the limits are too soft, they will tend to invade the therapist’s space and escape the process. It’s important to find the balance so they don’t invade, to ensure they respect the therapy and don’t confuse the therapist with a friend; at the same time, it’s necessary for them to feel an atmosphere of calm, encouragement, and trust so they gradually open up and allow themselves to fall into their pain. All this will mean a constant back and forth, where the limits must be reminded almost throughout the entire treatment. It will be a process of continual confrontation but very gentle, a soft fight with much nurturing and protection for when they begin to fall. Space must be given so they can show themselves without dragging the therapist down, seducing, and entrancing them with their confusions. It will be something like letting them believe they have the power. This push and pull will undoubtedly tire the therapist because the sexual E7 will constantly test the boundaries we set.
 
 ---
 
@@ -3003,17 +3156,17 @@ Lastly, it’s essential not to overlook any of a Seven’s manipulations. As th
 
 Finally, as an effective tool, it can be helpful to use their own mechanism: humor and irony, bearing in mind that Sevens in general handle this very well.
 
-## **Enneagram Type 7 Preservation: Family** {#Enneagram Type 7-preservation:-family}
+## **The Self-Preservation Seven: Family**
 
 ##  
 
 It is often easier to recognize a sexual or social Seven than a preservation Seven. To refer to them, Ichazo used the phrase "the guardian of the castle." He also used the word "castle" for the preservation Five — I preferred to use the word refuge or lair. But what is the meaning of the phrase "the guardian of the castle"?
 
-The Enneagram Type 7 preservation is a person who makes alliances. Family could be an alternative word, but not in the true sense of the term, which is filled with positive connotations. The word "family" describes an aspect of life, but in the specialized vocabulary of the ego, there exists a kind of "family game" that can be played. In it, preservation Sevens form relationships with people based on ideas like: "I will be family for you, and I demand that you be family for me," "Let’s come together, I will serve you and you will serve me," "Let’s come together, and we can create a good mafia together..."
+The E7 preservation is a person who makes alliances. Family could be an alternative word, but not in the true sense of the term, which is filled with positive connotations. The word "family" describes an aspect of life, but in the specialized vocabulary of the ego, there exists a kind of "family game" that can be played. In it, preservation Sevens form relationships with people based on ideas like: "I will be family for you, and I demand that you be family for me," "Let’s come together, I will serve you and you will serve me," "Let’s come together, and we can create a good mafia together..."
 
 I mention the word "smuggling" because this kind of behavior can become shady. It is clear partisanship. There’s a strong element of corruption involved. Self-interest, selfishness, is behind this alliance, although it appears denied. Naturally, every form of ego depends on a lie that makes it seem like it’s not there. That’s why confession is so beneficial, so interesting for consciousness work — especially when the confession is public, because then one realizes they can continue with everything, continue being themselves.
 
-Thus, the Enneagram Type 7 preservation is the opportunist, the person who must find advantages, who must gain something. It’s as if there is a threat to preservation looming over them that must be compensated for. Therefore, gluttony, in this case, is expressed as an excessive concern to escape this threat to preservation by making good deals and arrangements at every opportunity.
+Thus, the E7 preservation is the opportunist, the person who must find advantages, who must gain something. It’s as if there is a threat to preservation looming over them that must be compensated for. Therefore, gluttony, in this case, is expressed as an excessive concern to escape this threat to preservation by making good deals and arrangements at every opportunity.
 
 A friend of mine was a dentist for part of his life. He seemed like a kind, friendly, talkative person. Some people love the dental profession because they always have the other person’s mouth shut, so they can talk and talk as much as they want. Surely, you’ve encountered very talkative dentists. They may not realize it — unconsciousness plays tricks. And it’s typical of preservation Sevens that they like doing something with their hands, something useful for others. They are practical.
 
@@ -3021,7 +3174,7 @@ Talking and talking, the preservation Seven soon discovers the other person’s 
 
 It seems that with the preservation Seven, no conversation fails to lead to business. They make instant deals because their mind is so alert for opportunities that they never let them slip by. Their position is one of someone who thinks that if you aren’t alert, if you don’t keep your nose to the wind to detect opportunities, you’ll be a loser.
 
-**\*\*Transformation in the Enneagram Type 7 Preservation\*\***  
+**\*\*Transformation in the E7 Preservation\*\***  
 
 By Albert Rams  
 
@@ -3142,13 +3295,13 @@ Some testimonies say:
 To conclude, I’ll share another fragment of my biography:    
 "\[...\] I feel more concise and less in need of external recognition. The professional style that began as something very excessive, very loud and flamboyant \[...\] has been gaining refinement and calm. I still have the ability to detect falsehood that had emerged so brutally then, but I no longer feel the same need to use it to show off. Or, simply, I give myself the opportunity to keep it to myself to the extent that I can distinguish what I really want at that moment and, above all, what I’m willing to take on. I can be confrontational without being violent. And, above all, I’ve been developing the experience of living in a heart that I didn’t inhabit before, or didn’t inhabit in this way; which professionally shows up, at times, as the grace to touch people’s souls in increasingly simple ways. However, I feel the weight of years of work, I’m less passionately interested in it, and I tire more easily."
 
-# Enneagram Type 8: Lust {#enneagram-type-viii:-lust}
+# Type Eight: Lust
 
 The passion of Lust denotes a passion for excess, "a passion that seeks intensity, not only through sex but in all kinds of stimuli: activity, anxiety, spices, high speed, loud music, etc." (C. Naranjo, \*Character and Neurosis\*). 
 
 It transforms the intensity of suffering into the intensity of satisfaction, of feelings, of pleasure, and of the battle against the abuses suffered. 
 
-Type Enneagram Type 8 is an excessive character, the most impulsive of the action-oriented types. The consumption of energy, the search for intense stimuli, the attraction to violence and risk, and the effusive manifestation of enthusiasm are typical expressions of Lust. 
+Type E8 is an excessive character, the most impulsive of the action-oriented types. The consumption of energy, the search for intense stimuli, the attraction to violence and risk, and the effusive manifestation of enthusiasm are typical expressions of Lust. 
 
 Lust manifests itself through an uncontrollable tendency toward satisfying impulses and needs; a relentless pursuit of pleasure, understood not as surrendering to the senses or as well-being, but rather as an intense experience that brings back the sensation of being alive and that can go beyond the barrier of hardness and insensitivity. 
 
@@ -3156,7 +3309,7 @@ In summary, one could say that their passion consists of obtaining satisfaction 
 
 They are pragmatic and concrete; the problem must be solved immediately (and the problem is their need to possess and obtain satisfaction).
 
-The wound is an offense received, an abuse: the Enneagram Type 8 feels and lives with the conviction that they must be immediately compensated. Their interpersonal style is revenge (fixation); accounts cannot be left unsettled; when they carry out revenge, they find fulfillment again.
+The wound is an offense received, an abuse: the E8 feels and lives with the conviction that they must be immediately compensated. Their interpersonal style is revenge (fixation); accounts cannot be left unsettled; when they carry out revenge, they find fulfillment again.
 
 The origin of this character structure is found in a childhood where they were denied being a child; they did not receive proper care either concretely or emotionally-psychologically. In extreme cases, we can find abuse and mistreatment that humiliated and subjugated them.
 
@@ -3170,9 +3323,9 @@ The sense of justice sometimes derives from a family context in which the patern
 
 The compulsion to restore their power at any cost clearly manifests itself in relationships with others. The sense of justice can also be an ideal, but it is above all a way to settle outstanding accounts. 
 
-From this point of view, the relationship of friendship is one in which the Enneagram Type 8 commits to defending close people on the condition that they do not interfere with their power. Power is maintaining dominance and control over their territory and the people who belong to it.
+From this point of view, the relationship of friendship is one in which the E8 commits to defending close people on the condition that they do not interfere with their power. Power is maintaining dominance and control over their territory and the people who belong to it.
 
-The Enneagram Type 8 lacks empathic capacity. Considering that they are not in touch with their emotions, the bond with others can be very strong and intense, not because they are sensitive to the needs of others, but rather because they are driven by a compulsion to defend those who belong to them. Due to this lack of empathy in affective relationships (sentimental or friendship), they are unaware of how they may end up dominating their close ones, and they are unconcerned with others' judgments; they have great difficulty feeling guilt.
+The E8 lacks empathic capacity. Considering that they are not in touch with their emotions, the bond with others can be very strong and intense, not because they are sensitive to the needs of others, but rather because they are driven by a compulsion to defend those who belong to them. Due to this lack of empathy in affective relationships (sentimental or friendship), they are unaware of how they may end up dominating their close ones, and they are unconcerned with others' judgments; they have great difficulty feeling guilt.
 
 They are autonomous and often despotic and overbearing. Their motivation is not to appear superior but to obtain satisfaction for their needs.
 
@@ -3180,13 +3333,13 @@ They learned to be strong; their body shows it: thick skin, solid musculature, f
 
 Just as they do not allow themselves to feel their emotions, they also do not leave room for physical pain, to the extent that they neglect their body; even when they suffer, they find satisfaction in the intensity.
 
-## **Social 8 \- Complicity** {#so-8---complicity}
+## **The Social Eight: Complicity**
 
-The Enneagram Type 8 social is a kind of antisocial social type. If we want to use modern psychology categories, the Eight fits into the label of antisocial personality: more or less, a person who opposes social norms. Or rather, a rebellious person.  
+The E8 social is a kind of antisocial social type. If we want to use modern psychology categories, the Eight fits into the label of antisocial personality: more or less, a person who opposes social norms. Or rather, a rebellious person.  
 
 But a social Eight is a type that can only be explained in contradictory terms. It’s like a child who became violent in defending their mother against their father. Their violence stemmed from solidarity. The phrase "to explode against injustice" resonates strongly with them.  
 
-The central issue of the Enneagram Type 8 social was named by Ichazo as friendship. I don’t like to use words with universal meanings or ones we could associate with great meanings to describe specific ego games, because often we end up using those words to justify those same games. That’s why I feel more comfortable with the word complicity. It relates to loyalty, like that of a child who allies with the mother against the father and develops a strong detachment from the paternal bond, likely becoming a difficult child at school. They reject school because the whole institution feels like paternal authority, and they come to experience intellectual detachment because intellect is also part of the paternal complex. Patriarchal culture is, after all, composed of intellect, authority, and control of impulses.  
+The central issue of the E8 social was named by Ichazo as friendship. I don’t like to use words with universal meanings or ones we could associate with great meanings to describe specific ego games, because often we end up using those words to justify those same games. That’s why I feel more comfortable with the word complicity. It relates to loyalty, like that of a child who allies with the mother against the father and develops a strong detachment from the paternal bond, likely becoming a difficult child at school. They reject school because the whole institution feels like paternal authority, and they come to experience intellectual detachment because intellect is also part of the paternal complex. Patriarchal culture is, after all, composed of intellect, authority, and control of impulses.  
 
 Looking at the social Eight with a Freudian mindset, the concept of complicity becomes clearer. We could talk about an Oedipus complex. We could say the child needs their mother’s love and has no hope of finding love in the father. Therefore, they conclude: “I’ll join forces with my mother against my father. I’ll protect mom, and I’ll earn mom’s love.” Entering Freudian psychodynamics, we could also add that this mechanism is not purely about loyalty but is a matter of self-interest.  
 
@@ -3197,7 +3350,7 @@ They think it’s better to pursue power, pleasure, or what they want rather tha
 
 Moreover, Eights don’t usually engage in activities related to self-awareness since developing this kind of insight into their emotional life is a bit harder for them. They repress their tender side as if they had to bury their inner child to face life fully armed, ready for the struggle for existence, red in tooth and claw, as the Darwinists say. An Eight is someone armed to the teeth.  
 
-\*\*The Transformation in the Enneagram Type 8 Social by María Elena Tinoco\*\*  
+\*\*The Transformation in the E8 Social by María Elena Tinoco\*\*  
 
 Some hidden memories...  
 
@@ -3367,13 +3520,13 @@ Group therapy allowed me to observe myself from within the group until little by
 
 It also helps when the therapist makes constant references to the actions that the social Eight is taking because it’s in action where they get lost. It’s good to focus on their world of personal relationships, especially those outside the group, as the social Eight has great difficulty committing to individualized relationships.  
 
-## **Enneagram Type 8 Sexual: Possessiveness** {#Enneagram Type 8-sexual:-possessiveness}
+## **The Sexual Eight: Possessiveness**
 
 A sexual Eight has a tendency toward social detachment. This person is rebellious, even more so than other Eights. They are also more provocative, flaunting, proclaiming that their values are different from the norm. This occurs with all Eights, but in the sexual subtype, this tendency becomes a clear detachment from intellect.
 
 The defining word is possession. I used to think this also had to do with physical possessions, but I later realized that this passion is about holding onto the other: the sexual Eight is very possessive in their relationships. This word also relates to taking possession of the entire scene: the sexual Eight always wants to be the center. They are always fascinating. Their power stems from a greater seduction, a greater power of fascination, which stylistically sets them apart from others. Other subtypes don’t have as many colors in their feathers. Compared to other subtypes, the sexual is more emotional, while the self-preservation subtype is pure action, and the social subtype is the only intellectual Eight.
 
-Transformation in the Sexual Enneagram Type 8 by Alice María Ribeiro
+Transformation in the Sexual E8 by Alice María Ribeiro
 
 The following text is based on interviews conducted with five students of the SAT Program (three women and two men), all of them identified as sexual Enneatype Eight, from various professions (butcher, therapist, doctor, police officer, and retiree), and ages between 40 and 50\. Each one is at a different stage in their path of self-discovery (one has been on it for 20 years, another only five), within the SAT school.
 
@@ -3529,15 +3682,15 @@ Meditation was the main point raised by four interviewees as a way to slow down 
 
 They also noted that it will be necessary to find the inner emptiness to be filled by something greater. They seek a reference point within themselves, having a teacher as a bridge—a guide who can help them replace the food of the ego with compassion and love for God, healing the original wound. Because only in this way can they feel included as human beings and beloved children of the Father’s heart, so they can reclaim the lost link from childhood, which is the sweetness and spontaneity where innocence resides.
 
-## **Enneagram Type 8 Self-Preservation: Satisfaction** {#Enneagram Type 8-self-preservation:-satisfaction}
+## **The Self-Preservation Eight: Satisfaction**
 
-The most armored of all E8s is the self-preservation subtype. The word that defines them is satisfaction: “I have to have it. This is mine. I need to have it.” It’s more of an intolerance for the frustration of not having what they want than the possession itself. In this sense, they’re somewhat like the Enneagram Type 1 sexual subtype, which also becomes obsessive in its desires. But an Enneagram Type 1 (Type 1\) is very different from an Enneagram Type 8. The former is hypersocial, while the latter is completely antisocial. One is overly concerned with norms, and the other cares far too little.
+The most armored of all E8s is the self-preservation subtype. The word that defines them is satisfaction: “I have to have it. This is mine. I need to have it.” It’s more of an intolerance for the frustration of not having what they want than the possession itself. In this sense, they’re somewhat like the E1 sexual subtype, which also becomes obsessive in its desires. But an E1 (Type 1\) is very different from an E8. The former is hypersocial, while the latter is completely antisocial. One is overly concerned with norms, and the other cares far too little.
 
-The Enneagram Type 8 self-preservation subtype pursues the satisfaction of their needs. They don’t usually speak much. They’re like the lion. A lion only moves when it’s hungry. It seeks to satisfy its unmet hunger and then sleeps for the rest of the day, very majestically. They embody a “no-nonsense” attitude—no words, no word games in a self-preserving Enneagram Type 8.
+The E8 self-preservation subtype pursues the satisfaction of their needs. They don’t usually speak much. They’re like the lion. A lion only moves when it’s hungry. It seeks to satisfy its unmet hunger and then sleeps for the rest of the day, very majestically. They embody a “no-nonsense” attitude—no words, no word games in a self-preserving E8.
 
-We could say that their need is that of an exaggerated self-interest. These are people who know how to do business and know how to bargain to place themselves above everyone else. There’s an expression, “a used car dealer.” This is the art or talent of the self-preserving Enneagram Type 8. But it’s also their need: they’re a survivor, a term often used to describe Eights in general but more indicative of the self-preserving Eight. They know how to survive in the most difficult situations. They know how to get things, how to get their way.
+We could say that their need is that of an exaggerated self-interest. These are people who know how to do business and know how to bargain to place themselves above everyone else. There’s an expression, “a used car dealer.” This is the art or talent of the self-preserving E8. But it’s also their need: they’re a survivor, a term often used to describe Eights in general but more indicative of the self-preserving Eight. They know how to survive in the most difficult situations. They know how to get things, how to get their way.
 
-\*\*The Transformation of the Self-Preserving Enneagram Type 8 by Juanjo Albert\*\*
+\*\*The Transformation of the Self-Preserving E8 by Juanjo Albert\*\*
 
 Claudio: I’m not sure if everyone here knows Juanjo Albert, a figure of national psychiatric mythology. We haven’t seen him around here in a long time. Self-preserving Eights are rare, so I’m delighted to have one who is not only a self-preserving Eight but also an experienced psychiatrist who has not only seen himself through a long process but also seen many patients throughout his life, and surely he’s come to understand people like himself.
 
@@ -3545,7 +3698,7 @@ Juanjo: Well, I had prepared a serious lecture, with etiology, etc., but I’ll 
 
 First of all, what self-preserving Eights need to understand is that, by relying on our belief that goodness and good intentions don’t exist, we discredit and disqualify any feeling, person, idea, or institution that opposes our desires in our own eyes and those of others. We also disqualify merely to have something to oppose.
 
-When an Enneagram Type 8 approaches therapy, they already sense this. Even if they don’t entirely believe in the therapeutic process, it’s from this intuition that they approach it.
+When an E8 approaches therapy, they already sense this. Even if they don’t entirely believe in the therapeutic process, it’s from this intuition that they approach it.
 
 From here, we must begin to accept the anguish caused by the emptiness of having no real reason to oppose things. We also need to accept that this compulsive movement is purely a response to intolerance, frustration, and anguish and that, ultimately, it is nothing but a desire for revenge for reasons we’re not even aware of. It’s healthy, therefore, to open ourselves to understanding that something must be covering up this compulsion to attack since there’s no objective reason to attack.
 
@@ -3583,7 +3736,7 @@ But maintaining this awareness is not easy, due to both the tendency toward unco
 
 Control over impulsivity—whether for actions that, from a moral point of view, we might consider bad or those we’d consider good—is a tool without which it’s difficult to move forward. Controlling the impulse involves not only stopping the action but, most importantly, being conscious in the present of the consequences our actions may have on others. This means keeping others present in our awareness to avoid acting without regard for the consequences. It’s difficult, but this awareness helps in striving for impeccability in action. It’s worth trying.
 
-Stopping the impulse and remaining still offers the opportunity to see what lies behind the compulsion to act. Additionally, it provides the chance to discern what we really need and want, and it opens the possibility of realizing that the compulsion to act is merely a response to the intolerance of frustration and anguish so typical of the self-preserving Enneagram Type 8, engaged in a perpetual avoidance behavior—a cowardice.
+Stopping the impulse and remaining still offers the opportunity to see what lies behind the compulsion to act. Additionally, it provides the chance to discern what we really need and want, and it opens the possibility of realizing that the compulsion to act is merely a response to the intolerance of frustration and anguish so typical of the self-preserving E8, engaged in a perpetual avoidance behavior—a cowardice.
 
 Stopping the impulse also means giving others the opportunity to see us stripped of the power we often wield. It’s the chance to present ourselves as limited and ordinary individuals, something we avoid as it might stifle our source of security.
 
@@ -3607,21 +3760,21 @@ Claudio: What’s great about \[Juanjo\] is that he’s believable. His words so
 
 Juanjo: Yes… through blood and fire.
 
-# Enneagram Type 9: Sloth {#enneatype-ix:-sloth}
+# Type Nine: Sloth
 
-Sloth here refers to a sloth of consciousness. Having a passion for Sloth means having the motivation to maintain a low level of awareness so that no stimuli, whether emotional or environmental, can conflict with a pre-existing status quo or equilibrium. Faced with a loss of life’s meaning, the Enneagram Type 9 responds with spiritual and psychological indolence, a “deafness to the spirit and a loss of the sense of being to the point of not even knowing the difference: a spiritual coarsening” (C. Naranjo, \*Character and Neurosis\*).
+Sloth here refers to a sloth of consciousness. Having a passion for Sloth means having the motivation to maintain a low level of awareness so that no stimuli, whether emotional or environmental, can conflict with a pre-existing status quo or equilibrium. Faced with a loss of life’s meaning, the E9 responds with spiritual and psychological indolence, a “deafness to the spirit and a loss of the sense of being to the point of not even knowing the difference: a spiritual coarsening” (C. Naranjo, \*Character and Neurosis\*).
 
 Energy is invested in external action, which compulsively seeks to resolve any type of conflict or confusion without cognitive processing or connection to inner needs and their emotional significance; all conflict is nullified through a loss of interiority.
 
-The Enneagram Type 9 is generally a person who, even from childhood, was forced to practice a kind of numbness to avoid confronting the wound of being unacknowledged as a child. This is a child who has deeply renounced their nature and self-connection, seeking to fill their existential void by merging with others and serving others’ needs. Their relentless activity hides a profound sense of inadequacy and lack of importance to anyone. They reacted to the lack of care and recognition by identifying with a maternal function, aiming to take care of the mother (and often the entire family), and thus, only by caring for others could they care for themselves and find a place in the world.
+The E9 is generally a person who, even from childhood, was forced to practice a kind of numbness to avoid confronting the wound of being unacknowledged as a child. This is a child who has deeply renounced their nature and self-connection, seeking to fill their existential void by merging with others and serving others’ needs. Their relentless activity hides a profound sense of inadequacy and lack of importance to anyone. They reacted to the lack of care and recognition by identifying with a maternal function, aiming to take care of the mother (and often the entire family), and thus, only by caring for others could they care for themselves and find a place in the world.
 
-Faced with the pain of separation, the Enneagram Type 9 denies separation itself, as they lack awareness and, above all, do not differentiate between the feeling of an “I” and the awareness of a “you.” If there’s no separation between “you” and “me,” then, illusorily, there’s also no possibility of being abandoned.
+Faced with the pain of separation, the E9 denies separation itself, as they lack awareness and, above all, do not differentiate between the feeling of an “I” and the awareness of a “you.” If there’s no separation between “you” and “me,” then, illusorily, there’s also no possibility of being abandoned.
 
-In order to maintain this lack of differentiation, the Enneagram Type 9 demonstrates a considerable aversion to introspection and change, developing a lifestyle aimed at self-forgetting (fixation). Behaviorally, they engage in distractions such as overeating, overworking, or filling time with accumulating activities, even intellectually or professionally, like reading or spending hours in front of the TV.
+In order to maintain this lack of differentiation, the E9 demonstrates a considerable aversion to introspection and change, developing a lifestyle aimed at self-forgetting (fixation). Behaviorally, they engage in distractions such as overeating, overworking, or filling time with accumulating activities, even intellectually or professionally, like reading or spending hours in front of the TV.
 
 They perform their activities robotically, without complaining about fatigue, displaying a high level of anesthesia, even physically. They neither listen to the needs nor the pains of their body and often neglect their appearance.
 
-## **Enneagram Type 9 Social: Participation/Belonging** {#Enneagram Type 9-social:-participation/belonging}
+## **The Social Nine: Participation/Belonging**
 
 The Social Nine is a good-natured person. What drives a good-natured person? What lies behind these cheerful, lighthearted individuals? According to this framework, the passion of the Social Nine is participation. They need to feel like an integral part of something. But anyone with an intense need to participate, to become part of something, is someone who doesn’t feel part of anything.
 
@@ -3629,7 +3782,7 @@ For the Social Nine, the experience of not fitting in, of feeling different, of 
 
 Their passion is doing what’s necessary to pay the toll to be admitted into the group. But this requires a great deal of effort: Social Nines are the workaholics of the Enneagram. They feel they need to give a lot, but at the same time, they need to be pleasant and agreeable. Their internal motto is, “Don’t show pain, don’t burden others.” Their expression is happier than sad, but this doesn’t mean real participation; rather, it’s a kind of partial participation—a substitute.
 
-\*\*Transformation in the Social Enneagram Type 9 by Miriam Ortiz de Zárate\*\*
+\*\*Transformation in the Social E9 by Miriam Ortiz de Zárate\*\*
 
 \*How did the beginning of the search occur? What was the moment of greatest suffering?\*
 
@@ -3749,11 +3902,11 @@ For a Social Nine, confrontation is very helpful—being lovingly but firmly sha
 
 And finally, how important it is to know how to give good feedback, or anything else that helps with awareness…
 
-## **Enneagram Type 9 Sexual: Symbiosis** {#Enneagram Type 9-sexual:-symbiosis}
+## **The Sexual Nine: Symbiosis**
 
 I would prefer to use the word "union"—the word that Ichazo used—in a more elevated sense. Union signifies the response that we find in love, the desire for communion with the beloved. Thus, such a word should not be used to describe a neurotic game. Therefore, I prefer to use words like fusion, confluence, symbiosis...
 
-The sexual Enneagram Type 9 experiences the need to be through the other, the need to be through union with another, through fusion with another person. They use the relationship to feed their being because they cannot find footing on their own. A true union would require both people to stand on their own two feet before coming together.
+The sexual E9 experiences the need to be through the other, the need to be through union with another, through fusion with another person. They use the relationship to feed their being because they cannot find footing on their own. A true union would require both people to stand on their own two feet before coming together.
 
 But in this case, there is a kind of substitution. Because these people lack their own place, their own being, they wish to exist in the world through the other. This makes them very affectionate people, but it’s a suspicious kind of affection, like one of the many surrogate forms of love that appear in the repertoire of the ego.
 
@@ -3771,7 +3924,7 @@ This is a very cruel characterization: this person betrays his own needs, is so 
 
 All of this is a result of the need for fusion. You can fuse with another person, with a group, or even with your own body. But at the cost of life, at the most subtle level of life…
 
-The Transformation in the Sexual Enneagram Type 9 by Juanita Richter  
+The Transformation in the Sexual E9 by Juanita Richter  
 
 Acknowledgments: to Wilma Hannig, for receiving me in her home in La Serena, Chile, and opening her life to me without reservations. To Mónica Ventura, for lovingly sending me her biographical interview conducted by Dr. Claudio Naranjo, thus helping me to write mine.
 
@@ -3943,7 +4096,7 @@ The meditation work with music that Claudio practices is a beautiful experience 
 
 In this SAT, I had an important experience while working with Ginetta. I jumped on top of Leda to tell her I loved her because I felt that I wasn’t loving her in those days. I sat on top of her and spoke to her. At that moment, I realized how I was invading her. I expressed it and got down. I told Ginetta that I felt envious of her closeness to Claudio. I realized that I have to exaggerate so much because I actually feel that I don’t feel. She invited me to walk around the group and see what I felt with each person. What a beautiful exercise for a disconnected sexual nine like me…
 
-\*\*What Makes Me a Sexual Enneagram Type 9\*\*
+\*\*What Makes Me a Sexual E9\*\*
 
 The primary abandonment. My strategy for survival is to exit, to disconnect. My voracity, my merging, my deflection, my insatiability, my oral fixation. My loss of contact with myself. Because contact is too painful, because what I find is an emptiness that is too vast, there's nothing there, no containment, only a large, boundless space. The place between Mars and Earth is too desolate, lonely, and cold.
 
@@ -3981,11 +4134,11 @@ From my love for myself. Just as I am, and with the body I have, which has been 
 
 Accepting all of this has been possible thanks to my partner. Thanks to not being alone. Thanks to having support. (Thank you, Hilde, for loving me just as I am.)
 
-## **Enneagram Type 9 Self-Preservation: Appetite** {#Enneagram Type 9-self-preservation:-appetite}
+## **The Self-Preservation Nine: Appetite**
 
-We will end with the Enneagram Type 9 self-preservation type, for which Ichazo used the word "appetite." It is obvious that these individuals tend to have larger bodies, so it is likely they also have a larger appetite. Sancho Panza is a literal example of the Enneagram Type 9 self-preservation type, and it is interesting that Cervantes chose "Panza" (belly) for his name, as it is something so central to this character.
+We will end with the E9 self-preservation type, for which Ichazo used the word "appetite." It is obvious that these individuals tend to have larger bodies, so it is likely they also have a larger appetite. Sancho Panza is a literal example of the E9 self-preservation type, and it is interesting that Cervantes chose "Panza" (belly) for his name, as it is something so central to this character.
 
-Let’s consider the idea of a person who might say: "I eat, therefore I am." Each of the types can be approached with this Cartesian expression: "I think, therefore I am," an Enneagram Type 6 might say. "I suffer, therefore I am," an Enneagram Type 4 might say. These are actually very descriptive expressions of how each type experiences the void of their being. Take the example of the sexual Enneagram Type 4, whose central issue is competitive hatred, and who goes around metaphorically "cutting off heads." They might say: "I hate, therefore I am." This main trait of each subtype corresponds most to this equation of resolving the question of being through substitution or an illusion of being.
+Let’s consider the idea of a person who might say: "I eat, therefore I am." Each of the types can be approached with this Cartesian expression: "I think, therefore I am," an E6 might say. "I suffer, therefore I am," an E4 might say. These are actually very descriptive expressions of how each type experiences the void of their being. Take the example of the sexual E4, whose central issue is competitive hatred, and who goes around metaphorically "cutting off heads." They might say: "I hate, therefore I am." This main trait of each subtype corresponds most to this equation of resolving the question of being through substitution or an illusion of being.
 
 Human beings have all kinds of substitutes for being: an authentic frenzy of pacifiers. We have all sorts of pacifiers that give us the impression that this or that is what we were looking for. And we go astray because we chase after these illusions that promise us a sense of being where it is not.
 
@@ -3995,7 +4148,7 @@ Thus, these self-preservation types are very loving people, but deep down they d
 
 As Erich Fromm says: to have or to be. For them, it is probably the same issue. In the world of big bankers, for example, you can see many friendly faces with double chins, very practical people... Here we have the Homo Economicus.
 
-**Transformation in the Enneagram Type 9 Self-Preservation by Emilia Ligi**
+**Transformation in the E9 Self-Preservation by Emilia Ligi**
 
 Today, March 4, 2012, I turn 55, and I still have a chance to share things about myself.
 
@@ -4031,7 +4184,7 @@ This is how I was before doing the work: I had handed my remote control over to 
 
 I also used a remote control on myself: when I didn’t like the reality I was experiencing, I endured it, and to avoid risking the desire to change it, I put myself back into standby mode. Laziness took care of it, accepting boredom.
 
-The positive note for me, as an Enneagram Type 9 self-preservation type, is that, in my almost total self-nullification, an infinitesimal part of me never gave up and continued to believe in the joy and spontaneity of the child I once was. From that small flame of self-belief, everything could start anew.
+The positive note for me, as an E9 self-preservation type, is that, in my almost total self-nullification, an infinitesimal part of me never gave up and continued to believe in the joy and spontaneity of the child I once was. From that small flame of self-belief, everything could start anew.
 
 **If I Don’t Know Black, I Don’t Know What I Am Calling White. I Must Change Position: This Egg Where I Keep Adapting Myself Is Strangely Transparent and Small. What Is Happening? I Feel Fresh Air\! What a Delight\! So, There Is Something Beyond the Shell... Now I’m Afraid. What If I Die? Lord, I Place Myself in Your Hands.**  
 (This is what the worm thought before transforming into a butterfly.)
@@ -4068,7 +4221,7 @@ I am glad I have not completely lost the Dionysian sense of life.
 
 **What is this discomfort? I can’t be unwell; I have to help the world\! And Superman cannot have doubts\! Listen, I will tell you all my symptoms, I will give you all the information you need; you investigate and analyze for me, because I don’t know how to do it, and I am busy. But he says: ‘Sit down and tell me about yourself.’**
 
-For a self-preservation Enneagram Type 9, the hardest thing is to admit that the other person is right. There is always a "but." Quickly, they flee from discomfort by distracting themselves, covering themselves in fog, perhaps getting lost in a phrase or an observation. They disagree, they are uncomfortable, but rather than confront anger or admit their disagreement, they generate confusion and fog, trying to distract themselves and others.
+For a self-preservation E9, the hardest thing is to admit that the other person is right. There is always a "but." Quickly, they flee from discomfort by distracting themselves, covering themselves in fog, perhaps getting lost in a phrase or an observation. They disagree, they are uncomfortable, but rather than confront anger or admit their disagreement, they generate confusion and fog, trying to distract themselves and others.
 
 Understanding the capacity to lose oneself as a form of defense is essential for becoming aware.
 
@@ -4076,13 +4229,13 @@ Often, there is a genuine difficulty in understanding concretely what the therap
 
 Additionally, I was very good at adapting to the therapist: I tried to please her and not bore her. Yet, I was the one paying her, often aligning with her because I had a clear feeling that I was helping her understand me, telling her everything so she could later give me a synthesis.
 
-I think achieving a synthesis of oneself alone is a great accomplishment for a self-preservation Enneagram Type 9.
+I think achieving a synthesis of oneself alone is a great accomplishment for a self-preservation E9.
 
 If the Nine has come to therapy, perhaps they feel there is a defect in their machine that prevents them from giving their best, and it needs to be fixed so that everything can return to the way it was before.
 
 But the discomfort exists, and the client does not realize that the little cube of ice that unexpectedly slides down their back, causing suffering, is not just a cube, but the tip of an iceberg. And that suffering is just another illusion of being so good at preventing pain from being more than a fleeting discomfort, while the ice slowly melts and the water is on the verge of overflowing the dam of lies.
 
-**What should be done in therapy with a self-preservation Enneagram Type 9?**
+**What should be done in therapy with a self-preservation E9?**
 
 Give the session a sense of sacredness: feel that the space between the therapist and the patient, including the physical space, is a place where both will put something of themselves, and that this place is sacred because it is the line that separates the "I-you."
 
@@ -4090,7 +4243,7 @@ Establish a form of contact to close the session; the most effective gesture is 
 
 A Nine lives on the surface, and diving into depth is an enormous effort; but they will do it if they know that when they resurface, already at the limit of their breath, someone will extend a hand to help them return to solid ground.
 
-Inviting a self-preservation Enneagram Type 9 to dive inside themselves concretely means asking them to remember: to remember their life, their childhood, their adolescence...
+Inviting a self-preservation E9 to dive inside themselves concretely means asking them to remember: to remember their life, their childhood, their adolescence...
 
 For me, the work Claudio proposed was crucial: to remember through pain, using the regressive method; to remember, remember, and remember again: everything is contained within this verb\! Going back in time to recognize that one has a life made up of this and that, of pain, of frustration, of love, and of carefreeness.
 
@@ -4098,7 +4251,7 @@ Remembering was like swimming against the current in the river of my life, disco
 
 Through the act of remembering and recounting myself, I slowly began to shape the block of clay that I was.
 
-I believe it can be useful to frequently ask a self-preservation Enneagram Type 9 to tell about their childhood, their adolescence, showing interest in their life.
+I believe it can be useful to frequently ask a self-preservation E9 to tell about their childhood, their adolescence, showing interest in their life.
 
 To help the person go deeper, free association is also helpful because it brings us closer to sincerity, and it helps to ask again each time the person distracts themselves because they are approaching something interesting.
 
@@ -4126,7 +4279,7 @@ But since the manifestations of being, even if illusory, can be Dionysian, it is
 
 So, let Dionysus rejoice whenever he remembers me, and I remember him\!
 
-I am certain that the healthy being of the self-preservation Enneagram Type 9 is very Dionysian\!
+I am certain that the healthy being of the self-preservation E9 is very Dionysian\!
 
 **If I Allow Myself to Be Myself, What Will Happen? What Happens If I Start Not Believing in My Crazy Ideas Anymore? I Don’t Know, But I Feel a Sense of Freedom. The Experience of Retreat Is Calling Me. There I Expand, Perhaps I Will Dissolve and Feel Myself as Part of the Whole That Ordinary Consciousness and Mind Cannot Grasp**
 
