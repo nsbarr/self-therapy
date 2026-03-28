@@ -178,6 +178,25 @@
   }
 } 
 
+/* Site navigation */
+.site-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.site-nav-home {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-home:hover {
+  color: var(--color-ink);
+}
+
 /* Article page title styles */
 .content-title {
   max-width: 800px;
