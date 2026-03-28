@@ -271,8 +271,6 @@ At this moment, I am savoring:
 * That my childhood was not sexualized but sensualized; I still have that sensitivity of the senses, especially in touch and skin. Sexuality was a sensualized (with all senses) way of channeling energy or vitality—of which there is a lot—in a playful way.  
 * And, of course, gratitude without ceasing for what life brings me, which gives me a lot, and yet I need less and less to live.
 
-Certainly\! I will carefully revisit, refine, and reproduce the entire translation, remaining as faithful as possible to the original text, its structure, and its tone. Here is the revised full translation:
-
 ---
 
 ## **The Self-Preservation One: Concern**
@@ -1129,8 +1127,6 @@ It is also helpful to become aware of fear—the fear of being, the fear of lett
 We are helped when others accompany us in discovering our real needs, beyond our idealized self-image. This means connecting with the emotions we have rejected—anger, shame, envy—in order to reach the pain that underlies them, to face it directly in the presence of another person, and to validate ourselves in the process.
 
 Finally, we can unmask the ego through real contact with another person—someone who helps us experience silence and recognize what is happening inside us without the need to *do* anything. And all of this, not from a desire to annihilate the ego, but from a more patient, more serene, and more loving encounter with ourselves.
-
-Got it\! I'll start from the beginning and translate it section by section.
 
 ---
 
