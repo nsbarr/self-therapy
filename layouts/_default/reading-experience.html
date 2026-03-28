@@ -64,19 +64,6 @@
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
         </button>
-        <button id="focusModeToggle" class="preference-button" title="Toggle Focus Mode">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="10"></circle>
-                <circle cx="12" cy="12" r="4"></circle>
-            </svg>
-        </button>
-        <button id="fontSizeToggle" class="preference-button" title="Adjust Font Size">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="4 7 4 4 20 4 20 7"></polyline>
-                <line x1="9" y1="20" x2="15" y2="20"></line>
-                <line x1="12" y1="4" x2="12" y2="20"></line>
-            </svg>
-        </button>
     </div>
     
     <div class="container">
@@ -281,20 +268,6 @@
         const darkModeToggle = document.getElementById('darkModeToggle');
         darkModeToggle.addEventListener('click', () => {
             document.documentElement.classList.toggle('dark-mode');
-        });
-
-        // Focus mode toggle
-        const focusModeToggle = document.getElementById('focusModeToggle');
-        focusModeToggle.addEventListener('click', () => {
-            document.documentElement.classList.toggle('focus-mode');
-        });
-
-        // Font size toggle
-        const fontSizeToggle = document.getElementById('fontSizeToggle');
-        let currentFontSize = 18;
-        fontSizeToggle.addEventListener('click', () => {
-            currentFontSize = currentFontSize === 18 ? 20 : currentFontSize === 20 ? 22 : 18;
-            document.documentElement.style.setProperty('--font-size-base', `${currentFontSize}px`);
         });
 
         // Reading progress
