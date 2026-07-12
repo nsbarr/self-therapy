@@ -1,17 +1,14 @@
 {{ define "main" }}
-<!-- Add Google Fonts -->
-<link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;500;700&family=Rosarivo:wght@400;700&family=Asul&display=swap">
-<!-- Add Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
 <link rel="stylesheet" href="/css/video.css">
 
-
 <div class="container">
-    <h1>{{ .Title }}</h1>
-    <h2>{{ .Params.subtitle }}</h2>
-    <h3>{{ .Params.editor}}</h3>
+    <header class="video-header">
+        <h1 class="video-title">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="video-deck">{{ . }}</p>{{ end }}
+        {{ with .Params.editor }}
+        <div class="video-byline"><span class="rule"></span><span class="name">{{ . }}</span><span class="rule"></span></div>
+        {{ end }}
+    </header>
 
     <div class="content-container">
         <!-- Video Section (Left) -->
@@ -24,11 +21,10 @@
                 </iframe>
             </div>
 
-            <!-- Control Buttons - Fixed styling -->
             <div class="control-buttons">
                 <button class="control-button" id="toggleAutoScroll">Enable Flow</button>
-                <button class="theme-toggle" id="toggleLightMode">
-                    <i class="fas fa-sun"></i>
+                <button class="control-button theme-toggle" id="toggleLightMode">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
                     <span>Light Mode</span>
                 </button>
             </div>
@@ -42,9 +38,12 @@
                 <div class="chapter-header{{ if eq $index 0 }} expanded{{ else }} collapsed{{ end }}"
                     data-chapter="{{ $chapter.id }}">
                     <div class="chapter-title-wrapper">
-                        <h3 class="chapter-title">{{ $chapter.id }}. {{ $chapter.title }}</h3>
-                        <span class="chapter-time" data-start="{{ $chapter.start_time }}">{{ div $chapter.start_time 60
-                            | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }}</span>
+                        <div class="chapter-eyebrow">
+                            <span class="chapter-no">Chapter {{ printf "%02d" $chapter.id }}</span>
+                            <span class="chapter-time" data-start="{{ $chapter.start_time }}">{{ div $chapter.start_time 60
+                                | int }}:{{ mod $chapter.start_time 60 | printf "%02d" }}</span>
+                        </div>
+                        <h3 class="chapter-title">{{ $chapter.title }}</h3>
                     </div>
                     <div class="chapter-toggle"></div>
                 </div>
@@ -61,7 +60,7 @@
 
                         {{ if ne $chapter.commentary "" }}
                         <div class="commentary-container">
-                            <button class="commentary-toggle control-button">Show Notes</button>
+                            <button class="commentary-toggle">Show Notes</button>
                             <div class="commentary">
                                 {{ $commentaryParagraphs := split $chapter.commentary "\n\n" }}
                                 {{ range $cIndex, $commentaryParagraph := $commentaryParagraphs }}
@@ -78,8 +77,12 @@
             {{ end }}
         </div>
     </div>
-</div>
 
+    <footer class="video-colophon">
+        <div class="video-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+        <p>&copy; Nick Barr &middot; {{ now.Year }}</p>
+    </footer>
+</div>
 
 <script src="/js/video.js"></script>
 {{ end }}

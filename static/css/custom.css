@@ -1,174 +1,337 @@
-/* Home page specific reset and styles */
+/* ==========================================================================
+   Home page — editorial redesign
+   A quiet, journal-like front page: the vow front and center, the pieces
+   below as a table of contents. Fraunces carries display type; Petrona
+   carries running text. Colors are warm paper + ink with a muted
+   vermillion accent, and everything adapts to prefers-color-scheme.
+   ========================================================================== */
+
 .home-page * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base Typography & Colors - Only for home page */
 :root {
-  --color-paper: #fdfcf8;
-  --color-ink: #262420;
-  --color-light-ink: rgba(38, 36, 32, 0.7);
-  --color-accent: #9d9080;
-  --color-subtle: #e8e5df;
-  --color-space: #f8f5f0;
+  --color-paper: #f6f1e6;
+  --color-paper-deep: #efe8d9;
+  --color-ink: #211d16;
+  --color-light-ink: rgba(33, 29, 22, 0.72);
+  --color-accent: #99502e;
+  --color-hairline: rgba(33, 29, 22, 0.18);
+  --color-hairline-strong: rgba(33, 29, 22, 0.75);
   --font-body: 'Petrona', Georgia, serif;
-  --font-heading: et-book,"Noto Serif SC",Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif,"Noto Emoji";
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-heading: et-book, "Noto Serif SC", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif, "Noto Emoji";
+}
+
+@media (prefers-color-scheme: dark) {
+  .home-page {
+    --color-paper: #191611;
+    --color-paper-deep: #14110d;
+    --color-ink: #ece5d6;
+    --color-light-ink: rgba(236, 229, 214, 0.72);
+    --color-accent: #cf8d5f;
+    --color-hairline: rgba(236, 229, 214, 0.2);
+    --color-hairline-strong: rgba(236, 229, 214, 0.8);
+  }
 }
 
 .home-page {
   font-family: var(--font-body);
   background-color: var(--color-paper);
+  background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(255, 253, 244, 0.9) 0%, rgba(255, 253, 244, 0) 65%),
+    radial-gradient(60rem 40rem at 110% 105%, rgba(153, 80, 46, 0.07) 0%, rgba(153, 80, 46, 0) 60%);
   color: var(--color-ink);
   line-height: 1.6;
   font-weight: 400;
-  padding: 0;
   margin: 0;
-}
-
-.home-page html {
-  font-size: 18px;
-}
-
-/* Global Layout - for home page */
-.home-page .container {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* Home Page Specific Elements */
-.home-page .home-header {
-  margin: 6rem auto 5rem;
-  padding: 0 1.5rem;
-  max-width: 720px;
-}
-
-.home-page .home-title {
-  font-family: var(--font-heading);
-  font-size: 3rem;
-  font-weight: normal;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
-  color: var(--color-ink);
-  letter-spacing: 0.01em;
-}
-
-.home-page .home-quote {
-  font-family: var(--font-body);
-  font-style: italic;
-  line-height: 1.1;
-  font-size: 1.2rem;
-  color: var(--color-light-ink);
-  max-width: 580px;
-  /* background-color: var(--color-space); 
-  border: 1px solid var(--color-subtle);*/
-  border-radius: 3px;
-  padding: 0 3.5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
-.home-page .home-quote p {
-  margin: 0 0;
-}
-
-.home-page .home-quote .attribution {
-  margin-top: 0.8rem;
-  font-size: 1.1rem;
-  color: var(--color-accent);
-  font-style: normal;
-}
-
-/* Article List - only on home page */
-.home-page .article-list {
-  max-width: 720px;
-  margin: 0 auto 6rem;
-  padding: 0 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-}
-
-.home-page .article {
+  padding: 0;
   position: relative;
-  display: block;
-  padding: 2.8rem 2.5rem;
-  background-color: var(--color-space);
-  border: 1px solid var(--color-subtle);
-  border-radius: 3px;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s ease;
 }
 
-.home-page .article:hover {
-  border-color: var(--color-accent);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+@media (prefers-color-scheme: dark) {
+  .home-page {
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(46, 40, 30, 0.85) 0%, rgba(46, 40, 30, 0) 65%),
+      radial-gradient(60rem 40rem at 110% 105%, rgba(207, 141, 95, 0.06) 0%, rgba(207, 141, 95, 0) 60%);
+  }
 }
 
-.home-page .article-content {
+/* A whisper of paper grain over everything */
+.home-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
+}
+
+.home-page .home-hero,
+.home-page .index-section,
+.home-page .colophon {
   position: relative;
   z-index: 1;
 }
 
-.home-page .article-title {
-  font-family: Georgia, serif; /* Direct font override */
-  font-size: 1.6rem;
-  font-weight: normal;
-  margin-bottom: 1.2rem;
-  line-height: 1.3;
+/* --------------------------------------------------------------------------
+   Hero: masthead, vow, one-liner
+   -------------------------------------------------------------------------- */
+
+/* Short of a full viewport so the contents section peeks above the fold —
+   the scroll affordance now that there's no explicit cue */
+.home-page .home-hero {
+  min-height: 88svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.home-page .masthead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem 0 1.1rem;
+  border-bottom: 1px solid var(--color-hairline);
+}
+
+.home-page .masthead-wordmark {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-indent: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.home-page .hero-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 56rem;
+  padding: 4rem 0 3rem;
+}
+
+/* The quote block shrinks to its longest line, so the whole unit sits
+   centered while the lines themselves rag left. */
+.home-page .quote-block {
+  text-align: left;
+}
+
+.home-page .home-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  line-height: 1.65;
   color: var(--color-ink);
 }
 
-.home-page .article-description {
-  width: 92%;
-  font-size: 1rem;
+.home-page .quote-attribution {
+  margin-top: 1.4rem;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+.home-page .hero-ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.6rem 0;
+  width: min(100%, 22rem);
+  color: var(--color-accent);
+}
+
+.home-page .hero-ornament .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.home-page .hero-ornament .mark {
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.home-page .hero-intro {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.75;
+  color: var(--color-light-ink);
+  max-width: 36em;
+  text-wrap: balance;
+}
+
+/* --------------------------------------------------------------------------
+   Contents: featured piece + two-column index
+   -------------------------------------------------------------------------- */
+
+.home-page .index-section {
+  background-color: var(--color-paper-deep);
+  border-top: 1px solid var(--color-hairline);
+  padding: 5rem 1.5rem 6rem;
+}
+
+.home-page .index-inner {
+  max-width: 66rem;
+  margin: 0 auto;
+}
+
+/* Shared piece styles */
+.home-page .piece {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-top: 1px solid var(--color-hairline);
+  padding: 2rem 0 2.4rem;
+}
+
+.home-page .piece-title {
+  font-family: var(--font-display);
+  font-weight: 420;
+  line-height: 1.25;
+  color: var(--color-ink);
+  transition: color 0.25s ease;
+  text-wrap: balance;
+}
+
+.home-page .piece:hover .piece-title {
+  color: var(--color-accent);
+}
+
+.home-page .piece-desc {
+  font-size: 0.98rem;
   line-height: 1.7;
-  margin-bottom: 1.8rem;
   color: var(--color-light-ink);
 }
 
-.home-page .article-meta {
-  font-size: 1.0rem;
+.home-page .piece-meta {
+  margin-top: 1.3rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
   color: var(--color-accent);
-  letter-spacing: 0.02em;
 }
 
-/* Responsive Design - home page only */
-@media (max-width: 768px) {
-  .home-page html {
-    font-size: 16px;
-  }
-  
-  .home-page .home-header {
-    margin: 4rem auto 3rem;
-  }
-  
-  .home-page .home-title {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .home-page .article {
-    padding: 2rem;
-  }
-  
-  .home-page .article-description {
-    width: 100%;
-  }
-} 
+/* Featured piece: a heavier rule and a two-column spread */
+.home-page .piece--featured {
+  border-top: 2px solid var(--color-hairline-strong);
+  padding: 2.4rem 0 3.2rem;
+}
 
-/* Article page title styles */
+.home-page .piece--featured .piece-title {
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+}
+
+.home-page .piece--featured {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-areas: "title body";
+  column-gap: 4rem;
+  align-items: start;
+}
+
+.home-page .piece--featured .piece-title {
+  grid-area: title;
+}
+
+.home-page .piece--featured .piece-body {
+  grid-area: body;
+}
+
+/* The two-column index with a center hairline */
+.home-page .index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  position: relative;
+}
+
+.home-page .index-grid::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 50%;
+  width: 1px;
+  background: var(--color-hairline);
+}
+
+.home-page .index-grid .piece-title {
+  font-size: 1.45rem;
+  margin-bottom: 0.9rem;
+}
+
+/* --------------------------------------------------------------------------
+   Colophon
+   -------------------------------------------------------------------------- */
+
+.home-page .colophon {
+  background-color: var(--color-paper-deep);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5rem 3.4rem;
+}
+
+.home-page .colophon .hero-ornament {
+  margin: 0 0 1.4rem;
+  width: min(100%, 16rem);
+}
+
+.home-page .colophon p {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--color-light-ink);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 880px) {
+  .home-page .home-hero {
+    min-height: 88svh;
+  }
+
+  .home-page .piece--featured {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "body";
+    row-gap: 1rem;
+  }
+
+  .home-page .index-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .home-page .index-grid::before {
+    display: none;
+  }
+
+  .home-page .index-grid .piece-title {
+    font-size: 1.55rem;
+  }
+}
+
+/* ==========================================================================
+   Article page styles (non-home)
+   ========================================================================== */
+
 .content-title {
   max-width: 800px;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.intro-text{
+.intro-text {
   font-size: 1.2rem;
 }

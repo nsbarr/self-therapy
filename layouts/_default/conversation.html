@@ -4,7 +4,8 @@
 <div class="conversation-page">
     <header class="conversation-header">
         <h1 class="conversation-title">{{ .Title }}</h1>
-        {{ with .Params.subtitle }}<p class="conversation-subtitle">{{ . }}</p>{{ end }}
+        {{ with .Params.subtitle }}<p class="conversation-deck">{{ . }}</p>{{ end }}
+        <div class="conversation-byline"><span class="rule"></span><span class="name">{{ .Date | time.Format "January 2006" }}</span><span class="rule"></span></div>
         {{ with .Params.context_note }}<p class="context-note">{{ . }}</p>{{ end }}
     </header>
 
@@ -33,6 +34,11 @@
         {{ end }}
         {{ end }}
     </section>
+
+    <footer class="conversation-colophon">
+        <div class="conversation-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+        <p>&copy; Nick Barr &middot; {{ now.Year }}</p>
+    </footer>
 </div>
 
 <script src="/js/conversation.js"></script>

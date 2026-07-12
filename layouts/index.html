@@ -1,25 +1,54 @@
 {{ define "main" }}
-    <header class="home-header">
-        <h1 class="home-title">A Website for All Beings</h1>
-        <div class="home-quote">
-            <p>Beings are numberless: I vow to free them all.</p>
-            <p>Reactions are endless: I vow to release them all.</p>
-            <p>Doors to experience are infinite: I vow to open them all.</p>
-            <p>Ways of awakening are limitless: I vow to know them all.</p>
-            <p class="attribution">— from <em>The Magic of Faith</em> by Ken McLeod</p>
-        </div>
-        <p class="intro-text"><i>All Beings</i> is a collection of essays, frameworks, and prototypes that explore intersections between artificial intelligence and spiritual practice.</p>
-    </header>
+    <div class="home-hero">
+        <header class="masthead">
+            <h1 class="masthead-wordmark">All Beings</h1>
+        </header>
 
-    <main class="article-list">
-        {{ range sort (where site.Pages "Params.home_weight" "!=" nil) "Params.home_weight" }}
-        <a href="{{ .RelPermalink }}" class="article">
-            <div class="article-content">
-                <h2 class="article-title">{{ .Params.home_title | default .Title }}</h2>
-                <p class="article-description">{{ .Params.home_description }}</p>
-                <div class="article-meta">{{ .Params.home_meta }}</div>
+        <div class="hero-body">
+            <div class="quote-block">
+                <blockquote class="home-quote">
+                    <p>Beings are numberless: I vow to free them all.</p>
+                    <p>Reactions are endless: I vow to release them all.</p>
+                    <p>Doors to experience are infinite: I vow to open them all.</p>
+                    <p>Ways of awakening are limitless: I vow to know them all.</p>
+                </blockquote>
+                <p class="quote-attribution">&mdash;&nbsp;from <em>The Magic of Faith</em> by Ken McLeod</p>
             </div>
-        </a>
-        {{ end }}
+
+            <div class="hero-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+
+            <p class="hero-intro"><em>All Beings</em> is a collection of essays, frameworks, and prototypes that explore intersections between artificial intelligence and spiritual practice.</p>
+        </div>
+    </div>
+
+    <main id="contents" class="index-section">
+        <div class="index-inner">
+            {{ $pieces := sort (where site.Pages "Params.home_weight" "!=" nil) "Params.home_weight" }}
+
+            {{ range first 1 $pieces }}
+            <a href="{{ .RelPermalink }}" class="piece piece--featured">
+                <h3 class="piece-title">{{ .Params.home_title | default .Title }}</h3>
+                <div class="piece-body">
+                    <p class="piece-desc">{{ .Params.home_description }}</p>
+                    <div class="piece-meta">{{ .Params.home_meta }}</div>
+                </div>
+            </a>
+            {{ end }}
+
+            <div class="index-grid">
+                {{ range after 1 $pieces }}
+                <a href="{{ .RelPermalink }}" class="piece">
+                    <h3 class="piece-title">{{ .Params.home_title | default .Title }}</h3>
+                    <p class="piece-desc">{{ .Params.home_description }}</p>
+                    <div class="piece-meta">{{ .Params.home_meta }}</div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
     </main>
+
+    <footer class="colophon">
+        <div class="hero-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+        <p>&copy; Nick Barr &middot; {{ now.Year }}</p>
+    </footer>
 {{ end }}

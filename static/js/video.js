@@ -112,6 +112,15 @@
             });
         }
 
+        // The iframe API wants an explicit origin when enablejsapi=1; without
+        // it the postMessage handshake can silently fail and the player
+        // behaves erratically (state resets, dropped seeks)
+        const playerFrame = document.getElementById('youtube-player');
+        if (playerFrame && playerFrame.src.indexOf('origin=') === -1) {
+            playerFrame.src += (playerFrame.src.indexOf('?') === -1 ? '?' : '&')
+                + 'origin=' + encodeURIComponent(window.location.origin);
+        }
+
         // YouTube API integration
         let tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
@@ -333,42 +342,7 @@
             const controlButtons = document.querySelector('.control-buttons');
             controlButtons.parentNode.insertBefore(flowControls, controlButtons.nextSibling);
 
-            // Add CSS for the flow controls
-            const style = document.createElement('style');
-            style.textContent = `
-        .flow-speed-controls {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-top: 10px;
-            justify-content: center;
-        }
-        .flow-speed-label {
-            color: var(--color-contrast);
-            font-size: var(--font-size-small);
-            opacity: 0.8;
-        }
-        .flow-speed-btn {
-            background-color: rgba(212, 167, 57, 0.07);
-            border: 1px solid var(--color-accent-2);
-            color: var(--color-contrast);
-            font-family: var(--font-heading-2);
-            font-size: var(--font-size-small);
-            padding: 5px 10px;
-            cursor: pointer;
-            border-radius: 4px;
-            opacity: 0.9;
-            transition: all 0.2s ease;
-        }
-        .flow-speed-btn:hover {
-            background-color: rgba(212, 167, 57, 0.15);
-        }
-        .flow-speed-btn.active {
-            background-color: rgba(212, 167, 57, 0.25);
-            color: var(--color-accent-2);
-        }
-    `;
-            document.head.appendChild(style);
+            // Flow-control styling lives in video.css
 
             // Update the toggle auto-scroll function
             const toggleAutoScrollBtn = document.getElementById('toggleAutoScroll');

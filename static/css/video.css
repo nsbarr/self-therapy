@@ -1,584 +1,519 @@
-    :root {
-        /* Colors - Light canvas with gold accents */
-        --color-base: #f9f6f0;
-        --color-contrast: #3a3124;
-        --color-accent-1: #f0e9dd;
-        --color-accent-2: #d4a739;
-        /* Golden accent */
-        --color-accent-3: #9a7b45;
-        /* Secondary gold */
-        --color-accent-4: #8a8a8a;
-        --color-accent-5: #fcfcfc;
+/* ==========================================================================
+   DevotionTube — video + transcript pages in the editorial system
+   Same paper/ink/vermillion language as the home page and essays.
+   Dark mode is toggled by video.js, which sets .dark-mode on <body>;
+   every color routes through the variables below so the override is small.
+   Loaded only for `layout: video` pages, which skip Tufte CSS entirely.
+   ========================================================================== */
 
-        /* Original Typography */
-        --font-primary: 'Petrona', serif;
-        --font-heading-1: 'Rosarivo', serif;
-        --font-heading-2: 'Asul', sans-serif;
-        --font-size-small: 0.8rem;
-        --font-size-medium: 1rem;
-        --font-size-large: 1.2rem;
-        --font-size-x-large: 1.6rem;
+body {
+    --color-paper: #f6f1e6;
+    --color-paper-deep: #efe8d9;
+    --color-ink: #211d16;
+    --color-light-ink: rgba(33, 29, 22, 0.72);
+    --color-accent: #99502e;
+    --color-hairline: rgba(33, 29, 22, 0.18);
+    --color-hairline-strong: rgba(33, 29, 22, 0.75);
+    --font-body: 'Petrona', Georgia, serif;
+    --font-display: 'Fraunces', Georgia, serif;
 
-        /* Spacing */
-        --spacing-sm: 10px;
-        --spacing-md: 20px;
-        --spacing-lg: 30px;
-        --spacing-xl: clamp(30px, 5vw, 50px);
-    }
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(255, 253, 244, 0.9) 0%, rgba(255, 253, 244, 0) 65%);
+    position: relative;
+}
 
-    * {
-        box-sizing: border-box;
-        transition: all 0.3s cubic-bezier(0.33, 1, 0.68, 1);
-    }
+body.dark-mode {
+    --color-paper: #191611;
+    --color-paper-deep: #14110d;
+    --color-ink: #ece5d6;
+    --color-light-ink: rgba(236, 229, 214, 0.72);
+    --color-accent: #cf8d5f;
+    --color-hairline: rgba(236, 229, 214, 0.2);
+    --color-hairline-strong: rgba(236, 229, 214, 0.8);
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(46, 40, 30, 0.85) 0%, rgba(46, 40, 30, 0) 65%);
+}
 
-    body {
-        font-family: var(--font-primary);
-        font-size: var(--font-size-medium);
-        line-height: 1.7;
-        color: var(--color-contrast);
-        background-color: var(--color-base);
-        margin: 0;
-        padding: 0;
-    }
+* {
+    box-sizing: border-box;
+}
 
+/* Paper grain, matching the rest of the site */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 5.5rem 1.5rem 3rem;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+.video-header {
+    text-align: center;
+    max-width: 46rem;
+    margin: 0 auto 4rem;
+}
+
+.video-title {
+    margin: 0 0 1.2rem;
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(2.1rem, 5vw, 3rem);
+    line-height: 1.15;
+    color: var(--color-ink);
+    text-wrap: balance;
+}
+
+.video-deck {
+    margin: 0 auto 2rem;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: var(--color-light-ink);
+}
+
+.video-byline {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    max-width: 26rem;
+    margin: 0 auto;
+}
+
+.video-byline .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-hairline);
+}
+
+.video-byline .name {
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Two-column layout: sticky video, scrolling transcript
+   -------------------------------------------------------------------------- */
+
+.content-container {
+    display: flex;
+    gap: clamp(2rem, 5vw, 4.5rem);
+}
+
+.video-section {
+    flex: 0 0 44%;
+    position: sticky;
+    top: 1.5rem;
+    height: fit-content;
+}
+
+.transcript-section {
+    flex: 1;
+    min-width: 0;
+    max-width: 42rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    background-color: #000;
+    border: 1px solid var(--color-hairline);
+    box-shadow: 0 14px 32px rgba(33, 29, 22, 0.14);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* --------------------------------------------------------------------------
+   Controls — quiet small-caps text buttons
+   -------------------------------------------------------------------------- */
+
+.control-buttons {
+    display: flex;
+    gap: 0.8rem;
+    margin: 1.2rem 0;
+    justify-content: center;
+}
+
+.control-button {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--color-hairline);
+    color: var(--color-light-ink);
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-indent: 0.18em;
+    text-transform: uppercase;
+    padding: 0.55rem 1.1rem;
+    min-width: 9rem;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.control-button:hover {
+    color: var(--color-ink);
+    border-color: var(--color-hairline-strong);
+}
+
+.control-button.active {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background-color: rgba(153, 80, 46, 0.06);
+}
+
+body.dark-mode .control-button.active {
+    background-color: rgba(207, 141, 95, 0.1);
+}
+
+/* video.js expects an <i> icon inside the theme toggle; keep it for the
+   script, hide it from the design */
+.theme-toggle i {
+    display: none;
+}
+
+/* Flow speed controls, injected by video.js when Flow is enabled */
+.flow-speed-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.7rem;
+    justify-content: center;
+}
+
+.flow-speed-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-light-ink);
+}
+
+.flow-speed-btn {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--color-hairline);
+    color: var(--color-light-ink);
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.flow-speed-btn:hover {
+    color: var(--color-ink);
+    border-color: var(--color-hairline-strong);
+}
+
+.flow-speed-btn.active {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background-color: rgba(153, 80, 46, 0.06);
+}
+
+body.dark-mode .flow-speed-btn.active {
+    background-color: rgba(207, 141, 95, 0.1);
+}
+
+/* --------------------------------------------------------------------------
+   Chapters — an editorial contents list
+   -------------------------------------------------------------------------- */
+
+.chapter {
+    border-top: 1px solid var(--color-hairline);
+}
+
+.chapter:last-child {
+    border-bottom: 1px solid var(--color-hairline);
+}
+
+.chapter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.4rem 0;
+    cursor: pointer;
+}
+
+.chapter-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.chapter-eyebrow {
+    display: flex;
+    align-items: baseline;
+    gap: 1.1rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.chapter-no {
+    color: var(--color-light-ink);
+}
+
+.chapter-time {
+    color: var(--color-accent);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.chapter-time:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.chapter-title {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 420;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: var(--color-ink);
+    transition: color 0.25s ease;
+}
+
+.chapter-header:hover .chapter-title,
+.chapter-header.active .chapter-title {
+    color: var(--color-accent);
+}
+
+/* Plus / minus toggle drawn from hairlines */
+.chapter-toggle {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border: 1px solid var(--color-hairline);
+    border-radius: 50%;
+}
+
+.chapter-toggle::before,
+.chapter-toggle::after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-light-ink);
+    transition: transform 0.3s ease;
+}
+
+.chapter-toggle::before {
+    width: 1px;
+    height: 10px;
+    top: 7px;
+    left: 12px;
+}
+
+.chapter-toggle::after {
+    width: 10px;
+    height: 1px;
+    top: 12px;
+    left: 7px;
+}
+
+/* Expanded chapters show a minus, collapsed a plus */
+.chapter-header.expanded .chapter-toggle::before {
+    transform: rotate(90deg);
+}
+
+.chapter-content {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.chapter-content.expanded {
+    max-height: 12000px;
+    transition: max-height 1s ease-in-out;
+}
+
+/* --------------------------------------------------------------------------
+   Transcript
+   -------------------------------------------------------------------------- */
+
+.chapter-transcript {
+    margin: 0.3rem 0 2.2rem;
+    padding-left: 1.4rem;
+    border-left: 1px solid var(--color-hairline);
+    transition: border-color 0.3s ease;
+}
+
+.chapter-transcript.active-chapter {
+    border-left: 2px solid var(--color-accent);
+    padding-left: calc(1.4rem - 1px);
+}
+
+.transcript-paragraph {
+    margin: 0 0 1.1rem;
+    font-size: 1.02rem;
+    line-height: 1.8;
+    color: var(--color-ink);
+}
+
+.transcript-paragraph em {
+    color: var(--color-light-ink);
+}
+
+/* --------------------------------------------------------------------------
+   Notes (commentary) — the editor's voice, set apart on deeper paper
+   -------------------------------------------------------------------------- */
+
+.commentary-container {
+    margin: 1.6rem 0 0.4rem;
+}
+
+.commentary-toggle {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 0.9rem;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.commentary-toggle:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.commentary {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 1s ease-in-out;
+    background-color: var(--color-paper-deep);
+    border-left: 2px solid var(--color-accent);
+    padding: 0 1.4rem;
+}
+
+.commentary.show-commentary {
+    opacity: 1;
+    max-height: 8000px;
+    padding: 1.3rem 1.4rem;
+    margin-bottom: 0.6rem;
+    overflow: visible;
+}
+
+.commentary p {
+    margin: 0 0 1rem;
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: var(--color-light-ink);
+}
+
+.commentary p:last-child {
+    margin-bottom: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Colophon
+   -------------------------------------------------------------------------- */
+
+.video-colophon {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-ornament {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: min(100%, 16rem);
+    margin-bottom: 1.4rem;
+    color: var(--color-accent);
+}
+
+.video-ornament .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-hairline);
+}
+
+.video-ornament .mark {
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+.video-colophon p {
+    margin: 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: var(--color-light-ink);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 880px) {
     .container {
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: var(--spacing-xl);
-        background-color: var(--color-base);
-        /* Incorporating your manual override */
+        padding-top: 4.5rem;
     }
 
-    h1 {
-        font-family: var(--font-heading-1);
-        font-size: clamp(1.8rem, 1.8rem + ((1vw - 0.2rem) * 1.565), 2.8rem);
-        font-weight: 700;
-        line-height: 1.3;
-        color: var(--color-contrast);
-        margin-bottom: var(--spacing-md);
-        text-align: center;
-        position: relative;
-        opacity: 0.95;
-        /* Increased from screenshot */
-    }
-
-    h1::after {
-        content: none;
-        /* Remove gradient from h1 */
-    }
-
-    h2 {
-        font-family: var(--font-heading-2);
-        font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.739), 1.5rem);
-        font-weight: 400;
-        line-height: 1.3;
-        color: var(--color-accent-2);
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: var(--spacing-md);
-        opacity: 0.95;
-        position: relative;
-    }
-
-    /* Removed the h2::after divider and moved it to h3::after */
-
-    /* Added h3 styling to make it less prominent than h2 */
-    h3 {
-        font-family: var(--font-primary);
-        font-size: clamp(0.9rem, 0.9rem + ((1vw - 0.2rem) * 0.5), 1.2rem);
-        font-weight: 400;
-        line-height: 1.2;
-        color: var(--color-accent-4);
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: var(--spacing-lg);
-        opacity: 0.9;
-        position: relative;
-    }
-
-    /* Added the divider to h3::after 
-    h3::after {
-        content: "";
-        position: absolute;
-        bottom: -15px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 120px;
-        height: 2px;
-        background: linear-gradient(to right, transparent, var(--color-accent-2), transparent);
-    }
-    */
-    /* Improved content layout */
     .content-container {
-        display: flex;
-        gap: var(--spacing-xl);
-    }
-
-    .video-section {
-        flex: 0 0 45%;
-        /* Increase video section width */
-        position: sticky;
-        top: var(--spacing-xl);
-        height: fit-content;
-    }
-
-    .transcript-section {
-        flex: 0 0 50%;
-        border: 1px solid var(--color-accent-1);
-        border-radius: 5px;
-        padding: var(--spacing-md);
-        background-color: var(--color-accent-5);
-        max-width: 700px;
-        /* Limit width for readability */
-    }
-
-    /* Enhanced video container */
-    .video-container {
-        position: relative;
-        width: 100%;
-        padding-top: 56.25%;
-        /* 16:9 Aspect Ratio */
-        background-color: #000;
-        margin-bottom: var(--spacing-md);
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-    }
-
-    .video-container::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border: 1px solid rgba(212, 167, 57, 0.1);
-        border-radius: 5px;
-        pointer-events: none;
-        z-index: 1;
-    }
-
-    .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-
-    /* Control buttons - Fixed styling */
-    .control-buttons {
-        display: flex;
-        gap: 10px;
-        margin: var(--spacing-md) 0;
-        justify-content: center;
-    }
-
-    .control-button {
-        background-color: rgba(212, 167, 57, 0.07);
-        border: 1px solid var(--color-accent-2);
-        color: var(--color-contrast);
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-small);
-        padding: 8px 16px;
-        cursor: pointer;
-        border-radius: 4px;
-        opacity: 0.9;
-        transition: all 0.2s ease;
-        min-width: 120px;
-        text-align: center;
-    }
-
-    .control-button:hover {
-        background-color: rgba(212, 167, 57, 0.15);
-        border-color: var(--color-accent-2);
-        transform: translateY(-1px);
-    }
-
-    .control-button.active {
-        background-color: rgba(212, 167, 57, 0.25);
-        border-color: var(--color-accent-2);
-        color: var(--color-accent-2);
-        opacity: 1;
-    }
-
-    /* Chapter styling */
-    .chapter {
-        margin-bottom: var(--spacing-md);
-        opacity: 0.95;
-        position: relative;
-    }
-
-    /* Remove unwanted + icon */
-    .chapter .unwanted-icon {
-        display: none;
-    }
-
-    .chapter-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--color-accent-1);
-        padding: var(--spacing-md);
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        position: relative;
-        border-left: 3px solid transparent;
-    }
-
-    .chapter-header:hover {
-        background-color: rgba(212, 167, 57, 0.08);
-        border-left: 3px solid var(--color-accent-3);
-    }
-
-    .chapter-header.active {
-        border-left: 3px solid var(--color-accent-2);
-        background-color: rgba(212, 167, 57, 0.1);
-    }
-
-    .chapter-title-wrapper {
-        display: flex;
         flex-direction: column;
     }
 
-    .chapter-title {
-        margin: 0;
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-large);
-        font-weight: 500;
-        color: var(--color-contrast);
-        font-style: normal;
-    }
-
-    /* Timestamp styled as a clickable button */
-    .chapter-time {
-        display: inline-block;
-        margin-top: 8px;
-        padding: 4px 10px;
-        background-color: rgba(212, 167, 57, 0.15);
-        border: 1px solid rgba(212, 167, 57, 0.3);
-        border-radius: 4px;
-        font-size: var(--font-size-small);
-        color: var(--color-accent-2);
-        cursor: pointer;
-        transition: all 0.2s ease;
-        width: fit-content;
-        /* Incorporating your manual override */
-    }
-
-    .chapter-time:hover {
-        background-color: rgba(212, 167, 57, 0.25);
-        transform: translateY(-1px);
-    }
-
-    .chapter-time:active {
-        transform: translateY(1px);
-    }
-
-    .chapter-toggle {
-        width: 24px;
-        height: 24px;
-        position: relative;
-        background-color: rgba(212, 167, 57, 0.1);
-        border-radius: 12px;
-    }
-
-    .chapter-toggle::before,
-    .chapter-toggle::after {
-        content: "";
-        position: absolute;
-        background-color: var(--color-accent-2);
-        transition: transform 0.3s ease;
-    }
-
-    .chapter-toggle::before {
-        width: 2px;
-        height: 12px;
-        top: 6px;
-        left: 11px;
-    }
-
-    .chapter-toggle::after {
-        width: 12px;
-        height: 2px;
-        top: 11px;
-        left: 6px;
-    }
-
-    .chapter-header.collapsed .chapter-toggle::before {
-        transform: rotate(90deg);
-    }
-
-    .chapter-content {
-        height: auto;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-    }
-
-    .chapter-content.expanded {
-        max-height: 2000px;
-        /* Large enough to fit content */
-        transition: max-height 1s ease-in-out;
-    }
-
-    /* Chapter transcript styling */
-    .chapter-transcript {
-        margin: var(--spacing-md) 0;
-        padding: var(--spacing-md);
-        background-color: rgba(212, 167, 57, 0.05);
-        border-radius: 5px;
-        border-left: 2px solid transparent;
-        transition: all 0.3s ease;
-        max-width: 650px;
-        /* Limit width for better readability */
-        display: flow-root;
-        /* Modern way to establish a new block formatting context */
-    }
-
-    .chapter-transcript.active-chapter {
-        background-color: rgba(212, 167, 57, 0.08);
-        border-left: 3px solid var(--color-accent-2);
-    }
-
-    .transcript-paragraph {
-        margin-bottom: var(--spacing-sm);
-        line-height: 1.7;
-        font-size: var(--font-size-large);
-        /* Incorporating your manual override */
-        width: 90%;
-        /* Incorporating your manual override */
-    }
-
-    /* Commentary container and toggle styling */
-    .commentary-container {
-        margin-top: var(--spacing-lg);
-        margin-bottom: var(--spacing-sm);
-    }
-
-    .commentary-toggle {
-        display: inline-block;
-        margin-bottom: var(--spacing-sm);
-        background-color: rgba(212, 167, 57, 0.1);
-        border: 1px solid var(--color-accent-2);
-        color: var(--color-accent-2);
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-small);
-        padding: 6px 14px;
-        cursor: pointer;
-        border-radius: 4px;
-        transition: all 0.2s ease;
-    }
-
-    .commentary-toggle:hover {
-        background-color: rgba(212, 167, 57, 0.2);
-        transform: translateY(-1px);
-    }
-
-    .commentary-toggle.active {
-        background-color: rgba(212, 167, 57, 0.25);
-    }
-
-    /* Commentary styling with improved paragraph support and separation */
-    .commentary {
-        font-style: normal;
-        padding: var(--spacing-md);
-        padding-left: var(--spacing-md);
-        border-left: 3px solid var(--color-accent-2);
-        font-size: var(--font-size-large);
-        color: var(--color-accent-2);
-        opacity: 0;
-        max-height: 0;
-        overflow: hidden;
-        transition: opacity 0.5s ease, max-height 1s ease-in-out;
-        /* Separated transitions for smoother effect */
-        background-color: rgba(212, 167, 57, 0.05);
-        border-radius: 0 5px 5px 0;
-        display: block;
-        /* Ensure it's a block element */
-        clear: both;
-        /* Clear any floats */
-    }
-
-    /* Commentary styling with improved paragraph support and separation */
-    .commentary.show-commentary {
-        opacity: 0.9;
-        max-height: 6000px;
-        /* Substantially increased for very long commentaries */
-        margin-bottom: var(--spacing-sm);
-        overflow: visible;
-        /* Ensure content isn't cut off */
-    }
-
-    /* Ensure paragraphs within commentary display properly */
-    .commentary p {
-        margin-bottom: var(--spacing-sm);
-        line-height: 1.7;
-        display: block;
-        clear: both;
+    .video-section {
+        position: sticky;
+        top: 0;
         width: 100%;
-        /* Ensure full width */
-        font-size: var(--font-size-medium);
-        /* Adjusted for readability */
+        z-index: 10;
+        background-color: var(--color-paper);
+        padding: 0.6rem 0;
     }
 
-    .commentary p:last-child {
-        margin-bottom: 0;
+    .control-buttons {
+        margin: 0.9rem 0 0.3rem;
     }
 
-    /* Create clear separation between transcript and commentary */
-    /* Remove duplicate chapter-transcript definition */
-
-    /* Dark mode - IMPROVED with comprehensive overrides */
-    body.dark-mode {
-        --color-base: #0f0f0f;
-        --color-contrast: #f5f1e4;
-        --color-accent-1: #1a1a1a;
-        --color-accent-5: #181818;
+    .transcript-section {
+        max-width: 100%;
     }
-
-    /* Comprehensive dark mode overrides for all backgrounds */
-    body.dark-mode .chapter-header {
-        background-color: var(--color-accent-1);
-    }
-
-    body.dark-mode .chapter-header:hover {
-        background-color: rgba(212, 167, 57, 0.15);
-        border-left: 3px solid var(--color-accent-3);
-    }
-
-    body.dark-mode .chapter-header.active {
-        background-color: rgba(212, 167, 57, 0.2);
-    }
-
-    body.dark-mode .chapter-transcript {
-        background-color: rgba(26, 26, 26, 0.6);
-    }
-
-    body.dark-mode .chapter-transcript.active-chapter {
-        background-color: rgba(26, 26, 26, 0.8);
-    }
-
-    /* Dark mode overrides for commentary */
-    body.dark-mode .commentary-toggle {
-        background-color: rgba(212, 167, 57, 0.1);
-        color: #f5f1e4;
-    }
-
-    body.dark-mode .commentary-toggle:hover {
-        background-color: rgba(212, 167, 57, 0.2);
-    }
-
-    body.dark-mode .commentary-toggle.active {
-        background-color: rgba(212, 167, 57, 0.3);
-    }
-
-    body.dark-mode .control-button {
-        background-color: rgba(212, 167, 57, 0.1);
-        color: var(--color-contrast);
-    }
-
-    body.dark-mode .control-button:hover {
-        background-color: rgba(212, 167, 57, 0.2);
-    }
-
-    body.dark-mode .control-button.active {
-        background-color: rgba(212, 167, 57, 0.3);
-        color: #f5f1e4;
-    }
-
-    body.dark-mode .video-container {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-    }
-
-    /* Mobile responsive styles */
-    @media (max-width: 768px) {
-        .content-container {
-            flex-direction: column;
-        }
-
-        .video-section {
-            position: sticky;
-            top: 0;
-            width: 100%;
-            z-index: 10;
-            background-color: var(--color-base);
-            padding-bottom: var(--spacing-sm);
-            margin-bottom: var(--spacing-md);
-        }
-
-        .transcript-section {
-            width: 100%;
-            max-width: 100%;
-        }
-
-        .container {
-            padding: var(--spacing-md);
-        }
-
-        .control-buttons {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .control-button {
-            flex: 1 0 100px;
-        }
-    }
-
-    /* Theme toggle button styling */
-    .theme-toggle {
-        background-color: rgba(212, 167, 57, 0.07);
-        border: 1px solid var(--color-accent-2);
-        color: var(--color-contrast);
-        font-family: var(--font-heading-2);
-        font-size: var(--font-size-small);
-        padding: 8px 16px;
-        cursor: pointer;
-        border-radius: 4px;
-        opacity: 0.9;
-        transition: all 0.2s ease;
-        min-width: 120px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-    }
-
-    .theme-toggle:hover {
-        background-color: rgba(212, 167, 57, 0.15);
-        border-color: var(--color-accent-2);
-        transform: translateY(-1px);
-    }
-
-    .theme-toggle.active {
-        background-color: rgba(212, 167, 57, 0.25);
-        border-color: var(--color-accent-2);
-        color: var(--color-accent-2);
-        opacity: 1;
-    }
-
-    .theme-toggle i {
-        font-size: 1.1em;
-        transition: transform 0.3s ease;
-    }
-
-    .theme-toggle:hover i {
-        transform: rotate(15deg);
-    }
-
-    /* Dark mode specific styles for the toggle */
-    body.dark-mode .theme-toggle {
-        background-color: rgba(212, 167, 57, 0.1);
-    }
-
-    body.dark-mode .theme-toggle:hover {
-        background-color: rgba(212, 167, 57, 0.2);
-    }
-
-    body.dark-mode .theme-toggle.active {
-        background-color: rgba(212, 167, 57, 0.3);
-    }
+}
