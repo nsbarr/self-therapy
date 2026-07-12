@@ -1,105 +1,179 @@
-/* Conversation pages — chat-inflected rendering in the site's paper aesthetic */
+/* ==========================================================================
+   Conversation pages — chat-inflected rendering in the editorial system
+   Same paper/ink/vermillion palette and Fraunces/Petrona pairing as the
+   home page and essays. Loaded only for `layout: conversation` pages,
+   which skip Tufte CSS entirely, so plain element selectors own the page.
+   The chat grammar stays: Nick's spoken turns as bubbles on the right,
+   Claude's considered turns as open prose against a hairline.
+   ========================================================================== */
 
 body {
-    margin: 0 auto;
+    --color-paper: #f6f1e6;
+    --color-paper-deep: #efe8d9;
+    --color-ink: #211d16;
+    --color-light-ink: rgba(33, 29, 22, 0.72);
+    --color-accent: #99502e;
+    --color-hairline: rgba(33, 29, 22, 0.18);
+    --font-body: 'Petrona', Georgia, serif;
+    --font-display: 'Fraunces', Georgia, serif;
+
+    margin: 0;
     padding: 0;
-    max-width: none;
-    width: auto;
-    background-color: #fdfcf8;
-    color: #262420;
-    font-family: 'Petrona', Georgia, serif;
+    font-family: var(--font-body);
     line-height: 1.7;
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(255, 253, 244, 0.9) 0%, rgba(255, 253, 244, 0) 65%);
+    position: relative;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --color-paper: #191611;
+        --color-paper-deep: #14110d;
+        --color-ink: #ece5d6;
+        --color-light-ink: rgba(236, 229, 214, 0.72);
+        --color-accent: #cf8d5f;
+        --color-hairline: rgba(236, 229, 214, 0.2);
+        background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(46, 40, 30, 0.85) 0%, rgba(46, 40, 30, 0) 65%);
+    }
+
+    nav.site-nav a.site-nav-home {
+        color: #a89f91;
+    }
+
+    nav.site-nav a.site-nav-home:hover,
+    nav.site-nav a.site-nav-home:focus {
+        color: #f0ebe0;
+    }
+}
+
+/* Paper grain, matching the rest of the site */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
 }
 
 .conversation-page {
-    max-width: 680px;
+    position: relative;
+    z-index: 1;
+    max-width: 42rem;
     margin: 0 auto;
-    padding: 2rem 1.5rem 6rem;
+    padding: 6rem 1.5rem 4rem;
 }
 
-/* Tufte's stylesheet narrows paragraphs to 55% and inflates their size and
-   leading; pin all of it down here so both voices set their own type */
-.conversation-page p,
-.conversation-page ul,
-.conversation-page ol {
-    width: 100%;
+.conversation-page p {
     font-size: 1rem;
     line-height: 1.7;
 }
 
-/* ---- Header ---- */
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
 
 .conversation-header {
-    margin: 3rem 0 3.5rem;
+    text-align: center;
+    margin: 0 0 3.8rem;
 }
 
 .conversation-title {
-    font-family: et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
-    font-size: 2.6rem;
-    font-weight: normal;
-    font-style: normal;
+    margin: 0 0 1.2rem;
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(2.3rem, 6vw, 3.4rem);
     line-height: 1.15;
-    margin: 0 0 0.6rem;
-    color: #262420;
+    color: var(--color-ink);
+    text-wrap: balance;
 }
 
-.conversation-subtitle {
-    font-size: 1.15rem;
-    color: rgba(38, 36, 32, 0.7);
-    margin: 0 0 1.4rem;
+.conversation-deck {
+    margin: 0 auto 2rem;
+    max-width: 30em;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--color-light-ink);
+}
+
+.conversation-byline {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    max-width: 22rem;
+    margin: 0 auto 2rem;
+}
+
+.conversation-byline .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-hairline);
+}
+
+.conversation-byline .name {
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    color: var(--color-accent);
 }
 
 .context-note {
+    margin: 0 auto;
+    max-width: 34em;
     font-style: italic;
-    font-size: 0.95rem;
-    color: #9d9080;
-    border-left: 2px solid #e8e5df;
-    padding-left: 1rem;
-    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--color-light-ink);
 }
 
-/* ---- Foreword ---- */
+/* --------------------------------------------------------------------------
+   Foreword — the editor's voice, set apart on deeper paper
+   -------------------------------------------------------------------------- */
 
 .foreword {
-    background-color: #f8f5f0;
-    border: 1px solid #e8e5df;
-    border-radius: 3px;
-    padding: 2rem 2.2rem;
+    background-color: var(--color-paper-deep);
+    border-left: 2px solid var(--color-accent);
+    padding: 1.7rem 1.9rem;
     margin-bottom: 3rem;
 }
 
 .foreword-label {
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #9d9080;
-    margin-bottom: 1.2rem;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
 }
 
 .foreword p {
-    font-size: 1rem;
-    margin: 0 0 1.1rem;
+    font-size: 0.98rem;
+    line-height: 1.75;
+    color: var(--color-light-ink);
+    margin: 0 0 1rem;
 }
 
 .foreword p:last-child {
     margin-bottom: 0;
 }
 
-.foreword em {
-    color: rgba(38, 36, 32, 0.75);
-}
-
 .conversation-divider {
     text-align: center;
-    color: #9d9080;
+    color: var(--color-accent);
     font-size: 1.1rem;
     letter-spacing: 0.9em;
     text-indent: 0.9em;
     margin: 0 0 3rem;
 }
 
-/* ---- Turns ---- */
+/* --------------------------------------------------------------------------
+   Turns
+   -------------------------------------------------------------------------- */
 
 .conversation {
     display: flex;
@@ -107,19 +181,17 @@ body {
     gap: 2.4rem;
 }
 
-/* Tufte pads every <article> by 5rem; the flex gap is the only spacing we want */
 .conversation .turn {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
     margin: 0;
 }
 
 .turn-speaker {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 600;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #9d9080;
+    color: var(--color-light-ink);
     margin-bottom: 0.5rem;
 }
 
@@ -133,11 +205,10 @@ body {
 .turn-nick .turn-body {
     display: inline-block;
     text-align: left;
-    background-color: #f0ece3;
-    border: 1px solid #e8e5df;
-    border-radius: 16px 16px 4px 16px;
+    background-color: var(--color-paper-deep);
+    border: 1px solid var(--color-hairline);
+    border-radius: 14px 14px 4px 14px;
     padding: 0.9rem 1.3rem;
-    font-size: 1rem;
 }
 
 .turn-nick .turn-body p {
@@ -148,22 +219,24 @@ body {
     margin-bottom: 0;
 }
 
-/* Claude: long considered turns, set as open prose — no box to sit outside of */
+/* Claude: long considered turns, set as open prose against a hairline */
 .turn-claude {
     align-self: flex-start;
     max-width: 100%;
-    padding-left: 1.2rem;
-    border-left: 2px solid #e8e5df;
+    padding-left: 1.4rem;
+    border-left: 1px solid var(--color-hairline);
 }
 
 .turn-claude .turn-speaker::before {
     content: "\2733\00a0\00a0";  /* ✳ */
     letter-spacing: 0;
+    color: var(--color-accent);
 }
 
 .turn-claude .turn-body p {
     margin: 0 0 1rem;
     font-size: 1.02rem;
+    line-height: 1.8;
 }
 
 .turn-claude .turn-body p:last-child {
@@ -176,7 +249,7 @@ body {
     display: none;
     align-items: center;
     gap: 0.35rem;
-    color: #9d9080;
+    color: var(--color-light-ink);
     padding: 0.3rem 0;
 }
 
@@ -189,7 +262,7 @@ body {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #9d9080;
+    background-color: var(--color-light-ink);
     animation: thinking-pulse 1.1s ease-in-out infinite;
 }
 
@@ -235,15 +308,53 @@ body {
     to { opacity: 1; transform: none; }
 }
 
+/* --------------------------------------------------------------------------
+   Colophon
+   -------------------------------------------------------------------------- */
+
+.conversation-colophon {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conversation-ornament {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: min(100%, 16rem);
+    margin-bottom: 1.4rem;
+    color: var(--color-accent);
+}
+
+.conversation-ornament .rule {
+    flex: 1;
+    height: 1px;
+    background: var(--color-hairline);
+}
+
+.conversation-ornament .mark {
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+.conversation-colophon p {
+    margin: 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: var(--color-light-ink);
+}
+
 /* ---- Small screens ---- */
 
 @media (max-width: 600px) {
-    .conversation-header {
-        margin-top: 1.5rem;
+    .conversation-page {
+        padding-top: 5rem;
     }
 
-    .conversation-title {
-        font-size: 2rem;
+    .conversation-header {
+        margin-bottom: 3rem;
     }
 
     .foreword {
@@ -255,6 +366,6 @@ body {
     }
 
     .turn-claude {
-        padding-left: 0.9rem;
+        padding-left: 1rem;
     }
 }
