@@ -17,11 +17,14 @@ body {
     padding: 2rem 1.5rem 6rem;
 }
 
-/* Tufte's stylesheet narrows paragraphs to 55%; restore the full measure here */
+/* Tufte's stylesheet narrows paragraphs to 55% and inflates their size and
+   leading; pin all of it down here so both voices set their own type */
 .conversation-page p,
 .conversation-page ul,
 .conversation-page ol {
     width: 100%;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 /* ---- Header ---- */
