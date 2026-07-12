@@ -12,8 +12,8 @@
 
     document.documentElement.classList.add('conv-animated');
 
-    var MIN_THINK_MS = 1500;
-    var MAX_THINK_MS = 3200;
+    var MIN_THINK_MS = 4000;
+    var MAX_THINK_MS = 5000;
     var MS_PER_WORD = 4;
     var READING_LINE = 0.7; // fraction of viewport height
 

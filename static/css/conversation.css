@@ -78,7 +78,7 @@ body::before {
 
 .conversation-header {
     text-align: center;
-    margin: 0 0 3.8rem;
+    margin: 0 0 4.5rem;
 }
 
 .conversation-title {
@@ -91,9 +91,11 @@ body::before {
     text-wrap: balance;
 }
 
-.conversation-deck {
-    margin: 0 auto 2rem;
-    max-width: 30em;
+/* Scoped under .conversation-page so it outranks the generic
+   `.conversation-page p` size normalization above */
+.conversation-page .conversation-deck {
+    margin: 0 auto 2.2rem;
+    max-width: 32em;
     font-family: var(--font-display);
     font-style: italic;
     font-weight: 300;
@@ -106,8 +108,8 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1.2rem;
-    max-width: 22rem;
-    margin: 0 auto 2rem;
+    max-width: 26rem;
+    margin: 0 auto;
 }
 
 .conversation-byline .rule {
@@ -122,44 +124,48 @@ body::before {
     color: var(--color-accent);
 }
 
-.context-note {
-    margin: 0 auto;
-    max-width: 34em;
-    font-style: italic;
-    font-size: 0.92rem;
-    line-height: 1.7;
-    color: var(--color-light-ink);
-}
-
 /* --------------------------------------------------------------------------
    Foreword — the editor's voice, set apart on deeper paper
    -------------------------------------------------------------------------- */
 
 .foreword {
     background-color: var(--color-paper-deep);
-    border-left: 2px solid var(--color-accent);
-    padding: 1.7rem 1.9rem;
+    border: 1px solid var(--color-hairline);
+    border-radius: 3px;
+    padding: 2rem 2.2rem;
     margin-bottom: 3rem;
 }
 
 .foreword-label {
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--color-accent);
-    margin-bottom: 1rem;
+    color: var(--color-light-ink);
+    margin-bottom: 1.2rem;
 }
 
 .foreword p {
-    font-size: 0.98rem;
-    line-height: 1.75;
-    color: var(--color-light-ink);
-    margin: 0 0 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-ink);
+    margin: 0 0 1.1rem;
 }
 
 .foreword p:last-child {
     margin-bottom: 0;
+}
+
+.foreword em {
+    color: var(--color-light-ink);
+}
+
+.foreword a {
+    color: var(--color-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--color-hairline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
 .conversation-divider {
@@ -219,12 +225,10 @@ body::before {
     margin-bottom: 0;
 }
 
-/* Claude: long considered turns, set as open prose against a hairline */
+/* Claude: long considered turns, set as open prose */
 .turn-claude {
     align-self: flex-start;
     max-width: 100%;
-    padding-left: 1.4rem;
-    border-left: 1px solid var(--color-hairline);
 }
 
 .turn-claude .turn-speaker::before {
@@ -363,9 +367,5 @@ body::before {
 
     .turn-nick {
         max-width: 95%;
-    }
-
-    .turn-claude {
-        padding-left: 1rem;
     }
 }

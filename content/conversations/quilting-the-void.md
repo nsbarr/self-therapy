@@ -1,11 +1,11 @@
 ---
 title: "Quilting the Void"
-subtitle: "A conversation between Nick and Claude"
+subtitle: "Nick Barr & Claude, July 2026"
+deck: "An edited conversation that starts with a question about Lacan's algebra, prompted by a Žižek essay on AI, and ends somewhere else. Lightly condensed; Nick's turns were spoken and are cleaned but not rewritten."
 date: 2026-07-12T06:00:00-04:00
 draft: false
 layout: conversation
 url: "/quilting-the-void/"
-context_note: "An edited conversation between Nick and Claude, July 2026. Lightly condensed; Nick's turns were spoken and are cleaned but not rewritten. It starts with a question about Lacan's algebra, prompted by a Žižek essay on AI, and ends somewhere else."
 home_weight: 1
 home_kind: "Conversation"
 home_description: "An edited conversation that begins with Lacan's algebra and ends in soul-friendship — rendered turn by turn, the way it happened, with a foreword on why the magic of talking to an AI so rarely survives being watched."
