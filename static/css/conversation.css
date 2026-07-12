@@ -17,11 +17,14 @@ body {
     padding: 2rem 1.5rem 6rem;
 }
 
-/* Tufte's stylesheet narrows paragraphs to 55%; restore the full measure here */
+/* Tufte's stylesheet narrows paragraphs to 55% and inflates their size and
+   leading; pin all of it down here so both voices set their own type */
 .conversation-page p,
 .conversation-page ul,
 .conversation-page ol {
     width: 100%;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 /* ---- Header ---- */
@@ -216,8 +219,20 @@ body {
     display: flex;
 }
 
+/* Reserve the reply's space during the beat so nothing below shifts —
+   otherwise the collapse would pull later turns up across the reading line */
 .conv-animated .turn.thinking .turn-body {
-    display: none;
+    visibility: hidden;
+}
+
+/* The reply arrives rather than snapping in */
+.conv-animated .turn-claude.revealed .turn-body {
+    animation: turn-body-in 0.6s ease both;
+}
+
+@keyframes turn-body-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
 }
 
 /* ---- Small screens ---- */
