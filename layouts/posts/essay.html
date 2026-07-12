@@ -8,13 +8,20 @@
         {{ end }}
     </header>
 
+    {{ with .Params.intro }}
+    <section class="foreword">
+        <div class="foreword-label">Introduction</div>
+        {{ . | markdownify }}
+    </section>
+    {{ end }}
+
     <div class="essay-body">
         {{ .Content }}
     </div>
 
     <footer class="essay-colophon">
         <div class="essay-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
-        <p>&copy; Nick Barr &middot; {{ now.Year }}</p>
+        {{ partial "site-colophon-credit.html" . }}
     </footer>
 </article>
 {{ end }}

@@ -68,6 +68,83 @@ body::before {
 }
 
 /* --------------------------------------------------------------------------
+   Throne illustration — floating orb overlay
+   -------------------------------------------------------------------------- */
+
+.essay-figure--throne .essay-hero-scene {
+  --orb-x: 50%;
+  --orb-y: 36%;
+  --orb-size: 30%;
+  position: relative;
+  line-height: 0;
+}
+
+@media (min-width: 701px) {
+  .essay-figure--throne {
+    width: min(36rem, calc(100vw - 3rem));
+  }
+}
+
+.essay-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.essay-hero-orb {
+  position: absolute;
+  left: calc(var(--orb-x) + 40px);
+  top: calc(var(--orb-y) - 90px);
+  width: var(--orb-size);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 1;
+  animation: essay-orb-float 5.5s ease-in-out infinite;
+}
+
+.essay-hero-orb svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 1.4rem rgba(67, 84, 159, 0.52))
+          drop-shadow(0 0 2.8rem rgba(147, 165, 232, 0.42));
+}
+
+.essay-hero-orb .essay-orb-core {
+  animation: essay-orb-pulse 4.5s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes essay-orb-float {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateY(4px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-12px);
+  }
+}
+
+@keyframes essay-orb-pulse {
+  0%, 100% {
+    opacity: 0.94;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .essay-hero-orb,
+  .essay-hero-orb .essay-orb-core {
+    animation: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
    Header
    -------------------------------------------------------------------------- */
 
@@ -118,6 +195,119 @@ body::before {
 }
 
 /* --------------------------------------------------------------------------
+   Introduction — matches the foreword box on conversation pages
+   -------------------------------------------------------------------------- */
+
+.essay-page .foreword {
+  background-color: var(--color-paper-deep);
+  border: 1px solid var(--color-hairline);
+  border-radius: 3px;
+  padding: 2rem 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.essay-page .foreword-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-light-ink);
+  margin-bottom: 1.2rem;
+}
+
+.essay-page .foreword p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 1.1rem;
+  color: var(--color-ink);
+}
+
+.essay-page .foreword p:last-child {
+  margin-bottom: 0;
+}
+
+.essay-page .foreword em {
+  color: var(--color-light-ink);
+}
+
+.essay-page .foreword a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-hairline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.essay-page .foreword a:hover,
+.essay-page .foreword a:focus {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Footnotes
+   -------------------------------------------------------------------------- */
+
+.essay-body .footnotes {
+  margin-top: 2rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.essay-body .footnotes hr {
+  display: none;
+}
+
+.essay-body .footnotes::before {
+  content: "Footnotes";
+  display: block;
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-accent);
+}
+
+.essay-body .footnotes ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.essay-body .footnotes li {
+  margin: 0 0 1.2rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-light-ink);
+}
+
+.essay-body .footnotes li:last-child {
+  margin-bottom: 0;
+}
+
+.essay-body .footnotes li p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.essay-body .footnote-ref {
+  font-size: 0.75em;
+  vertical-align: super;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.essay-body .footnote-backref {
+  margin-left: 0.25em;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
    Body copy
    -------------------------------------------------------------------------- */
 
@@ -125,6 +315,17 @@ body::before {
   margin: 0 0 1.55em;
   font-size: 1.125rem;
   line-height: 1.85;
+}
+
+.essay-body p em {
+  font-style: italic;
+}
+
+.essay-body .tibetan-glyph {
+  font-family: 'Noto Serif Tibetan', 'Kailasa', serif;
+  font-size: 1.55em;
+  line-height: 1;
+  vertical-align: -0.12em;
 }
 
 .essay-body > p:first-of-type::first-letter {
@@ -204,54 +405,25 @@ body::before {
   font-style: italic;
 }
 
-/* The ah syllable plate */
-.essay-figure--ah .ah-plate {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3.5rem 0 4.2rem;
+/* Red ah syllable sealed in a red orb */
+.essay-figure--ah-orb {
+  width: min(16rem, calc(100vw - 3rem));
 }
 
-.essay-figure--ah .ah-plate::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: clamp(14rem, 40vw, 19rem);
-  height: clamp(14rem, 40vw, 19rem);
-  transform: translate(-50%, -50%);
-  border: 1px solid var(--color-hairline);
-  border-radius: 50%;
+.essay-figure--ah-orb svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
-.essay-figure--ah .ah-plate::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: clamp(11.5rem, 33vw, 15.5rem);
-  height: clamp(11.5rem, 33vw, 15.5rem);
-  transform: translate(-50%, -50%);
-  border: 1px solid var(--color-hairline);
-  border-radius: 50%;
-}
-
-.essay-figure--ah .ah-glyph {
-  position: relative;
-  z-index: 1;
-  font-family: 'Noto Serif Tibetan', 'Kailasa', serif;
-  font-size: clamp(6rem, 18vw, 8.5rem);
-  line-height: 1;
-  /* Tibetan glyphs hang from the baseline; nudge down to sit optically
-     centered in the circles */
-  transform: translateY(0.16em);
-  color: #a03526;
+.essay-figure--ah-orb .ah-glyph {
+  paint-order: stroke fill;
 }
 
 @media (prefers-color-scheme: dark) {
-  .essay-figure--ah .ah-glyph {
-    color: #d4604c;
+  .essay-figure--ah-orb .ah-glyph {
+    fill: #c44535;
   }
 }
 

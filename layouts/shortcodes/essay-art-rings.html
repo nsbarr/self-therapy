@@ -1,12 +1,23 @@
-<figure class="essay-figure essay-figure--rings">
-    <svg viewBox="0 0 720 360" role="img" aria-label="A small dot at the center of concentric rings that expand and fade outward">
-        <circle cx="360" cy="180" r="5" fill="var(--color-accent, #99502e)"/>
-        <circle cx="360" cy="180" r="34" fill="none" stroke="currentColor" stroke-opacity="0.5"/>
-        <circle cx="360" cy="180" r="68" fill="none" stroke="currentColor" stroke-opacity="0.38"/>
-        <circle cx="360" cy="180" r="104" fill="none" stroke="currentColor" stroke-opacity="0.27"/>
-        <circle cx="360" cy="180" r="141" fill="none" stroke="currentColor" stroke-opacity="0.17"/>
-        <circle cx="360" cy="180" r="179" fill="none" stroke="currentColor" stroke-opacity="0.09"/>
-        <circle cx="360" cy="180" r="218" fill="none" stroke="currentColor" stroke-opacity="0.04"/>
+<figure class="essay-figure essay-figure--ah-orb">
+    <svg viewBox="0 0 280 280" role="img" aria-label="The red ah syllable centered inside a red luminous orb">
+        <defs>
+            <radialGradient id="essay-ah-orb-core" cx="50%" cy="50%" r="52%">
+                <stop offset="0%" stop-color="#ffe8e3" stop-opacity="1"/>
+                <stop offset="28%" stop-color="#e88878" stop-opacity="0.92"/>
+                <stop offset="60%" stop-color="#a03526" stop-opacity="0.62"/>
+                <stop offset="100%" stop-color="#a03526" stop-opacity="0"/>
+            </radialGradient>
+        </defs>
+        <ellipse cx="140" cy="140" rx="104" ry="104" fill="url(#essay-ah-orb-core)"/>
+        <g class="ah-glyph-group" transform="translate(138 172)">
+            <text
+                class="ah-glyph"
+                text-anchor="middle"
+                dominant-baseline="central"
+                font-family="'Noto Serif Tibetan', Kailasa, serif"
+                font-size="76"
+                fill="#7a2318"
+                lang="bo">&#x0F68;</text>
+        </g>
     </svg>
-    <figcaption>A moment-to-moment vow, radiating outward.</figcaption>
 </figure>
