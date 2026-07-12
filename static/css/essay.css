@@ -1,0 +1,308 @@
+/* ==========================================================================
+   Essay pages — the editorial reading experience
+   Shares the home page's paper-and-ink palette and Fraunces/Petrona pairing.
+   Loaded only for pages with `layout: essay`, which skip Tufte CSS entirely,
+   so plain element selectors here own the page.
+   ========================================================================== */
+
+body {
+  --color-paper: #f6f1e6;
+  --color-paper-deep: #efe8d9;
+  --color-ink: #211d16;
+  --color-light-ink: rgba(33, 29, 22, 0.72);
+  --color-accent: #99502e;
+  --color-hairline: rgba(33, 29, 22, 0.18);
+  --color-indigo: #43549f;
+  --font-body: 'Petrona', Georgia, serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(255, 253, 244, 0.9) 0%, rgba(255, 253, 244, 0) 65%);
+  color: var(--color-ink);
+  line-height: 1.6;
+  position: relative;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-paper: #191611;
+    --color-paper-deep: #14110d;
+    --color-ink: #ece5d6;
+    --color-light-ink: rgba(236, 229, 214, 0.72);
+    --color-accent: #cf8d5f;
+    --color-hairline: rgba(236, 229, 214, 0.2);
+    --color-indigo: #8b9bdf;
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(46, 40, 30, 0.85) 0%, rgba(46, 40, 30, 0) 65%);
+  }
+
+  nav.site-nav a.site-nav-home {
+    color: #a89f91;
+  }
+
+  nav.site-nav a.site-nav-home:hover,
+  nav.site-nav a.site-nav-home:focus {
+    color: #f0ebe0;
+  }
+}
+
+/* Paper grain, matching the home page */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
+}
+
+.essay-page {
+  position: relative;
+  z-index: 1;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+.essay-header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.essay-title {
+  margin: 0 0 1.4rem;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.3rem, 6vw, 3.4rem);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.essay-deck {
+  margin: 0 auto 2.2rem;
+  max-width: 32em;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-light-ink);
+  text-wrap: balance;
+}
+
+.essay-byline {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.essay-byline .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.essay-byline .name {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Body copy
+   -------------------------------------------------------------------------- */
+
+.essay-body p {
+  margin: 0 0 1.55em;
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+
+.essay-body > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 3.9em;
+  float: left;
+  line-height: 0.8;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--color-accent);
+}
+
+.essay-body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Section breaks: a plain `---` in the markdown becomes an ornament */
+.essay-body hr {
+  border: none;
+  margin: 3.4rem 0;
+  text-align: center;
+}
+
+.essay-body hr::after {
+  content: "\2756";
+  font-size: 0.75rem;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Pull quotes
+   -------------------------------------------------------------------------- */
+
+.essay-pullquote {
+  margin: 3.2rem 0;
+  padding: 2.2rem 0;
+  border-top: 1px solid var(--color-hairline);
+  border-bottom: 1px solid var(--color-hairline);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(1.4rem, 3.4vw, 1.75rem);
+  line-height: 1.55;
+  text-align: center;
+  color: var(--color-ink);
+  text-wrap: balance;
+}
+
+/* --------------------------------------------------------------------------
+   Figures — wider than the text column, magazine-plate style
+   -------------------------------------------------------------------------- */
+
+.essay-figure {
+  width: min(52rem, calc(100vw - 3rem));
+  margin: 3.6rem 0 3.6rem 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.essay-figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.essay-figure figcaption {
+  margin-top: 1.1rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+.essay-figure figcaption em {
+  font-style: italic;
+}
+
+/* The ah syllable plate */
+.essay-figure--ah .ah-plate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 0 4.2rem;
+}
+
+.essay-figure--ah .ah-plate::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(14rem, 40vw, 19rem);
+  height: clamp(14rem, 40vw, 19rem);
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--color-hairline);
+  border-radius: 50%;
+}
+
+.essay-figure--ah .ah-plate::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(11.5rem, 33vw, 15.5rem);
+  height: clamp(11.5rem, 33vw, 15.5rem);
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--color-hairline);
+  border-radius: 50%;
+}
+
+.essay-figure--ah .ah-glyph {
+  position: relative;
+  z-index: 1;
+  font-family: 'Noto Serif Tibetan', 'Kailasa', serif;
+  font-size: clamp(6rem, 18vw, 8.5rem);
+  line-height: 1;
+  /* Tibetan glyphs hang from the baseline; nudge down to sit optically
+     centered in the circles */
+  transform: translateY(0.16em);
+  color: #a03526;
+}
+
+@media (prefers-color-scheme: dark) {
+  .essay-figure--ah .ah-glyph {
+    color: #d4604c;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Colophon
+   -------------------------------------------------------------------------- */
+
+.essay-colophon {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.essay-ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: min(100%, 16rem);
+  margin-bottom: 1.4rem;
+  color: var(--color-accent);
+}
+
+.essay-ornament .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.essay-ornament .mark {
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.essay-colophon p {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--color-light-ink);
+}
+
+@media (max-width: 700px) {
+  .essay-page {
+    padding-top: 5rem;
+  }
+
+  .essay-header {
+    margin-bottom: 3.2rem;
+  }
+
+  .essay-body p {
+    font-size: 1.05rem;
+  }
+}

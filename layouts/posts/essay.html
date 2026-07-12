@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="essay-page">
+    <header class="essay-header">
+        <h1 class="essay-title">{{ .Title }}</h1>
+        {{ with .Params.deck }}<p class="essay-deck">{{ . }}</p>{{ end }}
+        {{ with .Params.subtitle }}
+        <div class="essay-byline"><span class="rule"></span><span class="name">{{ . }}</span><span class="rule"></span></div>
+        {{ end }}
+    </header>
+
+    <div class="essay-body">
+        {{ .Content }}
+    </div>
+
+    <footer class="essay-colophon">
+        <div class="essay-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+        <p>&copy; Nick Barr &middot; {{ now.Year }}</p>
+    </footer>
+</article>
+{{ end }}
