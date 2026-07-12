@@ -1,0 +1,35 @@
+/* Sitewide navigation — shared by all page layouts */
+.site-nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.4rem 1.5rem;
+}
+
+.site-nav-home {
+  font-family: 'Petrona', Georgia, serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9d9080;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.site-nav-home:hover {
+  color: #262420;
+  border-bottom-color: #9d9080;
+}
+
+/* Dark modes: reading-experience toggles .dark-mode on <html>, video pages on <body> */
+.dark-mode .site-nav-home,
+body.dark-mode .site-nav-home {
+  color: #a89f91;
+}
+
+.dark-mode .site-nav-home:hover,
+body.dark-mode .site-nav-home:hover {
+  color: #f0ebe0;
+  border-bottom-color: #a89f91;
+}

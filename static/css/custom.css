@@ -110,22 +110,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
 }
 
-.home-page .article-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-  opacity: 0.06;
-  transition: opacity 0.4s ease;
-}
-
-.home-page .article:hover .article-image {
-  opacity: 0.09;
-}
-
 .home-page .article-content {
   position: relative;
   z-index: 1;
@@ -178,25 +162,6 @@
   }
 } 
 
-/* Site navigation */
-.site-nav {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
-}
-
-.site-nav-home {
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  color: var(--color-accent);
-  text-decoration: none;
-  letter-spacing: 0.02em;
-}
-
-.site-nav-home:hover {
-  color: var(--color-ink);
-}
-
 /* Article page title styles */
 .content-title {
   max-width: 800px;
@@ -207,10 +172,3 @@
 .intro-text{
   font-size: 1.2rem;
 }
-
-/* Specific override for IFS article title */
-body[data-url="/ifs/"] .content-title,
-body[data-url="ifs"] .content-title,
-body[data-url*="/ifs"] .content-title {
-  max-width: 800px;
-} 

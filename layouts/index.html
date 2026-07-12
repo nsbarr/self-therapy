@@ -12,26 +12,14 @@
     </header>
 
     <main class="article-list">
-        <a href="/twenty-seven-personalities/" class="article">
+        {{ range sort (where site.Pages "Params.home_weight" "!=" nil) "Params.home_weight" }}
+        <a href="{{ .RelPermalink }}" class="article">
             <div class="article-content">
-                <h2 class="article-title">Twenty-Seven Personalities in Search of Being</h2>
-                <p class="article-description">The first complete English translation of Claudio Naranjo's book on the Enneagram subtypes, offering first-hand accounts from his students and colleagues across all twenty-seven subtypes. Personal essays touch on character structure, searches for meaning, and paths to transformation.</p>
-                <div class="article-meta">Translation by Nick Barr and ChatGPT • April 2025</div>
+                <h2 class="article-title">{{ .Params.home_title | default .Title }}</h2>
+                <p class="article-description">{{ .Params.home_description }}</p>
+                <div class="article-meta">{{ .Params.home_meta }}</div>
             </div>
         </a>
-        <a href="/ifs/" class="article">
-            <div class="article-content">
-                <h2 class="article-title">Enhancing Self-Therapy with Internal Family Systems and AI</h2>
-                <p class="article-description">An exploration of how AI can enhance and support Internal Family Systems therapy practice, making self-therapy more accessible and effective through innovative tools and protocols.</p>
-                <div class="article-meta">Essay by Nick Barr • October 2023</div>
-            </div>
-        </a>
-                <a href="/examining-nonsense-mind/" class="article">
-            <div class="article-content">
-                <h2 class="article-title">DevotionTube: Examining the Nonsense Mind</h2>
-                <p class="article-description">A presentation of Lama Zopa Rinpoche's talk on emptiness, newly transcribed and edited. Inspired by the question of how to experience online video in a mode of devotion, in order to facilitate deeper engagement with the material.</p>
-                <div class="article-meta">Transcription & Commentary by Nick Barr • April 2025</div>
-            </div>
-        </a>
+        {{ end }}
     </main>
-{{ end }} 
+{{ end }}

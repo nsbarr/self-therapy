@@ -1,0 +1,37 @@
+{{ define "main" }}
+<link rel="stylesheet" href="/css/conversation.css">
+
+<div class="conversation-page">
+    <header class="conversation-header">
+        <h1 class="conversation-title">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="conversation-subtitle">{{ . }}</p>{{ end }}
+        {{ with .Params.context_note }}<p class="context-note">{{ . }}</p>{{ end }}
+    </header>
+
+    {{ with .Content }}
+    <section class="foreword">
+        <div class="foreword-label">Foreword</div>
+        {{ . }}
+    </section>
+    {{ end }}
+
+    <div class="conversation-divider" aria-hidden="true">&middot;&middot;&middot;</div>
+
+    <section class="conversation">
+        {{ range .Params.turns }}
+        <article class="turn turn-{{ .speaker }}">
+            <div class="turn-speaker">{{ .speaker | title }}</div>
+            {{ if eq .speaker "claude" }}
+            <div class="thinking-indicator" aria-hidden="true">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                <em>thinking</em>
+            </div>
+            {{ end }}
+            <div class="turn-body">{{ .text | markdownify }}</div>
+        </article>
+        {{ end }}
+    </section>
+</div>
+
+<script src="/js/conversation.js"></script>
+{{ end }}
