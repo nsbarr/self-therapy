@@ -5,7 +5,7 @@ url: "/ifs/"
 date: 2023-08-19T15:23:24+02:00
 draft: false
 toc: false
-home_weight: 3
+home_weight: 4
 home_description: "An exploration of how AI can enhance and support Internal Family Systems therapy practice, making self-therapy more accessible and effective through innovative tools and protocols."
 home_meta: "Essay by Nick Barr • October 2023"
 ---

@@ -7,7 +7,7 @@ layout: reading-experience
 url: "/twenty-seven-personalities/"
 aliases:
   - /reading-experience/
-home_weight: 2
+home_weight: 3
 home_title: "Twenty-Seven Personalities in Search of Being"
 home_description: "The first complete English translation of Claudio Naranjo's book on the Enneagram subtypes, offering first-hand accounts from his students and colleagues across all twenty-seven subtypes. Personal essays touch on character structure, searches for meaning, and paths to transformation."
 home_meta: "Translation by Nick Barr and ChatGPT • April 2025"

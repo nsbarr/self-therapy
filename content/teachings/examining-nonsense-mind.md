@@ -7,7 +7,7 @@ layout: video
 youtube_id: "1LbbrZEX1EI"
 transcript_data: "lama_zopa_nonsense_mind"
 url: "/examining-nonsense-mind/"
-home_weight: 4
+home_weight: 5
 home_title: "DevotionTube: Examining the Nonsense Mind"
 home_description: "A presentation of Lama Zopa Rinpoche's talk on emptiness, newly transcribed and edited. Inspired by the question of how to experience online video in a mode of devotion, in order to facilitate deeper engagement with the material."
 home_meta: "Transcription & Commentary by Nick Barr • April 2025"
