@@ -18,8 +18,9 @@
     <div class="conversation-divider" aria-hidden="true">&middot;&middot;&middot;</div>
 
     <section class="conversation">
-        {{ range .Params.turns }}
-        <article class="turn turn-{{ .speaker }}">
+        {{ range $i, $turn := .Params.turns }}
+        {{ with $turn }}
+        <article id="turn-{{ add $i 1 }}" class="turn turn-{{ .speaker }}">
             <div class="turn-speaker">{{ .speaker | title }}</div>
             {{ if eq .speaker "claude" }}
             <div class="thinking-indicator" aria-hidden="true">
@@ -29,6 +30,7 @@
             {{ end }}
             <div class="turn-body">{{ .text | markdownify }}</div>
         </article>
+        {{ end }}
         {{ end }}
     </section>
 </div>
