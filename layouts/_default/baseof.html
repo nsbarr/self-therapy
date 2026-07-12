@@ -19,6 +19,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/site-nav.css">
     
     <!-- Reading Experience CSS -->
     {{ if eq .Layout "reading-experience" }}
@@ -33,9 +34,7 @@
 
 <body{{ if .IsHome }} class="home-page"{{ end }}>
     {{ if not .IsHome }}
-    <nav class="site-nav">
-        <a href="/" class="site-nav-home">All Beings</a>
-    </nav>
+    {{ partial "site-nav.html" . }}
     {{ end }}
     {{ block "main" . }}{{ end }}
     

@@ -69,12 +69,6 @@
     transition: transform var(--transition-speed), opacity var(--transition-speed), background-color var(--transition-speed);
 }
 
-.toc-container.toc-hidden {
-    transform: translateX(-100%);
-    opacity: 0;
-    pointer-events: none;
-}
-
 .toc-header {
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -195,7 +189,7 @@
         transform: translateX(-100%);
     }
 
-    .toc-container:not(.toc-hidden) {
+    .toc-container {
         transform: translateX(0);
     }
 }
@@ -365,12 +359,6 @@ header {
 .reading-experience th {
     font-weight: normal;
     color: var(--color-accent);
-}
-
-/* Focus mode */
-.focus-mode .toc-container,
-.focus-mode .reading-preferences {
-    display: none;
 }
 
 /* Print Styles */

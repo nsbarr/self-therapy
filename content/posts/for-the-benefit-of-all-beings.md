@@ -5,6 +5,9 @@ url: "/for-the-benefit-of-all-beings/"
 date: 2026-07-11
 draft: false
 toc: false
+home_weight: 1
+home_description: "A retreat account of an empowerment: a question posed to Manjusri, an unexpected purification, and a moment-to-moment vow to switch operating systems — from the mantra of \"me\" to living for the sake of all beings."
+home_meta: "Essay by Nick Barr • July 2026"
 ---
 I wanted to know whether I could rely on devotion to my teacher alone, and not worry so much about all sentient beings.
 

@@ -1,10 +1,16 @@
 ---
 title: "27 Personalities in Search of Being"
 subtitle: "by Claudio Naranjo"
+contributors: "with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj"
+translator: "Translated by Nick Barr"
 layout: reading-experience
 url: "/twenty-seven-personalities/"
 aliases:
   - /reading-experience/
+home_weight: 2
+home_title: "Twenty-Seven Personalities in Search of Being"
+home_description: "The first complete English translation of Claudio Naranjo's book on the Enneagram subtypes, offering first-hand accounts from his students and colleagues across all twenty-seven subtypes. Personal essays touch on character structure, searches for meaning, and paths to transformation."
+home_meta: "Translation by Nick Barr and ChatGPT • April 2025"
 ---
 # Type One: Anger
 

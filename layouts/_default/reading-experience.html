@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reading-experience-custom.css">
+    <link rel="stylesheet" href="/css/site-nav.css">
     <style>
         .progress-container {
             position: fixed;
@@ -51,9 +52,7 @@
     </style>
 </head>
 <body class="reading-experience">
-    <nav class="site-nav" style="max-width: 1280px; margin: 0 auto; padding: 1rem 20px;">
-        <a href="/" style="font-family: var(--font-body); font-size: 0.95rem; color: var(--color-accent); text-decoration: none; letter-spacing: 0.02em;">All Beings</a>
-    </nav>
+    {{ partial "site-nav.html" . }}
     <div class="progress-container">
         <div class="progress-bar" id="readingProgress"></div>
     </div>
@@ -68,10 +67,10 @@
     
     <div class="container">
         <header>
-            <h1 class="book-title">27 Personalities in Search of Being</h1>
-            <div class="book-subtitle">by Claudio Naranjo</div>
-            <div class="book-contributors">with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj</div>
-            <div class="book-translator">Translated by Nick Barr</div>
+            <h1 class="book-title">{{ .Title }}</h1>
+            {{ with .Params.subtitle }}<div class="book-subtitle">{{ . }}</div>{{ end }}
+            {{ with .Params.contributors }}<div class="book-contributors">{{ . }}</div>{{ end }}
+            {{ with .Params.translator }}<div class="book-translator">{{ . }}</div>{{ end }}
         </header>
         
         <div class="content-wrapper">

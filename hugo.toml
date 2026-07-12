@@ -1,8 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = ''
+title = 'All Beings'
 theme = 'hugo-tufte'
-custom_css = ["css/custom.css"]
 canonifyURLs = true
 
 [params]
@@ -15,12 +14,3 @@ canonifyURLs = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-[menu]
-  [[menu.main]]
-    name = "Devotional Watching"
-    url = "/devotional-watching/"
-    weight = 5
-  [[menu.main]]
-    name = "27 Personalities"
-    url = "/twenty-seven-personalities/"
-    weight = 6
