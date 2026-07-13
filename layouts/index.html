@@ -47,6 +47,19 @@
         </div>
     </main>
 
+    <section class="subscribe" aria-labelledby="subscribe-heading">
+        <div class="subscribe-inner">
+            <div class="hero-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+            <h2 id="subscribe-heading" class="subscribe-title">Subscribe to the newsletter</h2>
+            <p class="subscribe-desc">Monthly reflections on where artificial intelligence meets spiritual practice &mdash; new essays, frameworks, and prototypes as they arrive.</p>
+            <form class="subscribe-form" action="https://barrcast.substack.com/subscribe" method="get" target="_blank" rel="noopener">
+                <input type="email" name="email" class="subscribe-input" placeholder="you@example.com" autocomplete="email" required aria-label="Email address">
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
+            <p class="subscribe-note">Published on Substack.</p>
+        </div>
+    </section>
+
     <footer class="colophon">
         <div class="hero-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
         {{ partial "site-colophon-credit.html" . }}
