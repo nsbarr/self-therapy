@@ -269,6 +269,121 @@
 }
 
 /* --------------------------------------------------------------------------
+   Subscribe: newsletter capture that hands off to Substack
+   A quiet band between the contents and the colophon. The email field is
+   styled to the paper/ink system; submitting does a plain GET to Substack's
+   subscribe page with the address prefilled — no JS, no CORS.
+   -------------------------------------------------------------------------- */
+
+.home-page .subscribe {
+  position: relative;
+  z-index: 1;
+  background-color: var(--color-paper-deep);
+  border-top: 1px solid var(--color-hairline);
+  padding: 4.5rem 1.5rem 5rem;
+}
+
+.home-page .subscribe-inner {
+  max-width: 34rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-page .subscribe .hero-ornament {
+  margin: 0 0 2rem;
+  width: min(100%, 16rem);
+}
+
+.home-page .subscribe-title {
+  font-family: var(--font-display);
+  font-weight: 420;
+  font-size: clamp(1.6rem, 3.4vw, 2.1rem);
+  line-height: 1.25;
+  color: var(--color-ink);
+  text-wrap: balance;
+}
+
+.home-page .subscribe-desc {
+  margin-top: 1rem;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--color-light-ink);
+  max-width: 30em;
+  text-wrap: balance;
+}
+
+.home-page .subscribe-form {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 26rem;
+}
+
+.home-page .subscribe-input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-hairline-strong);
+  border-radius: 2px;
+  padding: 0.7rem 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+.home-page .subscribe-input::placeholder {
+  color: var(--color-light-ink);
+  opacity: 0.7;
+}
+
+.home-page .subscribe-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.home-page .subscribe-button {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-paper);
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: 2px;
+  padding: 0.7rem 1.4rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+}
+
+.home-page .subscribe-button:hover {
+  opacity: 0.85;
+}
+
+.home-page .subscribe-note {
+  margin-top: 1.2rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+@media (max-width: 480px) {
+  .home-page .subscribe-form {
+    flex-direction: column;
+  }
+
+  .home-page .subscribe-button {
+    padding: 0.75rem 1.4rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
    Colophon
    -------------------------------------------------------------------------- */
 
