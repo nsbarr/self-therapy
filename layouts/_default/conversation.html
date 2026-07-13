@@ -1,17 +1,18 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/css/conversation.css">
+{{ partial "css-link.html" "conversation.css" }}
 
 <div class="conversation-page">
     <header class="conversation-header">
         <h1 class="conversation-title">{{ .Title }}</h1>
-        {{ with .Params.subtitle }}<p class="conversation-deck">{{ . }}</p>{{ end }}
-        <div class="conversation-byline"><span class="rule"></span><span class="name">{{ .Date | time.Format "January 2006" }}</span><span class="rule"></span></div>
-        {{ with .Params.context_note }}<p class="context-note">{{ . }}</p>{{ end }}
+        {{ with .Params.deck }}<p class="conversation-deck">{{ . }}</p>{{ end }}
+        {{ with .Params.subtitle }}
+        <div class="conversation-byline"><span class="rule"></span><span class="name">{{ . }}</span><span class="rule"></span></div>
+        {{ end }}
     </header>
 
     {{ with .Content }}
     <section class="foreword">
-        <div class="foreword-label">Foreword</div>
+        <div class="foreword-label">Introduction</div>
         {{ . }}
     </section>
     {{ end }}

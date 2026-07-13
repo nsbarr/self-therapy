@@ -19,7 +19,7 @@
     {{ if eq .Layout "essay" }}
     <!-- Tibetan glyphs in essay figures -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/essay.css">
+    {{ partial "css-link.html" "essay.css" }}
     {{ end }}
 
     <!-- Tufte CSS (for pages outside the editorial system) -->
@@ -28,12 +28,12 @@
     {{ end }}
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="stylesheet" href="/css/site-nav.css">
+    {{ partial "css-link.html" "custom.css" }}
+    {{ partial "css-link.html" "site-nav.css" }}
     
     <!-- Reading Experience CSS -->
     {{ if eq .Layout "reading-experience" }}
-    <link rel="stylesheet" href="/css/reading-experience-custom.css">
+    {{ partial "css-link.html" "reading-experience-custom.css" }}
     {{ end }}
     
     <link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">

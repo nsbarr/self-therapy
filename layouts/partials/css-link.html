@@ -1,0 +1,4 @@
+{{- /* Stylesheet link with a content-hash cache-buster: when the file
+     changes the URL changes, so browsers can never serve a stale copy. */ -}}
+{{- $name := . -}}
+<link rel="stylesheet" href="/css/{{ $name }}?v={{ substr (md5 (readFile (printf "static/css/%s" $name))) 0 8 }}">
