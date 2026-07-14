@@ -232,7 +232,8 @@ body::before {
 }
 
 .turn-claude .turn-speaker::before {
-    content: "\2733\00a0\00a0";  /* ✳ */
+    /* U+FE0E forces the text glyph — iOS otherwise draws ✳ as emoji */
+    content: "\2733\FE0E\00a0\00a0";  /* ✳ */
     letter-spacing: 0;
     color: var(--color-accent);
 }

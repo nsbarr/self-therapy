@@ -71,9 +71,11 @@ body::before {
    Throne illustration — floating orb overlay
    -------------------------------------------------------------------------- */
 
+/* Orb position is pure percentages of the scene, so it stays over the
+   throne at every figure width — px offsets drift on small screens */
 .essay-figure--throne .essay-hero-scene {
-  --orb-x: 50%;
-  --orb-y: 36%;
+  --orb-x: 54.8%;
+  --orb-y: 27.3%;
   --orb-size: 30%;
   position: relative;
   line-height: 0;
@@ -94,8 +96,8 @@ body::before {
 
 .essay-hero-orb {
   position: absolute;
-  left: calc(var(--orb-x) + 40px);
-  top: calc(var(--orb-y) - 90px);
+  left: var(--orb-x);
+  top: var(--orb-y);
   width: var(--orb-size);
   transform: translate(-50%, -50%);
   pointer-events: none;

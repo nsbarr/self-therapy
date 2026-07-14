@@ -1,0 +1,575 @@
+/* ==========================================================================
+   Book pages — the long-form translation reading experience
+   Same paper/ink/vermillion palette and Fraunces/Petrona pairing as the
+   home page, essays, and conversations. Loaded only for `layout: book`
+   pages, which skip Tufte CSS entirely, so plain element selectors here
+   own the page.
+   ========================================================================== */
+
+body {
+  --color-paper: #f6f1e6;
+  --color-paper-deep: #efe8d9;
+  --color-ink: #211d16;
+  --color-light-ink: rgba(33, 29, 22, 0.72);
+  --color-accent: #99502e;
+  --color-hairline: rgba(33, 29, 22, 0.18);
+  --font-body: 'Petrona', Georgia, serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(255, 253, 244, 0.9) 0%, rgba(255, 253, 244, 0) 65%);
+  color: var(--color-ink);
+  line-height: 1.6;
+  position: relative;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-paper: #191611;
+    --color-paper-deep: #14110d;
+    --color-ink: #ece5d6;
+    --color-light-ink: rgba(236, 229, 214, 0.72);
+    --color-accent: #cf8d5f;
+    --color-hairline: rgba(236, 229, 214, 0.2);
+    background-image: radial-gradient(90rem 50rem at 50% -12rem, rgba(46, 40, 30, 0.85) 0%, rgba(46, 40, 30, 0) 65%);
+  }
+
+  nav.site-nav a.site-nav-home {
+    color: #a89f91;
+  }
+
+  nav.site-nav a.site-nav-home:hover,
+  nav.site-nav a.site-nav-home:focus {
+    color: #f0ebe0;
+  }
+}
+
+/* Paper grain, matching the rest of the site */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='0.3'/%3E%3C/svg%3E");
+}
+
+.book-page {
+  position: relative;
+  z-index: 1;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+}
+
+/* --------------------------------------------------------------------------
+   Header
+   -------------------------------------------------------------------------- */
+
+.book-header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.book-title {
+  margin: 0 0 1.4rem;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.1rem, 5.5vw, 3.1rem);
+  line-height: 1.18;
+  text-wrap: balance;
+}
+
+.book-deck {
+  margin: 0 auto 2.2rem;
+  max-width: 32em;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-light-ink);
+  text-wrap: balance;
+}
+
+.book-byline {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.book-byline .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.book-byline .name {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Introduction — matches the foreword box on essay and conversation pages
+   -------------------------------------------------------------------------- */
+
+.book-page .foreword {
+  background-color: var(--color-paper-deep);
+  border: 1px solid var(--color-hairline);
+  border-radius: 3px;
+  padding: 2rem 2.2rem;
+  margin-bottom: 3.6rem;
+}
+
+.book-page .foreword-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-light-ink);
+  margin-bottom: 1.2rem;
+}
+
+.book-page .foreword p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 1.1rem;
+  color: var(--color-ink);
+}
+
+.book-page .foreword p:last-child {
+  margin-bottom: 0;
+}
+
+.book-page .foreword em {
+  color: var(--color-light-ink);
+}
+
+.book-page .foreword a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-hairline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.book-page .foreword a:hover,
+.book-page .foreword a:focus {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Contents — nine chapter cards on a hairline grid, engraved-table style
+   -------------------------------------------------------------------------- */
+
+.book-contents {
+  margin: 0 0 4.5rem;
+}
+
+.book-contents-label {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 26rem;
+  margin: 0 auto 2rem;
+}
+
+.book-contents-label .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.book-contents-label .text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-light-ink);
+}
+
+.contents-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-hairline);
+  border: 1px solid var(--color-hairline);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.contents-chapter {
+  background: var(--color-paper);
+  padding: 1.4rem 1.3rem 1.5rem;
+}
+
+.contents-chapter-link {
+  display: block;
+  text-decoration: none;
+}
+
+.contents-kicker {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.35rem;
+}
+
+.contents-passion {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.15;
+  color: var(--color-ink);
+}
+
+.contents-chapter-link:hover .contents-passion,
+.contents-chapter-link:focus .contents-passion {
+  color: var(--color-accent);
+}
+
+.contents-subtypes {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0.9rem 0 0;
+  border-top: 1px solid var(--color-hairline);
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.contents-subtypes a {
+  display: block;
+  text-decoration: none;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--color-light-ink);
+}
+
+.contents-instinct {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-light-ink);
+  opacity: 0.75;
+}
+
+.contents-epithet {
+  font-style: italic;
+  color: var(--color-ink);
+}
+
+.contents-subtypes a:hover .contents-epithet,
+.contents-subtypes a:focus .contents-epithet {
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Body copy
+   -------------------------------------------------------------------------- */
+
+.book-body p {
+  margin: 0 0 1.45em;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.book-body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.book-body ul,
+.book-body ol {
+  margin: 0 0 1.45em;
+  padding-left: 1.4em;
+}
+
+.book-body li {
+  margin-bottom: 0.5em;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.book-body li::marker {
+  color: var(--color-accent);
+}
+
+.book-body blockquote {
+  margin: 2rem 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 2px solid var(--color-hairline);
+  color: var(--color-light-ink);
+  font-style: italic;
+}
+
+/* Section breaks: a plain `---` in the markdown becomes an ornament */
+.book-body hr {
+  border: none;
+  margin: 3.2rem 0;
+  text-align: center;
+}
+
+.book-body hr::after {
+  content: "\2756";
+  font-size: 0.75rem;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Chapter openers — "Type One" kicker over the passion in display type
+   -------------------------------------------------------------------------- */
+
+.book-body .chapter-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 5.5rem 0 2.4rem;
+  text-align: center;
+  font-weight: 400;
+  scroll-margin-top: 2rem;
+}
+
+.book-body .chapter-heading::before {
+  content: "\2756";
+  font-size: 0.8rem;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.chapter-kicker {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.chapter-passion {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 2.7rem);
+  line-height: 1.1;
+}
+
+/* Chapters open with a drop cap, like the essays */
+.book-body .chapter-heading + p::first-letter {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 3.6em;
+  float: left;
+  line-height: 0.8;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--color-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Subtype openers — "The Social One" kicker over the epithet
+   -------------------------------------------------------------------------- */
+
+.book-body .subtype-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 4rem 0 1.8rem;
+  text-align: center;
+  font-weight: 400;
+  scroll-margin-top: 2rem;
+}
+
+.subtype-kicker {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-light-ink);
+}
+
+.subtype-passion {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+/* --------------------------------------------------------------------------
+   Section labels — bold-only lead lines within a testimony
+   -------------------------------------------------------------------------- */
+
+.book-body .book-label {
+  margin: 2.4em 0 0.9em;
+}
+
+.book-body .book-label strong {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.book-body .book-label + .book-label {
+  margin-top: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Colophon
+   -------------------------------------------------------------------------- */
+
+.book-colophon {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.book-ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: min(100%, 16rem);
+  margin-bottom: 1.4rem;
+  color: var(--color-accent);
+}
+
+.book-ornament .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-hairline);
+}
+
+.book-ornament .mark {
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.book-contributors {
+  margin: 0 0 1.2rem;
+  max-width: 34em;
+  font-size: 0.85rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--color-light-ink);
+}
+
+.book-colophon > p:last-child {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--color-light-ink);
+}
+
+/* --------------------------------------------------------------------------
+   Waypoint — floating current-chapter marker with a way back to contents
+   -------------------------------------------------------------------------- */
+
+.book-waypoint {
+  position: fixed;
+  left: 50%;
+  bottom: 1.1rem;
+  transform: translateX(-50%) translateY(0.4rem);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 1.1rem;
+  background-color: var(--color-paper-deep);
+  border: 1px solid var(--color-hairline);
+  border-radius: 999px;
+  box-shadow: 0 6px 24px rgba(33, 29, 22, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
+  white-space: nowrap;
+}
+
+.book-waypoint.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.book-waypoint a {
+  text-decoration: none;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.book-waypoint .waypoint-contents {
+  color: var(--color-light-ink);
+}
+
+.book-waypoint .waypoint-contents:hover,
+.book-waypoint .waypoint-contents:focus {
+  color: var(--color-accent);
+}
+
+.book-waypoint .waypoint-chapter {
+  color: var(--color-accent);
+}
+
+.book-waypoint .waypoint-sep {
+  font-size: 0.5rem;
+  color: var(--color-accent);
+  opacity: 0.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-waypoint {
+    transition: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small screens
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 700px) {
+  .book-page {
+    padding-top: 5rem;
+  }
+
+  .book-header {
+    margin-bottom: 3.2rem;
+  }
+
+  .contents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .book-page .foreword {
+    padding: 1.4rem 1.3rem;
+  }
+
+  .book-body p,
+  .book-body li {
+    font-size: 1.02rem;
+  }
+}

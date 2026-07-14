@@ -128,9 +128,22 @@
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 300;
-  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-size: clamp(1.15rem, 3.4vw, 1.9rem);
   line-height: 1.65;
   color: var(--color-ink);
+}
+
+/* Each vow is a verse line: wrapped continuations hang inside the line's
+   own indent, and `pretty` keeps a single word from orphaning on phones */
+.home-page .home-quote p {
+  margin: 0 0 0.35em;
+  padding-left: 1.4em;
+  text-indent: -1.4em;
+  text-wrap: pretty;
+}
+
+.home-page .home-quote p:last-child {
+  margin-bottom: 0;
 }
 
 .home-page .quote-attribution {

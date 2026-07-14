@@ -1,10 +1,16 @@
 ---
-title: "27 Personalities in Search of Being"
-subtitle: "by Claudio Naranjo"
-contributors: "with contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj"
+title: "Twenty-Seven Personalities in Search of Being"
+subtitle: "Claudio Naranjo &middot; Translated by Nick Barr"
+contributors: "With contributions from Alba Arenas, Alice María Ribeiro, Angelo Contarino, Annie Chevreux, Betina Waissman, Cristina Nadal, Emilia Ligi, Enrique Villatoro, Francisco Peñarrubia, Gerardo Ortiz, Grazia Cecchini, Isabel Herrera, José Ignacio Fernández, Juanita Richter, Juanjo Albert, María Elena Tinoco, Mireia Darder, Miriam Ortiz de Zárate, Paolo Baiocchi, and Sonia Gajnaj"
 translator: "Translated by Nick Barr"
-layout: reading-experience
+layout: book
 url: "/twenty-seven-personalities/"
+intro: |
+  Claudio Naranjo spent decades mapping the twenty-seven subtypes of the Enneagram — nine passions, each refracted through the three instincts of self-preservation, the social, and the sexual. This book gathers that map together with something rarer: first-person testimony from his students and colleagues, voices for each subtype describing the character from the inside and the slow work of loosening it.
+
+  This is, to my knowledge, the first complete English translation. It was made with the help of AI and has not yet been reviewed by a professional translator; corrections are welcome.
+
+  *— Nick Barr, April 2025 (placeholder introduction)*
 aliases:
   - /reading-experience/
 home_weight: 3
@@ -41,7 +47,7 @@ Their sense of superiority stems from a self-certification—since they hold a s
 
 This is a normative and neurotically ethical character, with the specificity of dictating personal norms that they consider absolute codes. This allows them to transform desire into a behavioral rule, so they feel exempt from perceiving themselves as imperfect simply for having impulses or emotions (which they view as flaws).
 
-## **The Social One: Inadaptability/Superiority**
+## The Social One: Inadaptability/Superiority
 
 The character of the Social One is very different from the other subtypes of Type One. This results from a characteristic identified by Óscar Ichazo—whom I learned from—as inadaptability. For a long time, I preferred to simply use the word rigidity to describe this character, referring to something resembling a schoolteacher mentality, as well as what Wilhelm Reich observed when speaking of an "aristocratic character." However, the term rigidity describes more of a behavioral style or a specific personality trait and not exactly a need or passion. For this reason, I felt the need to formulate a neurotic need from which the rigid character could be understood.
 
@@ -160,7 +166,7 @@ As I write this, I smile. Were the risks I took—then and now—a matter of rec
 
 In the following months, I maintained this relaxed attitude, and my desire to laugh and bring lightness to my family grew even more. The dominant traits of my character haven’t disappeared. I am still an angry-maladjusted person, but today I can move very quickly from a state of demandingness and reforming impulse to one of acceptance and tranquility. For me, this marks a significant difference.
 
-## **The Sexual One: Vehemence/Zeal**
+## The Sexual One: Vehemence/Zeal
 
 Oscar Ichazo used the Spanish noun *celo* in reference to the characteristic passion of the Sexual instinct, a word with a dual meaning. When referring to an animal *en celo* (in heat, that is, in estrus), the word denotes great sexual excitement. In the context of personality, when one does something *con celo*, it implies care, dedication, or fervor. Thus, it can be understood that *celo*, in its broadest sense, is analogous to the intensity with which an animal in heat seeks the object of its instinct.
 
@@ -280,7 +286,7 @@ At this moment, I am savoring:
 
 ---
 
-## **The Self-Preservation One: Concern**
+## The Self-Preservation One: Concern
 
 Ichazo referred to the characteristic passion of the conservation One as "anguish." However, I prefer to use the word "concern." In fact, it could be said that for this type of person, concern becomes a true passion. And it is not simply a behavior that could be described as worrying too much—or even feeling a need to worry—but rather, they concern themselves with things that are already fine, and sometimes ruin what they touch by trying to fix what does not need fixing.
 
@@ -489,7 +495,7 @@ In relationships, they cannot withdraw from their task of filling others or sati
 
 The ease with which they form affectionate and erotic relationships is reflected in their body—soft and flexible, with a gaze unafraid of direct contact, sometimes bordering on invasive. The expression of their eroticism is free.
 
-## **The Social Two: Ambition**
+## The Social Two: Ambition
 
 In the social Two, the passion of pride manifests as satisfaction in conquering the public.  
 It may not take much intelligence, nor the appearance of it, to awaken a great passion, but for a social Two, simply being seen as a "dumb blonde" would never be enough. A social Two needs to *be* someone, and to achieve that, they must use their mind more. As someone who seeks to be important to feed their pride, they must be capable of seducing the social environment, becoming a seducer of groups, a distinguished being, and perhaps not only someone superior but also endowed with leadership qualities.
@@ -592,7 +598,7 @@ In my experience, the deepest layer is affective despair, followed by panic, and
 
 Each of these emotions seemed to me to be linked to particular personal or family experiences that were etched into my inner world and needed to be cared for or set right in order to return the emotions to their natural functioning and deflate their excessive activation, which was so disruptive to consciousness.
 
-## **The Sexual Two: Conquest**
+## The Sexual Two: Conquest
 
 The Sexual Two is the quintessential Type Two, as if we say this character is a seducer, we can also add that the Sexual Two is the most visibly seductive of all.
 
@@ -838,7 +844,7 @@ Indeed, revisiting one’s experience of sexuality is a transformative journey f
 * Solitude and reflection.  
 * Writing—whether a presentation like this or a personal diary.
 
-## **The Self Preservation Two: Privilege**
+## The Self-Preservation Two: Privilege
 
 In the case of the conservation type, seduction can be compared to that of a child towards their parents. Just as the social type appears "big," this is someone who is perceived as small, childlike, in their attitudes and even in their physical traits. Just as the social Two seems hyper-adult, over-mature, and the sexual Two—like Bizet’s Carmen—appears as a force of nature, wild, the conservation Two comes across as tender and childlike.
 
@@ -1013,7 +1019,7 @@ During childhood, they learned to be a pleasant, smiling, and compliant child to
 
 In relationships, they demonstrate hyper-adaptation and fear of conflict; in their eagerness to "do," they become disconnected from their inner world as well as from the inner world of others.
 
-## **The Social Three: Prestige**
+## The Social Three: Prestige
 
 For the distinctive passion of the Social Three, Ichazo proposed the term *prestige*. We can say that the Social Three is someone who has a passion for shining—not only through work but also in how they present themselves to others. It is as if they have an internal public relations department. By elevating the drive for prestige, understood as a passion for social recognition, to a need for universal applause rather than selective approval, they expend excessive energy, which naturally interferes with spontaneous action.
 
@@ -1137,7 +1143,7 @@ Finally, we can unmask the ego through real contact with another person—someon
 
 ---
 
-## **The Sexual Three: Attractiveness**
+## The Sexual Three: Attractiveness
 
 For the passion of the sexual Three, Ichazo used the words *masculinity* or *femininity*, depending on the case. I used to explain it as an excessive attempt to conform to cultural images (perhaps Hollywood-style) of what it means to be masculine or feminine.
 
@@ -1420,7 +1426,7 @@ And that rage, in turn, transformed into strength—a strength that allowed us t
 
 And in this way, as we began to find our own power, we stopped handing it over to others.
 
-## **The Self-Preservation Three: Security**
+## The Self-Preservation Three: Security
 
 When considering Enneatype Three from a broad perspective, what tends to stand out are its social and sexual manifestations. However, when we encounter self-preservation Threes, we can't exactly say we're facing a third form of vanity. Just as the proud in the self-preservation subtype don't appear particularly prideful, the self-preserving vain don't seem visibly vain either — and I’ve come to describe them as **counter-vain**, using language analogous to psychoanalysis when it introduced the notion of the “counter-phobic” character, one who hides fear through visibly bold behavior.
 
@@ -1670,7 +1676,7 @@ Unexpressed aggressiveness (except in the sexual subtype) produces retroflection
 
 In the sexual subtype, the expression of envy takes on different characteristics: crying is replaced by aggressive shouting and demanding. The demand to fill their deep lack is overpowering, reaching the point of destroying or hating the one they love when they show their human limits and therefore do not live up to their great idealizations.
 
-## **The Social Four: Shame**
+## The Social Four: Shame
 
 The contrasts between the character types of the four are the most striking, as their different subtypes seem more differentiated than in the other passions. When I explain this topic in Spanish, I usually say there are “sufferers, endurers, and the insufferable”. The sufferers are the social fours.
 
@@ -1764,7 +1770,7 @@ I love my parents just as they are and see them as individuals with their own li
 
 I remember a time when I lived a kind of pseudo-spirituality. Later, I went through years of disbelief, tied to letting go of all my dependencies. Then, faith arrived, an absolute trust in something higher. I experience it through dreams and feelings that have nothing to do with the psychological and bring me immense peace and joy. That's how my search is today: happier and more enthusiastic. I feel God in my own way, not following anything or anyone. And I believe it will remain this way for at least several more years.
 
-## **The Sexual Four \- Hatred**
+## The Sexual Four: Hatred
 
 If the E4 social subtype suffers more than the other subtypes, feeling guilty about any desire, the Sexual 4 turns against shame by becoming shameless to satisfy their intense desires. Therefore, even if it’s shameful, they will bang on every possible door. They become insistent, even against frustrations, as if thinking that the loudest baby gets the most milk. "The more I complain, the more I'll get," they seem to think. Only, this strategy, which works well in childhood, doesn't work so well in adulthood. People who are too insistent, demanding, and exacting tend to be annoying and get rejected, and thus the vicious circle emerges, where rejection leads to protest and protest leads to rejection.
 
@@ -1870,7 +1876,7 @@ I've learned all of this in gatherings with friends when I realized the pleasure
 
 To have compassion is to admit you're wrong, to lose in emotional intensity and gain in clarity: realizing everything is simpler than one imagined, that one has a very bad temper but a very good heart.
 
-## **The Self-Preservation Four \- Tenacity**
+## The Self-Preservation Four: Tenacity
 
 Different from the “sufferer” (Social E4) and the “insufferable” (Sexual E4) is what in Spanish is called the “stoic,” a term that speaks to us about a capacity for self-denial and endurance. Instead of being an overly tearful person, this “stoic” individual is one who doesn’t complain and avoids crying in front of others. They have learned to swallow a lot and endure pain without flinching.
 
@@ -1988,7 +1994,7 @@ Of all the mental Enneatypes, Type 5 undoubtedly demonstrates a massive splittin
 
 Type 5 appears cold, unexpressive, thoughtful, inhibited, distrustful, and physically withdrawn. They lack awareness of being a body themselves and remain disconnected from the bodies of others, as if they were walking in a world that does not belong to them.
 
-## **The Social Five: Totem**
+## The Social Five: Totem
 
 If Type 4 personalities are so intense that they stand out as very distinct or contrasting characters, Type 5 personalities, on the other hand, with their habitual lack of intensity, appear more challenging to differentiate among themselves.
 
@@ -2235,7 +2241,7 @@ In essence, we discover that we participate in a greater destiny and accept the 
 
 Also, the awareness of the end of life, which for a long time was what drove us to take advantage of it, the motivation for a more authentic search, now loses the dramatic tone that accompanied it to be seen as a real possibility that can arrive at any moment and that fades into a process where full and empty, existence and being, life and death, relate and merge into one another.
 
-## **The Sexual Five: Confidant**
+## The Sexual Five: Confidant
 
 **E5 Sexual: Trust**
 
@@ -2323,7 +2329,7 @@ Recovering the bond with the nurturing mother, once the introjected, demanding, 
 
 Experimenting with forms of expression such as art, dance, poetry, creating stories or tales, so that what is happening internally can be given an outlet, will put our healing process on the path to maturity.
 
-## **The Self-Preservation Five: Refuge**
+## The Self-Preservation Five: Refuge
 
 The need to retreat is a clear characteristic for the conservation type five. However, it must be taken into account that each subtype of the E5 has some of that: a need to withdraw. In the case of conservation, the passion has a lot to do with finding refuge, erecting high walls that separate them from a world that can invade them, that can take them out of a small precious world hidden inside them. The idea of self-conservation becomes clearer if we imagine them as firm supporters of retreating into a cave. The E5 conservation extremely limits their needs and desires, as each desire could mean a status of dependency for them.
 
@@ -2485,7 +2491,7 @@ Regarding interpersonal relationships, this attitude often focuses on perceiving
 
 Instinctivity must be controlled and kept at bay because surrendering would mean opening the doors to a devastating external invasion, thinks the E6: the head must always be in command of experiences.
 
-## **The Social Six: Duty**
+## The Social Six: Duty
 
 Here is what I call a "Prussian character." The social six is cold, very formal. Kant, for example, was a great philosopher. He was Prussian, and the Prussians had this type of character that feels great love for precision and intolerance for ambiguity. This is precisely the complete opposite of the conservation six, who is warm and feels too much permissiveness for ambiguity.
 
@@ -2585,7 +2591,7 @@ In this way, the next step will be to live my emotions freely, containing myself
 
 I will express my unconditional and non-judgmental love, balanced in the three loves; I will show myself and be assertive and trustworthy without explaining or justifying actions, accepting error and the ability to correct, in myself and others. I will live creating a world of possibilities, with more tranquility, facing what comes at the moment without thinking about hypotheses, risks, or dangers.
 
-## **The Sexual Six: Strength**
+## The Sexual Six: Strength
 
 And here is the so-called counterphobic character: the Sexual Six goes against fear. We could call this neurotic need "strength." Descriptively, we can say "strong" in the same way that we might label a conservation six as "weak." One is like a rabbit, and the other is like a bulldog: a counterphobic is very much like a barking dog. He doesn’t always bite; he barks more than he bites, but he has a fierce appearance. The need isn’t just to feel strong, but also to be able to intimidate. The internal programming says that the best defense is a good offense.
 
@@ -2738,7 +2744,7 @@ Erotic love is certainly the least developed in E6s — even in the sexual E6, a
 
 The transformation lies in losing oneself in pleasure, surrendering to the orgasmic and ecstatic pleasure of union with the other: reclaiming erotic love as a passionate and tender experience of union with the whole, with the supreme.
 
-## **The Self-Preservation Six: Warmth**  
+## The Self-Preservation Six: Warmth
 
 The E6 Conservation type is the opposite of the E6 Social. This type is warm and ambiguous, bland, even a bit dull. They find it difficult to assert that something is black or white. It takes a lot of courage to say that something is black or white. For them, it’s easier to say: "Oh, there are various shades of gray between the two. And I’m not sure which kind of gray we’re dealing with because life is very complex." And so, they can go on endlessly, always beating around the bush.
 
@@ -2884,7 +2890,7 @@ For the E7, maintaining a relationship—whether sentimental or social—means a
 
 For an E7, taking on a commitment means finding themselves once again immersed in that subtle obligation to satisfy the impossible expectations of the family environment (and also to stop them). The greatest fear of an E7 is being unable to escape or not having an exit.
 
-## **The Social Seven: Sacrifice**
+## The Social Seven: Sacrifice
 
 The social E7 is the countertype seven, in the sense that it is difficult to recognize the passion for gluttony in them, as they strive to hide it with altruistic behavior that, somehow, should purify them from the guilt of feeling an attraction towards pleasure or personal advantage. This is an attraction they try not to feel by pursuing an ideal of themselves and the world: they sacrifice their gluttony to be better and for a better world where there is no pain or conflict.
 
@@ -3013,7 +3019,7 @@ Here are some contributions in this regard:
 "The practice of meditation to not lose myself in fantasies... really listening, to others and myself. Being. Laughing, not being ironic... Paying attention to the body... Going to the essence of the problem and not staying on the surface... Admitting when I don't know something" (J. Locutura).  
 "In my case, I have found pleasure in the physical, in the body, through simple activities: walking, cooking, digging the earth, resting... The formula Claudio gave me has been magical: 'doing what corresponds at the moment'" (P. Durán).
 
-## **The Sexual Seven: Suggestibility**
+## The Sexual Seven: Suggestibility
 
 The sexual Seven is not earthly but celestial. They are not interested in the things of this world. It is the gluttony for things from a higher and more advanced world. The sexual E7 is what we might call a dreamer. To define it, Ichazo used the word "suggestibility," which I understand as the passion for imagining something better than the desolate reality. It’s the passion for enchanting reality, for fantasizing, for painting things in a rosy hue. In other words, it's a form of idealization. If the word for the social E5 is totem — totemizing being a type of super-idealization — here, it's more about the idealization of the ordinary: the sexual Seven looks at things with the optimism of those who are in love. They say love is blind. It could be that the sexual Seven is blind in the same way. They are overly enthusiastic.
 
@@ -3157,7 +3163,7 @@ Lastly, it’s essential not to overlook any of a Seven’s manipulations. As th
 
 Finally, as an effective tool, it can be helpful to use their own mechanism: humor and irony, bearing in mind that Sevens in general handle this very well.
 
-## **The Self-Preservation Seven: Family**
+## The Self-Preservation Seven: Family
 
 It is often easier to recognize a sexual or social Seven than a preservation Seven. To refer to them, Ichazo used the phrase "the guardian of the castle." He also used the word "castle" for the preservation Five — I preferred to use the word refuge or lair. But what is the meaning of the phrase "the guardian of the castle"?
 
@@ -3179,7 +3185,7 @@ By Albert Rams
 
 The following pages contain several quoted passages from the author, taken from his text "Biography of Character" (1996). The rest of the quoted passages come from individuals identified with the preservation Seven who kindly contributed to this report. They preferred to remain anonymous, and Albert Rams expresses his deep gratitude for their contributions.
 
-**\#\#\#\# \*\*What is left behind\*\***  
+**What is left behind**
 
 It seems that what gets left behind in the process is essentially a kind of craving, a state of nervousness, of undefined agitation that sometimes manifests as "greed, impatience, wanting to devour everything," as one preservation Seven puts it. Other times, it shows up as "a thought that holds that I can always focus on everything from the positive; the desire to be surrounded by people who anesthetize me and allow me not to be conscious of myself, to live asleep, in a dream," says a woman with the same trait. It is also, according to another person, "the sensation of a fictitious life, as if lived outside of myself. As a young girl, I used to describe it as if it were a movie; it was fast, fun, I was the protagonist, but I didn’t recognize myself within: I recognized myself dissociated." Sometimes it’s "fantasy," understanding it as the tendency to replace reality with what is invented (unconsciously, of course), even to the extreme of defending the invention as reality," according to another preservation Seven. Other times, it translates into "always getting my way; spending so much energy controlling everything, managing everything without it being noticed."
 
@@ -3204,7 +3210,7 @@ One of the signs of the process is that "the way of constructing families to fee
 
 Similarly, what is left behind is the escape — often unconsciously — from what is dysphoric, from loneliness, from what is unpleasant, from emptiness, from boredom, from the little: "the desire to constantly experience new things to avoid boredom and fill my time," says one preservation Seven; the inability to touch unpleasant emotions, the feeling of rushing because life is running out, the impatience, the need for everything to be permanently okay; "the excessive noise in my life," adds another preservation Seven; "believing I’m so good and generous, that I help so much, believing that everyone depends on me, instead of me depending on them," concludes another.
 
-**\#\#\#\# \*\*What emerges in the transformation process\*\***  
+**What emerges in the transformation process**
 
 When the lie of excess is discovered, little emerges — silence, the goodness of scarcity; the freedom of
 
@@ -3224,7 +3230,7 @@ Here are some specific ways to put it:
 
 "The need to be more with myself is emerging, the need to be truly present and connected with what I feel, and the sense that it is enough, that it’s okay with what is. I also try to hold onto the Buddhist principle that says 'if you’re not happy now, in this precise moment, you’ll never be.' And I rely on it as the only truth that exists because I have spent my life chasing a fantasized happiness that was always just around the corner: I thought the next thing would always be better than what I have now."
 
-**\#\#\#\# \*\*What serves the transformation\*\***   
+**What serves the transformation**
    
 My general impression is that what helps the most is finding someone (a therapist, a teacher, sometimes a friend) who can combine a clear ability to say "no" and who can offer accompaniment during the fall. "No," then, to the games, the tricks, the manipulations... That person will be a wall to crash against, while also being a loving companion, sometimes silent, always close during the breakdown, allowing the discovery of what was avoided, making it possible for me without living it as a catastrophe: silence, loneliness, nothingness, sadness, anger, malice...
 
@@ -3246,7 +3252,7 @@ Here are more testimonies:
 
 "Self-observation. A bit of self-absorption (as Ortega said). Therapy. Meditation. Spaces of solitude. Contemplation without judgment. The silence of the countryside."
 
-**\#\#\#\# \*\*What doesn’t help in the transformation process\*\***    
+**What doesn’t help in the transformation process**
 "Action and more action, thinking, designing strategies, escaping, sex and eating to escape, letting myself be nourished by the scent of my own seduction. Wearing myself out, overexerting, trying to make my fantasy reality. Constantly saving the world."
 
 "Letting myself be carried away by anxiety, doing and doing without awareness, starting many things and not finishing anything, letting boredom win, not accepting life’s reality as it is, and allowing myself to be swept away by the idea that life can be rose-colored."
@@ -3259,7 +3265,7 @@ Here are more testimonies:
 
 "That space, so nourishing for others, which encourages the expression of the inner self, creativity, spontaneity, and other facets of the individual, led me to get a bit lost. I’m not saying it’s not useful, but it serves me little. However, I can work with it easily. I can use the most instinctual, basic, and spontaneous aspects in favor of others’ internal work. But for me, the most concise, clear, and simple things help me, as opposed to other explosions of being."
 
-**\#\#\#\# \*\*What tasks favor transformation?\*\***    
+**What tasks favor transformation?**
 Here are more testimonies:    
 "The most favorable tasks are the tasks themselves. A process that consists of a proposal with a beginning and an end, and the responsibility to achieve it, already has meaning in itself. Working through the Enneagram has gained great meaning because it requires continuity, follow-up, updating, review, constancy, and, above all, authenticity. I have such a conflict with deceit, trickery, and the complex path of fraud that I give a lot of meaning to understanding and practicing something sincere and authentic, while also putting in significant effort."
 
@@ -3275,7 +3281,7 @@ Here are more testimonies:
 
 "What helps me is making decisions and carrying them out. Creating self-programs and following them (to avoid the tendency to scatter). Committing and fulfilling the commitment. Reflecting before acting. Trying to act with as much emotional sincerity as possible. Seeing others."
 
-**\#\#\#\# \*\*What needs to be understood\*\***    
+**What needs to be understood**
 It seems to me that what we preservation Sevens need to understand is, fundamentally, respect, which I believe we lost in the formation of that devour-it-all monster because everything-is-a-lie-so...
 
 And no, of course: not everything is a lie. There is honor, there is what is, in itself, and not because it serves any particular purpose.
@@ -3332,7 +3338,7 @@ They learned to be strong; their body shows it: thick skin, solid musculature, f
 
 Just as they do not allow themselves to feel their emotions, they also do not leave room for physical pain, to the extent that they neglect their body; even when they suffer, they find satisfaction in the intensity.
 
-## **The Social Eight: Complicity**
+## The Social Eight: Complicity
 
 The E8 social is a kind of antisocial social type. If we want to use modern psychology categories, the Eight fits into the label of antisocial personality: more or less, a person who opposes social norms. Or rather, a rebellious person.  
 
@@ -3519,7 +3525,7 @@ Group therapy allowed me to observe myself from within the group until little by
 
 It also helps when the therapist makes constant references to the actions that the social Eight is taking because it’s in action where they get lost. It’s good to focus on their world of personal relationships, especially those outside the group, as the social Eight has great difficulty committing to individualized relationships.  
 
-## **The Sexual Eight: Possessiveness**
+## The Sexual Eight: Possessiveness
 
 A sexual Eight has a tendency toward social detachment. This person is rebellious, even more so than other Eights. They are also more provocative, flaunting, proclaiming that their values are different from the norm. This occurs with all Eights, but in the sexual subtype, this tendency becomes a clear detachment from intellect.
 
@@ -3681,7 +3687,7 @@ Meditation was the main point raised by four interviewees as a way to slow down 
 
 They also noted that it will be necessary to find the inner emptiness to be filled by something greater. They seek a reference point within themselves, having a teacher as a bridge—a guide who can help them replace the food of the ego with compassion and love for God, healing the original wound. Because only in this way can they feel included as human beings and beloved children of the Father’s heart, so they can reclaim the lost link from childhood, which is the sweetness and spontaneity where innocence resides.
 
-## **The Self-Preservation Eight: Satisfaction**
+## The Self-Preservation Eight: Satisfaction
 
 The most armored of all E8s is the self-preservation subtype. The word that defines them is satisfaction: “I have to have it. This is mine. I need to have it.” It’s more of an intolerance for the frustration of not having what they want than the possession itself. In this sense, they’re somewhat like the E1 sexual subtype, which also becomes obsessive in its desires. But an E1 (Type 1\) is very different from an E8. The former is hypersocial, while the latter is completely antisocial. One is overly concerned with norms, and the other cares far too little.
 
@@ -3773,7 +3779,7 @@ In order to maintain this lack of differentiation, the E9 demonstrates a conside
 
 They perform their activities robotically, without complaining about fatigue, displaying a high level of anesthesia, even physically. They neither listen to the needs nor the pains of their body and often neglect their appearance.
 
-## **The Social Nine: Participation/Belonging**
+## The Social Nine: Participation/Belonging
 
 The Social Nine is a good-natured person. What drives a good-natured person? What lies behind these cheerful, lighthearted individuals? According to this framework, the passion of the Social Nine is participation. They need to feel like an integral part of something. But anyone with an intense need to participate, to become part of something, is someone who doesn’t feel part of anything.
 
@@ -3901,7 +3907,7 @@ For a Social Nine, confrontation is very helpful—being lovingly but firmly sha
 
 And finally, how important it is to know how to give good feedback, or anything else that helps with awareness…
 
-## **The Sexual Nine: Symbiosis**
+## The Sexual Nine: Symbiosis
 
 I would prefer to use the word "union"—the word that Ichazo used—in a more elevated sense. Union signifies the response that we find in love, the desire for communion with the beloved. Thus, such a word should not be used to describe a neurotic game. Therefore, I prefer to use words like fusion, confluence, symbiosis...
 
@@ -4133,7 +4139,7 @@ From my love for myself. Just as I am, and with the body I have, which has been 
 
 Accepting all of this has been possible thanks to my partner. Thanks to not being alone. Thanks to having support. (Thank you, Hilde, for loving me just as I am.)
 
-## **The Self-Preservation Nine: Appetite**
+## The Self-Preservation Nine: Appetite
 
 We will end with the E9 self-preservation type, for which Ichazo used the word "appetite." It is obvious that these individuals tend to have larger bodies, so it is likely they also have a larger appetite. Sancho Panza is a literal example of the E9 self-preservation type, and it is interesting that Cervantes chose "Panza" (belly) for his name, as it is something so central to this character.
 
