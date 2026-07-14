@@ -1184,7 +1184,7 @@ A healed sexual three becomes aware of self-deception and falseness in their rom
 
 Upon returning to the little sitting room, she walked toward the mirror so as not to be alone. She curtsied before the mirror to *Belle du Seigneur*, tried different expressions to check how she must have looked to him at the end of that night, imagined once again that she was him looking at her, played the supplicant, pursed her lips, congratulated herself. Not bad, not bad. But with words, it would be clearer. "Your woman, I am your woman," she said to the little mirror, motionless, sincerely moved. Yes, really good expression, she must have seemed splendid to him. And during the kisses of great passion, the underwater kisses, what did she look like with her eyes closed? She opened her mouth, closed her left eye, looked at herself with the right. Difficult to tell. The impression of amazement disappeared, she just looked cross-eyed. Too bad, she would never know what face she made during the operation. What horror, I say *operation*, and just a moment ago with him, it all felt so serious. Ultimately, to see how I look during deep kisses, I just need to almost close my eyes and glance sideways through my eyelashes. Although no, actually, it's not worth it, because in those moments, his head is so close to mine that he can't see me, so it has no importance.
 
-***What would motivate a sexual three to enter a therapeutic process?***
+**What would motivate a sexual three to enter a therapeutic process?**
 
 If a sexual three looks inward even slightly, they will realize that they feel a sadness that has always been there. What happens is that, by not expressing it and being constantly preoccupied with not showing it, they do not even reveal it to themselves.
 
@@ -1206,7 +1206,7 @@ There are questions that help people connect with themselves. *What do you feel?
 
 A sexual E3 feels and lives in a permanent prison. They feel suffocated by vanity, and this suffocation leads them to want to remain unnoticed and to be extremely shy, afraid of saying or doing the wrong thing. The need to free themselves from this is another motivation that might lead them to therapy when they gain greater self-awareness.
 
-***What is left behind?***
+**What is left behind?**
 
 In the process of transformation, emotional, sexual, and physical disconnection is left behind. The fear of real intimacy. The dependence on love and the self-deception surrounding love. The thirst for loving and being loved, and the superficiality tied to seeking and conquering this type of relationship. The compulsion to put all energy into seduction, conquest, and pleasing the other. The dependence on recognition and applause in a romantic relationship.
 
@@ -1286,7 +1286,7 @@ When they release their perfectionism, something more *human* and *sincere* emer
 
 In relationships, the sexual three must understand that refusing to commit to one person and constantly seducing others—just in case something better comes along—only leaves them feeling *increasingly alone and empty.*
 
-The more they use life to seek *applause and recognition,* the more unhappy and isolated they become. They must come to understand that happiness comes from feeling their wounds, their miseries*.* If they do not become conscious of these internal shadows, they will never be able to fully recognize their own light.
+The more they use life to seek *applause and recognition,* the more unhappy and isolated they become. They must come to understand that happiness comes from feeling their wounds, their miseries. If they do not become conscious of these internal shadows, they will never be able to fully recognize their own light.
 
 **Testimonies**
 
@@ -1308,79 +1308,79 @@ The more they use life to seek *applause and recognition,* the more unhappy and 
 
 **Breaking Free from Merging with the Other**
 
-\*"In my life, the gaze I have sought most is that of a man, and it has come at the cost of losing myself. In the presence of a man, I have never given myself space to know who I am, what I desire, or what I need. I simply merged with him. I have sought out men who, from the beginning, showed signs of emotional absence, which required me to exert even more effort to be noticed, as if I were repeating over and over the endless search for my absent father. I was trapped in the crazy fantasy that if I just did enough, the other would stay by my side.
+"In my life, the gaze I have sought most is that of a man, and it has come at the cost of losing myself. In the presence of a man, I have never given myself space to know who I am, what I desire, or what I need. I simply merged with him. I have sought out men who, from the beginning, showed signs of emotional absence, which required me to exert even more effort to be noticed, as if I were repeating over and over the endless search for my absent father. I was trapped in the crazy fantasy that if I just did enough, the other would stay by my side.
 
 So, I took on the responsibility of making sure that the presence of the other depended on how well I could *be* and *do* things. I sought men whom I idealized for what they represented in the world, because, through them, I could build a more solid identity for myself: *'If I am with someone who is important, maybe that means I am important too…'*
 
-More and more, I connect with the need to have men in my life who can actually listen to me and recognize me. I have started to have male friends—perhaps I no longer seek them out only as challenges to conquer in order to feel valuable, but rather as *companions*, people with whom I can sometimes lean on and who can also lean on me."\*
+More and more, I connect with the need to have men in my life who can actually listen to me and recognize me. I have started to have male friends—perhaps I no longer seek them out only as challenges to conquer in order to feel valuable, but rather as *companions*, people with whom I can sometimes lean on and who can also lean on me."
 
-\*"In recent years, my learning through relationships with men has also been a path of suffering. I had to separate from the man I loved—and still love—because my process of autonomy, of knowing who I was without the other, could not happen within a relationship. I had to break free from my tendency to merge with the other and the confusion that came with it, distancing myself physically so that I could discover who I was in my solitude.
+"In recent years, my learning through relationships with men has also been a path of suffering. I had to separate from the man I loved—and still love—because my process of autonomy, of knowing who I was without the other, could not happen within a relationship. I had to break free from my tendency to merge with the other and the confusion that came with it, distancing myself physically so that I could discover who I was in my solitude.
 
 Although this separation was painful, I experienced that my life is not solely centered around men, that I can also be nurtured by friendship and by relationships with other women. Until then, I had always seen women as *rivals*—competitors whom I had to defeat in order to win a man’s recognition. I never realized that by rejecting them, I was also rejecting myself and my own feminine identity.
 
-I have now begun to see other women as *equals*. My reconciliation with women has allowed me to seek them out and find in them strength, solidarity, affection, support, and understanding."\*
+I have now begun to see other women as *equals*. My reconciliation with women has allowed me to seek them out and find in them strength, solidarity, affection, support, and understanding."
 
-\*"On this journey, I have started to reconnect with my affectionate and sexual nature after years of living as though these two parts of me were separate. I was never able to fully show my sensual side—I either controlled it, censored it, or faked it—when I was with a man I truly cared for, giving myself to him emotionally from the place of a needy, wounded child.
+"On this journey, I have started to reconnect with my affectionate and sexual nature after years of living as though these two parts of me were separate. I was never able to fully show my sensual side—I either controlled it, censored it, or faked it—when I was with a man I truly cared for, giving myself to him emotionally from the place of a needy, wounded child.
 
 The process of recognizing myself, of becoming more independent, and of allowing myself to be *more me*, has led me to experience my sexuality in a much more fulfilling way. My sexual relationships with others are no longer just a means to seek approval, as if I were taking an exam where I had to pass a test. Instead, they have become a way to *surrender to my own senses*, to experience my own spontaneous pleasure.
 
-I have opened a door to joy and to the pleasure of truly feeling my body."\*
+I have opened a door to joy and to the pleasure of truly feeling my body."
 
-\*"My journey continues. It is in the very process of discovering myself that I find meaning in each moment. The awareness and connection with myself—which have often made me feel fragile—have also given me a solid foundation, an inner strength that pushes me to keep looking at myself, both in my sweetest and most beautiful moments and in my most lost and disconnected ones.
+"My journey continues. It is in the very process of discovering myself that I find meaning in each moment. The awareness and connection with myself—which have often made me feel fragile—have also given me a solid foundation, an inner strength that pushes me to keep looking at myself, both in my sweetest and most beautiful moments and in my most lost and disconnected ones.
 
-And I feel *deep gratitude* for the people who, on this journey, are helping me to find in both my connection with myself and my connection with others a place of true rest."\*
+And I feel *deep gratitude* for the people who, on this journey, are helping me to find in both my connection with myself and my connection with others a place of true rest."
 
 **Reclaiming Authenticity**
 
-\*"I always believed that I had a happy childhood, but later I realized that from a very young age, I was deeply disconnected from myself. Although I perceived myself as a sensitive child, I quickly learned that if I expressed what I felt, I could upset others—mainly my parents, who were always very busy: my mother raising children, my father always tense and working. So I learned not to express my emotions or my needs, and I became very good at controlling myself.
+"I always believed that I had a happy childhood, but later I realized that from a very young age, I was deeply disconnected from myself. Although I perceived myself as a sensitive child, I quickly learned that if I expressed what I felt, I could upset others—mainly my parents, who were always very busy: my mother raising children, my father always tense and working. So I learned not to express my emotions or my needs, and I became very good at controlling myself.
 
-I became self-sufficient, a prudent, well-behaved, responsible child, with no major complications—but completely alone when it came to emotions. Sometimes, I went unnoticed; other times, I achieved success and recognition at school or was chosen as a leader in activities, and I loved that, even though I was somewhat shy."\*
+I became self-sufficient, a prudent, well-behaved, responsible child, with no major complications—but completely alone when it came to emotions. Sometimes, I went unnoticed; other times, I achieved success and recognition at school or was chosen as a leader in activities, and I loved that, even though I was somewhat shy."
 
-\*"Now, looking back, I see that my childhood was filled with difficulties in recognizing what I felt, what I wanted, and what my needs were. I struggled to trust my sensations and my intuition because they were always denied. It was as if I had to feel what my parents wanted me to feel, which is why I grew up feeling immense confusion about what was real for me.
+"Now, looking back, I see that my childhood was filled with difficulties in recognizing what I felt, what I wanted, and what my needs were. I struggled to trust my sensations and my intuition because they were always denied. It was as if I had to feel what my parents wanted me to feel, which is why I grew up feeling immense confusion about what was real for me.
 
-I gradually suppressed pleasure and spontaneity. I learned to disconnect from my feelings easily and appropriately because I believed that expressing them would complicate things for others, and I shouldn’t be a bother. I stopped validating what I felt and began hiding everything I considered 'not good.' I struggled to see the shadow side of things—of people, of situations, of myself. I couldn't see the ways in which I was being mistreated, the dark side of life. I didn't even recognize my own fears."\*
+I gradually suppressed pleasure and spontaneity. I learned to disconnect from my feelings easily and appropriately because I believed that expressing them would complicate things for others, and I shouldn’t be a bother. I stopped validating what I felt and began hiding everything I considered 'not good.' I struggled to see the shadow side of things—of people, of situations, of myself. I couldn't see the ways in which I was being mistreated, the dark side of life. I didn't even recognize my own fears."
 
 *"Internally, I felt insecure, but externally, I always showed confidence. Now I can see how much energy I have spent maintaining an image, making sure my insecurity wasn’t visible, covering up what I didn’t want others to see by always appearing pleasant. I had, and still have, an immense fear of ridicule, a panic about disappointing others. Because of that, I feel a great need for control."*
 
-\*"It’s like constantly putting on makeup, fixing what I don’t like about myself, hiding what makes me feel ashamed. Over time, I start believing in the illusion I create—and that’s where self-deception begins. Eventually, I can no longer tell what is real and what is not.
+"It’s like constantly putting on makeup, fixing what I don’t like about myself, hiding what makes me feel ashamed. Over time, I start believing in the illusion I create—and that’s where self-deception begins. Eventually, I can no longer tell what is real and what is not.
 
-Now, I can see this pattern much more clearly and recognize the exact moment when I activate this mechanism. I can allow myself to be more vulnerable, to show my fear or insecurity, and at the same time, I have a deeper connection with my own fear."\*
+Now, I can see this pattern much more clearly and recognize the exact moment when I activate this mechanism. I can allow myself to be more vulnerable, to show my fear or insecurity, and at the same time, I have a deeper connection with my own fear."
 
-\*"During adolescence, the game of seduction became very powerful for me. Being seen was like *existing*, like being confirmed as real. I remember my father’s gaze—one of pride, validation, admiration, even desire. From then on, men became the center of my world.
+"During adolescence, the game of seduction became very powerful for me. Being seen was like *existing*, like being confirmed as real. I remember my father’s gaze—one of pride, validation, admiration, even desire. From then on, men became the center of my world.
 
-Pleasure became more about pleasing, and desire only surfaced when I felt desired by someone else, when I felt their gaze on me. I didn’t take ownership of my own desires. If I was in a good relationship with a man, I felt safe and at peace. I had an immense need for affection, but at the same time, I was highly sexualized, so I unconsciously equated affection with erotic love without realizing it."\*
+Pleasure became more about pleasing, and desire only surfaced when I felt desired by someone else, when I felt their gaze on me. I didn’t take ownership of my own desires. If I was in a good relationship with a man, I felt safe and at peace. I had an immense need for affection, but at the same time, I was highly sexualized, so I unconsciously equated affection with erotic love without realizing it."
 
-\*"The game of seduction continued, but something has changed—I now allow myself to *feel* more, to be in contact with love and pleasure, and I feel that I am in a moment of great expansion where I want and allow myself to be loved.
+"The game of seduction continued, but something has changed—I now allow myself to *feel* more, to be in contact with love and pleasure, and I feel that I am in a moment of great expansion where I want and allow myself to be loved.
 
-I believe that, for the first time, I am being faithful to what I *truly* want and need. Right now, I feel happy with my husband, and I have stopped fighting to change the things I feel are lacking in our relationship. I no longer cling so much to the fantasy of the 'ideal couple'—especially after so many years together. What I have with my husband is good as it is."\*
+I believe that, for the first time, I am being faithful to what I *truly* want and need. Right now, I feel happy with my husband, and I have stopped fighting to change the things I feel are lacking in our relationship. I no longer cling so much to the fantasy of the 'ideal couple'—especially after so many years together. What I have with my husband is good as it is."
 
-\*"At this stage of my life, my work is about *being with myself.* I also move toward others, but I always return to myself, allowing myself to feel without erasing myself, and also *seeing the other person*—because I have realized that I had never really *seen* anyone. I only did things for myself, and even when it seemed like I was doing them for others, I was only looking to see my reflection in their eyes.
+"At this stage of my life, my work is about *being with myself.* I also move toward others, but I always return to myself, allowing myself to feel without erasing myself, and also *seeing the other person*—because I have realized that I had never really *seen* anyone. I only did things for myself, and even when it seemed like I was doing them for others, I was only looking to see my reflection in their eyes.
 
-Now, I feel more present with myself and with others, even though there are still moments when I lose myself."\*
+Now, I feel more present with myself and with others, even though there are still moments when I lose myself."
 
-\*"I have become aware of how I seduce and *why* I do it. I have taken responsibility for my own desires and needs. Sometimes, I go from one extreme to the other—I can be either seductive or cold and distant. I continue to observe myself in this, because when I allow myself to be more instinctive, freer, and more relaxed, I notice that I become more attractive. But I don’t want to confuse myself or fall back into rigidity. I try to stay aware so that I can remain *faithful to myself* and also *avoid harming others."*
+"I have become aware of how I seduce and *why* I do it. I have taken responsibility for my own desires and needs. Sometimes, I go from one extreme to the other—I can be either seductive or cold and distant. I continue to observe myself in this, because when I allow myself to be more instinctive, freer, and more relaxed, I notice that I become more attractive. But I don’t want to confuse myself or fall back into rigidity. I try to stay aware so that I can remain *faithful to myself* and also *avoid harming others."*
 
-\*"In my relationship, I have let go of the expectation of the 'ideal man.' There is greater acceptance now. I can recognize both my own deficiencies and those of my partner, my longings, and how to fulfill them without expecting the other person to be responsible for my needs.
+"In my relationship, I have let go of the expectation of the 'ideal man.' There is greater acceptance now. I can recognize both my own deficiencies and those of my partner, my longings, and how to fulfill them without expecting the other person to be responsible for my needs.
 
-There is more dialogue, fewer fights, clearer boundaries, less aggression, better listening, more patience, and more acceptance of the other as they are, without trying to change them to fit my expectations."\*
+There is more dialogue, fewer fights, clearer boundaries, less aggression, better listening, more patience, and more acceptance of the other as they are, without trying to change them to fit my expectations."
 
-\*"Through my work in the SAT Program, I have confronted many fears I didn’t even know existed. I have ventured into deep, dark, painful places, as well as places full of light and love.
+"Through my work in the SAT Program, I have confronted many fears I didn’t even know existed. I have ventured into deep, dark, painful places, as well as places full of light and love.
 
 I have found new ways of relating that are loving and honest, based on *my truth*. I have dared to be vulnerable, insecure, open. I have seen my own harshness and falseness, my jealousy and envy, my attachment, my immense emptiness, my shyness.
 
-I have allowed myself to be vulnerable, fragile, tender, sweet, loving."\*
+I have allowed myself to be vulnerable, fragile, tender, sweet, loving."
 
 *"I believe that there is now more honesty and less self-deception in me, though there are still times when I don’t know what is real and what isn’t."*
 
 *"Confronting my pain has allowed me to feel compassion—for myself and for others. My heart has opened, and I can now accompany others in deeper, more truthful places, even when those places are painful."*
 
-\*"Transformation has also meant being able to *see* with more clarity—seeing what has happened and what is happening, what I needed and what I now need.
+"Transformation has also meant being able to *see* with more clarity—seeing what has happened and what is happening, what I needed and what I now need.
 
 Now, I have a greater awareness of my psychological mechanisms and my self-deception. I can show myself more, speak about my inner world, reveal my shadow, be more transparent. I can say what I don’t like—even at the risk of disappointing someone or distancing myself from those I care about.
 
-I am more *real*. I can exist in simplicity, in the ordinary, without so many expectations, with greater trust."\*
+I am more *real*. I can exist in simplicity, in the ordinary, without so many expectations, with greater trust."
 
-\*"I have reclaimed my body. I am connected to my breath, to my sensations, to my instincts. I can play and reconnect with my inner child, with my needs and emotions.
+"I have reclaimed my body. I am connected to my breath, to my sensations, to my instincts. I can play and reconnect with my inner child, with my needs and emotions.
 
 I can be vulnerable. I can see my shadow, recognize my desires, admit that I seduce and see how I do it.
 
@@ -1859,7 +1859,7 @@ Transformation involves discipline, remembering how easily they fall into the ag
 Being attentive to this aspect of character helps to leave behind attachment to masochism and develop social skills simultaneously. For the sexual E4, it's transformative to accept that they're not impervious to criticism or bad opinions others might have of them. It's good to think before acting and tell oneself: "The scene I'm about to make now, how many enemies will it get me? Is it worth getting involved if I'm going to regret it later?" Because one is not as strong as they appear. Regarding discord, the sexual E4 gets overwhelmed, confuses, shields, or confronts aggressively. When they realize this, they no longer cultivate a negative stance. They change their perspective on themselves and life: they want to be accepted, recognized, and loved, and it's a bad deal to be against that.  
 Accepting that one is fearful means recognizing that others can also be aggressive, get tired of one, or leave them stranded. It's not cowardice or laziness, as they often reprimand themselves. One won't disappear from the face of the earth by accepting they're fearful. It's healing to develop prudence. For the sexual E4, it's wise to negotiate socially, take care of one's interests and surroundings, exit dissatisfaction, and start being okay in the world.
 
-\*\*Developing Compassion\*\*
+**Developing Compassion**
 
 For the sexual E4 subtype, it's a matter of will to find peace. It's a kind of mental and spiritual exercise to feel good and cultivate well-being. To feel pity is to recognize that one is made of the same stuff as everyone else. Everyone is as they are, has their own life story and path, and we all do what we can. We are all equally both awful and divine, as Perls said, even though the sexual E4 tends to value themselves either too high or too low.
 
@@ -2205,7 +2205,7 @@ When we surrender with trust to life, the distance from our personality is perce
 
 We also know that the path is long and must be traveled with confidence. We have already had enough experiences to consolidate our faith in the profound nature of things.
 
-\*\*Inner Work and Fulfillment\*\*
+**Inner Work and Fulfillment**
 
 The social E5 is deeply committed to self-improvement and is, therefore, naturally inclined towards inner work. However, it is surprising to see how the fruits of often disciplined and ethically motivated work can be tainted by the vanity of a self dissatisfied with its image in many areas of life. "Look how good I am... what experiences I am capable of achieving," is something we have all told ourselves more than once. Nonetheless, the psycho-spiritual path already traveled is and continues to be fertile ground for planting.
 
@@ -2628,7 +2628,7 @@ In the process of transformation, the experience of weakness and the need for th
 
 It is difficult for a counterphobic to surrender to crazy and passionate infatuation. But in reality, it is an experience they need. Some counterphobic women say it has been very useful not to flee from a difficult and loving relationship. After having a marriage relationship in which I felt protected and dominant at the same time, the change in my experience as a woman occurred through an extremely conflictive and insecure relationship: “As usual, I would have kept my distance by controlling my feelings. Thanks to the analytical work I was doing at the time, I did not automatically enter the defense mechanism of avoidance and stayed in the relationship. This brought with it intense emotional states and a sense of madness. But when I came out of the tunnel, I found myself stronger internally and with a new state of fullness, produced by having intensely lived the emotions. It was an experience of integration because this staying did not allow me to split sex/love and thought/emotion. Above all, it dismantled my fundamental conviction: that he was to blame and I was the victim.”
 
-\*\*The Accusation: The Rejection of Self\*\*
+**The Accusation: The Rejection of Self**
 
 It is not easy to recognize accusation as a life philosophy. The cognitive distortion is surely understandable on a rational level, but it is the part that most resists change.
 
@@ -2698,7 +2698,7 @@ Moreover, freeing sensuality and eroticism would mean making room for tenderness
 
 In this respect, the transformation has shown significant progress in the practice of spontaneous movement. All sexual E6 people declare themselves astonished by the power of this instrument, and all recognize that spontaneous movement should be practiced for life, not only to connect and integrate the split parts but also to cultivate surrender and trust.
 
-**\*\*Trust and Faith\*\***
+**Trust and Faith**
 
 Talking about trust to a counterphobic is like talking about cats to a mouse\! Not only is the other, as a potential enemy, not worthy of trust, but the counterphobic does not trust themselves. The cognitive conviction that every mistake can be fatal strengthens the idea that every decision can be fatal, and therefore, no argument that the counterphobic has meticulously constructed in their logic, disconnected from reality, will be enough to reach trust. The separation between good and evil, and the projection of evil outside, allow them to cultivate the illusion — on the brink of psychotic defense — of always presenting themselves as good and just. But if the split is not entirely psychotic, they keep and hide within a brutal monster.
 
@@ -3179,7 +3179,7 @@ Talking and talking, the preservation Seven soon discovers the other person’s 
 
 It seems that with the preservation Seven, no conversation fails to lead to business. They make instant deals because their mind is so alert for opportunities that they never let them slip by. Their position is one of someone who thinks that if you aren’t alert, if you don’t keep your nose to the wind to detect opportunities, you’ll be a loser.
 
-**\*\*Transformation in the E7 Preservation\*\***  
+**Transformation in the E7 Preservation**  
 
 By Albert Rams  
 
@@ -3241,7 +3241,7 @@ During those years, the process became extreme, especially in SAT:
 
 "There I felt like someone was breaking me and holding me at the same time; that someone was hitting me and healing me; that someone was moving me and calming me deeply. Everything was breaking, breaking... And there he was, Memo, and they were there (Paco, Antonio, Cheriff, Juanjo...), and they were there (Annie, Graciela, Use, Silvia...). And Claudio. During the fall and winter of '88-'89, I thought I was going crazy. Looking at it now (January 1993), I think that magical thinking exploded in my head, anxiety in my heart, and paralysis in my body. I became paranoid and fell into the most terrible panic I’ve felt since I was fourteen \[...\]. I, Albert Rams, 'famous therapist known all over southern Europe,' was scared out of my wits. I remember I couldn’t even call the travel agency to book tickets. Everything was an enormous effort, even the smallest things. I felt incapable of writing the smallest note or letter, and any phone call scared me. I was completely trapped in guilt, but I didn’t know it then..."
 
-**\*\*What helps in the process?\*\*** 
+**What helps in the process?** 
 
 Here are more testimonies:    
 "Reducing activity, contacting the body as both an end and a means to reach emotion. Concreteness, dimension. Making it my goal to be punctual, in my case, has led to respecting others, considering them, seeing them, and taking care of myself. What helps is understanding before finding something within me, confrontation, taking the risk of being direct, of being 'bad.' Opening my eyes, seeing reality, seeing the present without sugarcoating it, acceptance, silence, loneliness. Believing there is something bigger than me, spirituality."
@@ -3302,7 +3302,7 @@ To conclude, I’ll share another fragment of my biography:
 
 # Type Eight: Lust
 
-The passion of Lust denotes a passion for excess, "a passion that seeks intensity, not only through sex but in all kinds of stimuli: activity, anxiety, spices, high speed, loud music, etc." (C. Naranjo, \*Character and Neurosis\*). 
+The passion of Lust denotes a passion for excess, "a passion that seeks intensity, not only through sex but in all kinds of stimuli: activity, anxiety, spices, high speed, loud music, etc." (C. Naranjo, Character and Neurosis). 
 
 It transforms the intensity of suffering into the intensity of satisfaction, of feelings, of pleasure, and of the battle against the abuses suffered. 
 
@@ -3355,7 +3355,7 @@ They think it’s better to pursue power, pleasure, or what they want rather tha
 
 Moreover, Eights don’t usually engage in activities related to self-awareness since developing this kind of insight into their emotional life is a bit harder for them. They repress their tender side as if they had to bury their inner child to face life fully armed, ready for the struggle for existence, red in tooth and claw, as the Darwinists say. An Eight is someone armed to the teeth.  
 
-\*\*The Transformation in the E8 Social by María Elena Tinoco\*\*  
+**The Transformation in the E8 Social by María Elena Tinoco**  
 
 Some hidden memories...  
 
@@ -3367,7 +3367,7 @@ When I was between two and three years old, I wanted to go out, and near the doo
 
 Revenge appeared as a companion in my life. It wasn’t a premeditated or planned revenge, but rather a hidden one, lurking, an act suited for those who don’t know how to fulfill their obligations (how messed up\!).  
 
-\*\*The Lurking Adolescent\*\*  
+**The Lurking Adolescent**  
 
 An adolescent assassin? I don’t know where she was hiding. She had her hair styled like Yoko Ono, a shapeless body, felt enormous hatred toward women, and total contempt for men. She was 1.54 meters tall and weighed 38 kilos, just skin and bones: she was "La Flaca" (The Skinny One).  
 
@@ -3390,7 +3390,7 @@ I became a missionary, and in those years, I lived entirely for that goal. But n
 
 Today, I see that I was a very dark and undervalued adolescent, with a strong instinct to destroy everything while living as the quiet cleaning girl who spoke little and received too many humiliations from American employers who were never satisfied.  
 
-\*\*The Beginning of the Search\*\*  
+**The Beginning of the Search**  
 
 Meeting Claudio in my life seemed to make everything better. At that time, I saw the SAT Program as a very liberating path for the indigenous people I worked with in the mission. I viewed it as similar to an educational synthesis for peace.  
 
@@ -3419,7 +3419,7 @@ My greatest suffering was the decision to leave the congregation and stand on my
 
 Today, I begin to walk with greater awareness, realizing when I want to dominate someone or when I am manipulating. And I step back. This makes me feel freer, with fewer attachments to relationships, teamwork, material or spiritual things.  
 
-\*\*What Has Changed in the Process?\*\*  
+**What Has Changed in the Process?**  
 
 One of the greatest differences from the past is that now I can give myself plenty of time for reflection. It’s a new way of entering thought, looking at the ego as a prison, a rhinoceros with small eyes and a horn ready to charge when it doesn’t get what it wants.    
 I also find myself better able to choose in each situation, becoming aware that I can respond from the rhinoceros or from Brisa (the new name I assumed in my religious life, meaning mercy), feeling from the heart and thinking about what would be most beneficial.    
@@ -3439,7 +3439,7 @@ I’m recovering my sexuality, which I had lost several years ago.
 
 I feel honest with myself for deceiving myself much less.  
 
-\*\*What Helps in the Path of Growth\*\*  
+**What Helps in the Path of Growth**  
 
 In my path, self-knowledge made possible by SAT and recognizing the ego, its magnitude, and its sick power have been especially helpful.  
 
@@ -3448,7 +3448,7 @@ I also find myself choosing better in each situation, becoming aware that I can 
 
 Above all, I have taken responsibility for my actions into my own hands, which means entering a space where every event I experience is a lesson for me. The feeling is one of a pleasant internal unity.  
 
-\*\*What is Left Behind, and What is Emerging Now?\*\*  
+**What is Left Behind, and What is Emerging Now?**  
 
 What is left behind is blindness. From lust, there was always great anxiety, which is now behind me. I neither invite it nor avoid it; it arrives, and from it, I recognize myself as needy.  
 
@@ -3472,7 +3472,7 @@ At this moment, my work is to occupy my real space, a more humble space, from au
 
 I have also placed myself in a different position within my work team. I try to encourage everyone to take their own space without being “Mrs. Protector.” At the same time, I feel free from expectations, happy with a more concrete, democratic, and achievable project.  
 
-\*\*How I Work on My Specific Character\*\*  
+**How I Work on My Specific Character**  
 
 I practice working on my character by working with others. Being in SAT for educators and SAT for Mayan indigenous people has helped me a lot. It’s a constant process of mulling over and becoming aware. I think I have a character of constant action, and through that, I learn. It hasn’t been easy. I haven’t found another way to grow besides through action, recognizing my ego, which often hurts both myself and others.    
 Every day I review my actions just to realize where I was responding from, what I said, how I interacted, what parts were ego-driven, and where those actions are leading me: toward transformation or the trap of the ego.  
@@ -3482,7 +3482,7 @@ If I want to keep walking, I need to watch myself. Otherwise, I won’t even rea
 Friends who approach without judgment, books, theater... and above all, love, help me.    
 Meditation has done me a lot of good in my life: the beginning was also a long process. Some years ago, I got carried away, and instead of doing one hour of meditation as my teacher instructed, I would go for up to five hours straight. This burned out my circuits, and at one point, I abandoned everything without understanding what was happening. Now I realize that it was the intensity, trapped in harshness, that cracked in the first moments. But I wasn’t aware of it at the time.  
 
-\*\*The Path to Self-Perfection\*\*  
+**The Path to Self-Perfection**  
 
 The pleasure I feel for intensity is very strong, and the path for me involves learning to live with limits. The companions in Edupaz and in daily life help me a lot with this. It is through feeling affection that I put the brakes on my actions, especially when they have a disproportionate and lustful nature. Meditation is another space that allows me to center myself and pause before rushing into fruitless actions.  
 
@@ -3495,7 +3495,7 @@ It’s still not done: I have to realize all these things moment by moment, as i
 
 For me, the path to perfection lies in being who I am. The ego has its place, but I can’t allow it to drag me down all the time. It’s a bit like a demon in service to truth seekers. By giving the ego a space, it also helps in the process. I find it present every time I think I’m enlightened or want to put myself above others by crushing them.  
 
-\*\*Recommendations for the Internal Work of a Social Eight\*\*  
+**Recommendations for the Internal Work of a Social Eight**  
 
 Although it’s very hard work, it would be helpful for social Eights to write down their actions each day and see where they lead them. Writing my biography, as Claudio asked me to, helped me a lot, as did group therapy.  
 
@@ -3513,7 +3513,7 @@ It helps to spend more hours in reflection, meditation, and observation.
 
 Group therapy and silent retreats are the techniques that have helped me the most.  
 
-\*\*How to Help a Social Eight Through Therapy\*\*  
+**How to Help a Social Eight Through Therapy**  
 
 It’s very hard for me to acknowledge that I need help. It’s difficult to find a therapist I can trust because my internal sensation is that of having a radar that immediately perceives others’ flaws and shadows, and this is very tough for therapy. When I was living in blindness, I thought what bothered people was my frankness. It hurt when they told me they hadn’t been honest with me because they feared me. But instead of letting it hurt, I would react with anger. Of course, I was the kind who would stick their finger in the wound and not let go until I had destroyed the target. On top of that, I didn’t even feel remorse.  
 
@@ -3695,7 +3695,7 @@ The E8 self-preservation subtype pursues the satisfaction of their needs. They d
 
 We could say that their need is that of an exaggerated self-interest. These are people who know how to do business and know how to bargain to place themselves above everyone else. There’s an expression, “a used car dealer.” This is the art or talent of the self-preserving E8. But it’s also their need: they’re a survivor, a term often used to describe Eights in general but more indicative of the self-preserving Eight. They know how to survive in the most difficult situations. They know how to get things, how to get their way.
 
-\*\*The Transformation of the Self-Preserving E8 by Juanjo Albert\*\*
+**The Transformation of the Self-Preserving E8 by Juanjo Albert**
 
 Claudio: I’m not sure if everyone here knows Juanjo Albert, a figure of national psychiatric mythology. We haven’t seen him around here in a long time. Self-preserving Eights are rare, so I’m delighted to have one who is not only a self-preserving Eight but also an experienced psychiatrist who has not only seen himself through a long process but also seen many patients throughout his life, and surely he’s come to understand people like himself.
 
@@ -3767,7 +3767,7 @@ Juanjo: Yes… through blood and fire.
 
 # Type Nine: Sloth
 
-Sloth here refers to a sloth of consciousness. Having a passion for Sloth means having the motivation to maintain a low level of awareness so that no stimuli, whether emotional or environmental, can conflict with a pre-existing status quo or equilibrium. Faced with a loss of life’s meaning, the E9 responds with spiritual and psychological indolence, a “deafness to the spirit and a loss of the sense of being to the point of not even knowing the difference: a spiritual coarsening” (C. Naranjo, \*Character and Neurosis\*).
+Sloth here refers to a sloth of consciousness. Having a passion for Sloth means having the motivation to maintain a low level of awareness so that no stimuli, whether emotional or environmental, can conflict with a pre-existing status quo or equilibrium. Faced with a loss of life’s meaning, the E9 responds with spiritual and psychological indolence, a “deafness to the spirit and a loss of the sense of being to the point of not even knowing the difference: a spiritual coarsening” (C. Naranjo, Character and Neurosis).
 
 Energy is invested in external action, which compulsively seeks to resolve any type of conflict or confusion without cognitive processing or connection to inner needs and their emotional significance; all conflict is nullified through a loss of interiority.
 
@@ -3787,9 +3787,9 @@ For the Social Nine, the experience of not fitting in, of feeling different, of 
 
 Their passion is doing what’s necessary to pay the toll to be admitted into the group. But this requires a great deal of effort: Social Nines are the workaholics of the Enneagram. They feel they need to give a lot, but at the same time, they need to be pleasant and agreeable. Their internal motto is, “Don’t show pain, don’t burden others.” Their expression is happier than sad, but this doesn’t mean real participation; rather, it’s a kind of partial participation—a substitute.
 
-\*\*Transformation in the Social E9 by Miriam Ortiz de Zárate\*\*
+**Transformation in the Social E9 by Miriam Ortiz de Zárate**
 
-\*How did the beginning of the search occur? What was the moment of greatest suffering?\*
+How did the beginning of the search occur? What was the moment of greatest suffering?
 
 I don’t think there were periods of great suffering in my life, just as there were never periods of great joy. A striking characteristic of my life is that it went on for years without major ups or downs, without disturbances. Zero degrees: neither hot nor cold. Flatline. Sometimes I would look at others enjoying and celebrating moments of happiness, but I didn’t feel like them; they seemed excessive to me. I didn’t think I had any problem. Everything in my life was fine, under control. I was blind and insensitive, the perfect formula for not seeing, not feeling, not noticing.
 
@@ -3807,7 +3807,7 @@ Or it can manifest in the onset of symptoms, like a woman who describes how, aft
 
 In most cases, the person who caused the pain was the one who gave the Social Nine a sense of identity and reality, as they often doubt their own existence. In the before-and-after descriptions of their own process, Nines often use phrases (which I quote directly) such as: “I didn’t feel like I existed,” “I didn’t exist,” “I had a life full of things... but without me.”
 
-**\*How do I see myself now? What are the greatest differences I perceive?\***
+**How do I see myself now? What are the greatest differences I perceive?**
 
 One of the main differences has to do with my ability to see, to feel, to notice things. I used to live in a much more automatic way, less conscious, more disconnected from emotions and sensations. For example, I was very absent-minded. This absent-mindedness was a defense mechanism for me. Not that I’m no longer absent-minded, but I’m much more aware and have fewer slip-ups.
 
@@ -3817,13 +3817,13 @@ Working with sensitivity, the ability to perceive sensations, was my entryway to
 
 It was very difficult for me to face conflict situations. In fact, it was hard for me to even see them. I could have people around me who hurt me, who attacked me, and I had an enormous capacity to endure, not realizing it, acting like a punching bag, allowing myself to take the blows without acknowledging them. Now I clearly perceive aggression; I know when something hurts me or causes me pain. This has been especially true with my partner: it’s been hard to accept his mechanisms of revenge (and my own). Setting my boundaries, defending myself, handling difficult conversations are things I didn’t know how to do before and now do much better.
 
-I used to be much more controlling. Things had to be a certain way. At work, with my coworkers. At home, with my daughters and husband... I would organize, give orders... Everything had to be done the way I said. I didn’t trust others; I had to intervene, supervise everything. I still have a lot to learn here, but I’m gradually letting go, controlling less, and trusting more. Accepting that there are other ways of doing things, that my way is not \*the\* way. That my eldest daughter’s lifestyle, for example, isn’t better or worse than mine. Before, I was constantly intervening in her life, in her choices, in her ways of doing things. Then I stopped intervening, still thinking, however, that she was making mistakes, that she wasn’t doing things right. Now I accept that she has her own criteria and respect her decisions… almost always.
+I used to be much more controlling. Things had to be a certain way. At work, with my coworkers. At home, with my daughters and husband... I would organize, give orders... Everything had to be done the way I said. I didn’t trust others; I had to intervene, supervise everything. I still have a lot to learn here, but I’m gradually letting go, controlling less, and trusting more. Accepting that there are other ways of doing things, that my way is not the way. That my eldest daughter’s lifestyle, for example, isn’t better or worse than mine. Before, I was constantly intervening in her life, in her choices, in her ways of doing things. Then I stopped intervening, still thinking, however, that she was making mistakes, that she wasn’t doing things right. Now I accept that she has her own criteria and respect her decisions… almost always.
 
 A feature of my life has always been not feeling like I belonged. I was a “sandwich child” (the middle of five), belonging neither to the group of older siblings nor to the younger ones. I always had to do something extra to feel entitled to be in groups and never felt completely integrated: it was a longing that went unfulfilled, a fantasy with no correlation to reality. For example, I’m a founding member of a choir and one of the oldest singers; I’m the president and have a special relationship with the director, who has been a good friend for twenty years. Yet, I’m constantly plagued by the thought that I don’t belong, that I haven’t earned the right to be there, that I don’t sing as well as others… It’s completely unrealistic, a fantasy. I can see it and laugh about it, but it’s a recurring thought, especially if I’m feeling sensitive or if any difficulty arises.
 
 I had completely denied my instinctual world: desire, sexuality, my inner child. Working on this has been the hardest part for me because it involved breaking a family mandate, addressing something I experienced as very threatening and dangerous. I’m working on it now, noticing it, introducing small changes, allowing myself to feel and desire, playing a bit more, trivializing things, taking myself less seriously. Gradually, the fear and threat are dissolving, and I’m learning to feel better about myself, freer.
 
-\*\*What has helped me to grow?\*\*
+**What has helped me to grow?**
 
 The tension inherent in these impossible lives, dominated by self-forgetfulness, generates the energy needed for Social Nines to embark on their search. Sometimes this happens almost magically, by chance, as an emergency measure, or as a matter of survival.
 
@@ -3843,7 +3843,7 @@ Writing an emotional journal and reviewing it frequently, so I don’t forget an
 
 And, of course, writing and working with dreams.
 
-\*\*Through pain arise doubts and questions…\*\*
+**Through pain arise doubts and questions…**
 
 A Social Nine might ask: “What if all my acceptance is just the result of my indolence?” Taboo topics, or simply ignored ones, also arise: “What if it’s all a mask, and my love isn’t as unconditional as I thought? What if the true source of my unconditionality is fear of abandonment, fear of conflict, fear of separation, fear of losing the apparent and feigned peace and harmony?”
 
@@ -3859,7 +3859,7 @@ Claudio has said that the essence of the spiritual path is transforming our atti
 
 “I allow things that hurt to hurt, I get less angry, and I enjoy more.”
 
-\*\*What have I left behind, and what is emerging now?\*\*
+**What have I left behind, and what is emerging now?**
 
 I’m not sure I’ve definitively left anything behind. For me, the onion and layers metaphor is very clear. Now, I can handle many difficult conversations, but some still catch me off guard. I feel more centered and less forgetful, but I still experience forgetfulness and distraction. I feel more connected, with a greater capacity to feel, but I still disconnect at times. I control less, but I still control. I feel more of a sense of belonging, but I still long for an undefined, impossible sense of it. And so on.
 
@@ -3867,7 +3867,7 @@ Nevertheless, peeling back the layers of the onion has revealed new things. Some
 
 Another new development is a need for transcendence, a spiritual dimension, which I still don’t know how to handle or through which channels to express it.
 
-\*\*How to work on the specific character of the Social Nine?\*\*
+**How to work on the specific character of the Social Nine?**
 
 For me, there are two phases: the first is awareness. The second is action, change. For both, I need to pay attention and stay conscious because the automatic tendency is to forget and disconnect. I have my tricks to help me remember and stay connected. For example, I wear a medallion with the Enneagram symbol, which I use as an anchor. I touch it, and it reminds me, helps me wake up. Meditation and even just breathing also help me.
 
@@ -3875,11 +3875,11 @@ I try to go beyond, to do something with what I become aware of, to take action.
 
 It also helps to ask myself what I need, what I want, how I feel… To take time for myself, to care for myself, to be alone.
 
-\*\*What do I aim for in the future?\*\*
+**What do I aim for in the future?**
 
 To continue with this work, which is a lifelong journey. Looking back, I see much growth, but looking forward, it seems there is still a long way to go. This year, I’ll complete my therapy, but I’ve decided to start training in Gestalt. I want to continue having group support, but I’m also considering doing something with all that I’m learning. I want to stay connected to the SAT in some way; I’d like to be an observer or monitor in the future. I can’t think of anything better to continue my personal process than being connected to others’ processes. That’s why I’m passionate about my work as a coach and as a trainer and supervisor of coaches, and why I want to work in the SAT and, in the future, perhaps as a therapist too.
 
-\*\*How do I imagine my own path toward perfection?\*\*
+**How do I imagine my own path toward perfection?**
 
 I believe my path toward perfection is oriented toward that spiritual dimension I mentioned earlier. A barely glimpsed path, but one I know I’ll walk.
 
@@ -3887,7 +3887,7 @@ It’s worth highlighting a response to a Social Nine’s question:
 
 “Interestingly, toward unconditional and compassionate love, which I thought I had at the start, but with the authenticity that comes from the awareness that there are no shortcuts, that it’s not possible to love others without loving oneself.”
 
-\*\*What would I recommend to Social Nines for their internal work?\*\*
+**What would I recommend to Social Nines for their internal work?**
 
 In the work of self-awareness, we Nines need to be very attentive and mindful, so as not to lose focus, not to forget ourselves. We must establish mechanisms to avoid dulling our awareness and to stay awake and conscious. For me, approaching my work from many angles and in a massive way has been helpful: meditation, yoga, therapy, bodywork, group work, reading, writing, staying in touch with others who are doing the same work, etc. There was no escape\! And even with all these supports and reminders, you still forget again and again...
 
@@ -3895,9 +3895,9 @@ I also think it’s important to refine the “elephant skin” by working with 
 
 This is a journey that lasts. Social Nines who have embarked on the search engage in various practices that allow them to keep growing and avoid things that have been harmful in the past. They’re now more selective with their circumstances, seeking quality over quantity in their relationships, carrying less baggage, and managing time in their favor. Of all the discoveries found in these accounts, the need to have time for oneself stands out. Most dedicate time to practices such as meditation or yoga. Bodywork is very important and common for Social Nines because it helps reinforce their sense of self. Group participation is also essential for working on the feeling of inadequacy, allowing them to feel accepted without needing to earn the right to be there. Writing an emotional autobiography has been a great tool, according to a Social Nine, who was able to connect with their life this way.
 
-\*\*The person emerging from this process of change describes themselves as happier, more joyful, more authentic, more attentive to themselves, more centered, with a greater capacity to feel, responsible for their own life, less rushed. Ultimately, as one of them puts it, they feel their own inner power.\*\*
+**The person emerging from this process of change describes themselves as happier, more joyful, more authentic, more attentive to themselves, more centered, with a greater capacity to feel, responsible for their own life, less rushed. Ultimately, as one of them puts it, they feel their own inner power.**
 
-\*\*Advice for future therapists working with a Social Nine on their process\*\*
+**Advice for future therapists working with a Social Nine on their process**
 
 My therapist has helped me a lot by repeatedly asking me the hardest question for me: “How are you?” My tendency was to answer from my head. “How am I supposed to be? Things are going well, so I’m supposed to be fine.” Being able to shift attention to my body, to listen to what’s coming from my gut, daring to open the Pandora’s box containing my instinctual and emotional self, and looking inside—that is the answer.
 
@@ -3915,11 +3915,11 @@ The sexual E9 experiences the need to be through the other, the need to be throu
 
 But in this case, there is a kind of substitution. Because these people lack their own place, their own being, they wish to exist in the world through the other. This makes them very affectionate people, but it’s a suspicious kind of affection, like one of the many surrogate forms of love that appear in the repertoire of the ego.
 
-What stands out in sexual nines is that they belong to no one: these are people who do not fully live out their passion—in the best sense of that word. They are precisely too dispassionate. When the Beatles wrote the song \*Nowhere Man\*, they may have been referring to someone of this character.
+What stands out in sexual nines is that they belong to no one: these are people who do not fully live out their passion—in the best sense of that word. They are precisely too dispassionate. When the Beatles wrote the song Nowhere Man, they may have been referring to someone of this character.
 
 In Spain, there’s the term “mosquita muerta” ("little dead fly"): nobody would notice this person, as they blend into the wallpaper pattern. In English, there’s a saying for people who are “wallflowers”: they are lost in the background.
 
-Elias Canetti wrote a book on characters called \*Ear Witness\*, in which he describes someone who is clearly a sexual nine:
+Elias Canetti wrote a book on characters called Ear Witness, in which he describes someone who is clearly a sexual nine:
 
 “The Legate never asks for a certificate, nor would he ever obtain one, as he never goes anywhere on his own business, and thus has no need for one. It’s true that he eats, but he does so modestly and without causing any trouble. No one has seen him with his mouth open; he prudently takes his food in a corner, silently. He discreetly touches his teeth; he has a few left.”
 
@@ -3933,7 +3933,7 @@ The Transformation in the Sexual E9 by Juanita Richter
 
 Acknowledgments: to Wilma Hannig, for receiving me in her home in La Serena, Chile, and opening her life to me without reservations. To Mónica Ventura, for lovingly sending me her biographical interview conducted by Dr. Claudio Naranjo, thus helping me to write mine.
 
-\*\*My Life Before Beginning the Process of Self-Knowledge\*\*
+**My Life Before Beginning the Process of Self-Knowledge**
 
 When I was born, my mother spent the first three weeks with me, and then my father and she went to the coast to pick up my Aunt Helga, who was arriving by boat from Hamburg to take care of me. My aunt had just studied neonatal care, and I was her first case. She, at 20 years old, having arrived in Bogotá from her native Germany, became my second mother, while my mother returned to her job as a secretary for the ambassador at the German Embassy in Colombia. I was made independent at three weeks old, which left a deep mark of emotional need.
 
@@ -4029,7 +4029,7 @@ In therapy, Cantoni told me: “The day your son accepts the man in your life, t
 
 I’ll never forget that phrase.
 
-**\*\*My Accident\*\***
+**My Accident**
 
 On September 15, 1991, I suffered a car accident as I was leaving Duny’s house. I had 33 facial fractures. My face, after the accident, was different and would never be the same again. When I came to terms with this reality, I felt tremendous vertigo. But the accident gave me two important gifts. It showed me my deep love for my mother, which I felt when I saw her enter the clinic at two in the morning. I felt great love for her at that moment, when I had no mask. The next day, when my friends came to see me and cried upon seeing my swollen, disfigured face, I realized that it wasn’t my face that had fractured but my shell. These two experiences became fundamental: to seek a way to relate to my mother in a healthy way and to seek my true face, my true self.
 
@@ -4043,7 +4043,7 @@ After that experience, Cantoni worked with me by holding my hand in his, transmi
 
 After the accident, a period began in which I dedicated myself to living my life, taking charge of my own things, and being a mother to my son. In terms of work, I had to learn to let go of my personal projects in favor of production work. I had to face my resistance to prosperity, my resistance to believing I was capable, my resistance to happiness. And it was in those years that I began to feel a sense of belonging. Sometimes, a feeling would arise that I was part of this city; I would walk down the street and, all of a sudden, feel that I was from here.
 
-\*\*My Work with the Gurdjieff Group\*\*
+**My Work with the Gurdjieff Group**
 
 A question always lingered for me: what is faith? Then, at Félix’s suggestion, I joined the Gurdjieff group. For me, it was wonderful to see how the paths of God reveal themselves and how everything is a process. Here, I’m going to quote a passage by my father, which I always carry with me. It says: “An idea or a work is never born out of nothing. A leaf grows after another, then comes the flower and the fruit. Successive development is the intimate nature of all creative work.”
 
@@ -4059,7 +4059,7 @@ At that time, I was in a relationship with Alberto, a married man. For both of u
 
 And I realized that I didn’t have to feel guilty; on the contrary, I was doing what I felt, defending myself from being unhappy. That relationship was good for a time, but no longer. He was not someone with whom I could build a real relationship. Now I go to bed with a deep sense of peace and joy. I am finally supporting myself.
 
-**\*\*My Professional and Financial Journey\*\***
+**My Professional and Financial Journey**
 
 A phase of learning to live off my work begins. And, as a true nine, I am not organized, I get easily distracted, I put off essential tasks, and I don’t believe in myself or my work. When a client shows interest, I practically feel like giving away my only piece hanging solo on some wall, and I even feel like thanking them for being interested in something of mine. My work doesn’t seem to have any value. My financial situation is difficult because of this attitude.
 
@@ -4069,7 +4069,7 @@ In my work with Félix, we agree that I should find some helpers. Tirso Junco ar
 
 Today, I work with three of those people who joined the studio back then: professional painters, designers, and ceramists—Pedro, Indira, and Pilar. Last week, Indira invited us to her house to celebrate her fifteen years working at the studio. Now, the studio doesn’t require all of my time, which frees me up to do other things, or sometimes, to do nothing. And today, I have a good relationship with money and abundance. I have a relationship of trust and worthiness. People enjoy my work, and they seek me out to buy my paintings. And I enjoy selling them and receiving payment in return. I can charge well for a good painting, and I’m also able to give it as a gift, wholeheartedly. And I am also generous with others from my own abundance. Just like my father, who was very generous. (Thank you, Dad, for knowing what you were doing when you took me out of school and taught me the narrow path of independence. And thank you, Mom, for making me endure being so alone, because that solitude forced me to seek help.)
 
-**\*\*My Journey with Jorge Llano and His School\*\***
+**My Journey with Jorge Llano and His School**
 
 One day, my friend Janine Spitz invites me to Jorge Llano’s Wednesday group. And I remember that night as if it were yesterday. Jorge has us pair up to work on our breathing, which gradually becomes more erotic. I partner with Germán, Julieta’s boyfriend. At the end of the exercise, Jorge invites us to form a cuddle pile. I feel that I have finally arrived home as I sense the warmth of so many bodies beneath, above, and beside mine. I can laugh from my gut, and Jorge laughs with me. That moment is so liberating, so joyful. This is how Jorge welcomes me and shows me the path toward life. I spend two years attending Jorge’s Wednesday sessions. I enroll in his therapeutic training program.
 
@@ -4079,7 +4079,7 @@ Halfway through my training, I travel to Mexico with Jorge and others from the g
 
 There, I see my son in his greatness, after two eagles make me turn back and put me back on the right path. I then find Jorge and my friends Beatriz and Nerea, all snuggled in a sleeping bag under some trees in the desert, laughing. How beautiful it is to arrive and meet soul friends. Thank you, Jorge, what a journey. Later, in Tepoztlán, drinking tequila and coffee at Jorge’s old house, integrating what we experienced, we meet Don Lucio and receive his blessing. And there, I realize that I won’t continue my journey alone—I need a partner. I learned that there, with Jorge, because Jorge is the master of life and its pleasures, of home, earth, partnership, children, animals, service, and abundance.
 
-\*\*My Partner\*\*
+**My Partner**
 
 I always asked myself why I was so invisible to men. And I realize that I don’t see them either. I’m the one who doesn’t allow myself to have one for myself. I also see that I haven’t really been alone because I had made a partner out of my son. And when I see this, I make an effort to free him and to find my own partner. I really set out to look for him, clumsily, but with a genuine desire for companionship. First, I meet a strange character, kind of a wizard, a Black man. The next day, I have a one-night erotic encounter with a young man. And a few days later, sitting in my living room, looking at the sliver of sky visible from there, I watch a cloud pass by, and inside me, something opens up, and I realize that love and companionship are for me too.
 
@@ -4089,7 +4089,7 @@ And that Saturday, I feel that nine-like thing: that laziness mixed with procras
 
 A week later, on a Friday, Hilde shows up at my house with a radio as a gift. And from that night on, he stays in my life. By the end of the year, he has built his own house just around the corner from mine. “I made a house,” he says, “for the two of us to live in.” We’ve now been together for four years, supporting each other. And of course, we’ve had our share of difficulties. Our sexuality isn’t perfect. This is where we both need to work, and it’s from this place that I love Hilde the most. He has opened himself up to the workshops, the readings, and all the transformative thinking from Claudio, Jorge, Ramón, and Félix. What a wonderful man life has brought me. With him, I can finally see my own madness, arrogance, classism, and ego. How true were Félix’s words to me early in my therapy with him: “Juanita, when your son accepts the man who comes for you, that’s the man for you.” And that’s how it’s been: Esteban and Hilde love each other. Hilde has helped me to let go of Esteban without abandoning him. And it’s been the same with my mother: he has shown me that you love your elders just as they are, period. No debate about it. And I’ve learned to love his children too.
 
-\*\*Meeting Claudio Naranjo\*\*
+**Meeting Claudio Naranjo**
 
 The SAT 2 came to us. We went. We worked with Ramón Resino and Suzanna Stroke. Ramón assigned me the task of finding my older siblings, my father’s first children. The Enneagram work with Suzy was a revelation for me.
 
@@ -4101,7 +4101,7 @@ The meditation work with music that Claudio practices is a beautiful experience 
 
 In this SAT, I had an important experience while working with Ginetta. I jumped on top of Leda to tell her I loved her because I felt that I wasn’t loving her in those days. I sat on top of her and spoke to her. At that moment, I realized how I was invading her. I expressed it and got down. I told Ginetta that I felt envious of her closeness to Claudio. I realized that I have to exaggerate so much because I actually feel that I don’t feel. She invited me to walk around the group and see what I felt with each person. What a beautiful exercise for a disconnected sexual nine like me…
 
-\*\*What Makes Me a Sexual E9\*\*
+**What Makes Me a Sexual E9**
 
 The primary abandonment. My strategy for survival is to exit, to disconnect. My voracity, my merging, my deflection, my insatiability, my oral fixation. My loss of contact with myself. Because contact is too painful, because what I find is an emptiness that is too vast, there's nothing there, no containment, only a large, boundless space. The place between Mars and Earth is too desolate, lonely, and cold.
 
@@ -4119,7 +4119,7 @@ A homeopath in Strasbourg, Dr. Levy, prescribed me the remedy Hyoscyamus. This m
 
 "Wants to bite, curses, blasphemes, is cruel, inhuman, arrogant, indifferent, impatient, very irritable. Sometimes, aggression turns inward, with suicidal tendencies. Complains and reproaches herself. Rude. Feelings of guilt, remorse. Constant fear of everything. Easily startled. Has an aversion to answering questions. Gossipy, secretive. Laughs constantly or excessively. Premenstrual hysteria. Talks about religious topics. Erotic. Exuberant joy or anxiety. Difficulty concentrating. Confusion. Great veneration and respect for those around her."
 
-\*\*The Inner Work in the Sexual Nine\*\*
+**The Inner Work in the Sexual Nine**
 
 Without inner work, there’s no chance. Because only through inner work can I see my game. And if my game comes from so far back, my work will be lifelong. Through analysis, to break my resistance, year after year, to be able to return to this world with its sorrows and joys, its challenges and blessings, slowly, step by step. And to start talking, to say what I want and what I don't want. To take from the world what I need. To recognize what I don't need. To create my own living space. To not abandon. To learn to give the other their space and time, without the need to run away, to abandon.
 
