@@ -1,7 +1,6 @@
 ---
 title: "The Empty Throne"
 subtitle: "Nick Barr, August 2023"
-deck: "A retreat account of an empowerment: a question posed to Manjusri, an unexpected purification, and a moment-to-moment vow to switch operating systems."
 url: "/for-the-benefit-of-all-beings/"
 date: 2026-07-11
 draft: false

@@ -48,20 +48,25 @@
         observer.observe(turn);
     });
 
-    // Instant jumps (deep links, find-in-page, End key) can move turns from
-    // below the trigger band to above the viewport without ever intersecting
-    // it, so the observer never fires. Sweep: anything fully above the reading
-    // line appears immediately — the theater is only for what's ahead.
+    function revealNow(turn) {
+        pending.delete(turn);
+        observer.unobserve(turn);
+        turn.classList.remove('thinking');
+        turn.classList.add('revealed');
+    }
+
+    // Instant jumps (find-in-page, End key) can move turns entirely past the
+    // viewport without ever intersecting the trigger band, so the observer
+    // never fires. Sweep: anything fully above the viewport appears
+    // immediately. Only what's truly behind the reader — a fast touch flick
+    // sweeps scroll handlers before the observer delivers, so sweeping at the
+    // reading line would skip the thinking beat for turns still on screen.
     var sweepQueued = false;
     function sweepPassedTurns() {
         sweepQueued = false;
-        var lineY = window.innerHeight * READING_LINE;
         pending.forEach(function (turn) {
-            if (turn.getBoundingClientRect().bottom < lineY) {
-                pending.delete(turn);
-                observer.unobserve(turn);
-                turn.classList.remove('thinking');
-                turn.classList.add('revealed');
+            if (turn.getBoundingClientRect().bottom < 0) {
+                revealNow(turn);
             }
         });
     }
@@ -71,6 +76,23 @@
         requestAnimationFrame(sweepPassedTurns);
     }
     window.addEventListener('scroll', queueSweep, { passive: true });
-    window.addEventListener('hashchange', queueSweep);
+
+    // Deep links land the reader mid-conversation: everything up to and
+    // including the linked turn is already "read", so it appears at once.
+    function revealThroughHash() {
+        if (!location.hash) return;
+        var target;
+        try { target = document.querySelector(location.hash); } catch (err) { return; }
+        if (!target) return;
+        var linked = target.closest('.turn');
+        if (!linked) return;
+        pending.forEach(function (turn) {
+            if (turn === linked || (turn.compareDocumentPosition(linked) & Node.DOCUMENT_POSITION_FOLLOWING)) {
+                revealNow(turn);
+            }
+        });
+    }
+    window.addEventListener('hashchange', revealThroughHash);
+    revealThroughHash();
     sweepPassedTurns();
 })();

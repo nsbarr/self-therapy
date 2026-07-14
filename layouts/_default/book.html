@@ -1,0 +1,85 @@
+{{ define "main" }}
+{{ partial "css-link.html" "book.css" }}
+
+<article class="book-page">
+    <header class="book-header">
+        <h1 class="book-title">{{ .Title }}</h1>
+        {{ with .Params.deck }}<p class="book-deck">{{ . }}</p>{{ end }}
+        {{ with .Params.subtitle }}
+        <div class="book-byline"><span class="rule"></span><span class="name">{{ . | safeHTML }}</span><span class="rule"></span></div>
+        {{ end }}
+    </header>
+
+    {{ with .Params.intro }}
+    <section class="foreword">
+        <div class="foreword-label">Introduction</div>
+        {{ . | markdownify }}
+    </section>
+    {{ end }}
+
+    {{- /* Contents, built from the page's heading tree: nine chapter cards
+         (h1 "Type One: Anger"), each listing its three subtypes
+         (h2 "The Social One: Inadaptability/Superiority"). */ -}}
+    <nav id="contents" class="book-contents" aria-label="Table of contents">
+        <div class="book-contents-label"><span class="rule"></span><span class="text">Contents</span><span class="rule"></span></div>
+        <ol class="contents-grid">
+            {{ range .Fragments.Headings }}
+            {{ $parts := split (.Title | plainify) ": " }}
+            {{ $kicker := index $parts 0 }}
+            {{ $passion := delimit (after 1 $parts) ": " }}
+            <li class="contents-chapter">
+                <a class="contents-chapter-link" href="#{{ .ID }}">
+                    <span class="contents-kicker">{{ $kicker }}</span>
+                    <span class="contents-passion">{{ or $passion $kicker }}</span>
+                </a>
+                {{ with .Headings }}
+                <ul class="contents-subtypes">
+                    {{ range . }}
+                    {{ $sparts := split (.Title | plainify) ": " }}
+                    {{ $name := index $sparts 0 }}
+                    {{ $instinct := index (split $name " ") 1 | default $name }}
+                    {{ $epithet := replace (delimit (after 1 $sparts) ": ") "/" " / " }}
+                    <li>
+                        <a href="#{{ .ID }}">
+                            <span class="contents-instinct">{{ $instinct }}</span>
+                            <span class="contents-epithet">{{ or $epithet $name }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ol>
+    </nav>
+
+    <div class="book-body">
+        {{- /* Recast the flat markdown headings as editorial openers:
+             kicker over display line, without touching the anchors. Bold-only
+             lead lines ("**Perfectionism**") become section labels. */ -}}
+        {{ $content := .Content | printf "%s" }}
+        {{ $content = replaceRE `<h1 id="([^"]+)">\s*(Type [A-Za-z]+): ([^<]+?)\s*</h1>` `<h1 id="$1" class="chapter-heading"><span class="chapter-kicker">$2</span><span class="chapter-passion">$3</span></h1>` $content }}
+        {{ $content = replaceRE `<h2 id="([^"]+)">\s*(The [A-Za-z-]+ [A-Za-z]+): ([^<]+?)\s*</h2>` `<h2 id="$1" class="subtype-heading"><span class="subtype-kicker">$2</span><span class="subtype-passion">$3</span></h2>` $content }}
+        {{ $content = replaceRE `<p><strong>([^<]{2,80})</strong>\s*<br>\s*` `<p class="book-label"><strong>$1</strong></p><p>` $content }}
+        {{ $content = replaceRE "<p><strong>([^<]{2,80})</strong>\n" `<p class="book-label"><strong>$1</strong></p><p>` $content }}
+        {{ $content = replaceRE `<p><strong>([^<]{2,80})</strong></p>` `<p class="book-label"><strong>$1</strong></p>` $content }}
+        {{ $content | safeHTML }}
+    </div>
+
+    <footer class="book-colophon">
+        <div class="book-ornament" aria-hidden="true"><span class="rule"></span><span class="mark">&#10070;</span><span class="rule"></span></div>
+        {{ with .Params.contributors }}<p class="book-contributors">{{ . }}</p>{{ end }}
+        {{ partial "site-colophon-credit.html" . }}
+    </footer>
+</article>
+
+{{- /* Floating waypoint: shows the current chapter once the reader is past
+     the contents table, and offers the way back. Filled in by book.js. */ -}}
+<div class="book-waypoint" id="bookWaypoint" aria-hidden="true">
+    <a class="waypoint-contents" href="#contents">Contents</a>
+    <span class="waypoint-sep" aria-hidden="true">&#10070;</span>
+    <a class="waypoint-chapter" id="waypointChapter" href="#contents"></a>
+</div>
+
+<script src="/js/book.js"></script>
+{{ end }}

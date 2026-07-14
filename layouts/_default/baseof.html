@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    {{ $editorial := or .IsHome (in (slice "essay" "video" "conversation") .Layout) }}
+    {{ $editorial := or .IsHome (in (slice "essay" "video" "conversation" "book") .Layout) }}
     {{ if $editorial }}
     <!-- Fraunces carries the display type on editorial pages -->
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&display=swap" rel="stylesheet">
@@ -30,12 +30,6 @@
     <!-- Custom CSS -->
     {{ partial "css-link.html" "custom.css" }}
     {{ partial "css-link.html" "site-nav.css" }}
-    
-    <!-- Reading Experience CSS -->
-    {{ if eq .Layout "reading-experience" }}
-    {{ partial "css-link.html" "reading-experience-custom.css" }}
-    {{ end }}
-    
     <link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
     
     {{ with .Params.metatags }}{{ . | safeHTML }}{{ end }}
