@@ -6,7 +6,7 @@ translator: "Translated by Nick Barr"
 layout: book
 url: "/twenty-seven-personalities/"
 intro: |
-  Claudio Naranjo spent decades mapping the twenty-seven subtypes of the Enneagram — nine passions, each refracted through the three instincts: self-preservation, social, and sexual. His book [*27 personajes en busca del ser*](https://www.amazon.com/-/es/personajes-busca-del-ser-transformaci%C3%B3n/dp/8495496860) described that map through first-person testimony from his students and colleagues. Each chapter draws on first-hand accounts of a subtype and the work of finding freedom from it.
+  Claudio Naranjo spent decades mapping the twenty-seven subtypes of the Enneagram — nine passions, each refracted through the three instincts: self-preservation, social, and sexual. His book [*27 personajes en busca del ser*](https://www.amazon.com/-/es/personajes-busca-del-ser-transformaci%C3%B3n/dp/8495496860) draws that map through first-person testimony from his students and colleagues. Each chapter gathers first-hand accounts of a subtype and the work of finding freedom from it.
 
   This is, to my knowledge, the first complete English translation. It was made with the assistance of AI and has not yet been reviewed by a professional translator or authorized by Naranjo's estate. Corrections are welcome.
 
